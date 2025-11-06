@@ -1,2 +1,2 @@
-
+- [Scott Allen](/cis-110/#/textbook/students/f25/scott-allen) 
 - [Stephen R. Foster](/cis-110/#/textbook/students/f25/stephen-r-foster) 
