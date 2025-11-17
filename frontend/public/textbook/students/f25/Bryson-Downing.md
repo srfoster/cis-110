@@ -1,4 +1,6 @@
-**Hi!  I'm Bryson!**  I am taking this course in Fall 2025.
+# **Bryson Downing**
+
+I am taking this course in Fall 2025!
 
 My Assignments so far:
 
@@ -8,7 +10,8 @@ My Assignments so far:
 - [x] Practice Test 3
 - [x] Midterm Test
 - [x] Coding Contribution 1
-- [ ] Coding Contribution 2
+- [x] Coding Contribution 2
+- [x] Coding Contribution 3
 - [ ] Coding Contribution 3
 - [ ] Final Exam
 
