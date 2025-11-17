@@ -1,0 +1,194 @@
+/* Exam Questions Component Styling */
+.exam-questions {
+  margin: 2rem 0;
+}
+
+.question-item {
+  background: var(--surface-color, #f8f9fa);
+  border: 1px solid var(--border-color, #e1e5e9);
+  border-radius: var(--border-radius, 8px);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question-item h3 {
+  color: var(--primary-color, #007bff);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  border-bottom: 2px solid var(--primary-color, #007bff);
+  padding-bottom: 0.5rem;
+}
+
+.question-item p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Answer Styling */
+.question-item .answer {
+  background: var(--background-color, #ffffff);
+  border-left: 4px solid var(--primary-color, #007bff);
+  padding: 1rem;
+  margin: 0;
+  border-radius: 0;
+}
+
+.question-item .main-answer {
+  margin: 1rem 0 1.5rem 0;
+  border-radius: 0 var(--border-radius, 4px) var(--border-radius, 4px) 0;
+  background: var(--background-color, #ffffff);
+}
+
+/* Answer Levels Accordion Styling */
+.answer-levels {
+  margin: 1.5rem 0;
+}
+
+.answer-accordion {
+  border: 1px solid var(--border-color, #e1e5e9);
+  border-radius: var(--border-radius, 4px);
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  background: var(--background-color, #ffffff);
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--surface-color, #f8f9fa);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary, #333);
+  transition: background-color 0.2s ease;
+}
+
+.accordion-header:hover {
+  background: var(--border-color, #e1e5e9);
+}
+
+.accordion-header:focus {
+  outline: 2px solid var(--primary-color, #007bff);
+  outline-offset: -2px;
+}
+
+.accordion-title {
+  text-align: left;
+}
+
+.accordion-icon {
+  transition: transform 0.2s ease;
+  font-size: 0.8rem;
+  color: var(--primary-color, #007bff);
+}
+
+.accordion-icon.expanded {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  border-top: 1px solid var(--border-color, #e1e5e9);
+}
+
+.question-item .answer {
+  background: var(--background-color, #ffffff);
+  border-left: 4px solid var(--primary-color, #007bff);
+  padding: 1rem;
+  margin: 0;
+  border-radius: 0;
+}
+
+.question-item .topics {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary, #6c757d);
+  font-style: italic;
+}
+
+.question-item .topics strong {
+  color: var(--text-primary, #333);
+  font-style: normal;
+}
+
+/* Vocabulary Word Styling */
+.vocab-word {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+  color: var(--primary-color, #007bff);
+  cursor: help;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.vocab-word:hover {
+  color: var(--primary-dark, #0056b3);
+  text-decoration-style: solid;
+}
+
+/* Enhanced tooltip using the title attribute */
+.vocab-word[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--tooltip-bg, #2d3748);
+  color: var(--tooltip-text, #fff);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  max-width: 280px;
+  min-width: 150px;
+  width: max-content;
+  white-space: normal;
+  word-wrap: break-word;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  pointer-events: none;
+  opacity: 0;
+  animation: tooltipFadeIn 0.2s ease 0.3s forwards;
+  font-weight: 400;
+}
+
+/* Tooltip arrow */
+.vocab-word[title]:hover::before {
+  content: '';
+  position: absolute;
+  bottom: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--tooltip-bg, #2d3748);
+  z-index: 1001;
+  pointer-events: none;
+  opacity: 0;
+  animation: tooltipFadeIn 0.2s ease 0.3s forwards;
+}
+
+/* Adjust tooltip position near edges - this will need JS for perfect positioning */
+@media (max-width: 768px) {
+  .vocab-word[title]:hover::after {
+    max-width: 250px;
+    left: 0;
+    transform: none;
+  }
+  
+  .vocab-word[title]:hover::before {
+    left: 20px;
+    transform: none;
+  }
+}
+
+@keyframes tooltipFadeIn {
+  to {
+    opacity: 1;
+  }
+}
