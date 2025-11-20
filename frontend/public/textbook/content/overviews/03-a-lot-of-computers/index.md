@@ -23,6 +23,10 @@ Nevertheless, you can find textual answers below, and there are many bonus video
 
 > Note: If any such videos/diagrams turn out to be exemplary, I'll embed them here (with the creator's permission).
 
+Here is an example of a diagram one student drew explaining a firewall.
+
+{{YouTube:https://youtu.be/pKywUoYGp4I}}
+
 ## Main Content
 
 The following sections cover each of the topics and provide multiple acceptable ways to answer each final exam question.  At the end of this page, you'll find the Bonus Videos section with links to various videos that cover these same topics (often in much greater depth than is required for this course).
