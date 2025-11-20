@@ -33,7 +33,6 @@ In this video, we briefly scratch the surface of how your browser gives you acce
 
 {{YouTube:https://www.youtube.com/watch?v=PASnGB15IdI}}
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/02-a-few-computers)
 
 ## Main Content
 
@@ -56,7 +55,6 @@ Web browsers are sophisticated applications that serve as our window to the inte
 
 Modern browsers are essentially operating systems for web applications, providing APIs for everything from graphics rendering to hardware access. Understanding how browsers work helps us appreciate both the possibilities and limitations of web-based computing.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/02-a-few-computers)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Browsers"}}
 
@@ -78,7 +76,6 @@ Computer networks form the backbone of modern digital communication, enabling ev
 
 Networks operate on multiple scales, from local area networks (LANs) in your home or office to wide area networks (WANs) that span continents. The internet represents the ultimate network - a "network of networks" that connects billions of devices worldwide.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/02-a-few-computers)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Networks"}}
 
@@ -107,7 +104,6 @@ Cloud computing represents a fundamental shift in how we think about computing r
 
 Cloud computing has democratized access to powerful computing resources, enabling small startups to compete with large corporations by leveraging the same infrastructure.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/02-a-few-computers)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Cloud Computing"}}
 
@@ -142,7 +138,6 @@ Web applications represent the evolution of software from desktop-installed prog
 
 Web applications have transformed how we interact with software, making powerful tools accessible to anyone with a web browser.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/02-a-few-computers)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Web Apps"}}
 
@@ -196,4 +191,3 @@ These videos provide additional depth and perspective on the web technologies th
 
 {{YouTube:https://www.youtube.com/watch?v=sDlCSIDwpDs}}
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/02-a-few-computers)

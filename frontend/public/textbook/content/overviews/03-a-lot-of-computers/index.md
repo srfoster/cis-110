@@ -23,7 +23,6 @@ Nevertheless, you can find textual answers below, and there are many bonus video
 
 > Note: If any such videos/diagrams turn out to be exemplary, I'll embed them here (with the creator's permission).
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
 
 ## Main Content
 
@@ -52,7 +51,6 @@ When millions of computers connect billions of people, new forms of conflict eme
 
 The interconnected nature of modern computing means that conflicts in one part of the network can rapidly escalate and affect millions of people worldwide.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Conflict"}}
 
@@ -86,7 +84,6 @@ The same networks that enable conflict also create unprecedented opportunities f
 
 The power of collaboration through connected computers has created new forms of human organization that blur traditional boundaries between individuals, communities, and institutions.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Collaboration"}}
 
@@ -121,7 +118,6 @@ As computer systems become more interconnected, defending them becomes both more
 **Layered Security:**
 The principle that no single defense is perfect, so multiple overlapping protections are essential. Like physical security that combines locks, alarms, guards, and cameras, cybersecurity requires multiple defensive measures working together.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Defense"}}
 
@@ -168,11 +164,9 @@ Understanding cybersecurity attacks is crucial for defense. Attackers exploit th
 
 The scale and automation possible with networked computers means that a single attacker can potentially affect millions of victims simultaneously, making cybersecurity a critical concern for individuals, organizations, and society as a whole.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Attack"}}
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
 
 ## Bonus Videos
 
@@ -245,4 +239,3 @@ These videos provide additional depth on the complex issues that arise when vast
 
 {{YouTube:https://www.youtube.com/watch?v=uMkOphesrqI}}
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)

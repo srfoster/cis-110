@@ -47,7 +47,6 @@ We finish up this chapter by discussing one of the main abstractions that the op
 
 {{YouTube:https://www.youtube.com/watch?v=UQliHa58SB4}}
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/01-one-computer)
 
 ## Main Content
 
@@ -74,7 +73,6 @@ Data moves through a computer in a carefully orchestrated dance: input devices c
 **Storage Technology Trade-offs:**
 Different storage technologies offer different balances of speed, capacity, cost, and durability. Understanding these trade-offs helps explain why computers use multiple storage types - from ultra-fast CPU cache to massive but slower hard drives.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/01-one-computer)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Hardware"}}
 
@@ -104,7 +102,6 @@ The operating system abstracts hardware complexity, allowing programs to request
 
 The operating system is often invisible to users, but it's constantly working behind the scenes to coordinate all the complex interactions that make modern computing possible.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/01-one-computer)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Operating System"}}
 
@@ -136,7 +133,6 @@ Files represent the fundamental way computers organize and store information. Un
 
 The file system creates the illusion of neatly organized folders and documents, while actually managing the complex task of storing and retrieving data on physical storage devices.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/01-one-computer)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Files"}}
 
@@ -169,7 +165,6 @@ When you run a program, the operating system loads it into memory, the CPU fetch
 
 Understanding programming helps us appreciate the incredible complexity hidden behind simple actions like clicking a button or opening a file.
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/01-one-computer)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Programs"}}
 
@@ -257,4 +252,3 @@ These videos provide deeper insights into the fundamental components and concept
 
 {{YouTube:https://www.youtube.com/watch?v=_Pqfjer8-O4}}
 
-[Back to Top (opens in new tab)](#/textbook/content/overviews/01-one-computer)
