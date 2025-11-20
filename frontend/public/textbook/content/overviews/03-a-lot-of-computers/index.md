@@ -23,9 +23,13 @@ Nevertheless, you can find textual answers below, and there are many bonus video
 
 > Note: If any such videos/diagrams turn out to be exemplary, I'll embed them here (with the creator's permission).
 
+<<<<<<< HEAD
 Here is an example of a diagram one student drew explaining a firewall.
 
 {{YouTube:https://youtu.be/pKywUoYGp4I}}
+=======
+[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
+>>>>>>> 0c15f5e8145166c4282fc196857e0456eceda554
 
 ## Main Content
 
@@ -53,6 +57,8 @@ When millions of computers connect billions of people, new forms of conflict eme
 - **Deep Fakes and Manipulation**: Technology makes it increasingly difficult to distinguish real from fake content
 
 The interconnected nature of modern computing means that conflicts in one part of the network can rapidly escalate and affect millions of people worldwide.
+
+[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Conflict"}}
 
@@ -86,6 +92,8 @@ The same networks that enable conflict also create unprecedented opportunities f
 
 The power of collaboration through connected computers has created new forms of human organization that blur traditional boundaries between individuals, communities, and institutions.
 
+[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
+
 {{ExamQuestions:concept-map.yml concept_filter:"Collaboration"}}
 
 ### Defense
@@ -118,6 +126,8 @@ As computer systems become more interconnected, defending them becomes both more
 
 **Layered Security:**
 The principle that no single defense is perfect, so multiple overlapping protections are essential. Like physical security that combines locks, alarms, guards, and cameras, cybersecurity requires multiple defensive measures working together.
+
+[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
 
 {{ExamQuestions:concept-map.yml concept_filter:"Defense"}}
 
@@ -164,7 +174,11 @@ Understanding cybersecurity attacks is crucial for defense. Attackers exploit th
 
 The scale and automation possible with networked computers means that a single attacker can potentially affect millions of victims simultaneously, making cybersecurity a critical concern for individuals, organizations, and society as a whole.
 
+[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
+
 {{ExamQuestions:concept-map.yml concept_filter:"Attack"}}
+
+[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
 
 ## Bonus Videos
 
@@ -236,3 +250,5 @@ These videos provide additional depth on the complex issues that arise when vast
 {{YouTube:https://www.youtube.com/watch?v=lEK84lV6dxs}}
 
 {{YouTube:https://www.youtube.com/watch?v=uMkOphesrqI}}
+
+[Back to Top (opens in new tab)](#/textbook/content/overviews/03-a-lot-of-computers)
