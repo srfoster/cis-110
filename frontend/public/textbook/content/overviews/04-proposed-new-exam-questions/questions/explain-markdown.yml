@@ -1,14 +1,14 @@
 id: 16
-question: "Explain what Markdown Language is and what is is useful for"
+question: "Explain what Markdown Language is and what it is useful for"
 answer: "Markdown is a Lightweight markup language that is easy to read by humans even without rendering. It is mostly used for documents only having the capacity to change and hold basic formatting changes such as **Bolding**"
 
 answer_kindergarten: "🧸 Markdown language is basically a very easy way to display basic information without the need for things like commands that might be more complex to new coders."
 
-answer_3rd_grade: "📚 Markdown language is a simple  way to display basic information only requiring small commands using special characters such as ** * ** to form readable information to the programs users"
+answer_3rd_grade: "📚 Markdown language is a simple way to display basic information only requiring small commands using special characters such as * to form readable information to the programs users"
 
 answer_7th_grade: "🤔 Markdown is a Lightweight markup language that is easy to read by humans even without rendering. It is mostly used for documents only having the capacity to change and hold basic formatting changes such as **Bolding**"
 
-answer_high_school: "🎓 Markdown is a Lightweight markup language that is easy to read by humans, only using plain text. It is used primarily for documents, only having the ability to change and allocate for basic formatting changes such as **Bolding** that might be required in articles or scholorly works"
+answer_high_school: "🎓 Markdown is a Lightweight markup language that is easy to read by humans, only using plain text. It is used primarily for documents, only having the ability to change and allocate for basic formatting changes such as **Bolding** that might be required in articles or scholarly works"
 
 answer_undergraduate: "🧠 Markdown is a lightweight, plaintext-oriented declarative markup formalism designed to provide a human-readable abstraction layer over structurally significant formatting conventions. Conceptually, it operates as a semantic annotation mechanism in which typographical cues—such as hash symbols, asterisks, and backticks—are overloaded to encode hierarchical document structure, typographic emphasis, and code demarcation without requiring the verbosity or syntactic rigor characteristic of full-scale markup languages like HTML or XML ."
 vocab_answer: 
