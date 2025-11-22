@@ -3,6 +3,7 @@ concept_map:
     concepts:
       - name: "Student Proposed Questions"
         exam_questions:
+          - "questions/add-two-binary-numbers.yml"
           - "questions/explain-markdown.yml"
           - "questions/describe-password-managers.yml"
           - "questions/discuss-pros-cons-password-manager.yml"
