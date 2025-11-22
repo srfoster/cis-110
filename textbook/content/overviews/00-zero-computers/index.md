@@ -44,6 +44,8 @@ Here, we discuss how seemingly non-numeric information like videos, audio, words
 
 {{YouTube:https://www.youtube.com/watch?v=FI19xfulZ50}}
 
+
+
 ## Final Exam Questions
 
 The following three sections cover each of the three topics and provide multiple acceptable ways to answer each final exam question.  At the end of this page, you'll also find the Bonus Videos section with links to various resources that cover these same topics (often in much greater depth than is required for this course).  I encourage you to craft your own answers to the questions by using the many resources available to you.
@@ -54,7 +56,8 @@ Almost anything humans can see, hear, think about, or interact with can be repre
 
 For example, a color can be described by how much red, green, and blue light it contains. A sound can be captured by measuring air pressure thousands of times per second. Text can be encoded by assigning each letter a unique number. 
 
-This numerical representation is crucial because once we have numbers, we can store them, transmit them, and manipulate them using mathematical operations.  Learning to answer following questions will help deepen your understanding of this essential idea.  
+This numerical representation is crucial because once we have numbers, we can store them, transmit them, and manipulate them using mathematical operations.  Learning to answer the following questions will help deepen your understanding of this essential idea.  
+
 
 {{ExamQuestions:concept-map.yml concept_filter:"Information ↔ Numbers"}}
 
@@ -66,6 +69,7 @@ Why is this important? Because having only two symbols makes binary numbers incr
 
 The conversion between regular numbers and binary is straightforward once you understand the pattern. Just as decimal numbers use powers of 10 (ones, tens, hundreds), binary numbers use powers of 2 (ones, twos, fours, eights, and so on). Learning to convert between these number systems helps you understand how computers store and process all that numerical information from the previous section.
 
+
 {{ExamQuestions:concept-map.yml concept_filter:"Numbers ↔ Binary"}}
 
 ### Binary ↔ Electromagnetism
@@ -75,6 +79,7 @@ Binary numbers can be physically represented and manipulated using electromagnet
 Think about it: once we have information encoded as binary numbers, we need a way to store those 0s and 1s and perform operations on them. Electricity and magnetism provide the perfect tools. A 0 might be represented by low voltage and a 1 by high voltage. Magnetic materials can be oriented in two directions to store binary data. Transistors can switch between conducting and non-conducting states billions of times per second.
 
 This electromagnetic foundation enables all the computational power we take for granted. Every calculation, every image displayed on your screen, every video streamed over the internet—it all happens because we can reliably represent and manipulate binary numbers using electromagnetic principles. The questions below explore how this physical layer makes digital computation possible.
+
 
 {{ExamQuestions:concept-map.yml concept_filter:"Binary ↔ Electromagnetism"}}
 
@@ -137,3 +142,7 @@ This electromagnetic foundation enables all the computational power we take for 
 {{YouTube:https://www.youtube.com/watch?v=iph500cPK28}}
 
 {{YouTube:https://www.youtube.com/watch?v=oI_X2cMHNe0}}
+
+
+[def]: #top
+

@@ -1,0 +1,10 @@
+concept_map:
+  - category: ""
+    concepts:
+      - name: "Student Proposed Questions"
+        exam_questions:
+          - "questions/explain-markdown.yml"
+          - "questions/describe-password-managers.yml"
+          - "questions/discuss-pros-cons-password-manager.yml"
+          - "questions/explain-malware-types.yml"
+          - "questions/explain-what-single-sign-on-is.yml"

@@ -21,6 +21,7 @@ concept_map:
           - "questions/cybersecurity/explain-two-factor-authentication.yml"
           - "questions/cybersecurity/discuss-strong-password-issues.yml"
           - "questions/cybersecurity/explain-firewall-role.yml"
+
       - name: "Attack"
         exam_questions:
           - "questions/cybersecurity/explain-malware.yml"

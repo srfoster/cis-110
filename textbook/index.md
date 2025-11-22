@@ -41,3 +41,4 @@ Meta:
 
 - [Full list of Exam Questions](/textbook/big-picture)
 - [Student Contributors](/textbook/students/index)
+- [Proposed New Exam Questions](/cis-110/#/textbook/content/overviews/04-proposed-new-exam-questions)
