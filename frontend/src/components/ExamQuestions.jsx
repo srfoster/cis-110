@@ -226,6 +226,15 @@ function ExamQuestions({ yamlPath, currentPath, concept_filter }) {
     }));
   };
 
+  // Toggle example videos expansion
+  const toggleVideos = (questionId) => {
+    const key = `${questionId}-videos`;
+    setExpandedAnswers(prev => ({
+      ...prev,
+      [key]: !prev[key]
+    }));
+  };
+
   return (
     <div className="exam-questions">
       {questions.map((q, index) => (
@@ -236,6 +245,50 @@ function ExamQuestions({ yamlPath, currentPath, concept_filter }) {
           {q.answer && (
             <div className="answer main-answer">
               <p>{processAnswerText(q.answer, q.vocab_answer)}</p>
+            </div>
+          )}
+          
+          {/* Example videos button - shown above answer levels */}
+          {q.example_videos && q.example_videos.length > 0 && (
+            <div className="example-videos-section">
+              <button 
+                className="accordion-header videos-toggle"
+                onClick={() => toggleVideos(q.id || index)}
+                aria-expanded={expandedAnswers[`${q.id || index}-videos`] || false}
+              >
+                <span className="accordion-title">
+                  📺 Example Videos 
+                  <span className="video-count-badge">{q.example_videos.length}</span>
+                </span>
+                <span className={`accordion-icon ${expandedAnswers[`${q.id || index}-videos`] ? 'expanded' : ''}`}>
+                  ▼
+                </span>
+              </button>
+              
+              {expandedAnswers[`${q.id || index}-videos`] && (
+                <div className="accordion-content videos-content">
+                  {q.example_videos.map((videoUrl, idx) => {
+                    // Extract video ID from YouTube URL
+                    const videoId = videoUrl.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/)?.[1];
+                    if (videoId) {
+                      return (
+                        <div key={idx} className="video-container">
+                          <iframe
+                            width="560"
+                            height="315"
+                            src={`https://www.youtube.com/embed/${videoId}`}
+                            title={`Example video ${idx + 1}`}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                          />
+                        </div>
+                      );
+                    }
+                    return null;
+                  })}
+                </div>
+              )}
             </div>
           )}
           

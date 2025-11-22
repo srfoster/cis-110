@@ -44,7 +44,6 @@ Here, we discuss how seemingly non-numeric information like videos, audio, words
 
 {{YouTube:https://www.youtube.com/watch?v=FI19xfulZ50}}
 
-{{YouTube:https://www.youtube.com/watch?v=oUkW5pDceWQ}}
 
 
 ## Final Exam Questions
