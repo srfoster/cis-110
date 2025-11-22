@@ -1,0 +1,28 @@
+id: 100
+question: "Identify four reasons why a bad actor would want to hack a computer or system"
+answer: "Four reasons a bad actors will hack a computer or system are 1. Financial Gain - Direct theft of money or valuable data for profit. 2. Hacktivism - Attacks motivated by political or social causes. 3. Nation-State Actors: Government-sponsored attacks for espionage or disruption. 4. Cybercrime as a Service - Criminal organizations offering attack tools and services to other criminals"
+
+answer_kindergarten: "Bad people might break into computers to steal money, get secret information, cause trouble, or help other bad people do bad things."
+
+answer_3rd_grade: "Someone might hack a computer to take money, push their ideas or beliefs, spy for their country, or sell hacking tools to other criminals."
+
+answer_7th_grade: "A bad actor could hack a system to make money, support a political or social cause, gather information for their government, or provide cyber-tools and attacks to other criminals for profit."
+
+answer_high_school: "Hackers may target systems for financial gain, to engage in hacktivism, to support nation-state espionage or disruption, or to participate in cybercrime-as-a-service, where criminal groups sell attack tools to others."
+
+answer_undergraduate: "Motivations for malicious hacking commonly include: 1.Financial incentives, such as stealing funds or data with resale value. 2. Hacktivism, where attackers promote political or social agendas. 3. Nation-state objectives, including intelligence gathering, cyber-espionage, or infrastructure disruption. 4. Cybercrime-as-a-service, in which organized groups offer scalable attack capabilities to paying clients."
+
+vocab_answer: 
+  - word: "Cybercrime"
+    definition: "Illegal activities carried out using computers or the internet, such as stealing data, money, or disrupting systems."
+  - word: "Nation-State Actors"
+    definition: "Hackers or groups sponsored by a government to conduct cyber-espionage, surveillance, or attacks on other nations or organizations."
+  - word: "Hacktivism"
+    definition: "Hacking done to promote a political or social cause, often meant to send a message or influence public opinion."
+  
+
+type: "short_answer"
+points: 5
+difficulty: "beginner"
+learning_objectives:
+  - "Recognize why a bad actor may want to hack your or a company."
