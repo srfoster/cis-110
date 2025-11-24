@@ -1,0 +1,24 @@
+id: 9
+question: "Explain what a VPN is"
+answer: "A VPN (Virtual Private Network) is a service that creates a secure, encrypted connection between your device and the internet."
+
+answer_kindergarten: "A VPN is like a secret tunnel you use on the internet.  When you use it, other people can’t see where you are or what you’re doing.  It keeps your computer safe and hidden, like wearing an invisible cloak!"
+
+answer_3rd_grade: "📚 A VPN is a tool that makes a private, hidden path for your internet connection. It’s kind of like walking through a hallway that only you can see.  Other people can’t see which websites you visit, and it helps keep your information safe.  It’s a way to stay private online."
+
+answer_7th_grade: "🤔 A VPN creates a secure, encrypted connection between your device and the internet. It hides your real location and makes your data look like scrambled code, so hackers or trackers can’t read it.  It’s like sending your online activity through a locked tube that only you can open."
+
+answer_high_school: "🎓 A VPN is a privacy and security tool that encrypts your internet traffic and routes it through a remote server.  This hides your IP address, protects your data on public Wi-Fi, and prevents websites or attackers from tracking you.  It essentially creates a private, encrypted tunnel between you and the internet, making your online activity harder to monitor or intercept."
+
+answer_undergraduate: "🧠 A VPN establishes a secure, encrypted tunnel between a client device and a VPN server, typically using protocols like WireGuard, OpenVPN, or IPsec.  By routing traffic through the VPN server, it masks the client’s IP address, provides confidentiality through encryption, and can bypass geographic or network restrictions.  VPNs are widely used for secure remote access, protection on untrusted networks, and maintaining privacy by obscuring metadata from ISPs and passive observers."
+
+vocab_answer: 
+  - word: "VPN"
+    definition: "Virtual Private Network"
+
+type: "short_answer"
+points: 5
+difficulty: "beginner"
+
+learning_objectives:
+  - "Describe what a VPN is"
