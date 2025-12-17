@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, Link, useLocation, Navigate } from 'react-router-dom';
 import './App.css';
-import ExamDashboard from './components/ExamDashboard';
-import ExamInterface from './components/ExamInterface';
-import TextbookPage from './components/TextbookPage';
-import { loadAllQuestions } from './services/questionLoader';
+import {
+  ExamDashboard,
+  ExamInterface,
+  TextbookPage,
+  loadAllQuestions,
+  compiledContentService
+} from '@srfoster/textbook-lib';
+import { compiledFiles, stats } from './compiled';
 
 function AppContent() {
   const location = useLocation();
@@ -13,6 +17,9 @@ function AppContent() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // Initialize the compiled content service with our compiled content
+    compiledContentService.initialize({ compiledFiles, stats });
+    
     loadAllQuestions()
       .then(data => {
         setQuestions(data);
