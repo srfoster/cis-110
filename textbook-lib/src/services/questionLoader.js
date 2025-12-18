@@ -40,14 +40,18 @@ export const loadAllQuestions = async () => {
         continue;
       }
       
-      // Extract all question file paths from the concept map
-      const questionFiles = new Set();
+      // Extract all question file paths from the concept map, preserving order
+      const questionFiles = [];
+      let orderIndex = 0;
       conceptMapData.concept_map.forEach(category => {
         if (category.concepts) {
           category.concepts.forEach(concept => {
             if (concept.exam_questions) {
               concept.exam_questions.forEach(questionFile => {
-                questionFiles.add(questionFile);
+                // Only add if not already present (avoid duplicates)
+                if (!questionFiles.find(q => q.file === questionFile)) {
+                  questionFiles.push({ file: questionFile, order: orderIndex++ });
+                }
               });
             }
           });
@@ -59,7 +63,7 @@ export const loadAllQuestions = async () => {
       const chapterNumber = getChapterNumber(conceptMapPath);
       const chapterTitle = getChapterTitle(conceptMapPath);
       
-      for (const questionFile of questionFiles) {
+      for (const { file: questionFile, order } of questionFiles) {
         try {
           const questionPath = `${conceptMapDir}/${questionFile}`;
           const questionData = await compiledContentService.getYaml(questionPath);
@@ -71,7 +75,8 @@ export const loadAllQuestions = async () => {
             chapterTitle: chapterTitle,
             id: `ch${chapterNumber}-${questionFile.replace('.yml', '')}`,
             conceptMapPath: conceptMapPath,
-            questionFile: questionFile
+            questionFile: questionFile,
+            order: order  // Add order from concept map
           };
           
           allQuestions.push(enrichedQuestion);
@@ -85,12 +90,12 @@ export const loadAllQuestions = async () => {
     }
   }
   
-  // Sort questions by chapter and then by question file name
+  // Sort questions by chapter and then by concept map order
   allQuestions.sort((a, b) => {
     if (a.chapter !== b.chapter) {
       return a.chapter - b.chapter;
     }
-    return a.questionFile.localeCompare(b.questionFile);
+    return a.order - b.order;
   });
   
   console.log(`Loaded ${allQuestions.length} questions from ${CONCEPT_MAP_PATHS.length} concept maps`);

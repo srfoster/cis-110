@@ -24,9 +24,9 @@ function ExamDashboard({ questions, onStartExam }) {
       examQuestions.push(...selected);
     });
     
-    // Sort by chapter and question order, or shuffle randomly
+    // Sort by chapter and concept map order, or shuffle randomly
     const finalExam = sortQuestions 
-      ? examQuestions.sort((a, b) => a.chapter - b.chapter || a.id.localeCompare(b.id))
+      ? examQuestions.sort((a, b) => a.chapter - b.chapter || a.order - b.order)
       : examQuestions.sort(() => Math.random() - 0.5);
     
     onStartExam({
