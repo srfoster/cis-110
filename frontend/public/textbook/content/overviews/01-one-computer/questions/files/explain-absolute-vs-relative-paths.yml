@@ -1,5 +1,5 @@
 id: 4
-question: "Explain the difference between an absolute path and a relative path"
+question: "Explain the difference between an absolute file path and a relative file path"
 answer: "An absolute path provides the complete location from the root directory or drive, specifying the full address regardless of current working directory (e.g., C:\\Users\\John\\Documents\\file.txt or /home/john/documents/file.txt). A relative path expresses location relative to the current working directory or uses parent directory references, making it dependent on context (e.g., ../documents/file.txt or documents/file.txt). Absolute paths ensure consistent file access from any location but are less portable, while relative paths offer flexibility and portability but require knowledge of the current directory context."
 vocab_answer: 
   - word: "absolute path"
