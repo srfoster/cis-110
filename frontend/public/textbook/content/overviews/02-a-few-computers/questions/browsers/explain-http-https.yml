@@ -1,5 +1,5 @@
 id: 13
-question: "Explain what HTTP and HTTPS are"
+question: "Explain what HTTP is and how HTTPS differs from it."
 answer: "HTTP (HyperText Transfer Protocol) is the standard communication protocol used for transferring web pages and data between browsers and web servers. It defines how requests and responses should be formatted and transmitted over the internet. HTTPS (HTTP Secure) is the secure version of HTTP that adds encryption using SSL/TLS protocols. HTTPS protects data in transit by scrambling information so that intercepted data cannot be read by unauthorized parties. You can identify HTTPS websites by the lock icon in your browser's address bar and URLs that start with 'https://' instead of 'http://'. HTTPS is essential for protecting sensitive information like passwords, credit card numbers, and personal data."
 
 answer_kindergarten: "🧸 HTTP and HTTPS are like the way your computer talks to websites! HTTP is like talking normally - anyone nearby can hear what you're saying. HTTPS is like whispering in a secret code - even if someone hears you, they can't understand what you're saying! When you see a little lock symbol next to a website address, it means the website is using the secret code to keep your information safe."

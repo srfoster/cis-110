@@ -1,5 +1,5 @@
 id: 12
-question: "Describe how an online intrusion takes place"
+question: "Describe how an online intrusion might take place.  You may do so by describing a specific system and the steps an intruder would take to compromise it, or you may describe a general methodology that intruders use."
 answer: "An online intrusion typically follows a series of steps known as the \"Cyber Kill Chain\": 1) Reconnaissance - attackers gather information about the target (through social media, company websites, or network scanning), 2) Weaponization - attackers prepare a payload to be sent to the victim, 3) Delivery - the payload is delivered to the victim using a phishing email, software vulnerabilities, or other methods, 4) Exploitation - the payload is activated and malicious code is run on the victim's computer, 5) Installation - a backdoor is installed that allows the attacker access to compromised systems in the future, 6) Command & Control - the attacker gains control over multiple computers, 7) Actions on objectives: intruders take steps to acheive their goals, such as extracting, destroying, or encrypting data for money."
 
 
