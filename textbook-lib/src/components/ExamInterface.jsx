@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import DrawingCanvas from './DrawingCanvas';
 import './ExamInterface.css';
 
 function ExamInterface({ questions, settings, onEndExam }) {
@@ -8,6 +9,8 @@ function ExamInterface({ questions, settings, onEndExam }) {
   const [showAnswer, setShowAnswer] = useState(false);
   const [timeSpent, setTimeSpent] = useState(0);
   const [questionStartTime, setQuestionStartTime] = useState(Date.now());
+  const [inputMode, setInputMode] = useState('canvas'); // 'canvas' or 'text'
+  const canvasRef = useRef(null);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -25,14 +28,26 @@ function ExamInterface({ questions, settings, onEndExam }) {
   const isLastQuestion = currentQuestionIndex === questions.length - 1;
   const hasAnswered = answers.hasOwnProperty(currentQuestion.id);
 
-  const handleAnswerChange = (answer) => {
+  const handleAnswerChange = (answer, canvasData = null) => {
     setAnswers(prev => ({
       ...prev,
       [currentQuestion.id]: {
         answer,
+        canvasData,
         timeSpent: Date.now() - questionStartTime
       }
     }));
+  };
+
+  const handleCanvasChange = (dataURL) => {
+    const currentAnswer = answers[currentQuestion.id]?.answer || '';
+    handleAnswerChange(currentAnswer, dataURL);
+  };
+
+  const clearCanvas = () => {
+    if (canvasRef.current) {
+      canvasRef.current.clear();
+    }
   };
 
   const goToNextQuestion = () => {
@@ -46,6 +61,8 @@ function ExamInterface({ questions, settings, onEndExam }) {
       setCurrentQuestionIndex(prev => prev - 1);
     }
   };
+
+  // Canvas data is loaded via initialData prop, no need for effect
 
   const submitExam = () => {
     setShowResults(true);
@@ -101,7 +118,20 @@ function ExamInterface({ questions, settings, onEndExam }) {
                 <div className="answer-comparison">
                   <div className="user-answer">
                     <strong>Your Answer:</strong>
-                    <p>{userAnswer ? userAnswer.answer : 'Not answered'}</p>
+                    {userAnswer?.canvasData && (
+                      <div className="canvas-preview">
+                        <img 
+                          src={userAnswer.canvasData} 
+                          alt="Canvas drawing"
+                          style={{
+                            maxWidth: '100%',
+                            border: '1px solid #ddd',
+                            borderRadius: '4px'
+                          }}
+                        />
+                      </div>
+                    )}
+                    <p>{userAnswer ? userAnswer.answer || (userAnswer.canvasData ? '(Canvas drawing above)' : '') : 'Not answered'}</p>
                   </div>
                   <div className="correct-answer">
                     <strong>Model Answer:</strong>
@@ -166,13 +196,45 @@ function ExamInterface({ questions, settings, onEndExam }) {
         )}
 
         <div className="answer-section">
-          <textarea
-            placeholder="Your notes can go here..."
-            value={answers[currentQuestion.id]?.answer || ''}
-            onChange={(e) => handleAnswerChange(e.target.value)}
-            rows="6"
-            className="answer-input"
-          />
+          <div className="input-mode-toggle">
+            <button 
+              className={`mode-btn ${inputMode === 'canvas' ? 'active' : ''}`}
+              onClick={() => setInputMode('canvas')}
+            >
+              Canvas
+            </button>
+            <button 
+              className={`mode-btn ${inputMode === 'text' ? 'active' : ''}`}
+              onClick={() => setInputMode('text')}
+            >
+              Text
+            </button>
+          </div>
+
+          {inputMode === 'canvas' ? (
+            <div className="canvas-container">
+              <div className="canvas-controls">
+                <button onClick={clearCanvas} className="canvas-btn">
+                  ✕ Clear
+                </button>
+              </div>
+              <DrawingCanvas
+                ref={canvasRef}
+                onChange={handleCanvasChange}
+                initialData={answers[currentQuestion.id]?.canvasData}
+                width={800}
+                height={400}
+              />
+            </div>
+          ) : (
+            <textarea
+              placeholder="Your notes can go here..."
+              value={answers[currentQuestion.id]?.answer || ''}
+              onChange={(e) => handleAnswerChange(e.target.value, answers[currentQuestion.id]?.canvasData)}
+              rows="6"
+              className="answer-input"
+            />
+          )}
         </div>
       </div>
 
