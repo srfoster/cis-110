@@ -1,11 +1,6 @@
 concept_map:
   - category: "Web Technologies"
     concepts:
-      - name: "Networks"
-        exam_questions:
-          - "questions/networks/explain-internet-vs-web.yml"
-          - "questions/networks/explain-ip-address-importance.yml"
-          - "questions/networks/explain-url-behind-scenes.yml"
       - name: "Browsers"
         exam_questions:
           - "questions/browsers/explain-web-browser-purpose.yml"
@@ -16,10 +11,11 @@ concept_map:
           - "questions/browsers/list-common-html-tags.yml"
           - "questions/browsers/explain-css.yml"
           - "questions/browsers/explain-javascript-role.yml"
-      - name: "Cloud Computing"
+      - name: "Networks"
         exam_questions:
-          - "questions/the_cloud/explain-cloud-computing-benefits.yml"
-          - "questions/the_cloud/identify-cloud-service-examples.yml"
+          - "questions/networks/explain-internet-vs-web.yml"
+          - "questions/networks/explain-ip-address-importance.yml"
+          - "questions/networks/explain-url-behind-scenes.yml"
       - name: "Web Apps"
         exam_questions:
           - "questions/web_apps/explain-browser-webserver-database-interaction.yml"
@@ -27,3 +23,7 @@ concept_map:
           - "questions/web_apps/identify-useful-web-applications.yml"
           - "questions/web_apps/explain-what-is-database.yml"
           - "questions/web_apps/define-database-terminology.yml"
+      - name: "Cloud Computing"
+        exam_questions:
+          - "questions/the_cloud/explain-cloud-computing-benefits.yml"
+          - "questions/the_cloud/identify-cloud-service-examples.yml"
