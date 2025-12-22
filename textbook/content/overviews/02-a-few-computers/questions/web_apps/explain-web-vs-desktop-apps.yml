@@ -26,3 +26,5 @@ difficulty: "beginner"
 learning_objectives:
   - "Distinguish between web and desktop applications"
   - "Understand the characteristics of web applications"
+example_videos:
+  - "https://www.youtube.com/watch?v=X2qjKfCaaZI"

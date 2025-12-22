@@ -36,3 +36,5 @@ difficulty: "beginner"
 learning_objectives:
   - "Understand basic data protection concepts"
   - "Recognize the importance of encryption in digital security"
+example_videos:
+  - "https://www.youtube.com/watch?v=iTMjfM6LqmM"
