@@ -28,5 +28,6 @@ difficulty: "beginner"
 learning_objectives:
   - "Understand browser privacy features"
   - "Explain browser performance optimization"
-  - "Recognize browser data management"example_videos:
+  - "Recognize browser data management"
+example_videos:
   - "https://www.youtube.com/watch?v=JbGylndmjLM"

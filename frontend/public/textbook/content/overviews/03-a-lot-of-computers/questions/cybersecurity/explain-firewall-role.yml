@@ -42,3 +42,5 @@ difficulty: "beginner"
 learning_objectives:
   - "Understand network security protection mechanisms"
   - "Recognize the importance of traffic filtering in cybersecurity"
+example_videos:
+  - "https://www.youtube.com/watch?v=63TrM4Co8oY"

@@ -155,6 +155,29 @@
   color: var(--text-primary);
 }
 
+.answer-videos {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #d1fae5;
+}
+
+.answer-videos strong {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--success-color);
+}
+
+.answer-videos > div {
+  margin-bottom: 1rem;
+}
+
+.answer-videos > div:last-child {
+  margin-bottom: 0;
+}
+
 .answer-section {
   margin-top: 2rem;
 }

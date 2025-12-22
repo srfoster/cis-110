@@ -30,5 +30,6 @@ difficulty: "beginner"
 learning_objectives:
   - "Understand JavaScript's role in web development"
   - "Recognize interactivity in web applications"
-  - "Distinguish between static and dynamic web content"example_videos:
+  - "Distinguish between static and dynamic web content"
+example_videos:
   - "https://www.youtube.com/watch?v=t0Boy1lWVyc"

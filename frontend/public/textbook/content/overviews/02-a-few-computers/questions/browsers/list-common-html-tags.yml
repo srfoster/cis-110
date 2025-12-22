@@ -30,5 +30,6 @@ difficulty: "beginner"
 learning_objectives:
   - "Identify common HTML tags"
   - "Understand basic web page structure"
-  - "Recognize HTML tag purposes"example_videos:
+  - "Recognize HTML tag purposes"
+example_videos:
   - "https://www.youtube.com/watch?v=gj8iuwDas0s"

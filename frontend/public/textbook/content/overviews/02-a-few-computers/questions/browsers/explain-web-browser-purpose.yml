@@ -25,5 +25,6 @@ points: 5
 difficulty: "beginner"
 learning_objectives:
   - "Understand the basic function of web browsers"
-  - "Identify the role of browsers in accessing web content"example_videos:
+  - "Identify the role of browsers in accessing web content"
+example_videos:
   - "https://www.youtube.com/watch?v=M2AewFQCg34"

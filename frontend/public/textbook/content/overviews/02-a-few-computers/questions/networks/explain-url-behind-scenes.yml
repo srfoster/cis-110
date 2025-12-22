@@ -30,5 +30,6 @@ difficulty: "beginner"
 learning_objectives:
   - "Understand the URL resolution process"
   - "Recognize the role of DNS in web browsing"
-  - "Trace the complete web request lifecycle"example_videos:
+  - "Trace the complete web request lifecycle"
+example_videos:
   - "https://www.youtube.com/watch?v=K5JD21l-FCI"

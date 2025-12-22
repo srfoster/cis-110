@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import DrawingCanvas from './DrawingCanvas';
+import YouTube from './YouTube';
 import './ExamInterface.css';
 
 function ExamInterface({ questions, settings, onEndExam }) {
@@ -192,6 +193,15 @@ function ExamInterface({ questions, settings, onEndExam }) {
           <div className="answer-reveal">
             <strong>Answer:</strong>
             <p>{currentQuestion.answer}</p>
+            
+            {currentQuestion.example_videos && currentQuestion.example_videos.length > 0 && (
+              <div className="answer-videos">
+                <strong>Example Videos:</strong>
+                {currentQuestion.example_videos.map((videoUrl, idx) => (
+                  <YouTube key={idx} url={videoUrl} />
+                ))}
+              </div>
+            )}
           </div>
         )}
 
