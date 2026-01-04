@@ -1,0 +1,31 @@
+id: 10
+question: "Explain the difference between a Switch and a Router"
+answer: "A Switch connects devices within the same network while a Router connects devices between different networks."
+
+answer_kindergarten: "👶 A switch is like a classroom helper who gives each kid the right crayon they need.  A router is like the school bus driver who helps kids get to the right school."
+
+answer_3rd_grade: "📚 A switch connects devices in the same room or building. It’s like a mail sorter that delivers messages only to people in the same house.  A router helps your house talk to other houses on the internet. It’s like a mail truck that sends letters between neighborhoods."
+
+answer_7th_grade: "🤔 A switch links devices within the same local network. It looks at device addresses and only sends data to the exact device that needs it—like an efficient middle-school office assistant delivering notes to the right student.  A router connects different networks. It decides the best path for data to travel from your home network out to the internet. Think of it like a GPS system choosing the best route to another city."
+
+answer_high_school: "🎓 A switch operates at Layer 2 (Data Link) of the OSI model. It uses MAC addresses to forward frames only to the correct device on a local network. Its job is to build a MAC address table and reduce unnecessary traffic.  A router operates at Layer 3 (Network). It uses IP addresses to route packets between different networks. It performs tasks like NAT, firewall filtering, and choosing optimal paths for data."
+
+answer_undergraduate: "🧠 A switch is a Layer 2 device that forwards Ethernet frames based on MAC addresses. It maintains a MAC address table and provides segmentation within a LAN. Switches reduce collision domains (one per port) and enable full-duplex communication. Some switches (Layer 3 switches) can also perform limited routing functions.  A router is a Layer 3 device responsible for inter-network communication. It forwards packets using IP addresses and routing tables, performs path selection via routing protocols (e.g., OSPF, BGP, RIP), isolates broadcast domains, and often implements additional services like NAT, DHCP, and basic firewalling."
+
+vocab_answer: 
+    - word: "Switch"
+      definition: "Connects devices inside a LAN"
+    - word: "Router"
+      definition: "Connects multiple networks and forwards data between them"
+    - word: "LAN"
+      definition: "Local Area Network"
+    - word: "WAN"
+      definition: "Wide Area Network"
+
+type: "short_answer"
+points: 5
+difficulty: "beginner"
+
+learning_objectives:
+  - "Describe the difference between a Switch and a Router"
+  - "Describe the difference between a LAN and WAN"

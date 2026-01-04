@@ -12,3 +12,4 @@ concept_map:
           - "questions/identify-four-reasons-why-a-bad-actor-would-want-to-hack-a-computer-or-system.yml"
           - "questions/explain-role-of-command-line-interface.yml"
           - "questions/explain-vpn.yml"
+          - "questions/explain-switch-vs-router.yml"
