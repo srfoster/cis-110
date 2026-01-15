@@ -258,6 +258,14 @@ class CompiledContentService {
     // Remove query parameters
     cleanPath = cleanPath.split('?')[0];
     
+    // Remove trailing slashes (but not if it's just '/')
+    if (cleanPath.length > 1 && cleanPath.endsWith('/')) {
+      cleanPath = cleanPath.slice(0, -1);
+    }
+    
+    // Replace multiple consecutive slashes with single slash
+    cleanPath = cleanPath.replace(/\/+/g, '/');
+    
     return cleanPath;
   }
 

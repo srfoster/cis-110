@@ -23,7 +23,7 @@ concept_map:
       - name: "Programs"
         exam_questions:
           - "questions/programs/describe-stored-program-concept.yml"
-          - "questions/programs/compare-compiler-interpreter.yml"
           - "questions/programs/trace-machine-code-execution.yml"
-          - "questions/programs/explain-programming-process.yml"
+          - "questions/programs/compare-compiler-interpreter.yml"
           - "questions/programs/explain-assembly-language.yml"
+          - "questions/programs/explain-programming-process.yml"
