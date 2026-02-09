@@ -11,6 +11,8 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   const [transcriptData, setTranscriptData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [groupDuration, setGroupDuration] = useState(0);
+  const [selectedGroupIndex, setSelectedGroupIndex] = useState(0);
 
   // Initialize transcript from prop or fetch from file
   useEffect(() => {
@@ -77,6 +79,11 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
 
     loadTranscript();
   }, [transcript, transcript_json, currentPath]);
+
+  // Reset group navigation when grouping changes
+  useEffect(() => {
+    setSelectedGroupIndex(0);
+  }, [groupDuration, transcriptData]);
 
   // Extract video ID from various YouTube URL formats
   const extractVideoId = (url) => {
@@ -145,6 +152,69 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
     sendPlayerCommand('seekTo', [seconds, true]);
   };
 
+  // Group transcript items based on duration threshold
+  const groupTranscript = (transcript, maxGroupDuration) => {
+    if (!transcript || transcript.length === 0) return [];
+    
+    if (maxGroupDuration === 0) {
+      // Each item gets its own group
+      return transcript.map((item, index) => ({
+        ...item,
+        group_number: index
+      }));
+    }
+
+    const grouped = [];
+    let currentGroupNumber = 0;
+    let currentGroupDuration = 0;
+
+    for (let i = 0; i < transcript.length; i++) {
+      const item = transcript[i];
+      const itemDuration = item.duration || 0;
+
+      // Check if adding this item would exceed the max duration
+      if (currentGroupDuration > 0 && currentGroupDuration + itemDuration > maxGroupDuration) {
+        // Start a new group
+        currentGroupNumber++;
+        currentGroupDuration = 0;
+      }
+
+      grouped.push({
+        ...item,
+        group_number: currentGroupNumber
+      });
+
+      currentGroupDuration += itemDuration;
+    }
+
+    return grouped;
+  };
+
+  // Create grouped view of transcript
+  const getGroupedTranscriptView = () => {
+    if (!transcriptData) return [];
+
+    const grouped = groupTranscript(transcriptData, groupDuration);
+    
+    // Convert to groups for display
+    const groups = {};
+    grouped.forEach(item => {
+      if (!groups[item.group_number]) {
+        groups[item.group_number] = {
+          start: item.start,
+          text: [],
+          groupNumber: item.group_number
+        };
+      }
+      groups[item.group_number].text.push(item.text);
+    });
+
+    return Object.values(groups).map(group => ({
+      ...group,
+      text: group.text.join(' ')
+    }));
+  };
+
   // Listen to player state messages
   useEffect(() => {
     const handleMessage = (event) => {
@@ -197,15 +267,6 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
 
   return (
     <div className="exam-browser">
-      <div className="exam-browser-header">
-        <h3 className="exam-browser-title">
-          {title || "Student Exam Recording"}
-        </h3>
-        <div className="exam-browser-info">
-          <span className="exam-browser-badge">Exam Footage</span>
-        </div>
-      </div>
-
       <div className="exam-browser-player">
         <iframe
           ref={iframeRef}
@@ -218,84 +279,6 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         />
-      </div>
-      
-      <div className="exam-browser-controls">
-        <div className="exam-browser-timeline">
-          <span className="time-display">{formatTime(currentTime)}</span>
-          <div className="progress-bar">
-            <div 
-              className="progress-fill" 
-              style={{ width: `${duration > 0 ? (currentTime / duration) * 100 : 0}%` }}
-            />
-          </div>
-          <span className="time-display">{formatTime(duration)}</span>
-        </div>
-
-        <div className="exam-browser-buttons">
-          <div className="control-group">
-            <button 
-              className="control-button"
-              onClick={() => handleSeek(-10)}
-              title="Rewind 10 seconds"
-            >
-              ⏪ 10s
-            </button>
-            <button 
-              className="control-button play-pause"
-              onClick={handlePlayPause}
-              title={isPlaying ? "Pause" : "Play"}
-            >
-              {isPlaying ? '⏸' : '▶'}
-            </button>
-            <button 
-              className="control-button"
-              onClick={() => handleSeek(10)}
-              title="Forward 10 seconds"
-            >
-              10s ⏩
-            </button>
-          </div>
-
-          <div className="control-group speed-controls">
-            <span className="control-label">Speed:</span>
-            <button 
-              className="control-button speed-button"
-              onClick={() => handlePlaybackSpeed(0.5)}
-              title="0.5x speed"
-            >
-              0.5x
-            </button>
-            <button 
-              className="control-button speed-button"
-              onClick={() => handlePlaybackSpeed(1)}
-              title="Normal speed"
-            >
-              1x
-            </button>
-            <button 
-              className="control-button speed-button"
-              onClick={() => handlePlaybackSpeed(1.5)}
-              title="1.5x speed"
-            >
-              1.5x
-            </button>
-            <button 
-              className="control-button speed-button"
-              onClick={() => handlePlaybackSpeed(2)}
-              title="2x speed"
-            >
-              2x
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div className="exam-browser-notes">
-        <p>
-          💡 <strong>Tip:</strong> Use the playback controls to review specific sections of the exam.
-          Adjust the speed to analyze responses more carefully or skip through quickly.
-        </p>
       </div>
 
       {/* Transcript Section */}
@@ -311,34 +294,75 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
         </div>
       )}
       
-      {transcriptData && !loading && !error && (
+      {transcriptData && !loading && !error && (() => {
+        const groupedView = getGroupedTranscriptView();
+        return (
         <div className="exam-browser-transcript">
           <div className="transcript-header">
             <h4>Transcript</h4>
             <span className="transcript-count">
-              {transcriptData.length} segments
+              {transcriptData.length} segments • {groupedView.length} groups
             </span>
           </div>
 
+          <div className="transcript-grouping-control">
+            <label htmlFor="group-duration-slider">
+              Group Duration: {groupDuration === 0 ? 'Off' : `${groupDuration}s`}
+            </label>
+            <input
+              id="group-duration-slider"
+              type="range"
+              min="0"
+              max="60"
+              step="1"
+              value={groupDuration}
+              onChange={(e) => setGroupDuration(Number(e.target.value))}
+              className="group-duration-slider"
+            />
+          </div>
+
+          <div className="transcript-grouping-control">
+            <label htmlFor="group-navigation-slider">
+              Navigate by Group: {selectedGroupIndex + 1} / {groupedView.length}
+            </label>
+            <input
+              id="group-navigation-slider"
+              type="range"
+              min="0"
+              max={Math.max(0, groupedView.length - 1)}
+              step="1"
+              value={selectedGroupIndex}
+              onChange={(e) => {
+                const index = Number(e.target.value);
+                setSelectedGroupIndex(index);
+                if (groupedView[index]) {
+                  handleSeekToTime(groupedView[index].start);
+                }
+              }}
+              className="group-duration-slider"
+            />
+          </div>
+
           <div className="transcript-content">
-            {transcriptData.map((item, index) => (
+            {groupedView.map((group, index) => (
               <div 
                 key={index} 
-                className={`transcript-item ${Math.abs(currentTime - item.start) < 2 ? 'active' : ''}`}
+                className={`transcript-item ${Math.abs(currentTime - group.start) < 2 ? 'active' : ''}`}
               >
                 <button
                   className="transcript-timestamp"
-                  onClick={() => handleSeekToTime(item.start)}
-                  title={`Jump to ${formatTime(item.start)}`}
+                  onClick={() => handleSeekToTime(group.start)}
+                  title={`Jump to ${formatTime(group.start)}`}
                 >
-                  {formatTime(item.start)}
+                  {formatTime(group.start)}
                 </button>
-                <span className="transcript-text">{item.text}</span>
+                <span className="transcript-text">{group.text}</span>
               </div>
             ))}
           </div>
         </div>
-      )}
+        );
+      })()}
     </div>
   );
 }
