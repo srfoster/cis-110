@@ -4,6 +4,8 @@ import './ExamBrowser.css';
 
 function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   const iframeRef = useRef(null);
+  const transcriptItemsRef = useRef([]);
+  const transcriptContentRef = useRef(null);
   const [isPlayerReady, setIsPlayerReady] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -13,6 +15,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   const [error, setError] = useState(null);
   const [groupDuration, setGroupDuration] = useState(0);
   const [selectedGroupIndex, setSelectedGroupIndex] = useState(0);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   // Initialize transcript from prop or fetch from file
   useEffect(() => {
@@ -84,6 +87,56 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   useEffect(() => {
     setSelectedGroupIndex(0);
   }, [groupDuration, transcriptData]);
+
+  // Scroll to selected group in transcript list
+  useEffect(() => {
+    if (transcriptItemsRef.current[selectedGroupIndex] && transcriptContentRef.current) {
+      const container = transcriptContentRef.current;
+      const item = transcriptItemsRef.current[selectedGroupIndex];
+      
+      const containerRect = container.getBoundingClientRect();
+      const itemRect = item.getBoundingClientRect();
+      
+      // Calculate the scroll position to center the item in the container
+      const scrollOffset = itemRect.top - containerRect.top + container.scrollTop - (containerRect.height / 2) + (itemRect.height / 2);
+      
+      container.scrollTo({
+        top: scrollOffset,
+        behavior: 'smooth'
+      });
+    }
+  }, [selectedGroupIndex]);
+
+  // Keyboard navigation for group slider
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (!transcriptData) return;
+      
+      const groupedView = getGroupedTranscriptView();
+      const maxIndex = groupedView.length - 1;
+      
+      if (event.key === 'ArrowLeft') {
+        event.preventDefault();
+        const newIndex = Math.max(0, selectedGroupIndex - 1);
+        setSelectedGroupIndex(newIndex);
+        if (groupedView[newIndex]) {
+          handleSeekToTime(groupedView[newIndex].start);
+        }
+      } else if (event.key === 'ArrowRight') {
+        event.preventDefault();
+        const newIndex = Math.min(maxIndex, selectedGroupIndex + 1);
+        setSelectedGroupIndex(newIndex);
+        if (groupedView[newIndex]) {
+          handleSeekToTime(groupedView[newIndex].start);
+        }
+      } else if (event.key === 'Escape' && isFullscreen) {
+        setIsFullscreen(false);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [selectedGroupIndex, transcriptData, groupDuration, isFullscreen]);
 
   // Extract video ID from various YouTube URL formats
   const extractVideoId = (url) => {
@@ -266,37 +319,47 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   const embedUrl = `https://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=${window.location.origin}`;
 
   return (
-    <div className="exam-browser">
-      <div className="exam-browser-player">
-        <iframe
-          ref={iframeRef}
-          width="100%"
-          height="450"
-          src={embedUrl}
-          title={title || "Student exam recording"}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
-      </div>
+    <div className={`exam-browser ${isFullscreen ? 'exam-browser-fullscreen' : ''}`}>
+      <button 
+        className="fullscreen-toggle-button"
+        onClick={() => setIsFullscreen(!isFullscreen)}
+        title={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
+      >
+        {isFullscreen ? '✕ Exit Fullscreen' : '⛶ Fullscreen'}
+      </button>
 
-      {/* Transcript Section */}
-      {loading && (
-        <div className="exam-browser-transcript">
-          <div className="transcript-loading">Loading transcript...</div>
+      <div className={`exam-browser-content ${isFullscreen ? 'split-view' : ''}`}>
+        <div className="exam-browser-player">
+          <iframe
+            ref={iframeRef}
+            width="100%"
+            height="450"
+            src={embedUrl}
+            title={title || "Student exam recording"}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
         </div>
-      )}
-      
-      {error && (
-        <div className="exam-browser-transcript">
-          <div className="transcript-error">Error loading transcript: {error}</div>
-        </div>
-      )}
-      
-      {transcriptData && !loading && !error && (() => {
-        const groupedView = getGroupedTranscriptView();
-        return (
+
+        {/* Transcript Section */}
+        <div className="exam-browser-transcript-container">
+          {loading && (
+            <div className="exam-browser-transcript">
+              <div className="transcript-loading">Loading transcript...</div>
+            </div>
+          )}
+          
+          {error && (
+            <div className="exam-browser-transcript">
+              <div className="transcript-error">Error loading transcript: {error}</div>
+            </div>
+          )}
+          
+          {transcriptData && !loading && !error && (() => {
+            const groupedView = getGroupedTranscriptView();
+            return (
         <div className="exam-browser-transcript">
           <div className="transcript-header">
             <h4>Transcript</h4>
@@ -343,10 +406,11 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
             />
           </div>
 
-          <div className="transcript-content">
+          <div className="transcript-content" ref={transcriptContentRef}>
             {groupedView.map((group, index) => (
               <div 
-                key={index} 
+                key={index}
+                ref={el => transcriptItemsRef.current[index] = el}
                 className={`transcript-item ${Math.abs(currentTime - group.start) < 2 ? 'active' : ''}`}
               >
                 <button
@@ -363,6 +427,8 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
         </div>
         );
       })()}
+        </div>
+      </div>
     </div>
   );
 }
