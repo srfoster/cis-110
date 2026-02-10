@@ -17,22 +17,36 @@ from pathlib import Path
 
 def convert_transcript_to_text(json_path):
     """
-    Convert a JSON transcript to plain text.
+    Convert a JSON transcript to plain text with embedded timestamps.
     
     Args:
         json_path: Path to the JSON transcript file
     
     Returns:
-        Plain text version of the transcript
+        Plain text version of the transcript with timestamps
     """
     with open(json_path, 'r', encoding='utf-8') as f:
         transcript_data = json.load(f)
     
-    # Extract just the text from each segment
-    text_segments = [item['text'] for item in transcript_data]
+    # Build text with periodic timestamps
+    result = []
+    last_timestamp_minute = -1
+    
+    for item in transcript_data:
+        start_seconds = item['start']
+        minutes = int(start_seconds // 60)
+        seconds = int(start_seconds % 60)
+        
+        # Add timestamp marker every minute
+        if minutes > last_timestamp_minute:
+            timestamp = f"[{minutes:02d}:{seconds:02d}]"
+            result.append(timestamp)
+            last_timestamp_minute = minutes
+        
+        result.append(item['text'])
     
     # Join with spaces
-    full_text = ' '.join(text_segments)
+    full_text = ' '.join(result)
     
     return full_text
 
