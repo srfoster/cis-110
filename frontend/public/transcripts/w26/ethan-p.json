@@ -1,0 +1,6442 @@
+[
+  {
+    "text": "All right, my name is Ethan Prior. Um,",
+    "start": 1.12,
+    "duration": 4.48
+  },
+  {
+    "text": "this is my submission for the midterm",
+    "start": 3.28,
+    "duration": 6.48
+  },
+  {
+    "text": "exam um for CIS- 110",
+    "start": 5.6,
+    "duration": 8.159
+  },
+  {
+    "text": "which is due on Monday um February 9th",
+    "start": 9.76,
+    "duration": 8.56
+  },
+  {
+    "text": "of 2026. Um as you can see this is the",
+    "start": 13.759,
+    "duration": 7.841
+  },
+  {
+    "text": "um exam generation page. Um it is set",
+    "start": 18.32,
+    "duration": 5.76
+  },
+  {
+    "text": "the bar is set to 70%. It is not sorted",
+    "start": 21.6,
+    "duration": 6.24
+  },
+  {
+    "text": "by chapter and the answer button is",
+    "start": 24.08,
+    "duration": 5.519
+  },
+  {
+    "text": "turned off.",
+    "start": 27.84,
+    "duration": 6.399
+  },
+  {
+    "text": "Um, also I am in the room by myself.",
+    "start": 29.599,
+    "duration": 7.441
+  },
+  {
+    "text": "I have no notes or any visual aids on",
+    "start": 34.239,
+    "duration": 5.361
+  },
+  {
+    "text": "the desk in front of me to help me out.",
+    "start": 37.04,
+    "duration": 4.8
+  },
+  {
+    "text": "And these are just a sort of papers that",
+    "start": 39.6,
+    "duration": 4.959
+  },
+  {
+    "text": "have nothing to do with school.",
+    "start": 41.84,
+    "duration": 4.96
+  },
+  {
+    "text": "On my second monitor, I have OBS",
+    "start": 44.559,
+    "duration": 4.801
+  },
+  {
+    "text": "recording. And as you can see, um, from",
+    "start": 46.8,
+    "duration": 4.56
+  },
+  {
+    "text": "the screen recording, uh, the only",
+    "start": 49.36,
+    "duration": 5.12
+  },
+  {
+    "text": "things I have open on my computer is my",
+    "start": 51.36,
+    "duration": 6.64
+  },
+  {
+    "text": "browser tab and, uh, OBS.",
+    "start": 54.48,
+    "duration": 6.559
+  },
+  {
+    "text": "Uh to begin I will be going to MS Paint",
+    "start": 58.0,
+    "duration": 6.64
+  },
+  {
+    "text": "and drawing the",
+    "start": 61.039,
+    "duration": 8.76
+  },
+  {
+    "text": "uh diagram uh table of contents diagram.",
+    "start": 64.64,
+    "duration": 5.159
+  },
+  {
+    "text": "We have a person.",
+    "start": 73.92,
+    "duration": 4.72
+  },
+  {
+    "text": "He has his own computer. within that",
+    "start": 76.88,
+    "duration": 6.52
+  },
+  {
+    "text": "computer is the operating system",
+    "start": 78.64,
+    "duration": 4.76
+  },
+  {
+    "text": "OS",
+    "start": 84.88,
+    "duration": 3.0
+  },
+  {
+    "text": "just put OS",
+    "start": 89.68,
+    "duration": 6.799
+  },
+  {
+    "text": "OS and the hardware and that's the",
+    "start": 92.96,
+    "duration": 5.68
+  },
+  {
+    "text": "subject of chapter zero which is zero",
+    "start": 96.479,
+    "duration": 5.161
+  },
+  {
+    "text": "computers",
+    "start": 98.64,
+    "duration": 3.0
+  },
+  {
+    "text": "chapter one is one computer",
+    "start": 103.6,
+    "duration": 4.519
+  },
+  {
+    "text": "which involves you know the person",
+    "start": 109.84,
+    "duration": 5.12
+  },
+  {
+    "text": "interacting with their computer. But",
+    "start": 112.399,
+    "duration": 7.04
+  },
+  {
+    "text": "this computer connects um out to",
+    "start": 114.96,
+    "duration": 7.04
+  },
+  {
+    "text": "the internet",
+    "start": 119.439,
+    "duration": 4.64
+  },
+  {
+    "text": "um which may be represented in a",
+    "start": 122.0,
+    "duration": 4.96
+  },
+  {
+    "text": "different color here",
+    "start": 124.079,
+    "duration": 5.52
+  },
+  {
+    "text": "but uh the internet as a whole but also",
+    "start": 126.96,
+    "duration": 4.56
+  },
+  {
+    "text": "it may go into a subsection of the",
+    "start": 129.599,
+    "duration": 4.961
+  },
+  {
+    "text": "internet and within the subsection it",
+    "start": 131.52,
+    "duration": 6.4
+  },
+  {
+    "text": "may access something like a web server",
+    "start": 134.56,
+    "duration": 5.12
+  },
+  {
+    "text": "and that web server forms its own",
+    "start": 137.92,
+    "duration": 3.28
+  },
+  {
+    "text": "ecosystem where there can be other",
+    "start": 139.68,
+    "duration": 4.52
+  },
+  {
+    "text": "computers",
+    "start": 141.2,
+    "duration": 3.0
+  },
+  {
+    "text": "But also it may be connected to",
+    "start": 145.92,
+    "duration": 4.0
+  },
+  {
+    "text": "something like a datab bank or a data",
+    "start": 147.52,
+    "duration": 6.32
+  },
+  {
+    "text": "server data database",
+    "start": 149.92,
+    "duration": 6.8
+  },
+  {
+    "text": "call it data server",
+    "start": 153.84,
+    "duration": 5.2
+  },
+  {
+    "text": "and there may be a person's job is just",
+    "start": 156.72,
+    "duration": 5.32
+  },
+  {
+    "text": "to",
+    "start": 159.04,
+    "duration": 3.0
+  },
+  {
+    "text": "monitor all of this",
+    "start": 162.48,
+    "duration": 4.64
+  },
+  {
+    "text": "and that's the subject of chapter two",
+    "start": 164.959,
+    "duration": 5.121
+  },
+  {
+    "text": "which is a few computers.",
+    "start": 167.12,
+    "duration": 2.96
+  },
+  {
+    "text": "Um and then chapter three",
+    "start": 173.44,
+    "duration": 6.84
+  },
+  {
+    "text": "is many computers.",
+    "start": 176.56,
+    "duration": 3.72
+  },
+  {
+    "text": "And uh the reason that's chapter 3 is",
+    "start": 183.519,
+    "duration": 3.761
+  },
+  {
+    "text": "because we're not the only people using",
+    "start": 185.599,
+    "duration": 4.92
+  },
+  {
+    "text": "the internet.",
+    "start": 187.28,
+    "duration": 3.239
+  },
+  {
+    "text": "I should uh draw arrow back here.",
+    "start": 190.8,
+    "duration": 5.2
+  },
+  {
+    "text": "We're not the only people using the",
+    "start": 194.72,
+    "duration": 2.56
+  },
+  {
+    "text": "internet. There's a lot of people on",
+    "start": 196.0,
+    "duration": 3.04
+  },
+  {
+    "text": "Earth",
+    "start": 197.28,
+    "duration": 4.879
+  },
+  {
+    "text": "and uh yeah, they they all access the",
+    "start": 199.04,
+    "duration": 6.76
+  },
+  {
+    "text": "internet as well.",
+    "start": 202.159,
+    "duration": 3.641
+  },
+  {
+    "text": "So that's a pretty basic table of",
+    "start": 206.159,
+    "duration": 4.0
+  },
+  {
+    "text": "contents and I will be using MS Paint to",
+    "start": 207.68,
+    "duration": 6.8
+  },
+  {
+    "text": "uh to do this.",
+    "start": 210.159,
+    "duration": 7.041
+  },
+  {
+    "text": "All right. Again, it says 70%.",
+    "start": 214.48,
+    "duration": 5.6
+  },
+  {
+    "text": "Generating the exam. Explain what device",
+    "start": 217.2,
+    "duration": 4.72
+  },
+  {
+    "text": "drivers are and why they're necessary.",
+    "start": 220.08,
+    "duration": 4.079
+  },
+  {
+    "text": "Um I like to use a personal example for",
+    "start": 221.92,
+    "duration": 3.44
+  },
+  {
+    "text": "this one. I've had a little bit of",
+    "start": 224.159,
+    "duration": 3.761
+  },
+  {
+    "text": "experience with device drivers. Um, but",
+    "start": 225.36,
+    "duration": 6.159
+  },
+  {
+    "text": "you have your computer,",
+    "start": 227.92,
+    "duration": 6.08
+  },
+  {
+    "text": "just call it a PC. Um, and uh, for",
+    "start": 231.519,
+    "duration": 4.8
+  },
+  {
+    "text": "example, in my personal computer, I have",
+    "start": 234.0,
+    "duration": 4.319
+  },
+  {
+    "text": "a Wi-Fi.",
+    "start": 236.319,
+    "duration": 4.881
+  },
+  {
+    "text": "Um, I have a Wi-Fi adapter that just",
+    "start": 238.319,
+    "duration": 5.041
+  },
+  {
+    "text": "plugs into a USB port on the side of the",
+    "start": 241.2,
+    "duration": 6.48
+  },
+  {
+    "text": "computer. And so the reason that we need",
+    "start": 243.36,
+    "duration": 6.32
+  },
+  {
+    "text": "what a device driver is and why we need",
+    "start": 247.68,
+    "duration": 4.72
+  },
+  {
+    "text": "it is, you know, we have we'll just put",
+    "start": 249.68,
+    "duration": 4.559
+  },
+  {
+    "text": "this and we'll call this the WA the",
+    "start": 252.4,
+    "duration": 5.92
+  },
+  {
+    "text": "Wi-Fi adapter. Um now this Wi-Fi adapter",
+    "start": 254.239,
+    "duration": 8.481
+  },
+  {
+    "text": "is made by X company.",
+    "start": 258.32,
+    "duration": 8.0
+  },
+  {
+    "text": "Um and they may not they may not use the",
+    "start": 262.72,
+    "duration": 6.72
+  },
+  {
+    "text": "same language that our computer uses. So",
+    "start": 266.32,
+    "duration": 5.439
+  },
+  {
+    "text": "that's where the device driver uh is",
+    "start": 269.44,
+    "duration": 4.72
+  },
+  {
+    "text": "rest is in between",
+    "start": 271.759,
+    "duration": 6.241
+  },
+  {
+    "text": "is in between and um let's put a DD",
+    "start": 274.16,
+    "duration": 6.0
+  },
+  {
+    "text": "there. I know it's kind of messy, but DD",
+    "start": 278.0,
+    "duration": 4.56
+  },
+  {
+    "text": "the device driver. Basically, this acts",
+    "start": 280.16,
+    "duration": 5.12
+  },
+  {
+    "text": "as a translator. And so what it does is",
+    "start": 282.56,
+    "duration": 4.8
+  },
+  {
+    "text": "the instructions for running this Wi-Fi",
+    "start": 285.28,
+    "duration": 4.08
+  },
+  {
+    "text": "adapter come through the device driver",
+    "start": 287.36,
+    "duration": 4.0
+  },
+  {
+    "text": "and then go to your computer. Um so",
+    "start": 289.36,
+    "duration": 4.24
+  },
+  {
+    "text": "we'll just go right here. They go back",
+    "start": 291.36,
+    "duration": 4.72
+  },
+  {
+    "text": "to your computer. And that device driver",
+    "start": 293.6,
+    "duration": 5.84
+  },
+  {
+    "text": "allows the computer to know what it",
+    "start": 296.08,
+    "duration": 5.679
+  },
+  {
+    "text": "needs to do for this device to operate",
+    "start": 299.44,
+    "duration": 4.72
+  },
+  {
+    "text": "correctly. And I think that's the the",
+    "start": 301.759,
+    "duration": 5.681
+  },
+  {
+    "text": "basic point of that",
+    "start": 304.16,
+    "duration": 5.12
+  },
+  {
+    "text": "um social engineering and how it is used",
+    "start": 307.44,
+    "duration": 5.199
+  },
+  {
+    "text": "in cyber attacks. Um",
+    "start": 309.28,
+    "duration": 4.88
+  },
+  {
+    "text": "um I like to think of the classic",
+    "start": 312.639,
+    "duration": 5.694
+  },
+  {
+    "text": "example of um unfortunately",
+    "start": 314.16,
+    "duration": 6.479
+  },
+  {
+    "text": "[sighs] scamming the older generation.",
+    "start": 318.333,
+    "duration": 5.267
+  },
+  {
+    "text": "So you'll have a person who is up to no",
+    "start": 320.639,
+    "duration": 4.721
+  },
+  {
+    "text": "good",
+    "start": 323.6,
+    "duration": 7.76
+  },
+  {
+    "text": "and um he may pose as someone he is not.",
+    "start": 325.36,
+    "duration": 9.119
+  },
+  {
+    "text": "Um, and then you have your innocent",
+    "start": 331.36,
+    "duration": 6.64
+  },
+  {
+    "text": "older person here who may not be wiser",
+    "start": 334.479,
+    "duration": 6.401
+  },
+  {
+    "text": "um to the problems in the world that",
+    "start": 338.0,
+    "duration": 5.759
+  },
+  {
+    "text": "come with um being on the internet and",
+    "start": 340.88,
+    "duration": 5.759
+  },
+  {
+    "text": "things like that. Um, and of course, I'm",
+    "start": 343.759,
+    "duration": 5.28
+  },
+  {
+    "text": "not saying that's that's 100%",
+    "start": 346.639,
+    "duration": 3.84
+  },
+  {
+    "text": "stereotype. That's not what I'm trying",
+    "start": 349.039,
+    "duration": 4.961
+  },
+  {
+    "text": "to say, but as a general idea that they",
+    "start": 350.479,
+    "duration": 5.681
+  },
+  {
+    "text": "they use the social engineering of",
+    "start": 354.0,
+    "duration": 6.88
+  },
+  {
+    "text": "appealing to someone's good side or need",
+    "start": 356.16,
+    "duration": 8.24
+  },
+  {
+    "text": "to help to extort something like money",
+    "start": 360.88,
+    "duration": 6.56
+  },
+  {
+    "text": "or information that they may have such",
+    "start": 364.4,
+    "duration": 5.359
+  },
+  {
+    "text": "as, you know, credit card. And so when",
+    "start": 367.44,
+    "duration": 4.0
+  },
+  {
+    "text": "they fall for, you know, we'll put this",
+    "start": 369.759,
+    "duration": 5.201
+  },
+  {
+    "text": "as like the the bait package that they",
+    "start": 371.44,
+    "duration": 5.759
+  },
+  {
+    "text": "send, whether that may sometimes it's an",
+    "start": 374.96,
+    "duration": 8.72
+  },
+  {
+    "text": "email or um phone number",
+    "start": 377.199,
+    "duration": 9.44
+  },
+  {
+    "text": "and they fall for that. And then the",
+    "start": 383.68,
+    "duration": 5.76
+  },
+  {
+    "text": "cyber attack part is that they steal",
+    "start": 386.639,
+    "duration": 5.68
+  },
+  {
+    "text": "this information and it comes right back",
+    "start": 389.44,
+    "duration": 6.96
+  },
+  {
+    "text": "to this guy and he uses that to get",
+    "start": 392.319,
+    "duration": 6.801
+  },
+  {
+    "text": "money or information. Um I know this is",
+    "start": 396.4,
+    "duration": 5.519
+  },
+  {
+    "text": "a pretty crude",
+    "start": 399.12,
+    "duration": 5.199
+  },
+  {
+    "text": "diagram but that's how people social",
+    "start": 401.919,
+    "duration": 5.12
+  },
+  {
+    "text": "engineering it's it's",
+    "start": 404.319,
+    "duration": 5.361
+  },
+  {
+    "text": "engineering is the idea of designing",
+    "start": 407.039,
+    "duration": 5.44
+  },
+  {
+    "text": "something and you are basically socially",
+    "start": 409.68,
+    "duration": 5.359
+  },
+  {
+    "text": "designing a way to scam people out of",
+    "start": 412.479,
+    "duration": 6.16
+  },
+  {
+    "text": "something or to harm them online with a",
+    "start": 415.039,
+    "duration": 6.081
+  },
+  {
+    "text": "cyber attack. Um but yeah that's",
+    "start": 418.639,
+    "duration": 5.601
+  },
+  {
+    "text": "basically the gist of it.",
+    "start": 421.12,
+    "duration": 7.6
+  },
+  {
+    "text": "Um, an IP address is basically",
+    "start": 424.24,
+    "duration": 6.64
+  },
+  {
+    "text": "um",
+    "start": 428.72,
+    "duration": 5.599
+  },
+  {
+    "text": "it's basically within the worldwide web.",
+    "start": 430.88,
+    "duration": 5.84
+  },
+  {
+    "text": "It's",
+    "start": 434.319,
+    "duration": 5.401
+  },
+  {
+    "text": "um",
+    "start": 436.72,
+    "duration": 3.0
+  },
+  {
+    "text": "now an IP address is is where you are as",
+    "start": 443.039,
+    "duration": 9.681
+  },
+  {
+    "text": "part of the wider world web. Um",
+    "start": 448.319,
+    "duration": 6.32
+  },
+  {
+    "text": "it it it's basically like your",
+    "start": 452.72,
+    "duration": 7.36
+  },
+  {
+    "text": "identifier. So if you have your computer",
+    "start": 454.639,
+    "duration": 9.361
+  },
+  {
+    "text": "and you have your Wi-Fi, your modem",
+    "start": 460.08,
+    "duration": 6.32
+  },
+  {
+    "text": "and uh we'll just do modem and your",
+    "start": 464.0,
+    "duration": 4.0
+  },
+  {
+    "text": "Wi-Fi router. I don't know if those are",
+    "start": 466.4,
+    "duration": 2.88
+  },
+  {
+    "text": "separate things or if they're the same",
+    "start": 468.0,
+    "duration": 3.68
+  },
+  {
+    "text": "thing, but when your computer connects",
+    "start": 469.28,
+    "duration": 4.16
+  },
+  {
+    "text": "to this,",
+    "start": 471.68,
+    "duration": 4.88
+  },
+  {
+    "text": "it is this issues an IP address for your",
+    "start": 473.44,
+    "duration": 5.92
+  },
+  {
+    "text": "computer. So when your computer goes and",
+    "start": 476.56,
+    "duration": 4.24
+  },
+  {
+    "text": "visits",
+    "start": 479.36,
+    "duration": 4.0
+  },
+  {
+    "text": "another part of the internet. Part of",
+    "start": 480.8,
+    "duration": 5.44
+  },
+  {
+    "text": "that information that is sometimes sent",
+    "start": 483.36,
+    "duration": 5.119
+  },
+  {
+    "text": "is your IP address. It's kind of within",
+    "start": 486.24,
+    "duration": 4.0
+  },
+  {
+    "text": "the name. It's kind of just a way to",
+    "start": 488.479,
+    "duration": 5.28
+  },
+  {
+    "text": "identify your device in the sea of",
+    "start": 490.24,
+    "duration": 7.639
+  },
+  {
+    "text": "everything within the internet.",
+    "start": 493.759,
+    "duration": 4.12
+  },
+  {
+    "text": "Randomly generate a 4bit binary number",
+    "start": 498.0,
+    "duration": 7.36
+  },
+  {
+    "text": "and convert it to decimal. All right.",
+    "start": 501.599,
+    "duration": 6.72
+  },
+  {
+    "text": "Um we'll just do",
+    "start": 505.36,
+    "duration": 4.64
+  },
+  {
+    "text": "something simple.",
+    "start": 508.319,
+    "duration": 4.16
+  },
+  {
+    "text": "Um we know that binary works in",
+    "start": 510.0,
+    "duration": 6.0
+  },
+  {
+    "text": "multiples of two. So if we go eight,",
+    "start": 512.479,
+    "duration": 6.321
+  },
+  {
+    "text": "four,",
+    "start": 516.0,
+    "duration": 5.44
+  },
+  {
+    "text": "two,",
+    "start": 518.8,
+    "duration": 5.2
+  },
+  {
+    "text": "and one,",
+    "start": 521.44,
+    "duration": 5.12
+  },
+  {
+    "text": "and our random",
+    "start": 524.0,
+    "duration": 5.68
+  },
+  {
+    "text": "our random number is uh let's just do",
+    "start": 526.56,
+    "duration": 4.719
+  },
+  {
+    "text": "one",
+    "start": 529.68,
+    "duration": 7.279
+  },
+  {
+    "text": "one 0 0. That would be like saying 1 * 8",
+    "start": 531.279,
+    "duration": 12.0
+  },
+  {
+    "text": "is 8. 1 * 4 is 4. 2 * 0 is 0. 1 * 0 is",
+    "start": 536.959,
+    "duration": 10.32
+  },
+  {
+    "text": "0. So then it would be 8 + 4",
+    "start": 543.279,
+    "duration": 6.961
+  },
+  {
+    "text": "would equal 13. And that would be your",
+    "start": 547.279,
+    "duration": 5.12
+  },
+  {
+    "text": "two digit that would be your your",
+    "start": 550.24,
+    "duration": 6.64
+  },
+  {
+    "text": "decimal number 13 or 13.",
+    "start": 552.399,
+    "duration": 9.841
+  },
+  {
+    "text": "Um a CPU to a GPU. Um the biggest way uh",
+    "start": 556.88,
+    "duration": 8.079
+  },
+  {
+    "text": "first is of course in their name. Uh,",
+    "start": 562.24,
+    "duration": 5.68
+  },
+  {
+    "text": "CPU stands for a central processing",
+    "start": 564.959,
+    "duration": 6.241
+  },
+  {
+    "text": "unit. Your GPU is a graphical processing",
+    "start": 567.92,
+    "duration": 6.56
+  },
+  {
+    "text": "unit. Um, CPUs are usually smaller.",
+    "start": 571.2,
+    "duration": 5.36
+  },
+  {
+    "text": "They're usually just a little chip. GPUs",
+    "start": 574.48,
+    "duration": 3.76
+  },
+  {
+    "text": "are usually a bit larger, but they",
+    "start": 576.56,
+    "duration": 5.2
+  },
+  {
+    "text": "usually have um, like mine, for example,",
+    "start": 578.24,
+    "duration": 7.52
+  },
+  {
+    "text": "has uh, fans attached to them on both",
+    "start": 581.76,
+    "duration": 5.519
+  },
+  {
+    "text": "sides. And of course, this is not what",
+    "start": 585.76,
+    "duration": 5.92
+  },
+  {
+    "text": "it looks like, but bear with me. Um",
+    "start": 587.279,
+    "duration": 9.441
+  },
+  {
+    "text": "but a CPU is extremely good at running",
+    "start": 591.68,
+    "duration": 8.48
+  },
+  {
+    "text": "one thing really really fast. Um it's",
+    "start": 596.72,
+    "duration": 5.6
+  },
+  {
+    "text": "the way the computer executes everything",
+    "start": 600.16,
+    "duration": 6.32
+  },
+  {
+    "text": "it needs to do. Um yeah so everything",
+    "start": 602.32,
+    "duration": 6.16
+  },
+  {
+    "text": "feeds into the CPU and it is really good",
+    "start": 606.48,
+    "duration": 5.12
+  },
+  {
+    "text": "at running one task at a time. Now a GPU",
+    "start": 608.48,
+    "duration": 4.96
+  },
+  {
+    "text": "stands for graphical processing unit and",
+    "start": 611.6,
+    "duration": 3.359
+  },
+  {
+    "text": "as the name would imply this thing is",
+    "start": 613.44,
+    "duration": 5.92
+  },
+  {
+    "text": "really good at doing graphics. Um I",
+    "start": 614.959,
+    "duration": 5.761
+  },
+  {
+    "text": "believe the way it was described in",
+    "start": 619.36,
+    "duration": 3.2
+  },
+  {
+    "text": "class is that the CPU is the main",
+    "start": 620.72,
+    "duration": 4.4
+  },
+  {
+    "text": "workhorse but the GPU is like a helper",
+    "start": 622.56,
+    "duration": 5.519
+  },
+  {
+    "text": "to it when it comes to",
+    "start": 625.12,
+    "duration": 6.88
+  },
+  {
+    "text": "um to graphical processing. Um so",
+    "start": 628.079,
+    "duration": 5.76
+  },
+  {
+    "text": "this thing as this thing is really good",
+    "start": 632.0,
+    "duration": 4.16
+  },
+  {
+    "text": "at running one thing at a time really",
+    "start": 633.839,
+    "duration": 4.56
+  },
+  {
+    "text": "really fast. This thing is really good",
+    "start": 636.16,
+    "duration": 5.2
+  },
+  {
+    "text": "at running giant equations that help",
+    "start": 638.399,
+    "duration": 4.961
+  },
+  {
+    "text": "generate images and videos or whatever",
+    "start": 641.36,
+    "duration": 5.039
+  },
+  {
+    "text": "you're looking at. So super duper long",
+    "start": 643.36,
+    "duration": 5.12
+  },
+  {
+    "text": "equations. it can crunch those and it's",
+    "start": 646.399,
+    "duration": 5.601
+  },
+  {
+    "text": "more built for that. Um, but yeah, those",
+    "start": 648.48,
+    "duration": 5.52
+  },
+  {
+    "text": "are the big ways that a CPU and a GPU",
+    "start": 652.0,
+    "duration": 4.32
+  },
+  {
+    "text": "are different. Also, one is usually less",
+    "start": 654.0,
+    "duration": 6.12
+  },
+  {
+    "text": "expensive than the other.",
+    "start": 656.32,
+    "duration": 3.8
+  },
+  {
+    "text": "Explain the difference between the",
+    "start": 662.48,
+    "duration": 5.919
+  },
+  {
+    "text": "logical and the physical storage models",
+    "start": 663.92,
+    "duration": 7.2
+  },
+  {
+    "text": "um for a file.",
+    "start": 668.399,
+    "duration": 5.721
+  },
+  {
+    "text": "Um,",
+    "start": 671.12,
+    "duration": 3.0
+  },
+  {
+    "text": "don't remember this one,",
+    "start": 676.64,
+    "duration": 5.12
+  },
+  {
+    "text": "but um, if I had to venture, I guess I",
+    "start": 679.76,
+    "duration": 4.24
+  },
+  {
+    "text": "believe the logical",
+    "start": 681.76,
+    "duration": 5.84
+  },
+  {
+    "text": "is where on my",
+    "start": 684.0,
+    "duration": 6.16
+  },
+  {
+    "text": "desktop can I find that within my app?",
+    "start": 687.6,
+    "duration": 5.84
+  },
+  {
+    "text": "So, can I find that within where inside",
+    "start": 690.16,
+    "duration": 6.72
+  },
+  {
+    "text": "of file explorer?",
+    "start": 693.44,
+    "duration": 5.2
+  },
+  {
+    "text": "Um, I know it's a horrible drawing, but",
+    "start": 696.88,
+    "duration": 4.24
+  },
+  {
+    "text": "where inside of it can I find that?",
+    "start": 698.64,
+    "duration": 6.0
+  },
+  {
+    "text": "While physical storage is is where it",
+    "start": 701.12,
+    "duration": 6.159
+  },
+  {
+    "text": "actually is physically on your computer,",
+    "start": 704.64,
+    "duration": 4.8
+  },
+  {
+    "text": "depending on what kind of device it is.",
+    "start": 707.279,
+    "duration": 5.521
+  },
+  {
+    "text": "So, is it in your magnetic? Is it in",
+    "start": 709.44,
+    "duration": 7.76
+  },
+  {
+    "text": "your optical? Is it in your um your USB",
+    "start": 712.8,
+    "duration": 7.2
+  },
+  {
+    "text": "stick? Is it in your your your",
+    "start": 717.2,
+    "duration": 4.879
+  },
+  {
+    "text": "stick attached to the motherboard? Where",
+    "start": 720.0,
+    "duration": 4.0
+  },
+  {
+    "text": "is it physically on your computer? If we",
+    "start": 722.079,
+    "duration": 3.76
+  },
+  {
+    "text": "draw a motherboard, I believe if I draw",
+    "start": 724.0,
+    "duration": 4.48
+  },
+  {
+    "text": "my own, I believe I have my",
+    "start": 725.839,
+    "duration": 5.201
+  },
+  {
+    "text": "CPU here. I have my two sticks of RAM",
+    "start": 728.48,
+    "duration": 4.64
+  },
+  {
+    "text": "right here. And then I believe somewhere",
+    "start": 731.04,
+    "duration": 5.12
+  },
+  {
+    "text": "else my terabytes plug in somewhere in",
+    "start": 733.12,
+    "duration": 5.36
+  },
+  {
+    "text": "there. Um, so I believe that's what the",
+    "start": 736.16,
+    "duration": 3.919
+  },
+  {
+    "text": "difference was, but I I don't think this",
+    "start": 738.48,
+    "duration": 4.72
+  },
+  {
+    "text": "one's right. But yeah,",
+    "start": 740.079,
+    "duration": 5.44
+  },
+  {
+    "text": "explain what a database is. Sure. Um,",
+    "start": 743.2,
+    "duration": 3.6
+  },
+  {
+    "text": "I'm going to go back to this one. I'm",
+    "start": 745.519,
+    "duration": 5.44
+  },
+  {
+    "text": "not going to redraw it. But um when your",
+    "start": 746.8,
+    "duration": 6.08
+  },
+  {
+    "text": "computer accesses the internet to the",
+    "start": 750.959,
+    "duration": 4.161
+  },
+  {
+    "text": "web server, this web server may be",
+    "start": 752.88,
+    "duration": 3.519
+  },
+  {
+    "text": "connected with a database, which I",
+    "start": 755.12,
+    "duration": 2.719
+  },
+  {
+    "text": "called this a data server earlier, but",
+    "start": 756.399,
+    "duration": 3.521
+  },
+  {
+    "text": "what I really meant was a database. Um I",
+    "start": 757.839,
+    "duration": 7.481
+  },
+  {
+    "text": "just erase this really quick. Um,",
+    "start": 759.92,
+    "duration": 5.4
+  },
+  {
+    "text": "but",
+    "start": 765.68,
+    "duration": 4.32
+  },
+  {
+    "text": "the web server itself doesn't",
+    "start": 767.279,
+    "duration": 5.201
+  },
+  {
+    "text": "necessarily have",
+    "start": 770.0,
+    "duration": 5.279
+  },
+  {
+    "text": "all the information that it needs",
+    "start": 772.48,
+    "duration": 5.599
+  },
+  {
+    "text": "sometimes to send back",
+    "start": 775.279,
+    "duration": 5.36
+  },
+  {
+    "text": "to send back to your computer. Um, so",
+    "start": 778.079,
+    "duration": 4.56
+  },
+  {
+    "text": "what it'll do is it'll receive the",
+    "start": 780.639,
+    "duration": 3.921
+  },
+  {
+    "text": "request from your computer coming along",
+    "start": 782.639,
+    "duration": 3.601
+  },
+  {
+    "text": "here and then it'll be like, hey",
+    "start": 784.56,
+    "duration": 4.64
+  },
+  {
+    "text": "database, I need X, right? Okay. And the",
+    "start": 786.24,
+    "duration": 4.64
+  },
+  {
+    "text": "database will be like, okay, I have that",
+    "start": 789.2,
+    "duration": 4.16
+  },
+  {
+    "text": "stored here. And then it'll send it X",
+    "start": 790.88,
+    "duration": 4.48
+  },
+  {
+    "text": "back to the server and then that web",
+    "start": 793.36,
+    "duration": 5.52
+  },
+  {
+    "text": "server in turn. Um, but realistically,",
+    "start": 795.36,
+    "duration": 5.44
+  },
+  {
+    "text": "you could also just describe a database",
+    "start": 798.88,
+    "duration": 4.814
+  },
+  {
+    "text": "as a um",
+    "start": 800.8,
+    "duration": 4.32
+  },
+  {
+    "text": "[sighs]",
+    "start": 803.694,
+    "duration": 3.666
+  },
+  {
+    "text": "I don't know, just an internet storage",
+    "start": 805.12,
+    "duration": 4.32
+  },
+  {
+    "text": "area basically",
+    "start": 807.36,
+    "duration": 3.919
+  },
+  {
+    "text": "uh within this little ecosystem. It's",
+    "start": 809.44,
+    "duration": 3.519
+  },
+  {
+    "text": "just the storage area. It's it storage",
+    "start": 811.279,
+    "duration": 3.441
+  },
+  {
+    "text": "space um for anything and everything",
+    "start": 812.959,
+    "duration": 3.921
+  },
+  {
+    "text": "that it may need. Um and again there may",
+    "start": 814.72,
+    "duration": 4.32
+  },
+  {
+    "text": "be a person whose job is to manage this",
+    "start": 816.88,
+    "duration": 6.519
+  },
+  {
+    "text": "database to keep everything else running",
+    "start": 819.04,
+    "duration": 4.359
+  },
+  {
+    "text": "I I I think I pretty much just answered",
+    "start": 826.079,
+    "duration": 5.44
+  },
+  {
+    "text": "that question but I'll I'll do it again.",
+    "start": 828.959,
+    "duration": 5.68
+  },
+  {
+    "text": "Um your browser which I'll I'll draw",
+    "start": 831.519,
+    "duration": 7.361
+  },
+  {
+    "text": "right here. I just put a a browser sends",
+    "start": 834.639,
+    "duration": 7.281
+  },
+  {
+    "text": "out a request to here to the web server",
+    "start": 838.88,
+    "duration": 5.84
+  },
+  {
+    "text": "saying hey I need this this and this",
+    "start": 841.92,
+    "duration": 5.12
+  },
+  {
+    "text": "from your website and I also it also",
+    "start": 844.72,
+    "duration": 4.0
+  },
+  {
+    "text": "sends a package of information along",
+    "start": 847.04,
+    "duration": 4.08
+  },
+  {
+    "text": "with that. Uh the web server receives",
+    "start": 848.72,
+    "duration": 4.88
+  },
+  {
+    "text": "the quest it says okay I have this but",
+    "start": 851.12,
+    "duration": 5.44
+  },
+  {
+    "text": "I'm missing this this and this. It goes",
+    "start": 853.6,
+    "duration": 5.679
+  },
+  {
+    "text": "to the database. Uh the database sends",
+    "start": 856.56,
+    "duration": 4.8
+  },
+  {
+    "text": "back what it needs and the web server",
+    "start": 859.279,
+    "duration": 4.161
+  },
+  {
+    "text": "sends it back to your computer. So kind",
+    "start": 861.36,
+    "duration": 3.52
+  },
+  {
+    "text": "of just how I explained it. That's funny",
+    "start": 863.44,
+    "duration": 2.88
+  },
+  {
+    "text": "how those two are right next to each",
+    "start": 864.88,
+    "duration": 3.84
+  },
+  {
+    "text": "other.",
+    "start": 866.32,
+    "duration": 4.879
+  },
+  {
+    "text": "How might a pair of numbers like a 2D",
+    "start": 868.72,
+    "duration": 5.28
+  },
+  {
+    "text": "coordinate be encoded as a singular",
+    "start": 871.199,
+    "duration": 4.561
+  },
+  {
+    "text": "number?",
+    "start": 874.0,
+    "duration": 4.8
+  },
+  {
+    "text": "Um I don't remember exactly how to do",
+    "start": 875.76,
+    "duration": 4.72
+  },
+  {
+    "text": "it, but what I do remember is that this",
+    "start": 878.8,
+    "duration": 3.599
+  },
+  {
+    "text": "was driven as a graph of course because",
+    "start": 880.48,
+    "duration": 3.68
+  },
+  {
+    "text": "a coordinate",
+    "start": 882.399,
+    "duration": 3.361
+  },
+  {
+    "text": "um",
+    "start": 884.16,
+    "duration": 3.44
+  },
+  {
+    "text": "and say you had a coordinate of one,",
+    "start": 885.76,
+    "duration": 4.639
+  },
+  {
+    "text": "two, three, four, five, uh five and",
+    "start": 887.6,
+    "duration": 5.12
+  },
+  {
+    "text": "five. You could draw the graph and it",
+    "start": 890.399,
+    "duration": 4.88
+  },
+  {
+    "text": "would look like this. Um, and I don't",
+    "start": 892.72,
+    "duration": 4.08
+  },
+  {
+    "text": "remember what the equation, but I",
+    "start": 895.279,
+    "duration": 4.721
+  },
+  {
+    "text": "remember that you could plug it into an",
+    "start": 896.8,
+    "duration": 7.12
+  },
+  {
+    "text": "equation. Um, and then you could reverse",
+    "start": 900.0,
+    "duration": 6.48
+  },
+  {
+    "text": "that as well to get back the number that",
+    "start": 903.92,
+    "duration": 6.08
+  },
+  {
+    "text": "you used to have beforehand. Um, of I",
+    "start": 906.48,
+    "duration": 5.599
+  },
+  {
+    "text": "unfortunately don't remember what the",
+    "start": 910.0,
+    "duration": 3.92
+  },
+  {
+    "text": "equation is. I'll have to put that in",
+    "start": 912.079,
+    "duration": 4.721
+  },
+  {
+    "text": "memory for later. But um there is an",
+    "start": 913.92,
+    "duration": 5.44
+  },
+  {
+    "text": "equation to transfer",
+    "start": 916.8,
+    "duration": 6.32
+  },
+  {
+    "text": "uh what would be this would be x5 and y5",
+    "start": 919.36,
+    "duration": 6.479
+  },
+  {
+    "text": "uh into a single number. Um or it may",
+    "start": 923.12,
+    "duration": 4.959
+  },
+  {
+    "text": "just be as simple as saying it's 55. But",
+    "start": 925.839,
+    "duration": 4.081
+  },
+  {
+    "text": "I I guess that would also depend on how",
+    "start": 928.079,
+    "duration": 3.841
+  },
+  {
+    "text": "your computer translates numbers when it",
+    "start": 929.92,
+    "duration": 5.44
+  },
+  {
+    "text": "receives this. So yeah,",
+    "start": 931.92,
+    "duration": 4.96
+  },
+  {
+    "text": "name three web applications you have",
+    "start": 935.36,
+    "duration": 3.279
+  },
+  {
+    "text": "used and explain what makes them useful.",
+    "start": 936.88,
+    "duration": 5.12
+  },
+  {
+    "text": "Um well, I use Zoom for my classes. Um",
+    "start": 938.639,
+    "duration": 5.521
+  },
+  {
+    "text": "my Breton classes at least. I I have to",
+    "start": 942.0,
+    "duration": 4.0
+  },
+  {
+    "text": "go into my my one Shelton class in",
+    "start": 944.16,
+    "duration": 4.4
+  },
+  {
+    "text": "person, but um I use Zoom to attend both",
+    "start": 946.0,
+    "duration": 4.399
+  },
+  {
+    "text": "of my computer classes. I was, as you",
+    "start": 948.56,
+    "duration": 4.32
+  },
+  {
+    "text": "know, I was going in person uh for the",
+    "start": 950.399,
+    "duration": 4.0
+  },
+  {
+    "text": "first few weeks, but I felt comfortable",
+    "start": 952.88,
+    "duration": 3.68
+  },
+  {
+    "text": "enough with this class. I live about 45",
+    "start": 954.399,
+    "duration": 4.161
+  },
+  {
+    "text": "minutes away, so I felt comfortable",
+    "start": 956.56,
+    "duration": 4.32
+  },
+  {
+    "text": "enough to stay at home and save myself",
+    "start": 958.56,
+    "duration": 4.32
+  },
+  {
+    "text": "the gas money in the trip. And uh Zoom",
+    "start": 960.88,
+    "duration": 3.92
+  },
+  {
+    "text": "is a great re resource for that. Uh",
+    "start": 962.88,
+    "duration": 4.16
+  },
+  {
+    "text": "helps me attend uh remotely, which is",
+    "start": 964.8,
+    "duration": 5.2
+  },
+  {
+    "text": "great. Uh, I use Hotmail as my personal",
+    "start": 967.04,
+    "duration": 4.799
+  },
+  {
+    "text": "um",
+    "start": 970.0,
+    "duration": 3.36
+  },
+  {
+    "text": "personal",
+    "start": 971.839,
+    "duration": 3.521
+  },
+  {
+    "text": "email. As you can see, you can't um if I",
+    "start": 973.36,
+    "duration": 5.36
+  },
+  {
+    "text": "adjust this. Oops. Um camera. You see I",
+    "start": 975.36,
+    "duration": 5.76
+  },
+  {
+    "text": "I have it up here in the corner. Um I",
+    "start": 978.72,
+    "duration": 4.559
+  },
+  {
+    "text": "use I there there isn't a day that",
+    "start": 981.12,
+    "duration": 4.24
+  },
+  {
+    "text": "really goes by um without me using",
+    "start": 983.279,
+    "duration": 6.48
+  },
+  {
+    "text": "Hotmail. Um yeah, it's great. Um good",
+    "start": 985.36,
+    "duration": 6.399
+  },
+  {
+    "text": "email. I like it a lot. Um, and then",
+    "start": 989.759,
+    "duration": 3.76
+  },
+  {
+    "text": "lastly,",
+    "start": 991.759,
+    "duration": 6.161
+  },
+  {
+    "text": "um, I use Google Docs a lot, which is",
+    "start": 993.519,
+    "duration": 6.961
+  },
+  {
+    "text": "great because",
+    "start": 997.92,
+    "duration": 4.8
+  },
+  {
+    "text": "uh, helps me keep me organized, helps me",
+    "start": 1000.48,
+    "duration": 5.359
+  },
+  {
+    "text": "write my notes, uh, sometimes, and also",
+    "start": 1002.72,
+    "duration": 5.2
+  },
+  {
+    "text": "I used to use it professionally before I",
+    "start": 1005.839,
+    "duration": 3.92
+  },
+  {
+    "text": "got laid off. Google Docs and Sheets,",
+    "start": 1007.92,
+    "duration": 3.839
+  },
+  {
+    "text": "those kind of fall under the same thing.",
+    "start": 1009.759,
+    "duration": 4.161
+  },
+  {
+    "text": "Um, but, uh, yeah, those are three web",
+    "start": 1011.759,
+    "duration": 5.44
+  },
+  {
+    "text": "applications I use.",
+    "start": 1013.92,
+    "duration": 5.52
+  },
+  {
+    "text": "Of course, those five common HTML tags,",
+    "start": 1017.199,
+    "duration": 4.401
+  },
+  {
+    "text": "I do not remember, despite my hardest",
+    "start": 1019.44,
+    "duration": 5.2
+  },
+  {
+    "text": "efforts, I do not remember what",
+    "start": 1021.6,
+    "duration": 5.28
+  },
+  {
+    "text": "five are off the top of my head, but I",
+    "start": 1024.64,
+    "duration": 4.319
+  },
+  {
+    "text": "do know that they have these brackets",
+    "start": 1026.88,
+    "duration": 4.4
+  },
+  {
+    "text": "around them. And hypertext markup",
+    "start": 1028.959,
+    "duration": 4.161
+  },
+  {
+    "text": "language basically provides structure",
+    "start": 1031.28,
+    "duration": 5.679
+  },
+  {
+    "text": "for the page. Um, where CSS provides",
+    "start": 1033.12,
+    "duration": 7.439
+  },
+  {
+    "text": "styling and JavaScript provides uh input",
+    "start": 1036.959,
+    "duration": 8.161
+  },
+  {
+    "text": "and output uh support. Um, basically",
+    "start": 1040.559,
+    "duration": 6.321
+  },
+  {
+    "text": "this helps structure the page. I know",
+    "start": 1045.12,
+    "duration": 3.52
+  },
+  {
+    "text": "there's a specific one that will bullet",
+    "start": 1046.88,
+    "duration": 4.0
+  },
+  {
+    "text": "point items for you. Don't remember what",
+    "start": 1048.64,
+    "duration": 5.039
+  },
+  {
+    "text": "goes in here, but uh yeah, that's the",
+    "start": 1050.88,
+    "duration": 4.96
+  },
+  {
+    "text": "gist of it is that the HTML tags go",
+    "start": 1053.679,
+    "duration": 5.201
+  },
+  {
+    "text": "inside of these brackets and they form",
+    "start": 1055.84,
+    "duration": 4.719
+  },
+  {
+    "text": "uh whatever instructions that you want",
+    "start": 1058.88,
+    "duration": 4.84
+  },
+  {
+    "text": "to do.",
+    "start": 1060.559,
+    "duration": 3.161
+  },
+  {
+    "text": "Um what's the point of the fair use",
+    "start": 1064.24,
+    "duration": 4.0
+  },
+  {
+    "text": "doctrine? Basically,",
+    "start": 1066.0,
+    "duration": 5.24
+  },
+  {
+    "text": "um,",
+    "start": 1068.24,
+    "duration": 3.0
+  },
+  {
+    "text": "when you want to use something else that",
+    "start": 1071.36,
+    "duration": 4.72
+  },
+  {
+    "text": "someone else has created and most likely",
+    "start": 1074.16,
+    "duration": 4.32
+  },
+  {
+    "text": "copyrighted, you want to use it. You",
+    "start": 1076.08,
+    "duration": 6.08
+  },
+  {
+    "text": "want to show it to other people. Um, but",
+    "start": 1078.48,
+    "duration": 5.36
+  },
+  {
+    "text": "you don't necessarily want to make money",
+    "start": 1082.16,
+    "duration": 3.759
+  },
+  {
+    "text": "off of it. You just want to show other",
+    "start": 1083.84,
+    "duration": 3.68
+  },
+  {
+    "text": "people. The example that was talked",
+    "start": 1085.919,
+    "duration": 4.481
+  },
+  {
+    "text": "about a lot in class is",
+    "start": 1087.52,
+    "duration": 5.68
+  },
+  {
+    "text": "um, the idea of showing a YouTube video",
+    "start": 1090.4,
+    "duration": 6.32
+  },
+  {
+    "text": "in class, right? But there's factors",
+    "start": 1093.2,
+    "duration": 6.719
+  },
+  {
+    "text": "that characterize that um such as uh how",
+    "start": 1096.72,
+    "duration": 5.92
+  },
+  {
+    "text": "much of it or uh yeah how much of it are",
+    "start": 1099.919,
+    "duration": 4.561
+  },
+  {
+    "text": "you showing if we use the example of a",
+    "start": 1102.64,
+    "duration": 6.32
+  },
+  {
+    "text": "video uh you know how much",
+    "start": 1104.48,
+    "duration": 7.52
+  },
+  {
+    "text": "um I I I don't remember if this one",
+    "start": 1108.96,
+    "duration": 5.04
+  },
+  {
+    "text": "falls under but like what is your um",
+    "start": 1112.0,
+    "duration": 4.16
+  },
+  {
+    "text": "I'll actually just type this one out. Um",
+    "start": 1114.0,
+    "duration": 5.6
+  },
+  {
+    "text": "how much um what is like your your your",
+    "start": 1116.16,
+    "duration": 6.399
+  },
+  {
+    "text": "um intention",
+    "start": 1119.6,
+    "duration": 5.439
+  },
+  {
+    "text": "uh with the video, right?",
+    "start": 1122.559,
+    "duration": 4.561
+  },
+  {
+    "text": "um",
+    "start": 1125.039,
+    "duration": 4.721
+  },
+  {
+    "text": "intention. Um will you be making a",
+    "start": 1127.12,
+    "duration": 4.88
+  },
+  {
+    "text": "profit off of this? Are you changing",
+    "start": 1129.76,
+    "duration": 4.96
+  },
+  {
+    "text": "what the video was before?",
+    "start": 1132.0,
+    "duration": 6.72
+  },
+  {
+    "text": "Um but yeah, it's basically just to stop",
+    "start": 1134.72,
+    "duration": 7.199
+  },
+  {
+    "text": "it's basically to allow people to share",
+    "start": 1138.72,
+    "duration": 6.24
+  },
+  {
+    "text": "other people's content without outright",
+    "start": 1141.919,
+    "duration": 4.961
+  },
+  {
+    "text": "stealing it or claiming that it's their",
+    "start": 1144.96,
+    "duration": 4.24
+  },
+  {
+    "text": "own. Uh, it's a pretty big problem I",
+    "start": 1146.88,
+    "duration": 5.52
+  },
+  {
+    "text": "know on YouTube, but um, yeah, that's a",
+    "start": 1149.2,
+    "duration": 7.08
+  },
+  {
+    "text": "pretty basic explanation.",
+    "start": 1152.4,
+    "duration": 3.88
+  },
+  {
+    "text": "[sighs]",
+    "start": 1158.053,
+    "duration": 2.02
+  },
+  {
+    "text": "Wow. Um, describe the stored program",
+    "start": 1160.72,
+    "duration": 4.4
+  },
+  {
+    "text": "concept and why it distinguishes",
+    "start": 1163.44,
+    "duration": 5.119
+  },
+  {
+    "text": "computers from other simpler devices.",
+    "start": 1165.12,
+    "duration": 5.04
+  },
+  {
+    "text": "Um,",
+    "start": 1168.559,
+    "duration": 3.281
+  },
+  {
+    "text": "well, I would assume that since we're",
+    "start": 1170.16,
+    "duration": 4.08
+  },
+  {
+    "text": "talking about stored programs, a",
+    "start": 1171.84,
+    "duration": 5.52
+  },
+  {
+    "text": "computer has the ability to",
+    "start": 1174.24,
+    "duration": 5.28
+  },
+  {
+    "text": "boot up every time. Uh, and this is",
+    "start": 1177.36,
+    "duration": 5.28
+  },
+  {
+    "text": "thanks to ROM,",
+    "start": 1179.52,
+    "duration": 6.08
+  },
+  {
+    "text": "uh, which stores the operating system",
+    "start": 1182.64,
+    "duration": 4.8
+  },
+  {
+    "text": "inside of the operating system, the boot",
+    "start": 1185.6,
+    "duration": 3.6
+  },
+  {
+    "text": "up instructions.",
+    "start": 1187.44,
+    "duration": 5.44
+  },
+  {
+    "text": "Um, so being to have stored programs on",
+    "start": 1189.2,
+    "duration": 7.359
+  },
+  {
+    "text": "the computer like that allows it to",
+    "start": 1192.88,
+    "duration": 6.88
+  },
+  {
+    "text": "keep information to keep starting itself",
+    "start": 1196.559,
+    "duration": 6.401
+  },
+  {
+    "text": "over and over again. Um, I'm not I'm not",
+    "start": 1199.76,
+    "duration": 5.84
+  },
+  {
+    "text": "entirely sure",
+    "start": 1202.96,
+    "duration": 6.64
+  },
+  {
+    "text": "why what a simpler device qualifies as.",
+    "start": 1205.6,
+    "duration": 7.36
+  },
+  {
+    "text": "Um, but yeah, if I if I don't I don't",
+    "start": 1209.6,
+    "duration": 4.72
+  },
+  {
+    "text": "exactly remember this one, but if I had",
+    "start": 1212.96,
+    "duration": 2.719
+  },
+  {
+    "text": "to throw my hat in the ring, it would",
+    "start": 1214.32,
+    "duration": 6.599
+  },
+  {
+    "text": "be, you know, um,",
+    "start": 1215.679,
+    "duration": 5.24
+  },
+  {
+    "text": "you know, the ability to keep",
+    "start": 1222.08,
+    "duration": 4.24
+  },
+  {
+    "text": "information on the computer without",
+    "start": 1224.799,
+    "duration": 4.0
+  },
+  {
+    "text": "losing it",
+    "start": 1226.32,
+    "duration": 4.88
+  },
+  {
+    "text": "in a pastime was a lot harder than it is",
+    "start": 1228.799,
+    "duration": 5.12
+  },
+  {
+    "text": "now is what I'll say. Um, because you",
+    "start": 1231.2,
+    "duration": 4.32
+  },
+  {
+    "text": "can store way more information. There's",
+    "start": 1233.919,
+    "duration": 3.201
+  },
+  {
+    "text": "way better ways to store information",
+    "start": 1235.52,
+    "duration": 3.76
+  },
+  {
+    "text": "than there was in the past. So that's",
+    "start": 1237.12,
+    "duration": 5.36
+  },
+  {
+    "text": "what I would say.",
+    "start": 1239.28,
+    "duration": 5.6
+  },
+  {
+    "text": "IO devices, IO stands for input and",
+    "start": 1242.48,
+    "duration": 5.04
+  },
+  {
+    "text": "output. Input devices, for example, are",
+    "start": 1244.88,
+    "duration": 4.56
+  },
+  {
+    "text": "a mouse,",
+    "start": 1247.52,
+    "duration": 6.08
+  },
+  {
+    "text": "uh a crudely drawn mouse, um a keyboard,",
+    "start": 1249.44,
+    "duration": 8.68
+  },
+  {
+    "text": "uh something like a controller.",
+    "start": 1253.6,
+    "duration": 4.52
+  },
+  {
+    "text": "And these are important because these",
+    "start": 1258.24,
+    "duration": 4.08
+  },
+  {
+    "text": "allow us to interact",
+    "start": 1259.84,
+    "duration": 5.839
+  },
+  {
+    "text": "with our PC. But when we interact with",
+    "start": 1262.32,
+    "duration": 5.44
+  },
+  {
+    "text": "our PC, we're sending it instructions to",
+    "start": 1265.679,
+    "duration": 3.281
+  },
+  {
+    "text": "do something. And when those",
+    "start": 1267.76,
+    "duration": 2.799
+  },
+  {
+    "text": "instructions are done, they are outputed",
+    "start": 1268.96,
+    "duration": 3.12
+  },
+  {
+    "text": "to us. So that may be in the form of",
+    "start": 1270.559,
+    "duration": 3.681
+  },
+  {
+    "text": "like a speaker",
+    "start": 1272.08,
+    "duration": 7.719
+  },
+  {
+    "text": "or um a monitor.",
+    "start": 1274.24,
+    "duration": 5.559
+  },
+  {
+    "text": "Um and sometimes the input devices we",
+    "start": 1280.24,
+    "duration": 6.48
+  },
+  {
+    "text": "see an there's a correlation when we use",
+    "start": 1284.08,
+    "duration": 4.32
+  },
+  {
+    "text": "a controller to play a game on a",
+    "start": 1286.72,
+    "duration": 4.16
+  },
+  {
+    "text": "monitor. We're seeing how our controller",
+    "start": 1288.4,
+    "duration": 5.04
+  },
+  {
+    "text": "is affecting the game on the monitor.",
+    "start": 1290.88,
+    "duration": 4.24
+  },
+  {
+    "text": "But in reality, it's going through the",
+    "start": 1293.44,
+    "duration": 3.76
+  },
+  {
+    "text": "steps of okay, the input just got put",
+    "start": 1295.12,
+    "duration": 4.48
+  },
+  {
+    "text": "in. Go to the computer, run that, run",
+    "start": 1297.2,
+    "duration": 5.76
+  },
+  {
+    "text": "that command, run that, not command, but",
+    "start": 1299.6,
+    "duration": 6.84
+  },
+  {
+    "text": "you know, run",
+    "start": 1302.96,
+    "duration": 3.48
+  },
+  {
+    "text": "that input. Okay. Output it back onto",
+    "start": 1308.24,
+    "duration": 4.24
+  },
+  {
+    "text": "the monitor. Um, and that's just a few",
+    "start": 1310.72,
+    "duration": 5.845
+  },
+  {
+    "text": "of them. There's a lot more, but yeah.",
+    "start": 1312.48,
+    "duration": 5.04
+  },
+  {
+    "text": "[gasps]",
+    "start": 1316.565,
+    "duration": 2.635
+  },
+  {
+    "text": "Um, I'm just going to go back to this",
+    "start": 1317.52,
+    "duration": 5.2
+  },
+  {
+    "text": "one again. Um",
+    "start": 1319.2,
+    "duration": 6.16
+  },
+  {
+    "text": "the IPO model is basically just this.",
+    "start": 1322.72,
+    "duration": 6.0
+  },
+  {
+    "text": "You input something with a key keyboard",
+    "start": 1325.36,
+    "duration": 6.0
+  },
+  {
+    "text": "controller computer. That instruction is",
+    "start": 1328.72,
+    "duration": 4.88
+  },
+  {
+    "text": "sent to be processed inside the PC with",
+    "start": 1331.36,
+    "duration": 6.48
+  },
+  {
+    "text": "the CPU and then that is outputed onto",
+    "start": 1333.6,
+    "duration": 6.72
+  },
+  {
+    "text": "an output device like a speaker, a",
+    "start": 1337.84,
+    "duration": 8.04
+  },
+  {
+    "text": "monitor. Um yeah,",
+    "start": 1340.32,
+    "duration": 5.56
+  },
+  {
+    "text": "explain how our processor works. Um,",
+    "start": 1346.559,
+    "duration": 5.281
+  },
+  {
+    "text": "simply put, instructions are flown in to",
+    "start": 1348.72,
+    "duration": 5.28
+  },
+  {
+    "text": "the computer and to something like the",
+    "start": 1351.84,
+    "duration": 4.24
+  },
+  {
+    "text": "CPU which has the word processing in it,",
+    "start": 1354.0,
+    "duration": 4.799
+  },
+  {
+    "text": "central processing unit. Instructions",
+    "start": 1356.08,
+    "duration": 5.76
+  },
+  {
+    "text": "are flown in through whatever means uh",
+    "start": 1358.799,
+    "duration": 6.321
+  },
+  {
+    "text": "most of the time it's an input device",
+    "start": 1361.84,
+    "duration": 5.6
+  },
+  {
+    "text": "uh or just something from the computer",
+    "start": 1365.12,
+    "duration": 4.559
+  },
+  {
+    "text": "comes into the CPU. CPU reads those",
+    "start": 1367.44,
+    "duration": 4.96
+  },
+  {
+    "text": "instructions and executes them and then",
+    "start": 1369.679,
+    "duration": 5.441
+  },
+  {
+    "text": "sends them out with an output with",
+    "start": 1372.4,
+    "duration": 7.68
+  },
+  {
+    "text": "whatever that might be. Um",
+    "start": 1375.12,
+    "duration": 6.96
+  },
+  {
+    "text": "but",
+    "start": 1380.08,
+    "duration": 4.64
+  },
+  {
+    "text": "um to be more specific, maybe this isn't",
+    "start": 1382.08,
+    "duration": 4.32
+  },
+  {
+    "text": "necessary, but the CPU is usually",
+    "start": 1384.72,
+    "duration": 5.439
+  },
+  {
+    "text": "connected to RAM. So what it'll do is it",
+    "start": 1386.4,
+    "duration": 7.04
+  },
+  {
+    "text": "will store information",
+    "start": 1390.159,
+    "duration": 5.601
+  },
+  {
+    "text": "in certain parts of it and be like,",
+    "start": 1393.44,
+    "duration": 4.32
+  },
+  {
+    "text": "okay, we need to run these parts of it",
+    "start": 1395.76,
+    "duration": 5.12
+  },
+  {
+    "text": "right now to get to this right here. Um",
+    "start": 1397.76,
+    "duration": 8.24
+  },
+  {
+    "text": "if that makes sense. So yeah,",
+    "start": 1400.88,
+    "duration": 7.84
+  },
+  {
+    "text": "binary is zeros and ones. That's simply",
+    "start": 1406.0,
+    "duration": 6.559
+  },
+  {
+    "text": "what binary is. Um, computers use it",
+    "start": 1408.72,
+    "duration": 5.04
+  },
+  {
+    "text": "because it's the language that the",
+    "start": 1412.559,
+    "duration": 3.681
+  },
+  {
+    "text": "computers run off of. I believe in class",
+    "start": 1413.76,
+    "duration": 4.159
+  },
+  {
+    "text": "you described it as it was just the",
+    "start": 1416.24,
+    "duration": 4.08
+  },
+  {
+    "text": "thing that was chosen when computers",
+    "start": 1417.919,
+    "duration": 4.0
+  },
+  {
+    "text": "were first being made and it's what it's",
+    "start": 1420.32,
+    "duration": 3.44
+  },
+  {
+    "text": "what stuck.",
+    "start": 1421.919,
+    "duration": 4.721
+  },
+  {
+    "text": "So binary is just a computer language of",
+    "start": 1423.76,
+    "duration": 5.52
+  },
+  {
+    "text": "zeros and ones and they use it because",
+    "start": 1426.64,
+    "duration": 4.72
+  },
+  {
+    "text": "pretty much every I I don't think there",
+    "start": 1429.28,
+    "duration": 4.08
+  },
+  {
+    "text": "is a computer that doesn't use binary to",
+    "start": 1431.36,
+    "duration": 4.64
+  },
+  {
+    "text": "some extent. So um yeah it's basically",
+    "start": 1433.36,
+    "duration": 7.72
+  },
+  {
+    "text": "the DNA of a computer is binary",
+    "start": 1436.0,
+    "duration": 5.08
+  },
+  {
+    "text": "cloud services that you may use in a",
+    "start": 1441.679,
+    "duration": 6.321
+  },
+  {
+    "text": "daily life. Um one drive is one. It's",
+    "start": 1443.679,
+    "duration": 6.0
+  },
+  {
+    "text": "connected to my email account. You can",
+    "start": 1448.0,
+    "duration": 3.52
+  },
+  {
+    "text": "save and upload things onto one drive",
+    "start": 1449.679,
+    "duration": 4.0
+  },
+  {
+    "text": "which is great.",
+    "start": 1451.52,
+    "duration": 5.159
+  },
+  {
+    "text": "um",
+    "start": 1453.679,
+    "duration": 3.0
+  },
+  {
+    "text": "cloud services.",
+    "start": 1458.08,
+    "duration": 5.0
+  },
+  {
+    "text": "Um",
+    "start": 1460.08,
+    "duration": 3.0
+  },
+  {
+    "text": "I know Amazon Web Services is a big one.",
+    "start": 1463.12,
+    "duration": 4.159
+  },
+  {
+    "text": "They provide a lot of things like you",
+    "start": 1465.2,
+    "duration": 5.68
+  },
+  {
+    "text": "can uh um",
+    "start": 1467.279,
+    "duration": 5.841
+  },
+  {
+    "text": "I know Amazon Web Services supports a",
+    "start": 1470.88,
+    "duration": 4.88
+  },
+  {
+    "text": "lot of games that I play. So, if Amazon",
+    "start": 1473.12,
+    "duration": 5.28
+  },
+  {
+    "text": "Web Services goes down, that means you",
+    "start": 1475.76,
+    "duration": 5.36
+  },
+  {
+    "text": "can't necessarily use you can't",
+    "start": 1478.4,
+    "duration": 4.24
+  },
+  {
+    "text": "sometimes you can't play the games that",
+    "start": 1481.12,
+    "duration": 5.84
+  },
+  {
+    "text": "they're associated with. Um,",
+    "start": 1482.64,
+    "duration": 9.24
+  },
+  {
+    "text": "cloud services, One Drive.",
+    "start": 1486.96,
+    "duration": 4.92
+  },
+  {
+    "text": "Um,",
+    "start": 1493.279,
+    "duration": 3.52
+  },
+  {
+    "text": "I don't use it, but I know for example,",
+    "start": 1494.799,
+    "duration": 4.801
+  },
+  {
+    "text": "you can purchase the ability to use a",
+    "start": 1496.799,
+    "duration": 6.161
+  },
+  {
+    "text": "computer that's in the cloud. basically",
+    "start": 1499.6,
+    "duration": 5.36
+  },
+  {
+    "text": "uh like a remote computer that's in the",
+    "start": 1502.96,
+    "duration": 4.0
+  },
+  {
+    "text": "cloud. It allows you to run a computer",
+    "start": 1504.96,
+    "duration": 4.079
+  },
+  {
+    "text": "from your home. Um and that's an",
+    "start": 1506.96,
+    "duration": 3.76
+  },
+  {
+    "text": "example. I've never used one, but that's",
+    "start": 1509.039,
+    "duration": 3.361
+  },
+  {
+    "text": "an example. I honestly don't use much",
+    "start": 1510.72,
+    "duration": 4.319
+  },
+  {
+    "text": "cloud services besides one drive. So, um",
+    "start": 1512.4,
+    "duration": 6.6
+  },
+  {
+    "text": "that's all I'm able to provide.",
+    "start": 1515.039,
+    "duration": 3.961
+  },
+  {
+    "text": "All right. Encryption. Going back to the",
+    "start": 1519.36,
+    "duration": 6.96
+  },
+  {
+    "text": "table of contents model here",
+    "start": 1522.64,
+    "duration": 6.159
+  },
+  {
+    "text": "in between",
+    "start": 1526.32,
+    "duration": 4.08
+  },
+  {
+    "text": "right here and right here there is",
+    "start": 1528.799,
+    "duration": 4.0
+  },
+  {
+    "text": "important information that is being sent",
+    "start": 1530.4,
+    "duration": 4.96
+  },
+  {
+    "text": "back and forth.",
+    "start": 1532.799,
+    "duration": 5.441
+  },
+  {
+    "text": "Unfortunately you may have Mr. Bad guy",
+    "start": 1535.36,
+    "duration": 5.199
+  },
+  {
+    "text": "over here who wants to look at this",
+    "start": 1538.24,
+    "duration": 5.2
+  },
+  {
+    "text": "information that's going back and forth.",
+    "start": 1540.559,
+    "duration": 4.961
+  },
+  {
+    "text": "But what encryption basically does is it",
+    "start": 1543.44,
+    "duration": 4.88
+  },
+  {
+    "text": "takes it and it it basically scrambles",
+    "start": 1545.52,
+    "duration": 5.84
+  },
+  {
+    "text": "it so that it's hard to decipher. Uh",
+    "start": 1548.32,
+    "duration": 4.56
+  },
+  {
+    "text": "when I think of encryption, I think of",
+    "start": 1551.36,
+    "duration": 4.319
+  },
+  {
+    "text": "deciphering. Uh and that's basically",
+    "start": 1552.88,
+    "duration": 5.52
+  },
+  {
+    "text": "what it is. It's encrypting something so",
+    "start": 1555.679,
+    "duration": 6.88
+  },
+  {
+    "text": "that it's protected by uh protected",
+    "start": 1558.4,
+    "duration": 6.0
+  },
+  {
+    "text": "unless you know how to crack the",
+    "start": 1562.559,
+    "duration": 5.36
+  },
+  {
+    "text": "encryption. Um so yeah, it's just an",
+    "start": 1564.4,
+    "duration": 6.0
+  },
+  {
+    "text": "added level of security that prevents",
+    "start": 1567.919,
+    "duration": 4.24
+  },
+  {
+    "text": "people from here from spying on what",
+    "start": 1570.4,
+    "duration": 6.04
+  },
+  {
+    "text": "you're doing. through here.",
+    "start": 1572.159,
+    "duration": 4.281
+  },
+  {
+    "text": "An online intrusion. Um,",
+    "start": 1581.6,
+    "duration": 7.52
+  },
+  {
+    "text": "well, we talk a lot about this and I've",
+    "start": 1586.08,
+    "duration": 5.839
+  },
+  {
+    "text": "already mentioned it in this video, but",
+    "start": 1589.12,
+    "duration": 6.679
+  },
+  {
+    "text": "you might um",
+    "start": 1591.919,
+    "duration": 3.88
+  },
+  {
+    "text": "uh you might have a person who sends you",
+    "start": 1597.12,
+    "duration": 4.24
+  },
+  {
+    "text": "an email that looks real, looks like",
+    "start": 1598.72,
+    "duration": 4.88
+  },
+  {
+    "text": "someone, you know, they send you this",
+    "start": 1601.36,
+    "duration": 4.559
+  },
+  {
+    "text": "bad email",
+    "start": 1603.6,
+    "duration": 6.64
+  },
+  {
+    "text": "um and then you open this email",
+    "start": 1605.919,
+    "duration": 7.36
+  },
+  {
+    "text": "and Um,",
+    "start": 1610.24,
+    "duration": 6.48
+  },
+  {
+    "text": "oh no, look, it sent you to an important",
+    "start": 1613.279,
+    "duration": 7.041
+  },
+  {
+    "text": "website. We'll just say www.bank.",
+    "start": 1616.72,
+    "duration": 6.64
+  },
+  {
+    "text": "And oh no, it's asking you to enter your",
+    "start": 1620.32,
+    "duration": 4.56
+  },
+  {
+    "text": "information and you enter that",
+    "start": 1623.36,
+    "duration": 3.04
+  },
+  {
+    "text": "information.",
+    "start": 1624.88,
+    "duration": 3.76
+  },
+  {
+    "text": "This email has a package that allows it",
+    "start": 1626.4,
+    "duration": 6.0
+  },
+  {
+    "text": "to intercept it and it comes back to",
+    "start": 1628.64,
+    "duration": 6.159
+  },
+  {
+    "text": "this guy. It may steal your password.",
+    "start": 1632.4,
+    "duration": 4.08
+  },
+  {
+    "text": "They can take control of your computer",
+    "start": 1634.799,
+    "duration": 6.681
+  },
+  {
+    "text": "if they're really, really good. Um",
+    "start": 1636.48,
+    "duration": 5.0
+  },
+  {
+    "text": "but this I guess the specific system",
+    "start": 1642.159,
+    "duration": 3.76
+  },
+  {
+    "text": "this would fall under probably the most",
+    "start": 1644.4,
+    "duration": 5.44
+  },
+  {
+    "text": "is the workplace. Um",
+    "start": 1645.919,
+    "duration": 6.64
+  },
+  {
+    "text": "but yeah um the general methodology is",
+    "start": 1649.84,
+    "duration": 6.56
+  },
+  {
+    "text": "just making sure that this is as koi as",
+    "start": 1652.559,
+    "duration": 5.921
+  },
+  {
+    "text": "possible making it so you don't suspect",
+    "start": 1656.4,
+    "duration": 3.44
+  },
+  {
+    "text": "that anything's wrong when you're",
+    "start": 1658.48,
+    "duration": 4.64
+  },
+  {
+    "text": "opening that email.",
+    "start": 1659.84,
+    "duration": 5.28
+  },
+  {
+    "text": "The role of the operating system. The",
+    "start": 1663.12,
+    "duration": 4.88
+  },
+  {
+    "text": "operating system is in charge of booting",
+    "start": 1665.12,
+    "duration": 6.64
+  },
+  {
+    "text": "up the computer mostly, but it also the",
+    "start": 1668.0,
+    "duration": 5.6
+  },
+  {
+    "text": "definition is it's a program to run",
+    "start": 1671.76,
+    "duration": 3.68
+  },
+  {
+    "text": "other programs. So the operating system",
+    "start": 1673.6,
+    "duration": 3.679
+  },
+  {
+    "text": "is basically a giant program that's used",
+    "start": 1675.44,
+    "duration": 4.239
+  },
+  {
+    "text": "to run all these other programs and they",
+    "start": 1677.279,
+    "duration": 4.481
+  },
+  {
+    "text": "can be stuff basic like on this",
+    "start": 1679.679,
+    "duration": 4.561
+  },
+  {
+    "text": "computer. It can be like your file",
+    "start": 1681.76,
+    "duration": 4.799
+  },
+  {
+    "text": "explorer, your",
+    "start": 1684.24,
+    "duration": 5.039
+  },
+  {
+    "text": "browser, all of these stupid Microsoft",
+    "start": 1686.559,
+    "duration": 5.36
+  },
+  {
+    "text": "apps that half of nobody uses, you know,",
+    "start": 1689.279,
+    "duration": 4.64
+  },
+  {
+    "text": "that is built into the operating system",
+    "start": 1691.919,
+    "duration": 4.321
+  },
+  {
+    "text": "and that allow the operating system runs",
+    "start": 1693.919,
+    "duration": 4.321
+  },
+  {
+    "text": "these programs. I I think word for word",
+    "start": 1696.24,
+    "duration": 4.72
+  },
+  {
+    "text": "it was described as a a program to run",
+    "start": 1698.24,
+    "duration": 5.84
+  },
+  {
+    "text": "programs basically.",
+    "start": 1700.96,
+    "duration": 5.439
+  },
+  {
+    "text": "Oh, nice. RAM and ROM. RAM random access",
+    "start": 1704.08,
+    "duration": 3.92
+  },
+  {
+    "text": "memory. Of course I don't remember what",
+    "start": 1706.399,
+    "duration": 5.121
+  },
+  {
+    "text": "ROM stands for, but um",
+    "start": 1708.0,
+    "duration": 5.6
+  },
+  {
+    "text": "either way",
+    "start": 1711.52,
+    "duration": 5.36
+  },
+  {
+    "text": "RAM and ROM are are both important. Um I",
+    "start": 1713.6,
+    "duration": 5.12
+  },
+  {
+    "text": "believe you said RAM is more important,",
+    "start": 1716.88,
+    "duration": 3.84
+  },
+  {
+    "text": "but in this case it doesn't matter for",
+    "start": 1718.72,
+    "duration": 6.079
+  },
+  {
+    "text": "this question. But ROM is long-term. It",
+    "start": 1720.72,
+    "duration": 6.559
+  },
+  {
+    "text": "is stored. It stores the boot up",
+    "start": 1724.799,
+    "duration": 4.721
+  },
+  {
+    "text": "instructions",
+    "start": 1727.279,
+    "duration": 4.4
+  },
+  {
+    "text": "for the computer. And that's basically",
+    "start": 1729.52,
+    "duration": 4.32
+  },
+  {
+    "text": "what a job is. You need ROM to start",
+    "start": 1731.679,
+    "duration": 4.48
+  },
+  {
+    "text": "your computer. uh unless you were able",
+    "start": 1733.84,
+    "duration": 3.92
+  },
+  {
+    "text": "to somehow do that with just RAM, which",
+    "start": 1736.159,
+    "duration": 2.64
+  },
+  {
+    "text": "I don't remember the way you explained",
+    "start": 1737.76,
+    "duration": 2.56
+  },
+  {
+    "text": "it, but I know you said it's possible.",
+    "start": 1738.799,
+    "duration": 4.641
+  },
+  {
+    "text": "So, um ROM, it doesn't get erased. I",
+    "start": 1740.32,
+    "duration": 4.479
+  },
+  {
+    "text": "shouldn't say it has long storage life.",
+    "start": 1743.44,
+    "duration": 5.2
+  },
+  {
+    "text": "The storage doesn't get erased. Um",
+    "start": 1744.799,
+    "duration": 8.961
+  },
+  {
+    "text": "um but RAM is limited storage, but it's",
+    "start": 1748.64,
+    "duration": 9.6
+  },
+  {
+    "text": "super fast. It's a helper to the CPU. Um",
+    "start": 1753.76,
+    "duration": 6.96
+  },
+  {
+    "text": "usually connected right to it. And then,",
+    "start": 1758.24,
+    "duration": 5.2
+  },
+  {
+    "text": "um",
+    "start": 1760.72,
+    "duration": 4.72
+  },
+  {
+    "text": "what was I going to say? Uh, and when a",
+    "start": 1763.44,
+    "duration": 3.44
+  },
+  {
+    "text": "computer is shut off, everything that is",
+    "start": 1765.44,
+    "duration": 4.32
+  },
+  {
+    "text": "stored inside of the RAM goes away. Um,",
+    "start": 1766.88,
+    "duration": 5.76
+  },
+  {
+    "text": "that's a pretty important fact. So, um,",
+    "start": 1769.76,
+    "duration": 5.039
+  },
+  {
+    "text": "personally, I I don't know why I think I",
+    "start": 1772.64,
+    "duration": 6.72
+  },
+  {
+    "text": "have, um, 64 GB of RAM on this computer.",
+    "start": 1774.799,
+    "duration": 6.321
+  },
+  {
+    "text": "um which is I don't know if that's",
+    "start": 1779.36,
+    "duration": 6.72
+  },
+  {
+    "text": "overkill or not but uh yeah that's um",
+    "start": 1781.12,
+    "duration": 8.559
+  },
+  {
+    "text": "RAM basically allows",
+    "start": 1786.08,
+    "duration": 6.4
+  },
+  {
+    "text": "allows your it's a helper to the CPU",
+    "start": 1789.679,
+    "duration": 5.281
+  },
+  {
+    "text": "just like the GPU is while I believe",
+    "start": 1792.48,
+    "duration": 5.439
+  },
+  {
+    "text": "it's volatile and nonvolatile so one is",
+    "start": 1794.96,
+    "duration": 6.64
+  },
+  {
+    "text": "volatile one's nonvolatile and um yeah",
+    "start": 1797.919,
+    "duration": 5.921
+  },
+  {
+    "text": "so that's yeah that's a pretty basic",
+    "start": 1801.6,
+    "duration": 4.72
+  },
+  {
+    "text": "difference",
+    "start": 1803.84,
+    "duration": 3.92
+  },
+  {
+    "text": "um Wikipedia articles are written and",
+    "start": 1806.32,
+    "duration": 4.959
+  },
+  {
+    "text": "edited So um you have Wikipedia. We'll",
+    "start": 1807.76,
+    "duration": 5.12
+  },
+  {
+    "text": "draw that. You got a lot of people",
+    "start": 1811.279,
+    "duration": 3.921
+  },
+  {
+    "text": "coming around the world to do editing.",
+    "start": 1812.88,
+    "duration": 4.32
+  },
+  {
+    "text": "Um basically an article can be made on",
+    "start": 1815.2,
+    "duration": 3.52
+  },
+  {
+    "text": "Wikipedia",
+    "start": 1817.2,
+    "duration": 3.52
+  },
+  {
+    "text": "by you know person. We'll just put a",
+    "start": 1818.72,
+    "duration": 3.52
+  },
+  {
+    "text": "person in there. This just say imagine",
+    "start": 1820.72,
+    "duration": 3.04
+  },
+  {
+    "text": "this is the person that made said",
+    "start": 1822.24,
+    "duration": 4.0
+  },
+  {
+    "text": "article but uh another person might see",
+    "start": 1823.76,
+    "duration": 5.279
+  },
+  {
+    "text": "this article and may be like hey uh I",
+    "start": 1826.24,
+    "duration": 4.159
+  },
+  {
+    "text": "don't like this and this. I would like",
+    "start": 1829.039,
+    "duration": 4.161
+  },
+  {
+    "text": "to change it to this. And we'll make",
+    "start": 1830.399,
+    "duration": 6.16
+  },
+  {
+    "text": "article V1 you know V2.",
+    "start": 1833.2,
+    "duration": 6.479
+  },
+  {
+    "text": "Um, but not everyone may agree with this",
+    "start": 1836.559,
+    "duration": 5.521
+  },
+  {
+    "text": "change. So, Wikipedia, they may go",
+    "start": 1839.679,
+    "duration": 4.0
+  },
+  {
+    "text": "through a review where they have people",
+    "start": 1842.08,
+    "duration": 2.8
+  },
+  {
+    "text": "look at this article and they're like,",
+    "start": 1843.679,
+    "duration": 5.761
+  },
+  {
+    "text": "\"Hm, should these changes be made?\" Um,",
+    "start": 1844.88,
+    "duration": 6.24
+  },
+  {
+    "text": "but it's also just a community effort",
+    "start": 1849.44,
+    "duration": 3.28
+  },
+  {
+    "text": "because there's just so many people on",
+    "start": 1851.12,
+    "duration": 3.6
+  },
+  {
+    "text": "Earth. People come and edit as they do,",
+    "start": 1852.72,
+    "duration": 4.0
+  },
+  {
+    "text": "as they please. Um, I know that some",
+    "start": 1854.72,
+    "duration": 4.319
+  },
+  {
+    "text": "Wikipedia pages edit are like open to",
+    "start": 1856.72,
+    "duration": 4.0
+  },
+  {
+    "text": "like everyone to edit, but then there's",
+    "start": 1859.039,
+    "duration": 3.201
+  },
+  {
+    "text": "some that are like, hey, you got to be",
+    "start": 1860.72,
+    "duration": 3.839
+  },
+  {
+    "text": "this certain type of user or we need to",
+    "start": 1862.24,
+    "duration": 4.24
+  },
+  {
+    "text": "like discuss this before it's edited.",
+    "start": 1864.559,
+    "duration": 4.0
+  },
+  {
+    "text": "So, I like to think of it as a just a",
+    "start": 1866.48,
+    "duration": 4.64
+  },
+  {
+    "text": "giant discussion board",
+    "start": 1868.559,
+    "duration": 5.6
+  },
+  {
+    "text": "um where people interact to try and help",
+    "start": 1871.12,
+    "duration": 6.6
+  },
+  {
+    "text": "edit these articles.",
+    "start": 1874.159,
+    "duration": 3.561
+  },
+  {
+    "text": "Um",
+    "start": 1878.64,
+    "duration": 3.0
+  },
+  {
+    "text": "I would say that you need to put this to",
+    "start": 1885.039,
+    "duration": 3.601
+  },
+  {
+    "text": "before you do it you write it in",
+    "start": 1887.36,
+    "duration": 4.96
+  },
+  {
+    "text": "assembly core assembly code",
+    "start": 1888.64,
+    "duration": 7.36
+  },
+  {
+    "text": "um so that you understand the code that",
+    "start": 1892.32,
+    "duration": 6.0
+  },
+  {
+    "text": "you're writing after that that needs to",
+    "start": 1896.0,
+    "duration": 5.76
+  },
+  {
+    "text": "be translated to machine code and then",
+    "start": 1898.32,
+    "duration": 5.76
+  },
+  {
+    "text": "if that's compatible with your computer",
+    "start": 1901.76,
+    "duration": 5.919
+  },
+  {
+    "text": "it'll go into your PC See",
+    "start": 1904.08,
+    "duration": 6.64
+  },
+  {
+    "text": "eventually it'll reach the CPU",
+    "start": 1907.679,
+    "duration": 6.72
+  },
+  {
+    "text": "connected to the RAM.",
+    "start": 1910.72,
+    "duration": 6.4
+  },
+  {
+    "text": "It will run it and then you will see a",
+    "start": 1914.399,
+    "duration": 5.76
+  },
+  {
+    "text": "result on your output device. But I mean",
+    "start": 1917.12,
+    "duration": 4.48
+  },
+  {
+    "text": "I mean in the beginning you also just",
+    "start": 1920.159,
+    "duration": 4.481
+  },
+  {
+    "text": "have to write it to begin with.",
+    "start": 1921.6,
+    "duration": 8.052
+  },
+  {
+    "text": "So yeah basically yeah and um",
+    "start": 1924.64,
+    "duration": 6.24
+  },
+  {
+    "text": "[snorts] if it's a language that your",
+    "start": 1929.652,
+    "duration": 2.668
+  },
+  {
+    "text": "computer doesn't understand it may need",
+    "start": 1930.88,
+    "duration": 3.279
+  },
+  {
+    "text": "to go through a device driver something",
+    "start": 1932.32,
+    "duration": 3.28
+  },
+  {
+    "text": "like that.",
+    "start": 1934.159,
+    "duration": 4.76
+  },
+  {
+    "text": "So yeah,",
+    "start": 1935.6,
+    "duration": 3.319
+  },
+  {
+    "text": "letters and words may be coded in",
+    "start": 1939.279,
+    "duration": 4.721
+  },
+  {
+    "text": "numerically. So when your computer",
+    "start": 1941.039,
+    "duration": 6.561
+  },
+  {
+    "text": "receives a line of letters, I'm sorry, a",
+    "start": 1944.0,
+    "duration": 6.0
+  },
+  {
+    "text": "line of numbers that say, \"Hey, this,",
+    "start": 1947.6,
+    "duration": 5.52
+  },
+  {
+    "text": "this, and this equal this.\"",
+    "start": 1950.0,
+    "duration": 7.84
+  },
+  {
+    "text": "Um, me clear this out actually.",
+    "start": 1953.12,
+    "duration": 7.439
+  },
+  {
+    "text": "um they would receive you know I'll just",
+    "start": 1957.84,
+    "duration": 4.4
+  },
+  {
+    "text": "go like this but just imagine this is a",
+    "start": 1960.559,
+    "duration": 3.521
+  },
+  {
+    "text": "line of code that's saying okay these",
+    "start": 1962.24,
+    "duration": 4.4
+  },
+  {
+    "text": "are the letters and words your computer",
+    "start": 1964.08,
+    "duration": 4.319
+  },
+  {
+    "text": "has what I like to describe it already",
+    "start": 1966.64,
+    "duration": 7.36
+  },
+  {
+    "text": "has a cipher and in the cipher uh",
+    "start": 1968.399,
+    "duration": 7.12
+  },
+  {
+    "text": "not",
+    "start": 1974.0,
+    "duration": 6.399
+  },
+  {
+    "text": "I guess numbers not numbers um it's just",
+    "start": 1975.519,
+    "duration": 8.961
+  },
+  {
+    "text": "a cipher so a capital A and lowercase a",
+    "start": 1980.399,
+    "duration": 6.241
+  },
+  {
+    "text": "would have separate things they would",
+    "start": 1984.48,
+    "duration": 4.48
+  },
+  {
+    "text": "have separate they would have separate",
+    "start": 1986.64,
+    "duration": 4.8
+  },
+  {
+    "text": "um",
+    "start": 1988.96,
+    "duration": 5.12
+  },
+  {
+    "text": "translations from cipher to code",
+    "start": 1991.44,
+    "duration": 4.079
+  },
+  {
+    "text": "basically and it it would go all the",
+    "start": 1994.08,
+    "duration": 3.52
+  },
+  {
+    "text": "way. So it' be 26 for each plus all the",
+    "start": 1995.519,
+    "duration": 3.601
+  },
+  {
+    "text": "numbers plus all that and they're all",
+    "start": 1997.6,
+    "duration": 3.12
+  },
+  {
+    "text": "unique so that when this information",
+    "start": 1999.12,
+    "duration": 3.76
+  },
+  {
+    "text": "comes through it can go and it can",
+    "start": 2000.72,
+    "duration": 4.959
+  },
+  {
+    "text": "translate it and then it can spit back",
+    "start": 2002.88,
+    "duration": 5.519
+  },
+  {
+    "text": "out at you actual things that are",
+    "start": 2005.679,
+    "duration": 5.12
+  },
+  {
+    "text": "readable if that makes sense. Again, uh",
+    "start": 2008.399,
+    "duration": 4.081
+  },
+  {
+    "text": "I I'm think I'm over complicating this,",
+    "start": 2010.799,
+    "duration": 3.521
+  },
+  {
+    "text": "but basically your computer has a cipher",
+    "start": 2012.48,
+    "duration": 4.559
+  },
+  {
+    "text": "to solve the the encryption that's",
+    "start": 2014.32,
+    "duration": 3.92
+  },
+  {
+    "text": "coming into your computer. Even though",
+    "start": 2017.039,
+    "duration": 3.52
+  },
+  {
+    "text": "it's not encrypted, actually, it's just",
+    "start": 2018.24,
+    "duration": 5.6
+  },
+  {
+    "text": "a list of a list that shows you what",
+    "start": 2020.559,
+    "duration": 6.561
+  },
+  {
+    "text": "needs to be deciphered by your computer.",
+    "start": 2023.84,
+    "duration": 6.92
+  },
+  {
+    "text": "It's an open cipher.",
+    "start": 2027.12,
+    "duration": 3.64
+  },
+  {
+    "text": "Um AI algorithms. Um, I guess I guess",
+    "start": 2032.559,
+    "duration": 5.12
+  },
+  {
+    "text": "this one can be drawn out too. You have",
+    "start": 2035.6,
+    "duration": 5.919
+  },
+  {
+    "text": "a guy who creates something with AI.",
+    "start": 2037.679,
+    "duration": 7.761
+  },
+  {
+    "text": "Um, they create whatever and then they",
+    "start": 2041.519,
+    "duration": 7.36
+  },
+  {
+    "text": "send it out and they post it online.",
+    "start": 2045.44,
+    "duration": 7.36
+  },
+  {
+    "text": "We'll call just they post X and but we",
+    "start": 2048.879,
+    "duration": 6.081
+  },
+  {
+    "text": "also have this person and they look at",
+    "start": 2052.8,
+    "duration": 4.879
+  },
+  {
+    "text": "the this and they're like, \"Oh, well",
+    "start": 2054.96,
+    "duration": 4.399
+  },
+  {
+    "text": "that's cool. That looks real. That's",
+    "start": 2057.679,
+    "duration": 3.521
+  },
+  {
+    "text": "nice.\" But the real problem is that it's",
+    "start": 2059.359,
+    "duration": 6.72
+  },
+  {
+    "text": "not real. So with uh",
+    "start": 2061.2,
+    "duration": 8.08
+  },
+  {
+    "text": "oh my gosh stupid this kind of applies",
+    "start": 2066.079,
+    "duration": 4.8
+  },
+  {
+    "text": "I'm realizing this is talking about",
+    "start": 2069.28,
+    "duration": 3.44
+  },
+  {
+    "text": "algorithms.",
+    "start": 2070.879,
+    "duration": 6.161
+  },
+  {
+    "text": "Um but still AI may push something to",
+    "start": 2072.72,
+    "duration": 6.8
+  },
+  {
+    "text": "the top and people may see be like oh",
+    "start": 2077.04,
+    "duration": 4.24
+  },
+  {
+    "text": "okay this might be the top result you",
+    "start": 2079.52,
+    "duration": 4.319
+  },
+  {
+    "text": "know this must be trustworthy when in",
+    "start": 2081.28,
+    "duration": 4.96
+  },
+  {
+    "text": "reality it's not. But also what AI",
+    "start": 2083.839,
+    "duration": 4.08
+  },
+  {
+    "text": "algorithms do now that I actually read",
+    "start": 2086.24,
+    "duration": 3.119
+  },
+  {
+    "text": "the question I'm not getting lost in",
+    "start": 2087.919,
+    "duration": 4.081
+  },
+  {
+    "text": "this um is that they'll they'll",
+    "start": 2089.359,
+    "duration": 4.56
+  },
+  {
+    "text": "autogenerate a response most of the",
+    "start": 2092.0,
+    "duration": 3.839
+  },
+  {
+    "text": "times for I think almost every browser",
+    "start": 2093.919,
+    "duration": 4.001
+  },
+  {
+    "text": "has it um maybe even if we do this if we",
+    "start": 2095.839,
+    "duration": 6.721
+  },
+  {
+    "text": "go um uh math 999",
+    "start": 2097.92,
+    "duration": 7.6
+  },
+  {
+    "text": "uh maybe it doesn't do that or like um",
+    "start": 2102.56,
+    "duration": 6.08
+  },
+  {
+    "text": "why is the sky blue",
+    "start": 2105.52,
+    "duration": 5.44
+  },
+  {
+    "text": "you see there's already an AI overview",
+    "start": 2108.64,
+    "duration": 3.76
+  },
+  {
+    "text": "right here and this is part of what",
+    "start": 2110.96,
+    "duration": 2.96
+  },
+  {
+    "text": "people see this is now the first thing",
+    "start": 2112.4,
+    "duration": 2.88
+  },
+  {
+    "text": "on the page",
+    "start": 2113.92,
+    "duration": 4.0
+  },
+  {
+    "text": "Right. Um,",
+    "start": 2115.28,
+    "duration": 4.72
+  },
+  {
+    "text": "so yeah, AI is definitely influencing",
+    "start": 2117.92,
+    "duration": 3.52
+  },
+  {
+    "text": "what people are seeing because this is",
+    "start": 2120.0,
+    "duration": 2.88
+  },
+  {
+    "text": "the first thing that's popping up. And",
+    "start": 2121.44,
+    "duration": 3.04
+  },
+  {
+    "text": "that's not just in here, too. If we go",
+    "start": 2122.88,
+    "duration": 4.08
+  },
+  {
+    "text": "into here and we go, um, if I drag this",
+    "start": 2124.48,
+    "duration": 6.0
+  },
+  {
+    "text": "over and I go, oh, uh, why is the sky",
+    "start": 2126.96,
+    "duration": 5.36
+  },
+  {
+    "text": "blue? You'll see that the first thing is",
+    "start": 2130.48,
+    "duration": 4.16
+  },
+  {
+    "text": "to ask the co-pilot. It's, um, if I move",
+    "start": 2132.32,
+    "duration": 4.4
+  },
+  {
+    "text": "my camera here, the first thing is to be",
+    "start": 2134.64,
+    "duration": 5.36
+  },
+  {
+    "text": "like, hey, why is the sky blue? The",
+    "start": 2136.72,
+    "duration": 6.399
+  },
+  {
+    "text": "first result is to ask the co-pilot.",
+    "start": 2140.0,
+    "duration": 4.88
+  },
+  {
+    "text": "Um, and then when you actually do the",
+    "start": 2143.119,
+    "duration": 6.0
+  },
+  {
+    "text": "search, when you actually type it in,",
+    "start": 2144.88,
+    "duration": 5.84
+  },
+  {
+    "text": "oh, look what's there. It's the co-pilot",
+    "start": 2149.119,
+    "duration": 3.761
+  },
+  {
+    "text": "search. It's the first thing. So, that's",
+    "start": 2150.72,
+    "duration": 4.879
+  },
+  {
+    "text": "the issue is that um",
+    "start": 2152.88,
+    "duration": 4.959
+  },
+  {
+    "text": "AI algorithms are now pushing their own",
+    "start": 2155.599,
+    "duration": 5.441
+  },
+  {
+    "text": "results to the top. Um, but yeah, so",
+    "start": 2157.839,
+    "duration": 5.201
+  },
+  {
+    "text": "please ignore this graph. This I I",
+    "start": 2161.04,
+    "duration": 3.44
+  },
+  {
+    "text": "didn't read the question fully before I",
+    "start": 2163.04,
+    "duration": 2.88
+  },
+  {
+    "text": "started, but yeah, that's basically how",
+    "start": 2164.48,
+    "duration": 3.359
+  },
+  {
+    "text": "AI algorithms are shaping what people",
+    "start": 2165.92,
+    "duration": 3.6
+  },
+  {
+    "text": "see.",
+    "start": 2167.839,
+    "duration": 3.441
+  },
+  {
+    "text": "Trace the execution of assembly code and",
+    "start": 2169.52,
+    "duration": 3.599
+  },
+  {
+    "text": "explain what happens. Okay. So,",
+    "start": 2171.28,
+    "duration": 4.64
+  },
+  {
+    "text": "basically we have a um a list of",
+    "start": 2173.119,
+    "duration": 6.161
+  },
+  {
+    "text": "instructions. Um what's important to",
+    "start": 2175.92,
+    "duration": 6.159
+  },
+  {
+    "text": "note is that the 0 1 2 3 4 5 don't",
+    "start": 2179.28,
+    "duration": 6.48
+  },
+  {
+    "text": "change at all. Um these do though. Um so",
+    "start": 2182.079,
+    "duration": 5.681
+  },
+  {
+    "text": "what this is basically asking you step",
+    "start": 2185.76,
+    "duration": 4.319
+  },
+  {
+    "text": "zero it's asking you to load whatever is",
+    "start": 2187.76,
+    "duration": 4.72
+  },
+  {
+    "text": "number number four. So that would be oh",
+    "start": 2190.079,
+    "duration": 5.441
+  },
+  {
+    "text": "okay zero. Then step number one is to",
+    "start": 2192.48,
+    "duration": 4.8
+  },
+  {
+    "text": "add whatever is at number five which is",
+    "start": 2195.52,
+    "duration": 8.36
+  },
+  {
+    "text": "eight. So this would be okay 0 + 8",
+    "start": 2197.28,
+    "duration": 6.6
+  },
+  {
+    "text": "and this is the store number four which",
+    "start": 2204.24,
+    "duration": 6.24
+  },
+  {
+    "text": "is basically this zero. So it's like oh",
+    "start": 2206.64,
+    "duration": 7.28
+  },
+  {
+    "text": "okay we're back to zero then and then",
+    "start": 2210.48,
+    "duration": 5.359
+  },
+  {
+    "text": "number three is asking us to jump to",
+    "start": 2213.92,
+    "duration": 3.76
+  },
+  {
+    "text": "question number zero. So it just",
+    "start": 2215.839,
+    "duration": 5.601
+  },
+  {
+    "text": "basically creates a loop on itself. This",
+    "start": 2217.68,
+    "duration": 6.64
+  },
+  {
+    "text": "is just a very basic um a very basic",
+    "start": 2221.44,
+    "duration": 5.76
+  },
+  {
+    "text": "execution uh or sorry assembly code",
+    "start": 2224.32,
+    "duration": 4.96
+  },
+  {
+    "text": "loop. Um and this is what I was kind of",
+    "start": 2227.2,
+    "duration": 3.2
+  },
+  {
+    "text": "talking about earlier when you're",
+    "start": 2229.28,
+    "duration": 2.88
+  },
+  {
+    "text": "translating",
+    "start": 2230.4,
+    "duration": 3.439
+  },
+  {
+    "text": "um when you're running a basic line of",
+    "start": 2232.16,
+    "duration": 3.199
+  },
+  {
+    "text": "code is that this is probably where you",
+    "start": 2233.839,
+    "duration": 2.801
+  },
+  {
+    "text": "want to start because you need to make",
+    "start": 2235.359,
+    "duration": 6.921
+  },
+  {
+    "text": "it understandable to you. Um yeah,",
+    "start": 2236.64,
+    "duration": 5.64
+  },
+  {
+    "text": "randomly generate a two-digit decimal",
+    "start": 2242.64,
+    "duration": 3.84
+  },
+  {
+    "text": "number and convert to binary. So, I",
+    "start": 2244.8,
+    "duration": 3.12
+  },
+  {
+    "text": "believe what we can do here is we can",
+    "start": 2246.48,
+    "duration": 5.44
+  },
+  {
+    "text": "kind of do the opposite of doing it from",
+    "start": 2247.92,
+    "duration": 5.919
+  },
+  {
+    "text": "two digit.",
+    "start": 2251.92,
+    "duration": 5.679
+  },
+  {
+    "text": "Oh, wait. This is Oh, okay. I'm sorry.",
+    "start": 2253.839,
+    "duration": 5.681
+  },
+  {
+    "text": "Um I'm getting lost in my own thoughts",
+    "start": 2257.599,
+    "duration": 5.921
+  },
+  {
+    "text": "here. Um sure. We'll do um",
+    "start": 2259.52,
+    "duration": 8.599
+  },
+  {
+    "text": "70. Uh we'll do 86.",
+    "start": 2263.52,
+    "duration": 4.599
+  },
+  {
+    "text": "Um",
+    "start": 2269.52,
+    "duration": 3.839
+  },
+  {
+    "text": "we work in multiples of two, of course.",
+    "start": 2271.119,
+    "duration": 5.801
+  },
+  {
+    "text": "So, we have 64",
+    "start": 2273.359,
+    "duration": 3.561
+  },
+  {
+    "text": "32",
+    "start": 2278.8,
+    "duration": 3.0
+  },
+  {
+    "text": "16",
+    "start": 2282.24,
+    "duration": 4.8
+  },
+  {
+    "text": "8 4",
+    "start": 2284.16,
+    "duration": 4.64
+  },
+  {
+    "text": "2",
+    "start": 2287.04,
+    "duration": 3.28
+  },
+  {
+    "text": "1",
+    "start": 2288.8,
+    "duration": 5.2
+  },
+  {
+    "text": "and we basically say, \"Oh, hey, 86 64.",
+    "start": 2290.32,
+    "duration": 5.759
+  },
+  {
+    "text": "Cool. It does fit in there once.\" So we",
+    "start": 2294.0,
+    "duration": 8.72
+  },
+  {
+    "text": "go one 86 minus 64 is equal to 22.",
+    "start": 2296.079,
+    "duration": 8.081
+  },
+  {
+    "text": "And then we say, hey, how many times",
+    "start": 2302.72,
+    "duration": 3.6
+  },
+  {
+    "text": "does 32 go into 22? Zero. How many times",
+    "start": 2304.16,
+    "duration": 3.76
+  },
+  {
+    "text": "does 16 go into 22? It goes into it",
+    "start": 2306.32,
+    "duration": 3.68
+  },
+  {
+    "text": "once, which leaves us with seven. How",
+    "start": 2307.92,
+    "duration": 3.76
+  },
+  {
+    "text": "many times does eight go into seven zero",
+    "start": 2310.0,
+    "duration": 3.04
+  },
+  {
+    "text": "times? How much times does four go into",
+    "start": 2311.68,
+    "duration": 5.04
+  },
+  {
+    "text": "seven? Once. And uh four - 7 is three.",
+    "start": 2313.04,
+    "duration": 6.079
+  },
+  {
+    "text": "How many times does",
+    "start": 2316.72,
+    "duration": 4.32
+  },
+  {
+    "text": "two go into three? I do it once. And",
+    "start": 2319.119,
+    "duration": 3.841
+  },
+  {
+    "text": "then you go 3 - 2 equals 1. How many",
+    "start": 2321.04,
+    "duration": 3.84
+  },
+  {
+    "text": "times does one go into one? One. So then",
+    "start": 2322.96,
+    "duration": 5.44
+  },
+  {
+    "text": "your code would be one, zero, one, zero,",
+    "start": 2324.88,
+    "duration": 7.68
+  },
+  {
+    "text": "one, one, one. Yep.",
+    "start": 2328.4,
+    "duration": 5.679
+  },
+  {
+    "text": "explain what happens behind the scenes",
+    "start": 2332.56,
+    "duration": 3.6
+  },
+  {
+    "text": "when you access a URL in your browser.",
+    "start": 2334.079,
+    "duration": 3.601
+  },
+  {
+    "text": "So, going back to this table of",
+    "start": 2336.16,
+    "duration": 3.28
+  },
+  {
+    "text": "contents,",
+    "start": 2337.68,
+    "duration": 4.159
+  },
+  {
+    "text": "um, right in this area here, as we're",
+    "start": 2339.44,
+    "duration": 4.24
+  },
+  {
+    "text": "doing it, when we request it, we're",
+    "start": 2341.839,
+    "duration": 3.361
+  },
+  {
+    "text": "saying, \"Hey, here's some information",
+    "start": 2343.68,
+    "duration": 4.88
+  },
+  {
+    "text": "about me, my cookies, my device, things.",
+    "start": 2345.2,
+    "duration": 7.44
+  },
+  {
+    "text": "Um, we request a DNS, a DNS address.",
+    "start": 2348.56,
+    "duration": 5.519
+  },
+  {
+    "text": "Maybe I should just draw a separate",
+    "start": 2352.64,
+    "duration": 4.88
+  },
+  {
+    "text": "diagram, but DNS address,",
+    "start": 2354.079,
+    "duration": 6.961
+  },
+  {
+    "text": "um, an IP, and then what our web server",
+    "start": 2357.52,
+    "duration": 6.16
+  },
+  {
+    "text": "sends us back is it's, hey, here's a",
+    "start": 2361.04,
+    "duration": 5.28
+  },
+  {
+    "text": "HTML, here's the hypertext markup link.",
+    "start": 2363.68,
+    "duration": 4.399
+  },
+  {
+    "text": "Um, what's also happening, I forgot to",
+    "start": 2366.32,
+    "duration": 2.96
+  },
+  {
+    "text": "mention, between both sides is that",
+    "start": 2368.079,
+    "duration": 2.641
+  },
+  {
+    "text": "they're securing each other with the",
+    "start": 2369.28,
+    "duration": 3.36
+  },
+  {
+    "text": "HTTPS.",
+    "start": 2370.72,
+    "duration": 3.6
+  },
+  {
+    "text": "Uh, they're doing something called what",
+    "start": 2372.64,
+    "duration": 3.28
+  },
+  {
+    "text": "I believe is called a handshake, which",
+    "start": 2374.32,
+    "duration": 3.68
+  },
+  {
+    "text": "basically means, oh, hey, we're secure,",
+    "start": 2375.92,
+    "duration": 4.48
+  },
+  {
+    "text": "we're safe, we're good. Um so basically",
+    "start": 2378.0,
+    "duration": 4.48
+  },
+  {
+    "text": "our web server sends us back an HTML",
+    "start": 2380.4,
+    "duration": 4.719
+  },
+  {
+    "text": "they can send us cookies to uh they can",
+    "start": 2382.48,
+    "duration": 5.52
+  },
+  {
+    "text": "send us CSS and the JavaScript for the",
+    "start": 2385.119,
+    "duration": 4.641
+  },
+  {
+    "text": "page which of course we see none of this",
+    "start": 2388.0,
+    "duration": 4.48
+  },
+  {
+    "text": "while we are actually loading this page",
+    "start": 2389.76,
+    "duration": 4.319
+  },
+  {
+    "text": "but that is what is going behind the",
+    "start": 2392.48,
+    "duration": 3.28
+  },
+  {
+    "text": "scenes it's a basically a big transfer",
+    "start": 2394.079,
+    "duration": 4.241
+  },
+  {
+    "text": "of information between the two um that's",
+    "start": 2395.76,
+    "duration": 6.48
+  },
+  {
+    "text": "the simplest way to explain it",
+    "start": 2398.32,
+    "duration": 8.4
+  },
+  {
+    "text": "JavaScript all right um JS JavaScript",
+    "start": 2402.24,
+    "duration": 7.119
+  },
+  {
+    "text": "CSS provides cascade stylesheets I'm",
+    "start": 2406.72,
+    "duration": 3.84
+  },
+  {
+    "text": "going to explain all of them just as it",
+    "start": 2409.359,
+    "duration": 3.441
+  },
+  {
+    "text": "helps me. Um, HTML is hypertext markup",
+    "start": 2410.56,
+    "duration": 5.12
+  },
+  {
+    "text": "language. Uh, HTML is structure to the",
+    "start": 2412.8,
+    "duration": 6.0
+  },
+  {
+    "text": "page. It helps structure it, create it.",
+    "start": 2415.68,
+    "duration": 5.6
+  },
+  {
+    "text": "Cascade is the styling of the page. It's",
+    "start": 2418.8,
+    "duration": 3.84
+  },
+  {
+    "text": "almost within the name. Cascade",
+    "start": 2421.28,
+    "duration": 3.12
+  },
+  {
+    "text": "stylesheets. It helps style the page.",
+    "start": 2422.64,
+    "duration": 3.28
+  },
+  {
+    "text": "JavaScript has to do with the input and",
+    "start": 2424.4,
+    "duration": 5.199
+  },
+  {
+    "text": "out devices. um uh and maybe not output",
+    "start": 2425.92,
+    "duration": 7.679
+  },
+  {
+    "text": "but more uh definitely more input as um",
+    "start": 2429.599,
+    "duration": 6.161
+  },
+  {
+    "text": "basically like when I'm clicking right",
+    "start": 2433.599,
+    "duration": 4.081
+  },
+  {
+    "text": "because I'm clicking on the screen you",
+    "start": 2435.76,
+    "duration": 4.16
+  },
+  {
+    "text": "know right now JavaScript is allowing",
+    "start": 2437.68,
+    "duration": 4.24
+  },
+  {
+    "text": "things on the screen to change basically",
+    "start": 2439.92,
+    "duration": 4.64
+  },
+  {
+    "text": "it allows the input devices to do what",
+    "start": 2441.92,
+    "duration": 5.28
+  },
+  {
+    "text": "they need on the web page that's what",
+    "start": 2444.56,
+    "duration": 4.88
+  },
+  {
+    "text": "JavaScript does also JavaScript is an",
+    "start": 2447.2,
+    "duration": 5.68
+  },
+  {
+    "text": "actual uh coding language as well too",
+    "start": 2449.44,
+    "duration": 9.0
+  },
+  {
+    "text": "I common malware exploits Um",
+    "start": 2452.88,
+    "duration": 5.56
+  },
+  {
+    "text": "uh [sighs] a common malware exploit.",
+    "start": 2461.52,
+    "duration": 4.92
+  },
+  {
+    "text": "[snorts]",
+    "start": 2468.723,
+    "duration": 2.02
+  },
+  {
+    "text": "Um",
+    "start": 2471.599,
+    "duration": 3.0
+  },
+  {
+    "text": "well um I know",
+    "start": 2476.96,
+    "duration": 4.04
+  },
+  {
+    "text": "if you touch a link or if you download",
+    "start": 2481.76,
+    "duration": 4.4
+  },
+  {
+    "text": "something suspicious",
+    "start": 2484.16,
+    "duration": 5.28
+  },
+  {
+    "text": "they may be able to hide in your",
+    "start": 2486.16,
+    "duration": 5.28
+  },
+  {
+    "text": "computer until they know that they're",
+    "start": 2489.44,
+    "duration": 3.679
+  },
+  {
+    "text": "able to strike. They gather enough",
+    "start": 2491.44,
+    "duration": 3.28
+  },
+  {
+    "text": "information and they're able to take",
+    "start": 2493.119,
+    "duration": 5.041
+  },
+  {
+    "text": "over your computer. So, um, like a they",
+    "start": 2494.72,
+    "duration": 5.52
+  },
+  {
+    "text": "may scam you into downloading a file",
+    "start": 2498.16,
+    "duration": 3.52
+  },
+  {
+    "text": "that you think you need when you",
+    "start": 2500.24,
+    "duration": 2.879
+  },
+  {
+    "text": "actually don't. And downloading that",
+    "start": 2501.68,
+    "duration": 3.52
+  },
+  {
+    "text": "file may allow them to insert themselves",
+    "start": 2503.119,
+    "duration": 4.24
+  },
+  {
+    "text": "into your computer, which allows them to",
+    "start": 2505.2,
+    "duration": 5.2
+  },
+  {
+    "text": "take control. Um, that's a pretty um",
+    "start": 2507.359,
+    "duration": 7.121
+  },
+  {
+    "text": "common malware exploit exploit.",
+    "start": 2510.4,
+    "duration": 5.28
+  },
+  {
+    "text": "All right. Internet differs from the",
+    "start": 2514.48,
+    "duration": 2.879
+  },
+  {
+    "text": "worldwide web. I remember the way this",
+    "start": 2515.68,
+    "duration": 3.679
+  },
+  {
+    "text": "was explained in class. Um, we have our",
+    "start": 2517.359,
+    "duration": 5.601
+  },
+  {
+    "text": "road. Um, the highway's name is the",
+    "start": 2519.359,
+    "duration": 6.561
+  },
+  {
+    "text": "internet. Um the internet is basically",
+    "start": 2522.96,
+    "duration": 5.68
+  },
+  {
+    "text": "everything that's connected together",
+    "start": 2525.92,
+    "duration": 5.52
+  },
+  {
+    "text": "and within",
+    "start": 2528.64,
+    "duration": 5.679
+  },
+  {
+    "text": "the internet is things like the",
+    "start": 2531.44,
+    "duration": 6.08
+  },
+  {
+    "text": "worldwide web which is",
+    "start": 2534.319,
+    "duration": 5.841
+  },
+  {
+    "text": "part of",
+    "start": 2537.52,
+    "duration": 6.799
+  },
+  {
+    "text": "internet. The worldwide web is a",
+    "start": 2540.16,
+    "duration": 5.919
+  },
+  {
+    "text": "collection of all the you know the",
+    "start": 2544.319,
+    "duration": 4.721
+  },
+  {
+    "text": "networks that create create the internet",
+    "start": 2546.079,
+    "duration": 6.641
+  },
+  {
+    "text": "but not not the internet like you know",
+    "start": 2549.04,
+    "duration": 7.52
+  },
+  {
+    "text": "they create what we look up you know",
+    "start": 2552.72,
+    "duration": 6.639
+  },
+  {
+    "text": "where we go online uh the internet like",
+    "start": 2556.56,
+    "duration": 6.72
+  },
+  {
+    "text": "gaming and you know cloud services",
+    "start": 2559.359,
+    "duration": 6.96
+  },
+  {
+    "text": "they're all a part",
+    "start": 2563.28,
+    "duration": 6.96
+  },
+  {
+    "text": "um they're all a part of the The",
+    "start": 2566.319,
+    "duration": 5.601
+  },
+  {
+    "text": "internet as a whole, the internet is",
+    "start": 2570.24,
+    "duration": 3.839
+  },
+  {
+    "text": "just basically the all-encompassing",
+    "start": 2571.92,
+    "duration": 5.12
+  },
+  {
+    "text": "thing that houses",
+    "start": 2574.079,
+    "duration": 6.321
+  },
+  {
+    "text": "worldwide web, gaming, cloud services is",
+    "start": 2577.04,
+    "duration": 5.44
+  },
+  {
+    "text": "all inside of there. They are not the",
+    "start": 2580.4,
+    "duration": 4.259
+  },
+  {
+    "text": "same thing.",
+    "start": 2582.48,
+    "duration": 4.16
+  },
+  {
+    "text": "[sighs] Oh boy. Explain what it means to",
+    "start": 2584.659,
+    "duration": 5.101
+  },
+  {
+    "text": "hold a copyright. Um, basically, um,",
+    "start": 2586.64,
+    "duration": 5.04
+  },
+  {
+    "text": "this is like, hey, I just made this",
+    "start": 2589.76,
+    "duration": 5.599
+  },
+  {
+    "text": "thing. I want to have a copyright uh",
+    "start": 2591.68,
+    "duration": 6.0
+  },
+  {
+    "text": "because I don't want to allow other",
+    "start": 2595.359,
+    "duration": 7.281
+  },
+  {
+    "text": "people to make money or reproduce off of",
+    "start": 2597.68,
+    "duration": 7.28
+  },
+  {
+    "text": "what I just made because this is",
+    "start": 2602.64,
+    "duration": 4.32
+  },
+  {
+    "text": "rightfully mine. So, what a copyright",
+    "start": 2604.96,
+    "duration": 4.32
+  },
+  {
+    "text": "allows you to do, it um allows you to",
+    "start": 2606.96,
+    "duration": 4.159
+  },
+  {
+    "text": "reproduce what you made. It allows you",
+    "start": 2609.28,
+    "duration": 6.16
+  },
+  {
+    "text": "to talk publicly about it. Um",
+    "start": 2611.119,
+    "duration": 5.761
+  },
+  {
+    "text": "that was really stupid. I don't think",
+    "start": 2615.44,
+    "duration": 3.2
+  },
+  {
+    "text": "that's one of the points, but it allows",
+    "start": 2616.88,
+    "duration": 5.6
+  },
+  {
+    "text": "you to reproduce it, to resell it,",
+    "start": 2618.64,
+    "duration": 7.439
+  },
+  {
+    "text": "um to sell in general. Um, and there's",
+    "start": 2622.48,
+    "duration": 5.68
+  },
+  {
+    "text": "some more special cases in copyright",
+    "start": 2626.079,
+    "duration": 3.121
+  },
+  {
+    "text": "when it comes to things like",
+    "start": 2628.16,
+    "duration": 2.56
+  },
+  {
+    "text": "performances, like it allows you to",
+    "start": 2629.2,
+    "duration": 3.919
+  },
+  {
+    "text": "perform it publicly or record publicly",
+    "start": 2630.72,
+    "duration": 5.28
+  },
+  {
+    "text": "while you're doing it or anything like",
+    "start": 2633.119,
+    "duration": 5.601
+  },
+  {
+    "text": "that. It's basically a way to say, \"Hey,",
+    "start": 2636.0,
+    "duration": 4.72
+  },
+  {
+    "text": "you have you are the one who's",
+    "start": 2638.72,
+    "duration": 4.24
+  },
+  {
+    "text": "accredited with making or doing or",
+    "start": 2640.72,
+    "duration": 4.0
+  },
+  {
+    "text": "singing or performing this certain",
+    "start": 2642.96,
+    "duration": 4.399
+  },
+  {
+    "text": "thing. here is that certification of",
+    "start": 2644.72,
+    "duration": 4.72
+  },
+  {
+    "text": "credit. You're allowed to make money off",
+    "start": 2647.359,
+    "duration": 3.441
+  },
+  {
+    "text": "of this thing and you are allowed to",
+    "start": 2649.44,
+    "duration": 3.04
+  },
+  {
+    "text": "pursue legal action against anyone that",
+    "start": 2650.8,
+    "duration": 3.12
+  },
+  {
+    "text": "tries to copy you. It also prevents",
+    "start": 2652.48,
+    "duration": 4.879
+  },
+  {
+    "text": "people from copying you um for the most",
+    "start": 2653.92,
+    "duration": 6.88
+  },
+  {
+    "text": "part I believe.",
+    "start": 2657.359,
+    "duration": 5.601
+  },
+  {
+    "text": "All right. A web application um from a",
+    "start": 2660.8,
+    "duration": 5.6
+  },
+  {
+    "text": "traditional desktop application um a web",
+    "start": 2662.96,
+    "duration": 5.92
+  },
+  {
+    "text": "application is something like we access",
+    "start": 2666.4,
+    "duration": 5.6
+  },
+  {
+    "text": "through a browser. We might say, \"Hey, I",
+    "start": 2668.88,
+    "duration": 4.719
+  },
+  {
+    "text": "need to do this.\" But we're just",
+    "start": 2672.0,
+    "duration": 3.119
+  },
+  {
+    "text": "accessing that on something like our",
+    "start": 2673.599,
+    "duration": 3.841
+  },
+  {
+    "text": "browser like this, right? While in",
+    "start": 2675.119,
+    "duration": 4.24
+  },
+  {
+    "text": "reality, a desktop application is",
+    "start": 2677.44,
+    "duration": 3.28
+  },
+  {
+    "text": "something that is built into the",
+    "start": 2679.359,
+    "duration": 5.041
+  },
+  {
+    "text": "computer like file explorer, right? Or",
+    "start": 2680.72,
+    "duration": 5.84
+  },
+  {
+    "text": "um like sniffing tools, but I think",
+    "start": 2684.4,
+    "duration": 5.919
+  },
+  {
+    "text": "built in or paint or or um any of these",
+    "start": 2686.56,
+    "duration": 6.08
+  },
+  {
+    "text": "m crappy Microsoft things, you know,",
+    "start": 2690.319,
+    "duration": 4.161
+  },
+  {
+    "text": "those are all built into the computer.",
+    "start": 2692.64,
+    "duration": 3.679
+  },
+  {
+    "text": "They're not something that we have to go",
+    "start": 2694.48,
+    "duration": 4.8
+  },
+  {
+    "text": "and access from the internet. Uh they're",
+    "start": 2696.319,
+    "duration": 4.8
+  },
+  {
+    "text": "just on our computer. That's a desktop",
+    "start": 2699.28,
+    "duration": 4.16
+  },
+  {
+    "text": "application.",
+    "start": 2701.119,
+    "duration": 4.321
+  },
+  {
+    "text": "HTML. I'm going to go back a couple",
+    "start": 2703.44,
+    "duration": 5.04
+  },
+  {
+    "text": "questions to the one I was just on.",
+    "start": 2705.44,
+    "duration": 6.96
+  },
+  {
+    "text": "Um, HTML is hypertext markup language.",
+    "start": 2708.48,
+    "duration": 6.639
+  },
+  {
+    "text": "Um, and it allows you to it provides",
+    "start": 2712.4,
+    "duration": 4.32
+  },
+  {
+    "text": "structure to the page. It's what it's",
+    "start": 2715.119,
+    "duration": 4.321
+  },
+  {
+    "text": "what builds the page. And within the",
+    "start": 2716.72,
+    "duration": 4.879
+  },
+  {
+    "text": "hypertext markup language is that of",
+    "start": 2719.44,
+    "duration": 4.399
+  },
+  {
+    "text": "course CSS and J and JavaScript.",
+    "start": 2721.599,
+    "duration": 3.841
+  },
+  {
+    "text": "Basically, all three of them combine",
+    "start": 2723.839,
+    "duration": 3.361
+  },
+  {
+    "text": "together to create the page. but also",
+    "start": 2725.44,
+    "duration": 3.919
+  },
+  {
+    "text": "when we request [sighs]",
+    "start": 2727.2,
+    "duration": 4.08
+  },
+  {
+    "text": "things from the website when we're on",
+    "start": 2729.359,
+    "duration": 3.521
+  },
+  {
+    "text": "the internet that's part of what they",
+    "start": 2731.28,
+    "duration": 4.64
+  },
+  {
+    "text": "send back is the HTML and all these",
+    "start": 2732.88,
+    "duration": 5.199
+  },
+  {
+    "text": "different languages. So um but the best",
+    "start": 2735.92,
+    "duration": 4.8
+  },
+  {
+    "text": "way to describe HTML is that it provides",
+    "start": 2738.079,
+    "duration": 5.201
+  },
+  {
+    "text": "um",
+    "start": 2740.72,
+    "duration": 4.32
+  },
+  {
+    "text": "it provides structure to the web page",
+    "start": 2743.28,
+    "duration": 4.319
+  },
+  {
+    "text": "you're visiting.",
+    "start": 2745.04,
+    "duration": 4.559
+  },
+  {
+    "text": "Multitasking is the ability for a",
+    "start": 2747.599,
+    "duration": 4.321
+  },
+  {
+    "text": "computer to do multiple things at once.",
+    "start": 2749.599,
+    "duration": 4.48
+  },
+  {
+    "text": "Um I believe that the way",
+    "start": 2751.92,
+    "duration": 4.72
+  },
+  {
+    "text": "multi-threading",
+    "start": 2754.079,
+    "duration": 4.24
+  },
+  {
+    "text": "Oh my gosh, we literally just went over",
+    "start": 2756.64,
+    "duration": 4.8
+  },
+  {
+    "text": "this in class the other day, too. Um,",
+    "start": 2758.319,
+    "duration": 5.841
+  },
+  {
+    "text": "multiprocessing is the idea that it's",
+    "start": 2761.44,
+    "duration": 6.08
+  },
+  {
+    "text": "like, okay, I have all these tasks that",
+    "start": 2764.16,
+    "duration": 5.52
+  },
+  {
+    "text": "I need to do, and it's like, okay, I'm",
+    "start": 2767.52,
+    "duration": 3.599
+  },
+  {
+    "text": "going to do them all at once. I'm going",
+    "start": 2769.68,
+    "duration": 6.0
+  },
+  {
+    "text": "to do these all at once. Um,",
+    "start": 2771.119,
+    "duration": 8.2
+  },
+  {
+    "text": "or no, it's not.",
+    "start": 2775.68,
+    "duration": 3.639
+  },
+  {
+    "text": "Well, multiprocessing, I don't think",
+    "start": 2781.2,
+    "duration": 3.04
+  },
+  {
+    "text": "that's right. But multi-threading is",
+    "start": 2782.8,
+    "duration": 3.92
+  },
+  {
+    "text": "when you have like your CPU",
+    "start": 2784.24,
+    "duration": 4.48
+  },
+  {
+    "text": "and it's connected to your ROM and then",
+    "start": 2786.72,
+    "duration": 5.76
+  },
+  {
+    "text": "it may be running a program right um",
+    "start": 2788.72,
+    "duration": 5.68
+  },
+  {
+    "text": "within that there may be threads to that",
+    "start": 2792.48,
+    "duration": 5.92
+  },
+  {
+    "text": "program or thread somewhere and",
+    "start": 2794.4,
+    "duration": 6.88
+  },
+  {
+    "text": "multi-threading is just running multiple",
+    "start": 2798.4,
+    "duration": 4.719
+  },
+  {
+    "text": "of those at the same time if that makes",
+    "start": 2801.28,
+    "duration": 3.6
+  },
+  {
+    "text": "sense and this question is not perfect I",
+    "start": 2803.119,
+    "duration": 3.441
+  },
+  {
+    "text": "know and we literally just went over it",
+    "start": 2804.88,
+    "duration": 4.16
+  },
+  {
+    "text": "but",
+    "start": 2806.56,
+    "duration": 4.24
+  },
+  {
+    "text": "it's basically multiprocess and",
+    "start": 2809.04,
+    "duration": 3.68
+  },
+  {
+    "text": "multi-threading are two different ways",
+    "start": 2810.8,
+    "duration": 4.96
+  },
+  {
+    "text": "days of multitasking a task within the",
+    "start": 2812.72,
+    "duration": 6.04
+  },
+  {
+    "text": "CPU.",
+    "start": 2815.76,
+    "duration": 3.0
+  },
+  {
+    "text": "Uh, so I just answered this question",
+    "start": 2818.8,
+    "duration": 5.36
+  },
+  {
+    "text": "earlier and of course I of course I I",
+    "start": 2820.319,
+    "duration": 6.961
+  },
+  {
+    "text": "drew it away, but we have the guy with",
+    "start": 2824.16,
+    "duration": 6.0
+  },
+  {
+    "text": "the AI who makes something. He makes XA",
+    "start": 2827.28,
+    "duration": 6.0
+  },
+  {
+    "text": "art and he posts it,",
+    "start": 2830.16,
+    "duration": 4.959
+  },
+  {
+    "text": "but uh he's not the only one with eyes",
+    "start": 2833.28,
+    "duration": 3.36
+  },
+  {
+    "text": "on it. everyone in the world has the",
+    "start": 2835.119,
+    "duration": 2.96
+  },
+  {
+    "text": "ability to see what he is and then",
+    "start": 2836.64,
+    "duration": 5.84
+  },
+  {
+    "text": "they're like, \"Oh, hey, that looks real,",
+    "start": 2838.079,
+    "duration": 6.881
+  },
+  {
+    "text": "but in reality,",
+    "start": 2842.48,
+    "duration": 4.639
+  },
+  {
+    "text": "is it though? Was it actually made by a",
+    "start": 2844.96,
+    "duration": 6.24
+  },
+  {
+    "text": "human?\" Um, and so that's kind of the",
+    "start": 2847.119,
+    "duration": 6.161
+  },
+  {
+    "text": "the most basic example of truth and",
+    "start": 2851.2,
+    "duration": 4.32
+  },
+  {
+    "text": "trust with text, images, and videos",
+    "start": 2853.28,
+    "duration": 4.559
+  },
+  {
+    "text": "because that's harmless art for the most",
+    "start": 2855.52,
+    "duration": 4.559
+  },
+  {
+    "text": "part. It's when we get to more serious",
+    "start": 2857.839,
+    "duration": 5.121
+  },
+  {
+    "text": "things like news or I'm not sure if it's",
+    "start": 2860.079,
+    "duration": 4.721
+  },
+  {
+    "text": "actually become a thing yet, but like",
+    "start": 2862.96,
+    "duration": 4.24
+  },
+  {
+    "text": "using it to like accuse someone of",
+    "start": 2864.8,
+    "duration": 5.2
+  },
+  {
+    "text": "creating a crime, you know, that's when",
+    "start": 2867.2,
+    "duration": 5.84
+  },
+  {
+    "text": "things get messed up. And that's why we",
+    "start": 2870.0,
+    "duration": 5.359
+  },
+  {
+    "text": "AI is something a line that needs to be",
+    "start": 2873.04,
+    "duration": 3.6
+  },
+  {
+    "text": "tread carefully because you need to be",
+    "start": 2875.359,
+    "duration": 3.201
+  },
+  {
+    "text": "able to distinguish what's real or not.",
+    "start": 2876.64,
+    "duration": 3.76
+  },
+  {
+    "text": "And AI is getting really good at making",
+    "start": 2878.56,
+    "duration": 7.08
+  },
+  {
+    "text": "it hard to tell what is real or not.",
+    "start": 2880.4,
+    "duration": 5.24
+  },
+  {
+    "text": "Oh, cool. Um, so binary digits as we",
+    "start": 2886.319,
+    "duration": 3.921
+  },
+  {
+    "text": "talked about earlier are just O's and",
+    "start": 2888.8,
+    "duration": 4.0
+  },
+  {
+    "text": "ones, right? So electricity could be",
+    "start": 2890.24,
+    "duration": 5.44
+  },
+  {
+    "text": "like this. Uh, low voltage would",
+    "start": 2892.8,
+    "duration": 5.76
+  },
+  {
+    "text": "represent a zero and high voltage would",
+    "start": 2895.68,
+    "duration": 5.36
+  },
+  {
+    "text": "represent a one. So if it received a",
+    "start": 2898.56,
+    "duration": 4.32
+  },
+  {
+    "text": "heart, it would be super simple. It's",
+    "start": 2901.04,
+    "duration": 3.44
+  },
+  {
+    "text": "with I'm kind of explaining as I'm",
+    "start": 2902.88,
+    "duration": 4.0
+  },
+  {
+    "text": "talking. If you receive high voltage,",
+    "start": 2904.48,
+    "duration": 4.079
+  },
+  {
+    "text": "it'll list it as a one. If you get low",
+    "start": 2906.88,
+    "duration": 3.84
+  },
+  {
+    "text": "voltage, it'll list as a zero. Simple as",
+    "start": 2908.559,
+    "duration": 4.401
+  },
+  {
+    "text": "that.",
+    "start": 2910.72,
+    "duration": 5.28
+  },
+  {
+    "text": "Web cookie. Yeah, of course.",
+    "start": 2912.96,
+    "duration": 3.76
+  },
+  {
+    "text": "when [sighs]",
+    "start": 2916.0,
+    "duration": 3.04
+  },
+  {
+    "text": "you request to go visit a website on the",
+    "start": 2916.72,
+    "duration": 6.32
+  },
+  {
+    "text": "internet web server um both cookies I",
+    "start": 2919.04,
+    "duration": 6.48
+  },
+  {
+    "text": "believe are sent back and forth uh as I",
+    "start": 2923.04,
+    "duration": 4.319
+  },
+  {
+    "text": "mentioned earlier right here cookies are",
+    "start": 2925.52,
+    "duration": 3.92
+  },
+  {
+    "text": "sent um but basically what cookies allow",
+    "start": 2927.359,
+    "duration": 3.921
+  },
+  {
+    "text": "you to do is it allows you to visit the",
+    "start": 2929.44,
+    "duration": 4.0
+  },
+  {
+    "text": "website faster um cookies kind of go",
+    "start": 2931.28,
+    "duration": 6.64
+  },
+  {
+    "text": "hand inhand with caching um basically it",
+    "start": 2933.44,
+    "duration": 7.36
+  },
+  {
+    "text": "it um",
+    "start": 2937.92,
+    "duration": 5.52
+  },
+  {
+    "text": "it's like a it's like a photo album",
+    "start": 2940.8,
+    "duration": 4.559
+  },
+  {
+    "text": "maybe not the best example but it's like",
+    "start": 2943.44,
+    "duration": 4.919
+  },
+  {
+    "text": "Um,",
+    "start": 2945.359,
+    "duration": 3.0
+  },
+  {
+    "text": "it's like a mini memory for each",
+    "start": 2948.64,
+    "duration": 3.36
+  },
+  {
+    "text": "website. It's like a memory and it's",
+    "start": 2950.24,
+    "duration": 3.76
+  },
+  {
+    "text": "like memory in your head. It's basically",
+    "start": 2952.0,
+    "duration": 3.599
+  },
+  {
+    "text": "a mini memory in your website. It says,",
+    "start": 2954.0,
+    "duration": 3.599
+  },
+  {
+    "text": "\"Oh, I know this, this, and this about",
+    "start": 2955.599,
+    "duration": 4.081
+  },
+  {
+    "text": "your last visit. I'm going to bring that",
+    "start": 2957.599,
+    "duration": 3.76
+  },
+  {
+    "text": "back up.\" So, it allows you to load",
+    "start": 2959.68,
+    "duration": 4.639
+  },
+  {
+    "text": "faster and also personalize your",
+    "start": 2961.359,
+    "duration": 7.441
+  },
+  {
+    "text": "information. Um, a cookie on the website",
+    "start": 2964.319,
+    "duration": 6.401
+  },
+  {
+    "text": "side may be like, \"Oh, they visited this",
+    "start": 2968.8,
+    "duration": 3.84
+  },
+  {
+    "text": "page when, where, how, they entered this",
+    "start": 2970.72,
+    "duration": 3.44
+  },
+  {
+    "text": "password, everything like that.\" And the",
+    "start": 2972.64,
+    "duration": 3.28
+  },
+  {
+    "text": "same thing may apply to your side, but",
+    "start": 2974.16,
+    "duration": 3.199
+  },
+  {
+    "text": "basically it's information that allows",
+    "start": 2975.92,
+    "duration": 3.199
+  },
+  {
+    "text": "you to access the website quicker next",
+    "start": 2977.359,
+    "duration": 4.0
+  },
+  {
+    "text": "time. Um, and it saves your information",
+    "start": 2979.119,
+    "duration": 3.921
+  },
+  {
+    "text": "sometimes like a password and anything",
+    "start": 2981.359,
+    "duration": 3.76
+  },
+  {
+    "text": "like that. So yeah, that's what cookies",
+    "start": 2983.04,
+    "duration": 4.72
+  },
+  {
+    "text": "are.",
+    "start": 2985.119,
+    "duration": 4.321
+  },
+  {
+    "text": "A rootkit,",
+    "start": 2987.76,
+    "duration": 4.16
+  },
+  {
+    "text": "a rootkit is an invasive",
+    "start": 2989.44,
+    "duration": 6.24
+  },
+  {
+    "text": "malware and basically uh what a rootkit",
+    "start": 2991.92,
+    "duration": 5.28
+  },
+  {
+    "text": "will do is after it has somehow",
+    "start": 2995.68,
+    "duration": 3.6
+  },
+  {
+    "text": "infiltrated your computer, it buries",
+    "start": 2997.2,
+    "duration": 5.119
+  },
+  {
+    "text": "itself really really deep inside of the",
+    "start": 2999.28,
+    "duration": 6.16
+  },
+  {
+    "text": "OS. Um, I don't remember much beyond",
+    "start": 3002.319,
+    "duration": 6.321
+  },
+  {
+    "text": "that except for that because but I do",
+    "start": 3005.44,
+    "duration": 4.879
+  },
+  {
+    "text": "know that it'll it's basically like a",
+    "start": 3008.64,
+    "duration": 3.439
+  },
+  {
+    "text": "little like a mouse inside of your",
+    "start": 3010.319,
+    "duration": 5.121
+  },
+  {
+    "text": "house. It just hides down in there until",
+    "start": 3012.079,
+    "duration": 5.681
+  },
+  {
+    "text": "it's needed and then it will pop up when",
+    "start": 3015.44,
+    "duration": 4.08
+  },
+  {
+    "text": "it's a problem. I like to also think of",
+    "start": 3017.76,
+    "duration": 4.319
+  },
+  {
+    "text": "it as um",
+    "start": 3019.52,
+    "duration": 4.799
+  },
+  {
+    "text": "if you do like a microscopic image of",
+    "start": 3022.079,
+    "duration": 3.921
+  },
+  {
+    "text": "like I don't remember what it is but",
+    "start": 3024.319,
+    "duration": 3.76
+  },
+  {
+    "text": "like a certain microscopic image of like",
+    "start": 3026.0,
+    "duration": 4.64
+  },
+  {
+    "text": "fabric or like furs. It's actually like",
+    "start": 3028.079,
+    "duration": 4.641
+  },
+  {
+    "text": "just a bunch of little hooks and that's",
+    "start": 3030.64,
+    "duration": 3.84
+  },
+  {
+    "text": "what I think of it is like they're hooks",
+    "start": 3032.72,
+    "duration": 3.839
+  },
+  {
+    "text": "that are",
+    "start": 3034.48,
+    "duration": 4.16
+  },
+  {
+    "text": "um or actually no I remember what it was",
+    "start": 3036.559,
+    "duration": 4.881
+  },
+  {
+    "text": "now. Uh someone once described uh",
+    "start": 3038.64,
+    "duration": 5.199
+  },
+  {
+    "text": "inhaling abscessestos",
+    "start": 3041.44,
+    "duration": 4.56
+  },
+  {
+    "text": "as much of a weird example as this is",
+    "start": 3043.839,
+    "duration": 5.76
+  },
+  {
+    "text": "when the absesses goes into your lungs.",
+    "start": 3046.0,
+    "duration": 5.2
+  },
+  {
+    "text": "It",
+    "start": 3049.599,
+    "duration": 3.281
+  },
+  {
+    "text": "they're like little hooks and that's",
+    "start": 3051.2,
+    "duration": 3.44
+  },
+  {
+    "text": "what the issue with obsessestos is is it",
+    "start": 3052.88,
+    "duration": 3.52
+  },
+  {
+    "text": "hooks in on your lungs that causes",
+    "start": 3054.64,
+    "duration": 5.6
+  },
+  {
+    "text": "issues and um yeah that's basically what",
+    "start": 3056.4,
+    "duration": 5.679
+  },
+  {
+    "text": "it is. It's just a little hook inside of",
+    "start": 3060.24,
+    "duration": 3.76
+  },
+  {
+    "text": "here that may cause issues for you in",
+    "start": 3062.079,
+    "duration": 3.52
+  },
+  {
+    "text": "the future. I'll just draw a little",
+    "start": 3064.0,
+    "duration": 4.24
+  },
+  {
+    "text": "hook. Yeah.",
+    "start": 3065.599,
+    "duration": 4.24
+  },
+  {
+    "text": "How do magnetic fields store binary",
+    "start": 3068.24,
+    "duration": 3.92
+  },
+  {
+    "text": "information? Cool. So again, binary",
+    "start": 3069.839,
+    "duration": 4.24
+  },
+  {
+    "text": "information is what? Zeros and ones,",
+    "start": 3072.16,
+    "duration": 3.52
+  },
+  {
+    "text": "right? So you might have something like",
+    "start": 3074.079,
+    "duration": 3.28
+  },
+  {
+    "text": "this.",
+    "start": 3075.68,
+    "duration": 3.76
+  },
+  {
+    "text": "And when you put a little magnetic",
+    "start": 3077.359,
+    "duration": 4.881
+  },
+  {
+    "text": "device like this, what it do is it reads",
+    "start": 3079.44,
+    "duration": 4.72
+  },
+  {
+    "text": "that and it's like, oh, so this one just",
+    "start": 3082.24,
+    "duration": 3.92
+  },
+  {
+    "text": "pointed upwards north. This one just",
+    "start": 3084.16,
+    "duration": 4.08
+  },
+  {
+    "text": "went south. Oh, okay. So this must be at",
+    "start": 3086.16,
+    "duration": 6.959
+  },
+  {
+    "text": "0 0. Oh, one one",
+    "start": 3088.24,
+    "duration": 8.24
+  },
+  {
+    "text": "uh one one zero zero. And uh yeah,",
+    "start": 3093.119,
+    "duration": 5.601
+  },
+  {
+    "text": "that's just basically how they represent",
+    "start": 3096.48,
+    "duration": 4.72
+  },
+  {
+    "text": "is it it determines by the magnetic",
+    "start": 3098.72,
+    "duration": 4.639
+  },
+  {
+    "text": "force that is being put on it whether or",
+    "start": 3101.2,
+    "duration": 5.96
+  },
+  {
+    "text": "not it's a one or a zero.",
+    "start": 3103.359,
+    "duration": 3.801
+  },
+  {
+    "text": "What is a transistor and how does it",
+    "start": 3107.2,
+    "duration": 3.6
+  },
+  {
+    "text": "work in computers? A transistor is an",
+    "start": 3108.64,
+    "duration": 5.439
+  },
+  {
+    "text": "ability um electricity. So basically it",
+    "start": 3110.8,
+    "duration": 5.36
+  },
+  {
+    "text": "needs somewhere to enter. Uh it has",
+    "start": 3114.079,
+    "duration": 4.48
+  },
+  {
+    "text": "three parts. Somewhere to enter uh",
+    "start": 3116.16,
+    "duration": 4.64
+  },
+  {
+    "text": "something like a lever or not a lever",
+    "start": 3118.559,
+    "duration": 3.681
+  },
+  {
+    "text": "like a gate which I'll represent like",
+    "start": 3120.8,
+    "duration": 3.2
+  },
+  {
+    "text": "that. Just imagine that this swings open",
+    "start": 3122.24,
+    "duration": 4.8
+  },
+  {
+    "text": "and shut. Um and then somewhere to exit.",
+    "start": 3124.0,
+    "duration": 4.4
+  },
+  {
+    "text": "And that's basically what it is. The",
+    "start": 3127.04,
+    "duration": 3.039
+  },
+  {
+    "text": "electricity comes through here and it's",
+    "start": 3128.4,
+    "duration": 6.56
+  },
+  {
+    "text": "like oh okay um",
+    "start": 3130.079,
+    "duration": 6.641
+  },
+  {
+    "text": "I need to connect this to this for the",
+    "start": 3134.96,
+    "duration": 3.44
+  },
+  {
+    "text": "electricity to continue to flow this",
+    "start": 3136.72,
+    "duration": 4.0
+  },
+  {
+    "text": "way. So it's it's I believe the way is",
+    "start": 3138.4,
+    "duration": 5.199
+  },
+  {
+    "text": "described it's basically an electrical",
+    "start": 3140.72,
+    "duration": 4.879
+  },
+  {
+    "text": "uh it's an electrical switch for your",
+    "start": 3143.599,
+    "duration": 3.841
+  },
+  {
+    "text": "computers. And I'm not sure if this was",
+    "start": 3145.599,
+    "duration": 3.361
+  },
+  {
+    "text": "part of the material, but I believe",
+    "start": 3147.44,
+    "duration": 5.6
+  },
+  {
+    "text": "that's they also may help or I'm sorry.",
+    "start": 3148.96,
+    "duration": 6.879
+  },
+  {
+    "text": "Uh transistors are super duper small and",
+    "start": 3153.04,
+    "duration": 5.12
+  },
+  {
+    "text": "I believe they're found like within the",
+    "start": 3155.839,
+    "duration": 4.321
+  },
+  {
+    "text": "like CPU and there can be lots and lots",
+    "start": 3158.16,
+    "duration": 3.52
+  },
+  {
+    "text": "of them unless I'm thinking of something",
+    "start": 3160.16,
+    "duration": 3.76
+  },
+  {
+    "text": "else. But there are tons of these things",
+    "start": 3161.68,
+    "duration": 5.2
+  },
+  {
+    "text": "microscopically built on top of it and",
+    "start": 3163.92,
+    "duration": 5.76
+  },
+  {
+    "text": "uh that's they help they allow the",
+    "start": 3166.88,
+    "duration": 6.199
+  },
+  {
+    "text": "computer to run.",
+    "start": 3169.68,
+    "duration": 3.399
+  },
+  {
+    "text": "six degrees of separation aka the six",
+    "start": 3173.2,
+    "duration": 4.72
+  },
+  {
+    "text": "degrees from Kevin Bacon. Um basically",
+    "start": 3175.839,
+    "duration": 6.48
+  },
+  {
+    "text": "this is a rule that um",
+    "start": 3177.92,
+    "duration": 7.6
+  },
+  {
+    "text": "basically that you or anything else is",
+    "start": 3182.319,
+    "duration": 8.0
+  },
+  {
+    "text": "no farther away than six separations",
+    "start": 3185.52,
+    "duration": 6.72
+  },
+  {
+    "text": "between you and whatever else you're",
+    "start": 3190.319,
+    "duration": 7.721
+  },
+  {
+    "text": "trying to find. In most cases, it's um",
+    "start": 3192.24,
+    "duration": 5.8
+  },
+  {
+    "text": "it's",
+    "start": 3198.24,
+    "duration": 4.72
+  },
+  {
+    "text": "in most cases we're talking about you're",
+    "start": 3200.88,
+    "duration": 4.88
+  },
+  {
+    "text": "not separated from a person",
+    "start": 3202.96,
+    "duration": 5.84
+  },
+  {
+    "text": "six different people away. Um but yeah,",
+    "start": 3205.76,
+    "duration": 4.559
+  },
+  {
+    "text": "that's basically what it is. It's just a",
+    "start": 3208.8,
+    "duration": 4.559
+  },
+  {
+    "text": "theory. Um I I think it's I think it's a",
+    "start": 3210.319,
+    "duration": 4.881
+  },
+  {
+    "text": "little hard to believe as population",
+    "start": 3213.359,
+    "duration": 4.161
+  },
+  {
+    "text": "grows that this would be possible. Um,",
+    "start": 3215.2,
+    "duration": 4.32
+  },
+  {
+    "text": "but again, I I believe it's a scientific",
+    "start": 3217.52,
+    "duration": 3.92
+  },
+  {
+    "text": "theory that this is a possibility that",
+    "start": 3219.52,
+    "duration": 4.64
+  },
+  {
+    "text": "this can happen.",
+    "start": 3221.44,
+    "duration": 4.48
+  },
+  {
+    "text": "Oh, assembly language. Assembly",
+    "start": 3224.16,
+    "duration": 4.64
+  },
+  {
+    "text": "language. Um, I'm going to go back to Do",
+    "start": 3225.92,
+    "duration": 6.679
+  },
+  {
+    "text": "I have that one?",
+    "start": 3228.8,
+    "duration": 3.799
+  },
+  {
+    "text": "Where is it?",
+    "start": 3239.68,
+    "duration": 3.399
+  },
+  {
+    "text": "Where did the machine go?",
+    "start": 3252.8,
+    "duration": 3.88
+  },
+  {
+    "text": "Okay. Well, either way, um",
+    "start": 3260.079,
+    "duration": 6.961
+  },
+  {
+    "text": "um earlier we had that question where it",
+    "start": 3264.8,
+    "duration": 4.4
+  },
+  {
+    "text": "was like, hey, you need to add for, you",
+    "start": 3267.04,
+    "duration": 5.68
+  },
+  {
+    "text": "know, store for add zero. that thing",
+    "start": 3269.2,
+    "duration": 5.76
+  },
+  {
+    "text": "that's assembly language. Basically",
+    "start": 3272.72,
+    "duration": 4.639
+  },
+  {
+    "text": "machine language machine code is what",
+    "start": 3274.96,
+    "duration": 4.8
+  },
+  {
+    "text": "the machine understands. Assembly",
+    "start": 3277.359,
+    "duration": 5.121
+  },
+  {
+    "text": "language is how we are able to visualize",
+    "start": 3279.76,
+    "duration": 5.839
+  },
+  {
+    "text": "what the machine is doing. Um that's",
+    "start": 3282.48,
+    "duration": 6.32
+  },
+  {
+    "text": "really is it's kind of almost like a",
+    "start": 3285.599,
+    "duration": 6.24
+  },
+  {
+    "text": "built-in device driver. we understand",
+    "start": 3288.8,
+    "duration": 5.279
+  },
+  {
+    "text": "what the assembly language is saying but",
+    "start": 3291.839,
+    "duration": 4.401
+  },
+  {
+    "text": "when it go when it translates into",
+    "start": 3294.079,
+    "duration": 3.921
+  },
+  {
+    "text": "machine code that's when it's like oh",
+    "start": 3296.24,
+    "duration": 3.52
+  },
+  {
+    "text": "hey okay this is for the computer and",
+    "start": 3298.0,
+    "duration": 3.76
+  },
+  {
+    "text": "this is for my eyes to understand uh",
+    "start": 3299.76,
+    "duration": 5.76
+  },
+  {
+    "text": "what's going on basically",
+    "start": 3301.76,
+    "duration": 5.359
+  },
+  {
+    "text": "what is a pull request and how does it",
+    "start": 3305.52,
+    "duration": 4.72
+  },
+  {
+    "text": "facilitate collaboration sweet so um",
+    "start": 3307.119,
+    "duration": 4.881
+  },
+  {
+    "text": "basically someone can look at a website",
+    "start": 3310.24,
+    "duration": 5.76
+  },
+  {
+    "text": "and be like hey um",
+    "start": 3312.0,
+    "duration": 6.079
+  },
+  {
+    "text": "I want to make x amount of changes to",
+    "start": 3316.0,
+    "duration": 5.92
+  },
+  {
+    "text": "this website they make what is called um",
+    "start": 3318.079,
+    "duration": 6.0
+  },
+  {
+    "text": "I believe what is called a hook if I",
+    "start": 3321.92,
+    "duration": 4.48
+  },
+  {
+    "text": "remember correctly is it called a hook I",
+    "start": 3324.079,
+    "duration": 3.52
+  },
+  {
+    "text": "don't remember but there's a term to",
+    "start": 3326.4,
+    "duration": 2.56
+  },
+  {
+    "text": "describe what they make but in total",
+    "start": 3327.599,
+    "duration": 3.361
+  },
+  {
+    "text": "what they're basically making is a draft",
+    "start": 3328.96,
+    "duration": 4.399
+  },
+  {
+    "text": "and what they'll do is they can submit a",
+    "start": 3330.96,
+    "duration": 6.0
+  },
+  {
+    "text": "PR a poll request to the website and",
+    "start": 3333.359,
+    "duration": 5.841
+  },
+  {
+    "text": "then someone like hey the website admin",
+    "start": 3336.96,
+    "duration": 4.24
+  },
+  {
+    "text": "will look at it and they will look over",
+    "start": 3339.2,
+    "duration": 4.879
+  },
+  {
+    "text": "this draft which again it's just a draft",
+    "start": 3341.2,
+    "duration": 4.399
+  },
+  {
+    "text": "the website hasn't actually changed and",
+    "start": 3344.079,
+    "duration": 3.921
+  },
+  {
+    "text": "then they can be like oh okay yeah we're",
+    "start": 3345.599,
+    "duration": 3.601
+  },
+  {
+    "text": "going to do that and then it gets added",
+    "start": 3348.0,
+    "duration": 3.52
+  },
+  {
+    "text": "added to the website or they can be like",
+    "start": 3349.2,
+    "duration": 4.32
+  },
+  {
+    "text": "no we're not going to do that. Um, so it",
+    "start": 3351.52,
+    "duration": 3.76
+  },
+  {
+    "text": "facilitates collaboration because you're",
+    "start": 3353.52,
+    "duration": 2.96
+  },
+  {
+    "text": "basically sending it someone else",
+    "start": 3355.28,
+    "duration": 2.64
+  },
+  {
+    "text": "saying, \"Hey, I would like to make these",
+    "start": 3356.48,
+    "duration": 3.28
+  },
+  {
+    "text": "changes. Would this be okay? Here's my",
+    "start": 3357.92,
+    "duration": 3.52
+  },
+  {
+    "text": "rough draft of those changes I want to",
+    "start": 3359.76,
+    "duration": 3.839
+  },
+  {
+    "text": "make.\"",
+    "start": 3361.44,
+    "duration": 5.119
+  },
+  {
+    "text": "Um, cloud computing. Um, this is",
+    "start": 3363.599,
+    "duration": 5.041
+  },
+  {
+    "text": "basically like,",
+    "start": 3366.559,
+    "duration": 4.961
+  },
+  {
+    "text": "um, hey, I have this computer at home,",
+    "start": 3368.64,
+    "duration": 6.159
+  },
+  {
+    "text": "but I would like to be able to run some",
+    "start": 3371.52,
+    "duration": 6.48
+  },
+  {
+    "text": "software on a computer that's not really",
+    "start": 3374.799,
+    "duration": 5.681
+  },
+  {
+    "text": "my own, but instead that's safely in the",
+    "start": 3378.0,
+    "duration": 5.599
+  },
+  {
+    "text": "cloud. So what you can do is you can uh",
+    "start": 3380.48,
+    "duration": 6.24
+  },
+  {
+    "text": "rent it out as something in the cloud uh",
+    "start": 3383.599,
+    "duration": 4.641
+  },
+  {
+    "text": "computer. We'll draw another little e",
+    "start": 3386.72,
+    "duration": 4.24
+  },
+  {
+    "text": "ecosystem here. Um and then like a",
+    "start": 3388.24,
+    "duration": 5.359
+  },
+  {
+    "text": "database here. And so you can rent out",
+    "start": 3390.96,
+    "duration": 5.2
+  },
+  {
+    "text": "this computer. And this benefits some",
+    "start": 3393.599,
+    "duration": 4.641
+  },
+  {
+    "text": "people because there may be programs or",
+    "start": 3396.16,
+    "duration": 3.439
+  },
+  {
+    "text": "something that they don't necessarily",
+    "start": 3398.24,
+    "duration": 3.76
+  },
+  {
+    "text": "want to run on their computer. Um or",
+    "start": 3399.599,
+    "duration": 4.401
+  },
+  {
+    "text": "they may not have the specs to run it on",
+    "start": 3402.0,
+    "duration": 3.44
+  },
+  {
+    "text": "their computer. But if they rent",
+    "start": 3404.0,
+    "duration": 2.96
+  },
+  {
+    "text": "something like that, they can render it",
+    "start": 3405.44,
+    "duration": 3.84
+  },
+  {
+    "text": "on that computer in the cloud and then",
+    "start": 3406.96,
+    "duration": 5.44
+  },
+  {
+    "text": "that can help them out. So, um yeah,",
+    "start": 3409.28,
+    "duration": 5.12
+  },
+  {
+    "text": "that's that's basically what it is. I I",
+    "start": 3412.4,
+    "duration": 3.84
+  },
+  {
+    "text": "believe I believe that's how you",
+    "start": 3414.4,
+    "duration": 4.719
+  },
+  {
+    "text": "described it in class pretty well. So,",
+    "start": 3416.24,
+    "duration": 5.2
+  },
+  {
+    "text": "um yeah, I believe it looks like that's",
+    "start": 3419.119,
+    "duration": 4.801
+  },
+  {
+    "text": "the end of the test. Uh 46 questions. Uh",
+    "start": 3421.44,
+    "duration": 6.48
+  },
+  {
+    "text": "thank you for watching. Have a good one.",
+    "start": 3423.92,
+    "duration": 4.0
+  }
+]

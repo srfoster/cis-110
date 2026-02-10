@@ -376,8 +376,8 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
               id="group-duration-slider"
               type="range"
               min="0"
-              max="60"
-              step="1"
+              max="300"
+              step="5"
               value={groupDuration}
               onChange={(e) => setGroupDuration(Number(e.target.value))}
               className="group-duration-slider"
@@ -415,7 +415,10 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
               >
                 <button
                   className="transcript-timestamp"
-                  onClick={() => handleSeekToTime(group.start)}
+                  onClick={() => {
+                    setSelectedGroupIndex(index);
+                    handleSeekToTime(group.start);
+                  }}
                   title={`Jump to ${formatTime(group.start)}`}
                 >
                   {formatTime(group.start)}

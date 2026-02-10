@@ -112,7 +112,7 @@ def create_student_page(video_url, quarter, student_slug, base_path):
     markdown_content = f'\n\n{{{{ExamBrowser:{video_url} transcript_json:"{transcript_path}" }}}}\n'
     
     # Save markdown file
-    markdown_file = student_dir / f'{student_slug}.md'
+    markdown_file = student_dir / 'index.md'
     with open(markdown_file, 'w', encoding='utf-8') as f:
         f.write(markdown_content)
     
