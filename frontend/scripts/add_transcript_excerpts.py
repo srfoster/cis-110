@@ -10,12 +10,22 @@ from pathlib import Path
 
 
 def parse_timestamp(timestamp_str):
-    """Convert [MM:SS] to seconds."""
+    """Convert [MM:SS] or [H:MM:SS] to seconds."""
+    # Try H:MM:SS format first
+    match = re.match(r'\[(\d+):(\d+):(\d+)\]', timestamp_str)
+    if match:
+        hours = int(match.group(1))
+        minutes = int(match.group(2))
+        seconds = int(match.group(3))
+        return hours * 3600 + minutes * 60 + seconds
+    
+    # Try MM:SS format
     match = re.match(r'\[(\d+):(\d+)\]', timestamp_str)
     if match:
         minutes = int(match.group(1))
         seconds = int(match.group(2))
         return minutes * 60 + seconds
+    
     return None
 
 
@@ -37,8 +47,8 @@ def parse_questions_from_markdown(md_content):
     """Extract questions with their timestamps from markdown."""
     questions = []
     
-    # Match lines like: "1. [01:03] Explain how..."
-    pattern = r'^(\d+)\.\s+(\[\d+:\d+\])\s+(.+)$'
+    # Match lines like: "1. [01:03] Explain how..." or "32. [1:00:17] Six degrees..."
+    pattern = r'^(\d+)\.\s+(\[\d+:\d+(?::\d+)?\])\s+(.+)$'
     
     for line in md_content.split('\n'):
         match = re.match(pattern, line)

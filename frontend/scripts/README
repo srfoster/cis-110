@@ -1,0 +1,35 @@
+Midterm time?  This makes assessment and grading less of a nightmare.
+
+# Step 1: Prepare student page 
+
+Makes a student page and pull down the transcript from youtube video.
+
+```
+preprocess_exam.py VIDEO student-slug
+```
+
+```
+transcript_to_text.py
+```
+
+Makes a smaller text file out of the transcript
+
+# Step 2: Timestamping and organizing the transcript
+
+* Claude 4.5 does a pretty good job of looking at the text transcript, determining which questions were answered, and will prepopulate the student page with a list of questions answered.
+* It can then be asked to pull material from the text transcript and place it on the student page under the appropriate question.  Sample prompt: "Now, as with [student slug], I want you get other student's transcript material onto their student page, organized by the question they answered.  Let's do this with [new student slug] please"  The add_transcript_excerpts.py script should be used here.
+* It can then be asked to annotate each question with the timestamp it began to be answered.  It isn't perfect, but it is still helpful
+
+Finally, run `mark_question_timestamps.py` to port that information back into the JSON, so the exam browser identifies timestamps where a question is discussed. 
+
+# Step 2: Screenshots of diagrams
+
+Teachers/assessors should then make a manual pass through the student's exam video, aided by the exam browser.  Timestamps of ideal diagram screenshots should be recorded and can be embedded in the student page with the ShowFrame component.  Idea: Use VSCode's voice dictation tool while using ExamBrowser and record good timestamps as you go. 
+
+The goal is, by this point, not to have done any assessment, but to have fully organized video, text, diagrams such that a full assessment of student work can be done. 
+
+# Step 3: Assessment
+
+Optionally: Do a pass where points are deducted for any skipped questions.  
+
+Finally: Here's where I do the actual grading.  TODO: Potentially create per-question rubrics to assist other assessors in the future; and to serve as a guide for students in the future. 

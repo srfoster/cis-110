@@ -6,7 +6,10 @@
 
 1. [01:03] Explain how the internet differs from the worldwide web.
 
+{{ShowFrame:https://youtu.be/mrFh4ES6Bjs time:"3:18"}}
+
 > the internet is a term for the infrastructure. So, the computers, the servers, um, modems, fiber optic cables. Um, it's just the physical hardware of everything. I don't know if it's completely valid to say it's the physical hardware that creates the internet. So, I'm just going to say the physical hardware. Um, and I'm just drawing my diagram here that shows and put Um, so these are computers. Um, and these are just the lines connecting them, showing how they're all connected. And that may not be physically. It's just, you know, maybe this computer is connected to this computer and so on and so forth. Um, and then the worldwide web is like the infrastructure is here and it's what creates it and then the worldwide web sits on top of here. And the worldwide web is the connection of web pages that are on the internet. So I will show like this computer. Um draw this um let's do it this way. And I'm just going to draw a little database next to these web pages just to you know most web pages have some sort of data.
+
 
 2. [03:00] How might a video be represented numerically?
 
@@ -15,8 +18,6 @@
 3. [12:03] Explain what a zero-day exploit is.
 
 > oh my represent too quickly. Okay, I got to reorient myself sometimes cuz I I talk so much and then I get confused. Um, so now that we have our encoded number for the first frame, we would repeat that for every frame after. And so in this example, I have four frames. We would do that for every single frame. And then we would mash that whole thing together. Yeah. feel like I'm Yeah. Explain what a zero day exploit is. Um, let's see if I can draw a diagram for that because I know that what a zeroday exploit is um is where a hacker takes vulnerable vulnerabilities of a takes advantage of vulnerabilities of a piece of software or a program that the developer doesn't know exists. So it could be um Okay. So I'm going to put new program and then like your examples I will do the hacker to have a hat just so we can differentiate. I'll put his program in the cloud. Draw the users here. Okay. So, basically what my diagram involves so far is here is okay. Um, so this is the developer that created this new program. This is showing him in the cloud. These are the users. This is the hacker. And so it could be that a software developer creates a brand new um banking app. Um, and it's brand new. it just launched and maybe a hacker found a vulnerability in the code that the developer doesn't know about. That's what a zero day exploit is. Um, but it could also be that it's a program that it's been that's been out for 40 years and a hacker still finds um an ex a vulnerabil vulnerability within the code. It just means that a hacker was able to find um a leak in the code that the developer
-
-![Screenshot of exam interface at 12:03](/textbook/students/w26/monica-l/file.png)
 
 4. [15:01] Explain what a web cookie is.
 

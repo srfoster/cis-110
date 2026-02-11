@@ -16,6 +16,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   const [groupDuration, setGroupDuration] = useState(0);
   const [selectedGroupIndex, setSelectedGroupIndex] = useState(0);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [videoFullscreen, setVideoFullscreen] = useState(false);
 
   // Initialize transcript from prop or fetch from file
   useEffect(() => {
@@ -256,10 +257,16 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
         groups[item.group_number] = {
           start: item.start,
           text: [],
-          groupNumber: item.group_number
+          groupNumber: item.group_number,
+          question_number: item.question_number // Preserve question marker
         };
       }
       groups[item.group_number].text.push(item.text);
+      
+      // If this item has a question_number and the group doesn't, add it
+      if (item.question_number && !groups[item.group_number].question_number) {
+        groups[item.group_number].question_number = item.question_number;
+      }
     });
 
     return Object.values(groups).map(group => ({
@@ -328,7 +335,17 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
         {isFullscreen ? '✕ Exit Fullscreen' : '⛶ Fullscreen'}
       </button>
 
-      <div className={`exam-browser-content ${isFullscreen ? 'split-view' : ''}`}>
+      {isFullscreen && (
+        <button 
+          className="video-fullscreen-toggle-button"
+          onClick={() => setVideoFullscreen(!videoFullscreen)}
+          title={videoFullscreen ? "Normal layout" : "Enlarge video"}
+        >
+          {videoFullscreen ? '⇄ Normal' : '⛶ Enlarge Video'}
+        </button>
+      )}
+
+      <div className={`exam-browser-content ${isFullscreen ? 'split-view' : ''} ${isFullscreen && videoFullscreen ? 'video-fullscreen' : ''}`}>
         <div className="exam-browser-player">
           <iframe
             ref={iframeRef}
@@ -411,7 +428,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
               <div 
                 key={index}
                 ref={el => transcriptItemsRef.current[index] = el}
-                className={`transcript-item ${Math.abs(currentTime - group.start) < 2 ? 'active' : ''}`}
+                className={`transcript-item ${Math.abs(currentTime - group.start) < 2 ? 'active' : ''} ${group.question_number ? 'question-start' : ''}`}
               >
                 <button
                   className="transcript-timestamp"
@@ -421,6 +438,9 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
                   }}
                   title={`Jump to ${formatTime(group.start)}`}
                 >
+                  {group.question_number && (
+                    <span className="question-marker">Q{group.question_number}</span>
+                  )}
                   {formatTime(group.start)}
                 </button>
                 <span className="transcript-text">{group.text}</span>

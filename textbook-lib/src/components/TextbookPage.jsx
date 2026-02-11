@@ -12,6 +12,7 @@ import YouTube from './YouTube';
 import ExamBrowser from './ExamBrowser';
 import ProTip from './ProTip';
 import AsAProfessor from './AsAProfessor';
+import ShowFrame from './ShowFrame';
 import { getAssetUrl } from '../utils/paths';
 import compiledContentService from '../services/compiledContentService';
 import 'katex/dist/katex.min.css';
@@ -82,7 +83,7 @@ function renderContentWithComponents(content, textbookPath) {
   console.log('textbookPath:', textbookPath);
   
   // Look for component markers with optional props
-  const combinedRegex = /\{\{(ExamQuestions|VocabList|ConceptMap|YouTube|ExamBrowser|ProTip|AsAProfessor):([^}\s]+)([^}]*)\}\}/g;
+  const combinedRegex = /\{\{(ExamQuestions|VocabList|ConceptMap|YouTube|ExamBrowser|ProTip|AsAProfessor|ShowFrame):([^}\s]+)([^}]*)\}\}/g;
   
   const parts = [];
   let lastIndex = 0;
@@ -217,6 +218,14 @@ function renderContentWithComponents(content, textbookPath) {
         >
           {additionalProps.content || fileName}
         </AsAProfessor>
+      );
+    } else if (componentType === 'ShowFrame') {
+      parts.push(
+        <ShowFrame 
+          key={`sf-${parts.length}`}
+          url={fileName}
+          {...additionalProps}
+        />
       );
     }
     

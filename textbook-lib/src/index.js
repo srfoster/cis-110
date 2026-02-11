@@ -10,6 +10,7 @@ export { default as WikiPage } from './components/WikiPage.jsx';
 export { default as YouTube } from './components/YouTube.jsx';
 export { default as ProTip } from './components/ProTip.jsx';
 export { default as AsAProfessor } from './components/AsAProfessor.jsx';
+export { default as ShowFrame } from './components/ShowFrame.jsx';
 
 // Services
 export { loadAllQuestions } from './services/questionLoader.js';
