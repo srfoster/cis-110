@@ -8,183 +8,358 @@
 
 > Generating the exam. Explain what device drivers are and why they're necessary. Um I like to use a personal example for this one. I've had a little bit of experience with device drivers. Um, but you have your computer, just call it a PC. Um, and uh, for example, in my personal computer, I have a Wi-Fi. Um, I have a Wi-Fi adapter that just plugs into a USB port on the side of the computer. And so the reason that we need what a device driver is and why we need it is, you know, we have we'll just put this and we'll call this the WA the Wi-Fi adapter. Um now this Wi-Fi adapter is made by X company. Um and they may not they may not use the same language that our computer uses. So that's where the device driver uh is rest is in between is in between and um let's put a DD there. I know it's kind of messy, but DD the device driver. Basically, this acts as a translator. And so what it does is the instructions for running this Wi-Fi adapter come through the device driver and then go to your computer. Um so we'll just go right here. They go back to your computer. And that device driver allows the computer to know what it needs to do for this device to operate correctly. And I think that's the the basic point of that
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"3:37"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"4:07"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"4:37"}}
 2. [5:07] Social engineering and how it is used in cyber attacks.
 
 > um social engineering and how it is used in cyber attacks. Um um I like to think of the classic example of um unfortunately [sighs] scamming the older generation. So you'll have a person who is up to no good and um he may pose as someone he is not. Um, and then you have your innocent older person here who may not be wiser um to the problems in the world that come with um being on the internet and things like that. Um, and of course, I'm not saying that's that's 100% stereotype. That's not what I'm trying to say, but as a general idea that they they use the social engineering of appealing to someone's good side or need to help to extort something like money or information that they may have such as, you know, credit card. And so when they fall for, you know, we'll put this as like the the bait package that they send, whether that may sometimes it's an email or um phone number and they fall for that. And then the cyber attack part is that they steal this information and it comes right back to this guy and he uses that to get money or information. Um I know this is a pretty crude diagram but that's how people social engineering it's it's engineering is the idea of designing something and you are basically socially designing a way to scam people out of something or to harm them online with a cyber attack. Um but yeah that's basically the gist of it.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"5:07"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"5:37"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"6:07"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"6:37"}}
 3. [7:04] What is an IP address and why is it important for an internet connection?
 
 > Um, an IP address is basically um it's basically within the worldwide web. It's um now an IP address is is where you are as part of the wider world web. Um it it it's basically like your identifier. So if you have your computer and you have your Wi-Fi, your modem and uh we'll just do modem and your Wi-Fi router. I don't know if those are separate things or if they're the same thing, but when your computer connects to this, it is this issues an IP address for your computer. So when your computer goes and visits another part of the internet. Part of that information that is sometimes sent is your IP address. It's kind of within the name. It's kind of just a way to identify your device in the sea of everything within the internet.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"7:04"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"7:34"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"8:04"}}
 4. [8:18] Randomly generate a four-bit binary number and convert it to decimal.
 
 > Randomly generate a 4bit binary number and convert it to decimal. All right. Um we'll just do something simple. Um we know that binary works in multiples of two. So if we go eight, four, two, and one, and our random our random number is uh let's just do one one 0 0. That would be like saying 1 * 8 is 8. 1 * 4 is 4. 2 * 0 is 0. 1 * 0 is 0. So then it would be 8 + 4 would equal 13. And that would be your two digit that would be your your decimal number 13 or 13. Um a CPU to a GPU. Um the biggest way uh
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"8:18"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"8:48"}}
 5. [9:17] Explain how a CPU differs from a GPU.
 
 > first is of course in their name. Uh, CPU stands for a central processing unit. Your GPU is a graphical processing unit. Um, CPUs are usually smaller. They're usually just a little chip. GPUs are usually a bit larger, but they usually have um, like mine, for example, has uh, fans attached to them on both sides. And of course, this is not what it looks like, but bear with me. Um but a CPU is extremely good at running one thing really really fast. Um it's the way the computer executes everything it needs to do. Um yeah so everything feeds into the CPU and it is really good at running one task at a time. Now a GPU stands for graphical processing unit and as the name would imply this thing is really good at doing graphics. Um I believe the way it was described in class is that the CPU is the main workhorse but the GPU is like a helper to it when it comes to um to graphical processing. Um so this thing as this thing is really good at running one thing at a time really really fast. This thing is really good at running giant equations that help generate images and videos or whatever you're looking at. So super duper long equations. it can crunch those and it's more built for that. Um, but yeah, those are the big ways that a CPU and a GPU are different. Also, one is usually less expensive than the other.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"9:17"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"9:47"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"10:17"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"10:47"}}
 6. [11:02] Explain the difference between the logical and the physical storage models for a file.
 
 > Explain the difference between the logical and the physical storage models um for a file. Um, don't remember this one, but um, if I had to venture, I guess I believe the logical is where on my desktop can I find that within my app? So, can I find that within where inside of file explorer? Um, I know it's a horrible drawing, but where inside of it can I find that? While physical storage is is where it actually is physically on your computer, depending on what kind of device it is. So, is it in your magnetic? Is it in your optical? Is it in your um your USB stick? Is it in your your your stick attached to the motherboard? Where is it physically on your computer? If we draw a motherboard, I believe if I draw my own, I believe I have my CPU here. I have my two sticks of RAM right here. And then I believe somewhere else my terabytes plug in somewhere in there. Um, so I believe that's what the difference was, but I I don't think this one's right. But yeah,
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"11:02"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"11:32"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"12:02"}}
 7. [12:23] Explain what a database is.
 
 > explain what a database is. Sure. Um, I'm going to go back to this one. I'm not going to redraw it. But um when your computer accesses the internet to the web server, this web server may be connected with a database, which I called this a data server earlier, but what I really meant was a database. Um I just erase this really quick. Um, but the web server itself doesn't necessarily have all the information that it needs sometimes to send back to send back to your computer. Um, so what it'll do is it'll receive the request from your computer coming along here and then it'll be like, hey database, I need X, right? Okay. And the database will be like, okay, I have that stored here. And then it'll send it X back to the server and then that web server in turn. Um, but realistically, you could also just describe a database as a um [sighs] I don't know, just an internet storage area basically uh within this little ecosystem. It's just the storage area. It's it storage space um for anything and everything that it may need. Um and again there may be a person whose job is to manage this database to keep everything else running
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"12:23"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"12:53"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"13:23"}}
 8. [13:46] Explain how a web browser interacts with a web server and database.
 
 > I I I think I pretty much just answered that question but I'll I'll do it again. Um your browser which I'll I'll draw right here. I just put a a browser sends out a request to here to the web server saying hey I need this this and this from your website and I also it also sends a package of information along with that. Uh the web server receives the quest it says okay I have this but I'm missing this this and this. It goes to the database. Uh the database sends back what it needs and the web server sends it back to your computer. So kind of just how I explained it. That's funny how those two are right next to each other. How might a pair of numbers like a 2D
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"13:46"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"14:16"}}
 9. [14:29] How might a pair of 2D coordinates be encoded as a single number?
 
 > coordinate be encoded as a singular number? Um I don't remember exactly how to do it, but what I do remember is that this was driven as a graph of course because a coordinate um and say you had a coordinate of one, two, three, four, five, uh five and five. You could draw the graph and it would look like this. Um, and I don't remember what the equation, but I remember that you could plug it into an equation. Um, and then you could reverse that as well to get back the number that you used to have beforehand. Um, of I unfortunately don't remember what the equation is. I'll have to put that in memory for later. But um there is an equation to transfer uh what would be this would be x5 and y5 uh into a single number. Um or it may just be as simple as saying it's 55. But I I guess that would also depend on how your computer translates numbers when it receives this. So yeah,
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"14:29"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"14:59"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"15:29"}}
 10. [15:35] Name three web applications you have used and explain what makes them useful.
 
 > name three web applications you have used and explain what makes them useful. Um well, I use Zoom for my classes. Um my Breton classes at least. I I have to go into my my one Shelton class in person, but um I use Zoom to attend both of my computer classes. I was, as you know, I was going in person uh for the first few weeks, but I felt comfortable enough with this class. I live about 45 minutes away, so I felt comfortable enough to stay at home and save myself the gas money in the trip. And uh Zoom is a great re resource for that. Uh helps me attend uh remotely, which is great. Uh, I use Hotmail as my personal um personal email. As you can see, you can't um if I adjust this. Oops. Um camera. You see I I have it up here in the corner. Um I use I there there isn't a day that really goes by um without me using Hotmail. Um yeah, it's great. Um good email. I like it a lot. Um, and then lastly, um, I use Google Docs a lot, which is great because uh, helps me keep me organized, helps me write my notes, uh, sometimes, and also I used to use it professionally before I got laid off. Google Docs and Sheets, those kind of fall under the same thing. Um, but, uh, yeah, those are three web applications I use.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"15:35"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"16:05"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"16:35"}}
 11. [16:57] List five common HTML tags and explain what they do.
 
 > Of course, those five common HTML tags, I do not remember, despite my hardest efforts, I do not remember what five are off the top of my head, but I do know that they have these brackets around them. And hypertext markup language basically provides structure for the page. Um, where CSS provides styling and JavaScript provides uh input and output uh support. Um, basically this helps structure the page. I know there's a specific one that will bullet point items for you. Don't remember what goes in here, but uh yeah, that's the gist of it is that the HTML tags go inside of these brackets and they form uh whatever instructions that you want to do.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"16:57"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"17:27"}}
 12. [17:44] What is the point of the fair use doctrine?
 
 > Um what's the point of the fair use doctrine? Basically, um, when you want to use something else that someone else has created and most likely copyrighted, you want to use it. You want to show it to other people. Um, but you don't necessarily want to make money off of it. You just want to show other people. The example that was talked about a lot in class is um, the idea of showing a YouTube video in class, right? But there's factors that characterize that um such as uh how much of it or uh yeah how much of it are you showing if we use the example of a video uh you know how much um I I I don't remember if this one falls under but like what is your um I'll actually just type this one out. Um how much um what is like your your your um intention uh with the video, right? um intention. Um will you be making a profit off of this? Are you changing what the video was before? Um but yeah, it's basically just to stop it's basically to allow people to share other people's content without outright stealing it or claiming that it's their own. Uh, it's a pretty big problem I know on YouTube, but um, yeah, that's a pretty basic explanation. [sighs] Wow. Um, describe the stored program
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"17:44"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"18:14"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"18:44"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"19:14"}}
 13. [19:21] Describe the stored program concept and why it distinguishes computers from other simpler devices.
 
 > concept and why it distinguishes computers from other simpler devices. Um, well, I would assume that since we're talking about stored programs, a computer has the ability to boot up every time. Uh, and this is thanks to ROM, uh, which stores the operating system inside of the operating system, the boot up instructions. Um, so being to have stored programs on the computer like that allows it to keep information to keep starting itself over and over again. Um, I'm not I'm not entirely sure why what a simpler device qualifies as. Um, but yeah, if I if I don't I don't exactly remember this one, but if I had to throw my hat in the ring, it would be, you know, um, you know, the ability to keep information on the computer without losing it in a pastime was a lot harder than it is now is what I'll say. Um, because you can store way more information. There's way better ways to store information than there was in the past. So that's what I would say.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"19:21"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"19:51"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"20:21"}}
 14. [20:42] Explain what IO devices are and why they're important to computing.
 
 > IO devices, IO stands for input and output. Input devices, for example, are a mouse, uh a crudely drawn mouse, um a keyboard, uh something like a controller. And these are important because these allow us to interact with our PC. But when we interact with our PC, we're sending it instructions to do something. And when those instructions are done, they are outputed to us. So that may be in the form of like a speaker or um a monitor. Um and sometimes the input devices we see an there's a correlation when we use a controller to play a game on a monitor. We're seeing how our controller is affecting the game on the monitor. But in reality, it's going through the steps of okay, the input just got put in. Go to the computer, run that, run that command, run that, not command, but you know, run that input. Okay. Output it back onto the monitor. Um, and that's just a few of them. There's a lot more, but yeah. [gasps] Um, I'm just going to go back to this
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"20:42"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"21:12"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"21:42"}}
 15. [21:58] Explain the input-processing-output model and its significance.
 
 > one again. Um the IPO model is basically just this. You input something with a key keyboard controller computer. That instruction is sent to be processed inside the PC with the CPU and then that is outputed onto an output device like a speaker, a monitor. Um yeah, explain how our processor works. Um,
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"21:58"}}
 16. [22:27] Explain how a processor works.
 
 > simply put, instructions are flown in to the computer and to something like the CPU which has the word processing in it, central processing unit. Instructions are flown in through whatever means uh most of the time it's an input device uh or just something from the computer comes into the CPU. CPU reads those instructions and executes them and then sends them out with an output with whatever that might be. Um but um to be more specific, maybe this isn't necessary, but the CPU is usually connected to RAM. So what it'll do is it will store information in certain parts of it and be like, okay, we need to run these parts of it right now to get to this right here. Um if that makes sense. So yeah,
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"22:27"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"22:57"}}
 17. [23:26] What is binary and why do computers use it?
 
 > binary is zeros and ones. That's simply what binary is. Um, computers use it because it's the language that the computers run off of. I believe in class you described it as it was just the thing that was chosen when computers were first being made and it's what it's what stuck. So binary is just a computer language of zeros and ones and they use it because pretty much every I I don't think there is a computer that doesn't use binary to some extent. So um yeah it's basically the DNA of a computer is binary cloud services that you may use in a
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"23:26"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"23:56"}}
 18. [24:02] Give three examples of cloud services you might use in daily life and explain what each one does.
 
 > daily life. Um one drive is one. It's connected to my email account. You can save and upload things onto one drive which is great. um cloud services. Um I know Amazon Web Services is a big one. They provide a lot of things like you can uh um I know Amazon Web Services supports a lot of games that I play. So, if Amazon Web Services goes down, that means you can't necessarily use you can't sometimes you can't play the games that they're associated with. Um, cloud services, One Drive. Um, I don't use it, but I know for example, you can purchase the ability to use a computer that's in the cloud. basically uh like a remote computer that's in the cloud. It allows you to run a computer from your home. Um and that's an example. I've never used one, but that's an example. I honestly don't use much cloud services besides one drive. So, um that's all I'm able to provide.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"24:02"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"24:32"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"25:02"}}
 19. [25:19] Explain what encryption is.
 
 > All right. Encryption. Going back to the table of contents model here in between right here and right here there is important information that is being sent back and forth. Unfortunately you may have Mr. Bad guy over here who wants to look at this information that's going back and forth. But what encryption basically does is it takes it and it it basically scrambles it so that it's hard to decipher. Uh when I think of encryption, I think of deciphering. Uh and that's basically what it is. It's encrypting something so that it's protected by uh protected unless you know how to crack the encryption. Um so yeah, it's just an added level of security that prevents people from here from spying on what you're doing. through here. An online intrusion. Um,
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"25:19"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"25:49"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"26:19"}}
 20. [26:22] Describe how an online intrusion may take place.
 
 > well, we talk a lot about this and I've already mentioned it in this video, but you might um uh you might have a person who sends you an email that looks real, looks like someone, you know, they send you this bad email um and then you open this email and Um, oh no, look, it sent you to an important website. We'll just say www.bank. And oh no, it's asking you to enter your information and you enter that information. This email has a package that allows it to intercept it and it comes back to this guy. It may steal your password. They can take control of your computer if they're really, really good. Um but this I guess the specific system this would fall under probably the most is the workplace. Um but yeah um the general methodology is just making sure that this is as koi as possible making it so you don't suspect that anything's wrong when you're opening that email.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"26:22"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"26:52"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"27:22"}}
 21. [27:43] Explain the role of an operating system.
 
 > The role of the operating system. The operating system is in charge of booting up the computer mostly, but it also the definition is it's a program to run other programs. So the operating system is basically a giant program that's used to run all these other programs and they can be stuff basic like on this computer. It can be like your file explorer, your browser, all of these stupid Microsoft apps that half of nobody uses, you know, that is built into the operating system and that allow the operating system runs these programs. I I think word for word it was described as a a program to run programs basically.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"27:43"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"28:13"}}
 22. [28:24] Explain the difference between RAM and ROM and why most computers have both.
 
 > Oh, nice. RAM and ROM. RAM random access memory. Of course I don't remember what ROM stands for, but um either way RAM and ROM are are both important. Um I believe you said RAM is more important, but in this case it doesn't matter for this question. But ROM is long-term. It is stored. It stores the boot up instructions for the computer. And that's basically what a job is. You need ROM to start your computer. uh unless you were able to somehow do that with just RAM, which I don't remember the way you explained it, but I know you said it's possible. So, um ROM, it doesn't get erased. I shouldn't say it has long storage life. The storage doesn't get erased. Um um but RAM is limited storage, but it's super fast. It's a helper to the CPU. Um usually connected right to it. And then, um what was I going to say? Uh, and when a computer is shut off, everything that is stored inside of the RAM goes away. Um, that's a pretty important fact. So, um, personally, I I don't know why I think I have, um, 64 GB of RAM on this computer. um which is I don't know if that's overkill or not but uh yeah that's um RAM basically allows allows your it's a helper to the CPU just like the GPU is while I believe it's volatile and nonvolatile so one is volatile one's nonvolatile and um yeah so that's yeah that's a pretty basic difference
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"28:24"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"28:54"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"29:24"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"29:54"}}
 23. [30:06] Explain how Wikipedia articles are written and edited.
 
 > um Wikipedia articles are written and edited So um you have Wikipedia. We'll draw that. You got a lot of people coming around the world to do editing. Um basically an article can be made on Wikipedia by you know person. We'll just put a person in there. This just say imagine this is the person that made said article but uh another person might see this article and may be like hey uh I don't like this and this. I would like to change it to this. And we'll make article V1 you know V2. Um, but not everyone may agree with this change. So, Wikipedia, they may go through a review where they have people look at this article and they're like, "Hm, should these changes be made?" Um, but it's also just a community effort because there's just so many people on Earth. People come and edit as they do, as they please. Um, I know that some Wikipedia pages edit are like open to like everyone to edit, but then there's some that are like, hey, you got to be this certain type of user or we need to like discuss this before it's edited. So, I like to think of it as a just a giant discussion board um where people interact to try and help edit these articles. Um
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"30:06"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"30:36"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"31:06"}}
 24. [31:25] Explain the process of how code gets from written form to execution in a computer.
 
 > I would say that you need to put this to before you do it you write it in assembly core assembly code um so that you understand the code that you're writing after that that needs to be translated to machine code and then if that's compatible with your computer it'll go into your PC See eventually it'll reach the CPU connected to the RAM. It will run it and then you will see a result on your output device. But I mean I mean in the beginning you also just have to write it to begin with. So yeah basically yeah and um [snorts] if it's a language that your computer doesn't understand it may need to go through a device driver something like that. So yeah,
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"31:25"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"31:55"}}
 25. [32:19] How might letters and words be encoded numerically?
 
 > letters and words may be coded in numerically. So when your computer receives a line of letters, I'm sorry, a line of numbers that say, "Hey, this, this, and this equal this." Um, me clear this out actually. um they would receive you know I'll just go like this but just imagine this is a line of code that's saying okay these are the letters and words your computer has what I like to describe it already has a cipher and in the cipher uh not I guess numbers not numbers um it's just a cipher so a capital A and lowercase a would have separate things they would have separate they would have separate um translations from cipher to code basically and it it would go all the way. So it' be 26 for each plus all the numbers plus all that and they're all unique so that when this information comes through it can go and it can translate it and then it can spit back out at you actual things that are readable if that makes sense. Again, uh I I'm think I'm over complicating this, but basically your computer has a cipher to solve the the encryption that's coming into your computer. Even though it's not encrypted, actually, it's just a list of a list that shows you what needs to be deciphered by your computer. It's an open cipher. Um AI algorithms. Um, I guess I guess
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"32:19"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"32:49"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"33:19"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"33:49"}}
 26. [33:53] Discuss how AI algorithms shape what information people see online.
 
 > this one can be drawn out too. You have a guy who creates something with AI. Um, they create whatever and then they send it out and they post it online. We'll call just they post X and but we also have this person and they look at the this and they're like, "Oh, well that's cool. That looks real. That's nice." But the real problem is that it's not real. So with uh oh my gosh stupid this kind of applies I'm realizing this is talking about algorithms. Um but still AI may push something to the top and people may see be like oh okay this might be the top result you know this must be trustworthy when in reality it's not. But also what AI algorithms do now that I actually read the question I'm not getting lost in this um is that they'll they'll autogenerate a response most of the times for I think almost every browser has it um maybe even if we do this if we go um uh math 999 uh maybe it doesn't do that or like um why is the sky blue you see there's already an AI overview right here and this is part of what people see this is now the first thing on the page Right. Um, so yeah, AI is definitely influencing what people are seeing because this is the first thing that's popping up. And that's not just in here, too. If we go into here and we go, um, if I drag this over and I go, oh, uh, why is the sky blue? You'll see that the first thing is to ask the co-pilot. It's, um, if I move my camera here, the first thing is to be like, hey, why is the sky blue? The first result is to ask the co-pilot. Um, and then when you actually do the search, when you actually type it in, oh, look what's there. It's the co-pilot search. It's the first thing. So, that's the issue is that um AI algorithms are now pushing their own results to the top. Um, but yeah, so please ignore this graph. This I I didn't read the question fully before I started, but yeah, that's basically how AI algorithms are shaping what people see. Trace the execution of assembly code and
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"33:53"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"34:23"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"34:53"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"35:23"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"35:53"}}
 27. [36:10] Trace the execution of assembly code and explain what happens.
 
 > explain what happens. Okay. So, basically we have a um a list of instructions. Um what's important to note is that the 0 1 2 3 4 5 don't change at all. Um these do though. Um so what this is basically asking you step zero it's asking you to load whatever is number number four. So that would be oh okay zero. Then step number one is to add whatever is at number five which is eight. So this would be okay 0 + 8 and this is the store number four which is basically this zero. So it's like oh okay we're back to zero then and then number three is asking us to jump to question number zero. So it just basically creates a loop on itself. This is just a very basic um a very basic execution uh or sorry assembly code loop. Um and this is what I was kind of talking about earlier when you're translating um when you're running a basic line of code is that this is probably where you want to start because you need to make it understandable to you. Um yeah, randomly generate a two-digit decimal
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"36:10"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"36:40"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"37:10"}}
 28. [37:23] Randomly generate a two-digit decimal number and convert it to binary.
 
 > number and convert to binary. So, I believe what we can do here is we can kind of do the opposite of doing it from two digit. Oh, wait. This is Oh, okay. I'm sorry. Um I'm getting lost in my own thoughts here. Um sure. We'll do um 70. Uh we'll do 86. Um we work in multiples of two, of course. So, we have 64 32 16 8 4 2 1 and we basically say, "Oh, hey, 86 64. Cool. It does fit in there once." So we go one 86 minus 64 is equal to 22. And then we say, hey, how many times does 32 go into 22? Zero. How many times does 16 go into 22? It goes into it once, which leaves us with seven. How many times does eight go into seven zero times? How much times does four go into seven? Once. And uh four - 7 is three. How many times does two go into three? I do it once. And then you go 3 - 2 equals 1. How many times does one go into one? One. So then your code would be one, zero, one, zero, one, one, one. Yep. explain what happens behind the scenes
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"37:23"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"37:53"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"38:23"}}
 29. [38:53] What happens behind the scenes when you access a URL in your browser?
 
 > when you access a URL in your browser. So, going back to this table of contents, um, right in this area here, as we're doing it, when we request it, we're saying, "Hey, here's some information about me, my cookies, my device, things. Um, we request a DNS, a DNS address. Maybe I should just draw a separate diagram, but DNS address, um, an IP, and then what our web server sends us back is it's, hey, here's a HTML, here's the hypertext markup link. Um, what's also happening, I forgot to mention, between both sides is that they're securing each other with the HTTPS. Uh, they're doing something called what I believe is called a handshake, which basically means, oh, hey, we're secure, we're safe, we're good. Um so basically our web server sends us back an HTML they can send us cookies to uh they can send us CSS and the JavaScript for the page which of course we see none of this while we are actually loading this page but that is what is going behind the scenes it's a basically a big transfer of information between the two um that's the simplest way to explain it
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"38:53"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"39:23"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"39:53"}}
 30. [40:02] Explain the role of JavaScript.
 
 > JavaScript all right um JS JavaScript CSS provides cascade stylesheets I'm going to explain all of them just as it helps me. Um, HTML is hypertext markup language. Uh, HTML is structure to the page. It helps structure it, create it. Cascade is the styling of the page. It's almost within the name. Cascade stylesheets. It helps style the page. JavaScript has to do with the input and out devices. um uh and maybe not output but more uh definitely more input as um basically like when I'm clicking right because I'm clicking on the screen you know right now JavaScript is allowing things on the screen to change basically it allows the input devices to do what they need on the web page that's what JavaScript does also JavaScript is an actual uh coding language as well too I common malware exploits Um uh [sighs] a common malware exploit.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"40:02"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"40:32"}}
 31. [41:02] Describe common malware exploits.
 
 > [snorts] Um well um I know if you touch a link or if you download something suspicious they may be able to hide in your computer until they know that they're able to strike. They gather enough information and they're able to take over your computer. So, um, like a they may scam you into downloading a file that you think you need when you actually don't. And downloading that file may allow them to insert themselves into your computer, which allows them to take control. Um, that's a pretty um common malware exploit exploit.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"41:02"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"41:32"}}
 32. [41:54] Explain how the internet differs from the worldwide web.
 
 > All right. Internet differs from the worldwide web. I remember the way this was explained in class. Um, we have our road. Um, the highway's name is the internet. Um the internet is basically everything that's connected together and within the internet is things like the worldwide web which is part of internet. The worldwide web is a collection of all the you know the networks that create create the internet but not not the internet like you know they create what we look up you know where we go online uh the internet like gaming and you know cloud services they're all a part um they're all a part of the The internet as a whole, the internet is just basically the all-encompassing thing that houses worldwide web, gaming, cloud services is all inside of there. They are not the same thing. [sighs] Oh boy. Explain what it means to
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"41:54"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"42:24"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"42:54"}}
 33. [43:05] Explain what it means to hold a copyright.
 
 > hold a copyright. Um, basically, um, this is like, hey, I just made this thing. I want to have a copyright uh because I don't want to allow other people to make money or reproduce off of what I just made because this is rightfully mine. So, what a copyright allows you to do, it um allows you to reproduce what you made. It allows you to talk publicly about it. Um that was really stupid. I don't think that's one of the points, but it allows you to reproduce it, to resell it, um to sell in general. Um, and there's some more special cases in copyright when it comes to things like performances, like it allows you to perform it publicly or record publicly while you're doing it or anything like that. It's basically a way to say, "Hey, you have you are the one who's accredited with making or doing or singing or performing this certain thing. here is that certification of credit. You're allowed to make money off of this thing and you are allowed to pursue legal action against anyone that tries to copy you. It also prevents people from copying you um for the most part I believe. All right. A web application um from a
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"43:05"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"43:35"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"44:05"}}
 34. [44:21] Explain how a web application differs from a traditional desktop application.
 
 > traditional desktop application um a web application is something like we access through a browser. We might say, "Hey, I need to do this." But we're just accessing that on something like our browser like this, right? While in reality, a desktop application is something that is built into the computer like file explorer, right? Or um like sniffing tools, but I think built in or paint or or um any of these m crappy Microsoft things, you know, those are all built into the computer. They're not something that we have to go and access from the internet. Uh they're just on our computer. That's a desktop application.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"44:21"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"44:51"}}
 35. [45:03] Explain what HTML is.
 
 > HTML. I'm going to go back a couple questions to the one I was just on. Um, HTML is hypertext markup language. Um, and it allows you to it provides structure to the page. It's what it's what builds the page. And within the hypertext markup language is that of course CSS and J and JavaScript. Basically, all three of them combine together to create the page. but also when we request [sighs] things from the website when we're on the internet that's part of what they send back is the HTML and all these different languages. So um but the best way to describe HTML is that it provides um it provides structure to the web page you're visiting. Multitasking is the ability for a
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"45:03"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"45:33"}}
 36. [45:48] Explain what multitasking is and explain the difference between multiprocessing and multi-threading.
 
 > computer to do multiple things at once. Um I believe that the way multi-threading Oh my gosh, we literally just went over this in class the other day, too. Um, multiprocessing is the idea that it's like, okay, I have all these tasks that I need to do, and it's like, okay, I'm going to do them all at once. I'm going to do these all at once. Um, or no, it's not. Well, multiprocessing, I don't think that's right. But multi-threading is when you have like your CPU and it's connected to your ROM and then it may be running a program right um within that there may be threads to that program or thread somewhere and multi-threading is just running multiple of those at the same time if that makes sense and this question is not perfect I know and we literally just went over it but it's basically multiprocess and multi-threading are two different ways days of multitasking a task within the CPU. Uh, so I just answered this question
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"45:48"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"46:18"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"46:48"}}
 37. [46:59] Discuss the impact of AI-generated text, images, and videos on truth and trust in digital communications.
 
 > earlier and of course I of course I I drew it away, but we have the guy with the AI who makes something. He makes XA art and he posts it, but uh he's not the only one with eyes on it. everyone in the world has the ability to see what he is and then they're like, "Oh, hey, that looks real, but in reality, is it though? Was it actually made by a human?" Um, and so that's kind of the the most basic example of truth and trust with text, images, and videos because that's harmless art for the most part. It's when we get to more serious things like news or I'm not sure if it's actually become a thing yet, but like using it to like accuse someone of creating a crime, you know, that's when things get messed up. And that's why we AI is something a line that needs to be tread carefully because you need to be able to distinguish what's real or not. And AI is getting really good at making it hard to tell what is real or not.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"46:59"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"47:29"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"47:59"}}
 38. [48:06] Explain how electricity enables computers to represent binary digits.
 
 > Oh, cool. Um, so binary digits as we talked about earlier are just O's and ones, right? So electricity could be like this. Uh, low voltage would represent a zero and high voltage would represent a one. So if it received a heart, it would be super simple. It's with I'm kind of explaining as I'm talking. If you receive high voltage, it'll list it as a one. If you get low voltage, it'll list as a zero. Simple as that. Web cookie. Yeah, of course.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"48:06"}}
 39. [48:33] Explain what a web cookie is.
 
 > when [sighs] you request to go visit a website on the internet web server um both cookies I believe are sent back and forth uh as I mentioned earlier right here cookies are sent um but basically what cookies allow you to do is it allows you to visit the website faster um cookies kind of go hand inhand with caching um basically it it um it's like a it's like a photo album maybe not the best example but it's like Um, it's like a mini memory for each website. It's like a memory and it's like memory in your head. It's basically a mini memory in your website. It says, "Oh, I know this, this, and this about your last visit. I'm going to bring that back up." So, it allows you to load faster and also personalize your information. Um, a cookie on the website side may be like, "Oh, they visited this page when, where, how, they entered this password, everything like that." And the same thing may apply to your side, but basically it's information that allows you to access the website quicker next time. Um, and it saves your information sometimes like a password and anything like that. So yeah, that's what cookies are. A rootkit,
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"48:33"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"49:03"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"49:33"}}
 40. [49:48] Explain what a rootkit is.
 
 > a rootkit is an invasive malware and basically uh what a rootkit will do is after it has somehow infiltrated your computer, it buries itself really really deep inside of the OS. Um, I don't remember much beyond that except for that because but I do know that it'll it's basically like a little like a mouse inside of your house. It just hides down in there until it's needed and then it will pop up when it's a problem. I like to also think of it as um if you do like a microscopic image of like I don't remember what it is but like a certain microscopic image of like fabric or like furs. It's actually like just a bunch of little hooks and that's what I think of it is like they're hooks that are um or actually no I remember what it was now. Uh someone once described uh inhaling abscessestos as much of a weird example as this is when the absesses goes into your lungs. It they're like little hooks and that's what the issue with obsessestos is is it hooks in on your lungs that causes issues and um yeah that's basically what it is. It's just a little hook inside of here that may cause issues for you in the future. I'll just draw a little hook. Yeah.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"49:48"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"50:18"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"50:48"}}
 41. [51:08] How do magnetic fields store binary information?
 
 > How do magnetic fields store binary information? Cool. So again, binary information is what? Zeros and ones, right? So you might have something like this. And when you put a little magnetic device like this, what it do is it reads that and it's like, oh, so this one just pointed upwards north. This one just went south. Oh, okay. So this must be at 0 0. Oh, one one uh one one zero zero. And uh yeah, that's just basically how they represent is it it determines by the magnetic force that is being put on it whether or not it's a one or a zero.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"51:08"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"51:38"}}
 42. [51:47] What is a transistor and how does it work in computers?
 
 > What is a transistor and how does it work in computers? A transistor is an ability um electricity. So basically it needs somewhere to enter. Uh it has three parts. Somewhere to enter uh something like a lever or not a lever like a gate which I'll represent like that. Just imagine that this swings open and shut. Um and then somewhere to exit. And that's basically what it is. The electricity comes through here and it's like oh okay um I need to connect this to this for the electricity to continue to flow this way. So it's it's I believe the way is described it's basically an electrical uh it's an electrical switch for your computers. And I'm not sure if this was part of the material, but I believe that's they also may help or I'm sorry. Uh transistors are super duper small and I believe they're found like within the like CPU and there can be lots and lots of them unless I'm thinking of something else. But there are tons of these things microscopically built on top of it and uh that's they help they allow the computer to run.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"51:47"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"52:17"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"52:47"}}
 43. [52:53] Explain the six degrees of separation.
 
 > six degrees of separation aka the six degrees from Kevin Bacon. Um basically this is a rule that um basically that you or anything else is no farther away than six separations between you and whatever else you're trying to find. In most cases, it's um it's in most cases we're talking about you're not separated from a person six different people away. Um but yeah, that's basically what it is. It's just a theory. Um I I think it's I think it's a little hard to believe as population grows that this would be possible. Um, but again, I I believe it's a scientific theory that this is a possibility that this can happen.
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"52:53"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"53:23"}}
 44. [53:44] Explain what assembly language is.
 
 > Oh, assembly language. Assembly language. Um, I'm going to go back to Do I have that one? Where is it? Where did the machine go? Okay. Well, either way, um um earlier we had that question where it was like, hey, you need to add for, you know, store for add zero. that thing that's assembly language. Basically machine language machine code is what the machine understands. Assembly language is how we are able to visualize what the machine is doing. Um that's really is it's kind of almost like a built-in device driver. we understand what the assembly language is saying but when it go when it translates into machine code that's when it's like oh hey okay this is for the computer and this is for my eyes to understand uh what's going on basically what is a pull request and how does it
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"53:44"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"54:14"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"54:44"}}
 45. [55:06] What is a pull request and how does it facilitate collaboration?
 
 > facilitate collaboration sweet so um basically someone can look at a website and be like hey um I want to make x amount of changes to this website they make what is called um I believe what is called a hook if I remember correctly is it called a hook I don't remember but there's a term to describe what they make but in total what they're basically making is a draft and what they'll do is they can submit a PR a poll request to the website and then someone like hey the website admin will look at it and they will look over this draft which again it's just a draft the website hasn't actually changed and then they can be like oh okay yeah we're going to do that and then it gets added added to the website or they can be like no we're not going to do that. Um, so it facilitates collaboration because you're basically sending it someone else saying, "Hey, I would like to make these changes. Would this be okay? Here's my rough draft of those changes I want to make." Um, cloud computing. Um, this is
 
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"55:06"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"55:36"}}
 46. [56:04] Explain the concept of cloud computing and how it benefits users and developers of software.
 
 > basically like, um, hey, I have this computer at home, but I would like to be able to run some software on a computer that's not really my own, but instead that's safely in the cloud. So what you can do is you can uh rent it out as something in the cloud uh computer. We'll draw another little e ecosystem here. Um and then like a database here. And so you can rent out this computer. And this benefits some people because there may be programs or something that they don't necessarily want to run on their computer. Um or they may not have the specs to run it on their computer. But if they rent something like that, they can render it on that computer in the cloud and then that can help them out. So, um yeah, that's that's basically what it is. I I believe I believe that's how you described it in class pretty well. So, um yeah, I believe it looks like that's the end of the test. Uh 46 questions. Uh thank you for watching. Have a good one.
 
+
+
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"56:04"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"56:34"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"57:04"}}
+{{ShowFrame:https://youtu.be/805K5k1KLiY time:"57:34"}}
