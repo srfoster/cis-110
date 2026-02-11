@@ -20,7 +20,7 @@
     "duration": 3.56
   },
   {
-    "text": "Oh, [\u00a0__\u00a0] Okay. Okay,",
+    "text": "Oh, [ __ ] Okay. Okay,",
     "start": 15.759,
     "duration": 7.561
   },
@@ -92,7 +92,8 @@
   {
     "text": "randomly generate a 4bit binary number",
     "start": 88.88,
-    "duration": 4.32
+    "duration": 4.32,
+    "question_number": 1
   },
   {
     "text": "and convert it to decimal.",
@@ -162,7 +163,8 @@
   {
     "text": "Randomly generate a twodigit decimal",
     "start": 154.239,
-    "duration": 5.441
+    "duration": 5.441,
+    "question_number": 2
   },
   {
     "text": "number and convert it to binary. Let's",
@@ -387,7 +389,8 @@
   {
     "text": "What is binary and why do computers use",
     "start": 340.639,
-    "duration": 5.84
+    "duration": 5.84,
+    "question_number": 3
   },
   {
     "text": "it? Binary is a system of one and zeros",
@@ -457,7 +460,8 @@
   {
     "text": "Um, how does electricity enable",
     "start": 392.56,
-    "duration": 5.199
+    "duration": 5.199,
+    "question_number": 4
   },
   {
     "text": "computers to represent binary digits?",
@@ -502,7 +506,8 @@
   {
     "text": "How do magnetic fields store binary",
     "start": 427.44,
-    "duration": 3.52
+    "duration": 3.52,
+    "question_number": 5
   },
   {
     "text": "information?",
@@ -592,7 +597,8 @@
   {
     "text": "There you go. Um what is a transistor",
     "start": 485.12,
-    "duration": 5.759
+    "duration": 5.759,
+    "question_number": 6
   },
   {
     "text": "and how does it work on computers? A",
@@ -717,7 +723,8 @@
   {
     "text": "how might a pair of numbers like 2D be",
     "start": 564.08,
-    "duration": 7.08
+    "duration": 7.08,
+    "question_number": 7
   },
   {
     "text": "encoded as a single number?",
@@ -852,7 +859,8 @@
   {
     "text": "How my colors be coded numerically? It",
     "start": 677.12,
-    "duration": 6.279
+    "duration": 6.279,
+    "question_number": 8
   },
   {
     "text": "go off RGB system.",
@@ -982,7 +990,8 @@
   {
     "text": "Discuss the relative strengths",
     "start": 758.72,
-    "duration": 4.799
+    "duration": 4.799,
+    "question_number": 9
   },
   {
     "text": "weaknesses of magnetic optical solid",
@@ -1317,7 +1326,8 @@
   {
     "text": "Um, input processing",
     "start": 966.959,
-    "duration": 6.56
+    "duration": 6.56,
+    "question_number": 10
   },
   {
     "text": "output model and it's significant.",
@@ -1402,7 +1412,8 @@
   {
     "text": "RAM and ROM.",
     "start": 1023.199,
-    "duration": 9.281
+    "duration": 9.281,
+    "question_number": 11
   },
   {
     "text": "RAM is the full volatile",
@@ -1520,7 +1531,7 @@
     "duration": 3.761
   },
   {
-    "text": "and all that [\u00a0__\u00a0] or excuse me it's good",
+    "text": "and all that [ __ ] or excuse me it's good",
     "start": 1121.6,
     "duration": 4.16
   },
@@ -1562,7 +1573,8 @@
   {
     "text": "Explain what input and output devices",
     "start": 1142.799,
-    "duration": 4.081
+    "duration": 4.081,
+    "question_number": 12
   },
   {
     "text": "are and why are they important to",
@@ -1652,7 +1664,8 @@
   {
     "text": "Explain how a processor works.",
     "start": 1204.799,
-    "duration": 8.76
+    "duration": 8.76,
+    "question_number": 13
   },
   {
     "text": "Processor takes the input information.",
@@ -1717,7 +1730,8 @@
   {
     "text": "How does a CPU differ from a GPU?",
     "start": 1248.64,
-    "duration": 7.24
+    "duration": 7.24,
+    "question_number": 14
   },
   {
     "text": "Computer",
@@ -1792,7 +1806,8 @@
   {
     "text": "Explain the roles of the operating",
     "start": 1294.64,
-    "duration": 5.64
+    "duration": 5.64,
+    "question_number": 15
   },
   {
     "text": "system.",
@@ -1882,7 +1897,8 @@
   {
     "text": "Okay. Multitasking.",
     "start": 1370.799,
-    "duration": 3.481
+    "duration": 3.481,
+    "question_number": 16
   },
   {
     "text": "Multitasking is running basically",
@@ -1997,7 +2013,8 @@
   {
     "text": "Explain what device drivers are and what",
     "start": 1454.0,
-    "duration": 4.4
+    "duration": 4.4,
+    "question_number": 17
   },
   {
     "text": "they're necessary.",
@@ -2082,7 +2099,8 @@
   {
     "text": "Discuss file naming convention and the",
     "start": 1502.64,
-    "duration": 5.88
+    "duration": 5.88,
+    "question_number": 18
   },
   {
     "text": "role of the file extension.",
@@ -2262,7 +2280,8 @@
   {
     "text": "explain the difference between an",
     "start": 1618.64,
-    "duration": 4.48
+    "duration": 4.48,
+    "question_number": 19
   },
   {
     "text": "absolute file path and relative file",
@@ -2352,7 +2371,8 @@
   {
     "text": "Explain the difference between the",
     "start": 1678.0,
-    "duration": 3.44
+    "duration": 3.44,
+    "question_number": 20
   },
   {
     "text": "logical and physical storage models for",
@@ -2482,7 +2502,8 @@
   {
     "text": "design an efficient file organization",
     "start": 1813.039,
-    "duration": 4.961
+    "duration": 4.961,
+    "question_number": 21
   },
   {
     "text": "system for a specific use case,",
@@ -2592,7 +2613,8 @@
   {
     "text": "a web browser",
     "start": 1879.2,
-    "duration": 5.839
+    "duration": 5.839,
+    "question_number": 22
   },
   {
     "text": "is your computer's",
@@ -2727,7 +2749,8 @@
   {
     "text": "Explain the role of a web browser with",
     "start": 1956.88,
-    "duration": 6.44
+    "duration": 6.44,
+    "question_number": 23
   },
   {
     "text": "respect to caching history and privacy.",
@@ -2917,7 +2940,8 @@
   {
     "text": "HTTP is basically your web link. It's",
     "start": 2097.599,
-    "duration": 5.601
+    "duration": 5.601,
+    "question_number": 24
   },
   {
     "text": "right up here as well on the screen.",
@@ -3012,7 +3036,8 @@
   {
     "text": "Explain what a web cookie is. web cookie",
     "start": 2151.359,
-    "duration": 4.841
+    "duration": 4.841,
+    "question_number": 25
   },
   {
     "text": "here. I drew a cookie basically",
@@ -3112,7 +3137,8 @@
   {
     "text": "HTML is basically the web's language.",
     "start": 2223.44,
-    "duration": 4.399
+    "duration": 4.399,
+    "question_number": 26
   },
   {
     "text": "It's basically the coding language. It's",
@@ -3172,7 +3198,8 @@
   {
     "text": "List five common HTML tags. Explain what",
     "start": 2257.599,
-    "duration": 6.76
+    "duration": 6.76,
+    "question_number": 27
   },
   {
     "text": "they do. Okay.",
@@ -3282,7 +3309,8 @@
   {
     "text": "Cascading",
     "start": 2366.96,
-    "duration": 3.0
+    "duration": 3.0,
+    "question_number": 28
   },
   {
     "text": "uh",
@@ -3337,7 +3365,8 @@
   {
     "text": "The role of JavaScript in a web page.",
     "start": 2419.28,
-    "duration": 6.96
+    "duration": 6.96,
+    "question_number": 29
   },
   {
     "text": "JavaScript is the coding",
@@ -3402,7 +3431,8 @@
   {
     "text": "Explain how the internet differs from",
     "start": 2463.76,
-    "duration": 4.96
+    "duration": 4.96,
+    "question_number": 30
   },
   {
     "text": "the worldwide web.",
@@ -3547,7 +3577,8 @@
   {
     "text": "an IP address.",
     "start": 2563.28,
-    "duration": 3.64
+    "duration": 3.64,
+    "question_number": 31
   },
   {
     "text": "It's basically the location. It's the",
@@ -3662,7 +3693,8 @@
   {
     "text": "So behind the scenes when you access a",
     "start": 2646.079,
-    "duration": 4.881
+    "duration": 4.881,
+    "question_number": 32
   },
   {
     "text": "URL in the brow in the browser basically",
@@ -3817,7 +3849,8 @@
   {
     "text": "Explain how a browser and web server and",
     "start": 2731.04,
-    "duration": 6.68
+    "duration": 6.68,
+    "question_number": 33
   },
   {
     "text": "database interact.",
@@ -3972,7 +4005,8 @@
   {
     "text": "Explain how a web application differs",
     "start": 2844.0,
-    "duration": 7.72
+    "duration": 7.72,
+    "question_number": 34
   },
   {
     "text": "from a traditional desktop application.",
@@ -4112,7 +4146,8 @@
   {
     "text": "Okay.",
     "start": 2936.88,
-    "duration": 4.32
+    "duration": 4.32,
+    "question_number": 35
   },
   {
     "text": "So you",
@@ -4222,7 +4257,8 @@
   {
     "text": "design. Um list some of the rights that",
     "start": 2995.359,
-    "duration": 4.641
+    "duration": 4.641,
+    "question_number": 36
   },
   {
     "text": "are exclusively exercised by a copyright",
@@ -4332,7 +4368,8 @@
   {
     "text": "what's the point of a fair use doctrine?",
     "start": 3060.96,
-    "duration": 6.8
+    "duration": 6.8,
+    "question_number": 37
   },
   {
     "text": "A fair use doctrine",
@@ -4442,7 +4479,8 @@
   {
     "text": "the impact act of generated AI text,",
     "start": 3133.599,
-    "duration": 8.561
+    "duration": 8.561,
+    "question_number": 38
   },
   {
     "text": "images",
@@ -4647,7 +4685,8 @@
   {
     "text": "uh that was for that was like how I",
     "start": 3260.559,
-    "duration": 5.201
+    "duration": 5.201,
+    "question_number": 39
   },
   {
     "text": "would say the other one was um discuss",
@@ -4827,7 +4866,8 @@
   {
     "text": "Six degrees of separation.",
     "start": 3372.72,
-    "duration": 3.8
+    "duration": 3.8,
+    "question_number": 40
   },
   {
     "text": "Basically, one person connect always",
@@ -4917,7 +4957,8 @@
   {
     "text": "Explain how Wikipedia articles are",
     "start": 3442.319,
-    "duration": 4.0
+    "duration": 4.0,
+    "question_number": 41
   },
   {
     "text": "written and edited.",
@@ -5032,7 +5073,8 @@
   {
     "text": "what is poll Pull request and how does",
     "start": 3520.559,
-    "duration": 5.681
+    "duration": 5.681,
+    "question_number": 42
   },
   {
     "text": "it facilitate collaboration?",
@@ -5137,7 +5179,8 @@
   {
     "text": "What encryption is? Encryption is",
     "start": 3589.839,
-    "duration": 7.201
+    "duration": 7.201,
+    "question_number": 43
   },
   {
     "text": "basically it takes your",
@@ -5207,7 +5250,8 @@
   {
     "text": "So explain what two factor",
     "start": 3637.68,
-    "duration": 5.2
+    "duration": 5.2,
+    "question_number": 44
   },
   {
     "text": "authentication. Basically",
@@ -5287,7 +5331,8 @@
   {
     "text": "Discuss issues with creating a strong",
     "start": 3694.72,
-    "duration": 3.68
+    "duration": 3.68,
+    "question_number": 45
   },
   {
     "text": "password.",

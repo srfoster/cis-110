@@ -137,7 +137,8 @@
   {
     "text": "Uh magnetic fields are north and south",
     "start": 118.56,
-    "duration": 8.32
+    "duration": 8.32,
+    "question_number": 1
   },
   {
     "text": "polarities. Uh kind of matches that.",
@@ -177,7 +178,8 @@
   {
     "text": "I'll make a pair. Uh so let's say you",
     "start": 154.0,
-    "duration": 9.599
+    "duration": 9.599,
+    "question_number": 2
   },
   {
     "text": "have uh x is uh",
@@ -282,7 +284,8 @@
   {
     "text": "okay. IP address. Um,",
     "start": 238.319,
-    "duration": 7.601
+    "duration": 7.601,
+    "question_number": 3
   },
   {
     "text": "so let's go back to here.",
@@ -392,7 +395,8 @@
   {
     "text": "cloud computing.",
     "start": 308.56,
-    "duration": 6.28
+    "duration": 6.28,
+    "question_number": 4
   },
   {
     "text": "So",
@@ -507,7 +511,8 @@
   {
     "text": "cloud services uh Google Drive um it's",
     "start": 378.479,
-    "duration": 5.921
+    "duration": 5.921,
+    "question_number": 5
   },
   {
     "text": "used to store files on the cloud and",
@@ -622,7 +627,8 @@
   {
     "text": "AI affects the trustworthiness of what",
     "start": 454.24,
-    "duration": 7.679
+    "duration": 7.679,
+    "question_number": 6
   },
   {
     "text": "we see online. Um, I think in particular",
@@ -872,7 +878,8 @@
   {
     "text": "Transistor. Uh it kind of looks like",
     "start": 608.32,
-    "duration": 4.959
+    "duration": 4.959,
+    "question_number": 7
   },
   {
     "text": "this, I believe. Um, it's a little",
@@ -957,7 +964,8 @@
   {
     "text": "file naming conventions. Uh it",
     "start": 671.76,
-    "duration": 5.519
+    "duration": 5.519,
+    "question_number": 8
   },
   {
     "text": "so when",
@@ -1067,7 +1075,8 @@
   {
     "text": "pull request. Um",
     "start": 732.56,
-    "duration": 4.04
+    "duration": 4.04,
+    "question_number": 9
   },
   {
     "text": "so let's say somewhere here GitHub uh",
@@ -1147,7 +1156,8 @@
   {
     "text": "Two-factor authentication. So, uh say an",
     "start": 788.0,
-    "duration": 5.36
+    "duration": 5.36,
+    "question_number": 10
   },
   {
     "text": "example, you log into something, it",
@@ -1297,7 +1307,8 @@
   {
     "text": "fair use. Uh the way I like to think of",
     "start": 884.079,
-    "duration": 6.44
+    "duration": 6.44,
+    "question_number": 11
   },
   {
     "text": "it is uh",
@@ -1512,7 +1523,8 @@
   {
     "text": "random four orbit binary number.",
     "start": 1022.48,
-    "duration": 5.719
+    "duration": 5.719,
+    "question_number": 12
   },
   {
     "text": "Um,",
@@ -1587,7 +1599,8 @@
   {
     "text": "So, uh six degrees of separation is kind",
     "start": 1087.84,
-    "duration": 6.56
+    "duration": 6.56,
+    "question_number": 13
   },
   {
     "text": "of like a social theory. I think that",
@@ -1752,7 +1765,8 @@
   {
     "text": "process output so Um, that's what's been",
     "start": 1175.12,
-    "duration": 4.4
+    "duration": 4.4,
+    "question_number": 14
   },
   {
     "text": "happening the entire time because that's",
@@ -1872,7 +1886,8 @@
   {
     "text": "Uh I I think I kind of went over this",
     "start": 1239.36,
-    "duration": 5.799
+    "duration": 5.799,
+    "question_number": 15
   },
   {
     "text": "but um",
@@ -1952,7 +1967,8 @@
   {
     "text": "I kind of also just went over this. Um",
     "start": 1293.679,
-    "duration": 6.0
+    "duration": 6.0,
+    "question_number": 16
   },
   {
     "text": "this is an input output device. Uh",
@@ -2087,7 +2103,8 @@
   {
     "text": "five common HTML tags. Uh",
     "start": 1383.36,
-    "duration": 5.52
+    "duration": 5.52,
+    "question_number": 17
   },
   {
     "text": "I was told where you're allowed to do",
@@ -2192,7 +2209,8 @@
   {
     "text": "Oh, okay. Well, uh switch over to this.",
     "start": 1457.52,
-    "duration": 8.399
+    "duration": 8.399,
+    "question_number": 18
   },
   {
     "text": "Okay. So you got uh computer here. It",
@@ -2417,7 +2435,8 @@
   {
     "text": "holding copyright uh means you own the",
     "start": 1596.799,
-    "duration": 6.841
+    "duration": 6.841,
+    "question_number": 19
   },
   {
     "text": "rights to something. Um",
@@ -2717,7 +2736,8 @@
   {
     "text": "So,",
     "start": 1806.0,
-    "duration": 4.72
+    "duration": 4.72,
+    "question_number": 20
   },
   {
     "text": "Wikipedia articles, like the entirety of",
@@ -2872,7 +2892,8 @@
   {
     "text": "Malware malware is malicious software.",
     "start": 1898.72,
-    "duration": 11.079
+    "duration": 11.079,
+    "question_number": 21
   },
   {
     "text": "Um malware could be a virus.",
@@ -3162,7 +3183,8 @@
   {
     "text": "colors. Okay, this is easy. So you can",
     "start": 2091.919,
-    "duration": 10.321
+    "duration": 10.321,
+    "question_number": 22
   },
   {
     "text": "encode them numerically um by using uh R",
@@ -3257,7 +3279,8 @@
   {
     "text": "Hate AI.",
     "start": 2167.119,
-    "duration": 6.161
+    "duration": 6.161,
+    "question_number": 23
   },
   {
     "text": "Um it kind of shapes uh how people",
@@ -3397,7 +3420,8 @@
   {
     "text": "encryption.",
     "start": 2257.28,
-    "duration": 3.0
+    "duration": 3.0,
+    "question_number": 24
   },
   {
     "text": "So, uh encryption is a way to uh prevent",
@@ -3582,7 +3606,8 @@
   {
     "text": "Device drivers um",
     "start": 2379.599,
-    "duration": 4.361
+    "duration": 4.361,
+    "question_number": 25
   },
   {
     "text": "device drivers are a kind of translation",
@@ -3747,7 +3772,8 @@
   {
     "text": "So, uh,",
     "start": 2483.68,
-    "duration": 3.639
+    "duration": 3.639,
+    "question_number": 26
   },
   {
     "text": "uh,",
@@ -4032,7 +4058,8 @@
   {
     "text": "This binary and why computers use it.",
     "start": 2676.96,
-    "duration": 5.44
+    "duration": 5.44,
+    "question_number": 27
   },
   {
     "text": "We've been over this a few times.",
@@ -4147,7 +4174,8 @@
   {
     "text": "spoofing. Uh, very broad, but like um",
     "start": 2751.119,
-    "duration": 11.681
+    "duration": 11.681,
+    "question_number": 28
   },
   {
     "text": "you could like spoof an email like",
@@ -4297,7 +4325,8 @@
   {
     "text": "So, um because I'm recording this like a",
     "start": 2880.96,
-    "duration": 7.359
+    "duration": 7.359,
+    "question_number": 29
   },
   {
     "text": "few hours out after class cuz fresh. Uh",
@@ -4467,7 +4496,8 @@
   {
     "text": "two-digit decimal number and convert to",
     "start": 3021.28,
-    "duration": 5.0
+    "duration": 5.0,
+    "question_number": 30
   },
   {
     "text": "binary.",
@@ -4677,7 +4707,8 @@
   {
     "text": "computer interacts with the web server",
     "start": 3175.28,
-    "duration": 2.799
+    "duration": 2.799,
+    "question_number": 31
   },
   {
     "text": "web server pulls stuff from the",
@@ -4902,7 +4933,8 @@
   {
     "text": "I forgot to review this one. Uh so",
     "start": 3314.24,
-    "duration": 4.92
+    "duration": 4.92,
+    "question_number": 32
   },
   {
     "text": "you would start by writing uh like a",
@@ -5092,7 +5124,8 @@
   {
     "text": "CPU. Um,",
     "start": 3465.04,
-    "duration": 3.72
+    "duration": 3.72,
+    "question_number": 33
   },
   {
     "text": "let's go back to this cuz it's a little",
@@ -5327,7 +5360,8 @@
   {
     "text": "Okay. Well, I kind of very vaguely went",
     "start": 3618.24,
-    "duration": 5.2
+    "duration": 5.2,
+    "question_number": 34
   },
   {
     "text": "over that there, but um I'll go back to",
@@ -5487,7 +5521,8 @@
   {
     "text": "Oh, convenient. Um I just mentioned RAM",
     "start": 3744.72,
-    "duration": 5.119
+    "duration": 5.119,
+    "question_number": 35
   },
   {
     "text": "is volatile memory. Uh it doesn't",
@@ -5672,7 +5707,8 @@
   {
     "text": "Operating system",
     "start": 3866.48,
-    "duration": 5.119
+    "duration": 5.119,
+    "question_number": 36
   },
   {
     "text": "operating system is what you're seeing",
@@ -5787,7 +5823,8 @@
   {
     "text": "I like this one.",
     "start": 3951.44,
-    "duration": 6.48
+    "duration": 6.48,
+    "question_number": 37
   },
   {
     "text": "um because I can answer it well I think.",
@@ -6127,7 +6164,8 @@
   {
     "text": "HTML is HTML is the uh programming",
     "start": 4176.96,
-    "duration": 7.68
+    "duration": 7.68,
+    "question_number": 38
   },
   {
     "text": "language used for uh",
@@ -6232,7 +6270,8 @@
   {
     "text": "I'm going to have to take a second to",
     "start": 4258.159,
-    "duration": 4.921
+    "duration": 4.921,
+    "question_number": 39
   },
   {
     "text": "try to remember this.",
@@ -6402,7 +6441,8 @@
   {
     "text": "really getting me with these questions I",
     "start": 4424.239,
-    "duration": 5.801
+    "duration": 5.801,
+    "question_number": 40
   },
   {
     "text": "don't remember at the end. Um,",
@@ -6692,7 +6732,8 @@
   {
     "text": "CSS, I already kind of went over this.",
     "start": 4584.08,
-    "duration": 3.84
+    "duration": 3.84,
+    "question_number": 41
   },
   {
     "text": "Uh this is what is displayed on the uh",
@@ -6757,7 +6798,8 @@
   {
     "text": "JavaScript um",
     "start": 4622.239,
-    "duration": 4.121
+    "duration": 4.121,
+    "question_number": 42
   },
   {
     "text": "got a lot of ones I don't have easy",
@@ -6877,7 +6919,8 @@
   {
     "text": "Throwing me a bone with a very easy one.",
     "start": 4700.96,
-    "duration": 3.6
+    "duration": 3.6,
+    "question_number": 43
   },
   {
     "text": "Uh web browser is a program on your",
@@ -6972,7 +7015,8 @@
   {
     "text": "web cookie. Um,",
     "start": 4749.199,
-    "duration": 6.48
+    "duration": 6.48,
+    "question_number": 44
   },
   {
     "text": "cookies are",
@@ -7122,7 +7166,8 @@
   {
     "text": "and through web apps. Um",
     "start": 4823.36,
-    "duration": 4.28
+    "duration": 4.28,
+    "question_number": 45
   },
   {
     "text": "I I have a really hard time",
@@ -7442,7 +7487,8 @@
   {
     "text": "Really giving me the uh easiest question",
     "start": 5037.6,
-    "duration": 6.96
+    "duration": 6.96,
+    "question_number": 46
   },
   {
     "text": "for last. Um it's a",

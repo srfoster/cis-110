@@ -677,7 +677,8 @@
   {
     "text": "4bit binary referred to decimal. Uh I",
     "start": 493.44,
-    "duration": 6.8
+    "duration": 6.8,
+    "question_number": 1
   },
   {
     "text": "don't have my",
@@ -987,7 +988,8 @@
   {
     "text": "What is binary?",
     "start": 824.88,
-    "duration": 6.32
+    "duration": 6.32,
+    "question_number": 2
   },
   {
     "text": "Binary is numbers",
@@ -1227,7 +1229,8 @@
   {
     "text": "Oh, there's electricity. I just said",
     "start": 990.88,
-    "duration": 4.24
+    "duration": 4.24,
+    "question_number": 3
   },
   {
     "text": "that one. So, electricity",
@@ -1307,7 +1310,8 @@
   {
     "text": "creates a magnetic field, a zero and a",
     "start": 1044.799,
-    "duration": 3.841
+    "duration": 3.841,
+    "question_number": 4
   },
   {
     "text": "one.",
@@ -1367,7 +1371,8 @@
   {
     "text": "What is a transistor? A transistor,",
     "start": 1080.4,
-    "duration": 4.279
+    "duration": 4.279,
+    "question_number": 5
   },
   {
     "text": "which I drew. I think I need to get this",
@@ -1467,7 +1472,8 @@
   {
     "text": "2D coordinate being coded as a single",
     "start": 1153.28,
-    "duration": 5.48
+    "duration": 5.48,
+    "question_number": 6
   },
   {
     "text": "number.",
@@ -1707,7 +1713,8 @@
   {
     "text": "Oh, colors. Colors is kind of the same.",
     "start": 1362.4,
-    "duration": 7.159
+    "duration": 7.159,
+    "question_number": 7
   },
   {
     "text": "you have RGB,",
@@ -1767,7 +1774,8 @@
   {
     "text": "So going to go into frames next.",
     "start": 1412.24,
-    "duration": 4.96
+    "duration": 4.96,
+    "question_number": 8
   },
   {
     "text": "They're going to do frames because then",
@@ -1882,7 +1890,8 @@
   {
     "text": "solid state. All right,",
     "start": 1479.039,
-    "duration": 3.88
+    "duration": 3.88,
+    "question_number": 9
   },
   {
     "text": "let's go.",
@@ -2317,7 +2326,8 @@
   {
     "text": "input, output, IPO, model, and its",
     "start": 1764.64,
-    "duration": 5.48
+    "duration": 5.48,
+    "question_number": 10
   },
   {
     "text": "significance.",
@@ -2472,7 +2482,8 @@
   {
     "text": "Oh, RAM and ROM. That one I do know.",
     "start": 1903.44,
-    "duration": 8.079
+    "duration": 8.079,
+    "question_number": 11
   },
   {
     "text": "RAM read access",
@@ -2652,7 +2663,8 @@
   {
     "text": "input output devices",
     "start": 2010.32,
-    "duration": 4.479
+    "duration": 4.479,
+    "question_number": 12
   },
   {
     "text": "I think I answered that other question",
@@ -2737,7 +2749,8 @@
   {
     "text": "how a processor works.",
     "start": 2060.879,
-    "duration": 4.2
+    "duration": 4.2,
+    "question_number": 13
   },
   {
     "text": "Okay, I think I kind of restarted that",
@@ -2902,7 +2915,8 @@
   {
     "text": "CPU GPU",
     "start": 2163.839,
-    "duration": 6.401
+    "duration": 6.401,
+    "question_number": 14
   },
   {
     "text": "so CPU",
@@ -3122,7 +3136,8 @@
   {
     "text": "operating system.",
     "start": 2302.0,
-    "duration": 3.64
+    "duration": 3.64,
+    "question_number": 15
   },
   {
     "text": "So",
@@ -3317,7 +3332,8 @@
   {
     "text": "Multitasking",
     "start": 2430.88,
-    "duration": 5.84
+    "duration": 5.84,
+    "question_number": 16
   },
   {
     "text": "is multipprocessing and multi-threading.",
@@ -3622,7 +3638,8 @@
   {
     "text": "device drivers.",
     "start": 2619.839,
-    "duration": 3.721
+    "duration": 3.721,
+    "question_number": 17
   },
   {
     "text": "So within your software that comes with",
@@ -3892,7 +3909,8 @@
   {
     "text": "File naming conventions. Ro of a file",
     "start": 2764.96,
-    "duration": 3.68
+    "duration": 3.68,
+    "question_number": 18
   },
   {
     "text": "extension. I haven't done this one",
@@ -4252,7 +4270,8 @@
   {
     "text": "absolute file path and res relative file",
     "start": 2981.04,
-    "duration": 6.96
+    "duration": 6.96,
+    "question_number": 19
   },
   {
     "text": "path. Okay. Absolute file path.",
@@ -4397,7 +4416,8 @@
   {
     "text": "Logical and physical storage models for",
     "start": 3094.319,
-    "duration": 4.481
+    "duration": 4.481,
+    "question_number": 20
   },
   {
     "text": "a file.",
@@ -4582,7 +4602,8 @@
   {
     "text": "I mean, I kind of just did that with the",
     "start": 3227.599,
-    "duration": 5.361
+    "duration": 5.361,
+    "question_number": 21
   },
   {
     "text": "whole squadron how we did used to do it",
@@ -4962,7 +4983,8 @@
   {
     "text": "All right,",
     "start": 3445.119,
-    "duration": 3.081
+    "duration": 3.081,
+    "question_number": 22
   },
   {
     "text": "a web browser.",
@@ -5152,7 +5174,8 @@
   {
     "text": "Web browsing with caching history and",
     "start": 3565.04,
-    "duration": 5.0
+    "duration": 5.0,
+    "question_number": 23
   },
   {
     "text": "privacy.",
@@ -5347,7 +5370,8 @@
   {
     "text": "All right. HTTP",
     "start": 3693.04,
-    "duration": 3.72
+    "duration": 3.72,
+    "question_number": 24
   },
   {
     "text": "https",
@@ -5497,7 +5521,8 @@
   {
     "text": "I passed out. I was going to say web",
     "start": 3789.599,
-    "duration": 4.081
+    "duration": 4.081,
+    "question_number": 25
   },
   {
     "text": "cookie is our favorite one.",
@@ -5602,7 +5627,8 @@
   {
     "text": "I just went over this again just so I",
     "start": 3855.839,
-    "duration": 3.361
+    "duration": 3.361,
+    "question_number": 26
   },
   {
     "text": "can",
@@ -5697,7 +5723,8 @@
   {
     "text": "HML five. Oh, I just did two. So, we",
     "start": 3908.72,
-    "duration": 4.639
+    "duration": 4.639,
+    "question_number": 27
   },
   {
     "text": "have H",
@@ -5822,7 +5849,8 @@
   {
     "text": "CSS. So then you have CSS. CSS",
     "start": 3995.119,
-    "duration": 5.881
+    "duration": 5.881,
+    "question_number": 28
   },
   {
     "text": "is",
@@ -5912,7 +5940,8 @@
   {
     "text": "be JavaScript. JavaScript.",
     "start": 4054.4,
-    "duration": 4.199
+    "duration": 4.199,
+    "question_number": 29
   },
   {
     "text": "Now, JavaScript",
@@ -5992,7 +6021,8 @@
   {
     "text": "All right. Worldwide web. The worldwide",
     "start": 4107.04,
-    "duration": 7.679
+    "duration": 7.679,
+    "question_number": 30
   },
   {
     "text": "web and the internet.",
@@ -6272,7 +6302,8 @@
   {
     "text": "IP address.",
     "start": 4261.199,
-    "duration": 3.641
+    "duration": 3.641,
+    "question_number": 31
   },
   {
     "text": "IP address.",
@@ -6482,7 +6513,8 @@
   {
     "text": "Behind the scenes, you access a URL in",
     "start": 4388.32,
-    "duration": 5.04
+    "duration": 5.04,
+    "question_number": 32
   },
   {
     "text": "your browser.",
@@ -6672,7 +6704,8 @@
   {
     "text": "Oh, maybe it's this question you're",
     "start": 4501.679,
-    "duration": 3.201
+    "duration": 3.201,
+    "question_number": 33
   },
   {
     "text": "asking about. browser, web server,",
@@ -6992,7 +7025,8 @@
   {
     "text": "Web application. Oh, web application.",
     "start": 4737.92,
-    "duration": 8.799
+    "duration": 8.799,
+    "question_number": 34
   },
   {
     "text": "So, web application is",
@@ -7192,7 +7226,8 @@
   {
     "text": "copyright list some of the rights that",
     "start": 4845.12,
-    "duration": 3.52
+    "duration": 3.52,
+    "question_number": 35
   },
   {
     "text": "are exclusively God this one always",
@@ -7407,7 +7442,8 @@
   {
     "text": "Fair use doctrine.",
     "start": 4999.199,
-    "duration": 5.681
+    "duration": 5.681,
+    "question_number": 36
   },
   {
     "text": "All right. I went over this one, too,",
@@ -7577,7 +7613,8 @@
   {
     "text": "AI generated text message and videos on",
     "start": 5108.0,
-    "duration": 4.159
+    "duration": 4.159,
+    "question_number": 37
   },
   {
     "text": "truth and trust and digital",
@@ -7807,7 +7844,8 @@
   {
     "text": "How AI algorithms shape what information",
     "start": 5243.199,
-    "duration": 4.641
+    "duration": 4.641,
+    "question_number": 38
   },
   {
     "text": "people see online.",
@@ -7947,7 +7985,8 @@
   {
     "text": "Oh, six degrees of separation. And I",
     "start": 5321.44,
-    "duration": 5.96
+    "duration": 5.96,
+    "question_number": 39
   },
   {
     "text": "always forget this one.",
@@ -8172,7 +8211,8 @@
   {
     "text": "Wikipedia. So, Wikipedia",
     "start": 5451.679,
-    "duration": 7.52
+    "duration": 7.52,
+    "question_number": 40
   },
   {
     "text": "is a public site",
@@ -8302,7 +8342,8 @@
   {
     "text": "What is a poll request and how does it",
     "start": 5526.239,
-    "duration": 5.121
+    "duration": 5.121,
+    "question_number": 41
   },
   {
     "text": "facilitate collaboration?",
@@ -8387,7 +8428,8 @@
   {
     "text": "Encryption.",
     "start": 5622.48,
-    "duration": 3.0
+    "duration": 3.0,
+    "question_number": 42
   },
   {
     "text": "Encryption.",
@@ -8492,7 +8534,8 @@
   {
     "text": "Two-factor authentication.",
     "start": 5689.84,
-    "duration": 6.359
+    "duration": 6.359,
+    "question_number": 43
   },
   {
     "text": "So two factorification",
@@ -8687,7 +8730,8 @@
   {
     "text": "discuss issues with creating a strong",
     "start": 5808.48,
-    "duration": 4.719
+    "duration": 4.719,
+    "question_number": 44
   },
   {
     "text": "password.",
@@ -8842,7 +8886,8 @@
   {
     "text": "malware.",
     "start": 5898.96,
-    "duration": 3.0
+    "duration": 3.0,
+    "question_number": 45
   },
   {
     "text": "Malware",
@@ -8977,7 +9022,8 @@
   {
     "text": "Root kit. God, I haven't heard that term",
     "start": 5975.679,
-    "duration": 5.201
+    "duration": 5.201,
+    "question_number": 46
   },
   {
     "text": "in a long time. Root kit.",

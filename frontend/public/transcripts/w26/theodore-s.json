@@ -107,7 +107,8 @@
   {
     "text": "Explain what a rook is. A rook.",
     "start": 65.76,
-    "duration": 7.039
+    "duration": 7.039,
+    "question_number": 1
   },
   {
     "text": "Come on pen.",
@@ -292,7 +293,8 @@
   {
     "text": "Next question, how might a pair of",
     "start": 188.64,
-    "duration": 5.44
+    "duration": 5.44,
+    "question_number": 2
   },
   {
     "text": "numbers like a 2D coordinate",
@@ -477,7 +479,8 @@
   {
     "text": "Uh HTML",
     "start": 328.639,
-    "duration": 3.521
+    "duration": 3.521,
+    "question_number": 3
   },
   {
     "text": "um",
@@ -592,7 +595,8 @@
   {
     "text": "Uh discuss file naming conventions and",
     "start": 405.44,
-    "duration": 6.96
+    "duration": 6.96,
+    "question_number": 4
   },
   {
     "text": "the role of the file extension.",
@@ -832,7 +836,8 @@
   {
     "text": "uh name three web applications you have",
     "start": 567.279,
-    "duration": 5.841
+    "duration": 5.841,
+    "question_number": 5
   },
   {
     "text": "used and explain what makes them useful.",
@@ -1107,7 +1112,8 @@
   {
     "text": "Uh, explain what an IP address is and",
     "start": 734.0,
-    "duration": 4.399
+    "duration": 4.399,
+    "question_number": 6
   },
   {
     "text": "why it's important for internet",
@@ -1292,7 +1298,8 @@
   {
     "text": "what is binary and why do computers use",
     "start": 851.68,
-    "duration": 7.04
+    "duration": 7.04,
+    "question_number": 7
   },
   {
     "text": "it? So binary is a two-digit",
@@ -1487,7 +1494,8 @@
   {
     "text": "So, two-factor authentication uh",
     "start": 992.399,
-    "duration": 8.0
+    "duration": 8.0,
+    "question_number": 8
   },
   {
     "text": "basically is a method to keep your",
@@ -1767,7 +1775,8 @@
   {
     "text": "explain what happens behind the scenes",
     "start": 1180.08,
-    "duration": 4.479
+    "duration": 4.479,
+    "question_number": 9
   },
   {
     "text": "when you access a URL in your browser.",
@@ -2127,7 +2136,8 @@
   {
     "text": "But moving on, how do magnetic fields",
     "start": 1402.24,
-    "duration": 7.48
+    "duration": 7.48,
+    "question_number": 10
   },
   {
     "text": "store binary information?",
@@ -2427,7 +2437,8 @@
   {
     "text": "Um what is a poll request and how does",
     "start": 1606.32,
-    "duration": 5.44
+    "duration": 5.44,
+    "question_number": 11
   },
   {
     "text": "it facilitate collaboration? Okay, so a",
@@ -2637,7 +2648,8 @@
   {
     "text": "next question. uh explain what it means",
     "start": 1737.52,
-    "duration": 4.24
+    "duration": 4.24,
+    "question_number": 12
   },
   {
     "text": "to hold a copyright list of the rights",
@@ -2902,7 +2914,8 @@
   {
     "text": "Um HTTP and HTTPS.",
     "start": 1914.0,
-    "duration": 10.96
+    "duration": 10.96,
+    "question_number": 13
   },
   {
     "text": "Okay. So HTTP is hyper transfer link or",
@@ -3177,7 +3190,8 @@
   {
     "text": "Uh number 14. How does electricity",
     "start": 2103.44,
-    "duration": 4.399
+    "duration": 4.399,
+    "question_number": 14
   },
   {
     "text": "enable computers to represent binary",
@@ -3322,7 +3336,8 @@
   {
     "text": "uh give three examples of cloud services",
     "start": 2214.079,
-    "duration": 3.601
+    "duration": 3.601,
+    "question_number": 15
   },
   {
     "text": "that you might use in daily life and",
@@ -3517,7 +3532,8 @@
   {
     "text": "Uh CSS. Okay. So, I can't remember",
     "start": 2351.92,
-    "duration": 7.679
+    "duration": 7.679,
+    "question_number": 16
   },
   {
     "text": "exactly what CSS stands for.",
@@ -3687,7 +3703,8 @@
   {
     "text": "uh design an efficient file organization",
     "start": 2458.56,
-    "duration": 7.039
+    "duration": 7.039,
+    "question_number": 17
   },
   {
     "text": "system for a specific use case. Uh so",
@@ -3942,7 +3959,8 @@
   {
     "text": "Okay, number 18. Discuss the impact of",
     "start": 2635.76,
-    "duration": 6.72
+    "duration": 6.72,
+    "question_number": 18
   },
   {
     "text": "AI generated text images and videos on",
@@ -4212,7 +4230,8 @@
   {
     "text": "What is a transistor and how does it",
     "start": 2801.52,
-    "duration": 6.64
+    "duration": 6.64,
+    "question_number": 19
   },
   {
     "text": "work in computers? Okay, a transistor",
@@ -4387,7 +4406,8 @@
   {
     "text": "uh the input process output model in its",
     "start": 2919.119,
-    "duration": 6.561
+    "duration": 6.561,
+    "question_number": 20
   },
   {
     "text": "significance. So the input output or the",
@@ -4627,7 +4647,8 @@
   {
     "text": "So question 21",
     "start": 3080.079,
-    "duration": 5.601
+    "duration": 5.601,
+    "question_number": 21
   },
   {
     "text": "uh explain the concept",
@@ -4832,7 +4853,8 @@
   {
     "text": "Okay. So,",
     "start": 3218.72,
-    "duration": 5.76
+    "duration": 5.76,
+    "question_number": 22
   },
   {
     "text": "in previous",
@@ -4962,7 +4984,8 @@
   {
     "text": "Uh question 23. Oh gosh. Um the five",
     "start": 3298.48,
-    "duration": 11.04
+    "duration": 11.04,
+    "question_number": 23
   },
   {
     "text": "common HTML tags and what they do. So H",
@@ -5202,7 +5225,8 @@
   {
     "text": "question 24 explain what assembly",
     "start": 3454.16,
-    "duration": 5.12
+    "duration": 5.12,
+    "question_number": 24
   },
   {
     "text": "language is and how it relates to",
@@ -5407,7 +5431,8 @@
   {
     "text": "All right. 25. What is a web browser?",
     "start": 3579.359,
-    "duration": 5.841
+    "duration": 5.841,
+    "question_number": 25
   },
   {
     "text": "Explain what a web browser is and what",
@@ -5552,7 +5577,8 @@
   {
     "text": "Explain the six degrees of separation.",
     "start": 3679.68,
-    "duration": 6.48
+    "duration": 6.48,
+    "question_number": 26
   },
   {
     "text": "The six degrees of separation don't",
@@ -5727,7 +5753,8 @@
   {
     "text": "Explain what device drivers are and why",
     "start": 3789.599,
-    "duration": 4.321
+    "duration": 4.321,
+    "question_number": 27
   },
   {
     "text": "they're necessary. Device drivers are",
@@ -5897,7 +5924,8 @@
   {
     "text": "in terms of database terminology,",
     "start": 3896.64,
-    "duration": 10.12
+    "duration": 10.12,
+    "question_number": 28
   },
   {
     "text": "records, rows, columns and tables,",
@@ -6102,7 +6130,8 @@
   {
     "text": "Non describe how an online intrusion",
     "start": 4040.16,
-    "duration": 5.439
+    "duration": 5.439,
+    "question_number": 29
   },
   {
     "text": "might take place. You can do so by",
@@ -6322,7 +6351,8 @@
   {
     "text": "So uh logical storage models are",
     "start": 4182.319,
-    "duration": 8.321
+    "duration": 8.321,
+    "question_number": 30
   },
   {
     "text": "basically in that in a hierarchy system",
@@ -6637,7 +6667,8 @@
   {
     "text": "That's one. How might colors be encoded",
     "start": 4372.719,
-    "duration": 9.041
+    "duration": 9.041,
+    "question_number": 31
   },
   {
     "text": "numerically? Uh this one's fun. Uh Um so",
@@ -6797,7 +6828,8 @@
   {
     "text": "Explain what social engineering is and",
     "start": 4469.679,
-    "duration": 4.401
+    "duration": 4.401,
+    "question_number": 32
   },
   {
     "text": "how it is used in cyber attacks. Social",
@@ -6962,7 +6994,8 @@
   {
     "text": "Um a zero day exploit. Uh just actually",
     "start": 4570.4,
-    "duration": 9.44
+    "duration": 9.44,
+    "question_number": 33
   },
   {
     "text": "learned about one of these recently. So,",
@@ -7062,7 +7095,8 @@
   {
     "text": "And moving on, a web cookie, uh, a web",
     "start": 4644.48,
-    "duration": 8.64
+    "duration": 8.64,
+    "question_number": 34
   },
   {
     "text": "cookie is a small bit of code that a web",
@@ -7147,7 +7181,8 @@
   {
     "text": "Write a four bit binary number and",
     "start": 4701.04,
-    "duration": 4.08
+    "duration": 4.08,
+    "question_number": 35
   },
   {
     "text": "convert it to decimal.",
@@ -7217,7 +7252,8 @@
   {
     "text": "uh discuss the relative strengths and",
     "start": 4753.04,
-    "duration": 4.32
+    "duration": 4.32,
+    "question_number": 36
   },
   {
     "text": "weaknesses between magnetic, optical and",
@@ -7522,7 +7558,8 @@
   {
     "text": "Explain what a database is. So a",
     "start": 4940.639,
-    "duration": 5.52
+    "duration": 5.52,
+    "question_number": 37
   },
   {
     "text": "database",
@@ -7622,7 +7659,8 @@
   {
     "text": "So uh let's s some of the basic steps in",
     "start": 5002.719,
-    "duration": 4.161
+    "duration": 4.161,
+    "question_number": 38
   },
   {
     "text": "the programming process from writing",
@@ -7737,7 +7775,8 @@
   {
     "text": "Explain what IO devices are and why",
     "start": 5092.56,
-    "duration": 4.8
+    "duration": 4.8,
+    "question_number": 39
   },
   {
     "text": "they're important to computing uh input",
@@ -7917,7 +7956,8 @@
   {
     "text": "Next question. Discuss issues with",
     "start": 5192.32,
-    "duration": 6.56
+    "duration": 6.56,
+    "question_number": 40
   },
   {
     "text": "creating a strong password.",
@@ -8097,7 +8137,8 @@
   {
     "text": "okay. Randomly generated a twodigit",
     "start": 5300.32,
-    "duration": 5.04
+    "duration": 5.04,
+    "question_number": 41
   },
   {
     "text": "decimal number and convert it to binary.",
@@ -8262,7 +8303,8 @@
   {
     "text": "processors. Uh, explain how a processor",
     "start": 5433.199,
-    "duration": 9.52
+    "duration": 9.52,
+    "question_number": 42
   },
   {
     "text": "works. So, a processor is the little um",
@@ -8422,7 +8464,8 @@
   {
     "text": "Okay.",
     "start": 5537.28,
-    "duration": 2.879
+    "duration": 2.879,
+    "question_number": 43
   },
   {
     "text": "explain the difference between a",
@@ -8592,7 +8635,8 @@
   {
     "text": "Uh okay. So the point of the fair use",
     "start": 5661.12,
-    "duration": 8.24
+    "duration": 8.24,
+    "question_number": 44
   },
   {
     "text": "doctrine",
@@ -8847,7 +8891,8 @@
   {
     "text": "Uh let's see 44 explain the role of the",
     "start": 5853.119,
-    "duration": 6.721
+    "duration": 6.721,
+    "question_number": 45
   },
   {
     "text": "operating system. Huh?",
@@ -8947,7 +8992,8 @@
   {
     "text": "discuss how AI algorithms shape what",
     "start": 5933.28,
-    "duration": 5.68
+    "duration": 5.68,
+    "question_number": 46
   },
   {
     "text": "information people see online. So AI",

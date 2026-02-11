@@ -197,7 +197,8 @@
   {
     "text": "Right. How my colors be encoded",
     "start": 139.92,
-    "duration": 4.8
+    "duration": 4.8,
+    "question_number": 1
   },
   {
     "text": "numerically?",
@@ -312,7 +313,8 @@
   {
     "text": "How might a pair of numbers like a 2D",
     "start": 216.159,
-    "duration": 4.561
+    "duration": 4.561,
+    "question_number": 2
   },
   {
     "text": "coordinate be encoded as a single",
@@ -397,7 +399,8 @@
   {
     "text": "trace the execution of this assembly",
     "start": 261.12,
-    "duration": 4.799
+    "duration": 4.799,
+    "question_number": 3
   },
   {
     "text": "code program and what happened and",
@@ -542,7 +545,8 @@
   {
     "text": "Explain what a zero day exploit is. Um,",
     "start": 361.199,
-    "duration": 8.641
+    "duration": 8.641,
+    "question_number": 4
   },
   {
     "text": "so this one, uh, I didn't I didn't study",
@@ -657,7 +661,8 @@
   {
     "text": "How do magnetic fields store binary",
     "start": 435.12,
-    "duration": 4.32
+    "duration": 4.32,
+    "question_number": 5
   },
   {
     "text": "information?",
@@ -777,7 +782,8 @@
   {
     "text": "Explain what CSS is. Um see, pull this",
     "start": 507.28,
-    "duration": 6.639
+    "duration": 6.639,
+    "question_number": 6
   },
   {
     "text": "up. That's like the uh the appearance.",
@@ -837,7 +843,8 @@
   {
     "text": "and then explain the difference between",
     "start": 542.8,
-    "duration": 6.0
+    "duration": 6.0,
+    "question_number": 7
   },
   {
     "text": "a compiler and an interpreter.",
@@ -907,7 +914,8 @@
   {
     "text": "Explain what HTML is. Uh like I was",
     "start": 586.16,
-    "duration": 5.92
+    "duration": 5.92,
+    "question_number": 8
   },
   {
     "text": "saying the last one it's the content. So",
@@ -937,7 +945,8 @@
   {
     "text": "discuss how AI algorithms shape what",
     "start": 612.72,
-    "duration": 5.679
+    "duration": 5.679,
+    "question_number": 9
   },
   {
     "text": "information people see online",
@@ -1007,7 +1016,8 @@
   {
     "text": "What is a transistor and how does it",
     "start": 656.399,
-    "duration": 6.241
+    "duration": 6.241,
+    "question_number": 10
   },
   {
     "text": "work in computers? Um, so I do like like",
@@ -1072,7 +1082,8 @@
   {
     "text": "and then uh randomly generate a 4bit",
     "start": 696.16,
-    "duration": 5.119
+    "duration": 5.119,
+    "question_number": 11
   },
   {
     "text": "binary number and convert it to a",
@@ -1202,7 +1213,8 @@
   {
     "text": "Explain what a database is. Um, so this",
     "start": 801.04,
-    "duration": 7.2
+    "duration": 7.2,
+    "question_number": 12
   },
   {
     "text": "right here uh whenever someone accesses",
@@ -1257,7 +1269,8 @@
   {
     "text": "Describe how an online intrusion might",
     "start": 838.88,
-    "duration": 4.72
+    "duration": 4.72,
+    "question_number": 13
   },
   {
     "text": "take place. You may do so by describing",
@@ -1492,7 +1505,8 @@
   {
     "text": "Explain how a processor works. Um let me",
     "start": 968.079,
-    "duration": 6.641
+    "duration": 6.641,
+    "question_number": 14
   },
   {
     "text": "see. Yeah, I didn't do that over here.",
@@ -1577,7 +1591,8 @@
   {
     "text": "How might letters and words be encoded",
     "start": 1025.839,
-    "duration": 4.24
+    "duration": 4.24,
+    "question_number": 15
   },
   {
     "text": "numerically?",
@@ -1697,7 +1712,8 @@
   {
     "text": "All right. explain what HTTP is and how",
     "start": 1109.919,
-    "duration": 7.841
+    "duration": 7.841,
+    "question_number": 16
   },
   {
     "text": "HTTPS differs from it. So that's like",
@@ -1837,7 +1853,8 @@
   {
     "text": "explain what a web browser is and what",
     "start": 1198.4,
-    "duration": 5.2
+    "duration": 5.2,
+    "question_number": 17
   },
   {
     "text": "it is used for. So the browser, it's",
@@ -1892,7 +1909,8 @@
   {
     "text": "Identify common malware exploits.",
     "start": 1230.799,
-    "duration": 5.041
+    "duration": 5.041,
+    "question_number": 18
   },
   {
     "text": "Um,",
@@ -2062,7 +2080,8 @@
   {
     "text": "lists uh some of the basic steps in the",
     "start": 1330.799,
-    "duration": 4.641
+    "duration": 4.641,
+    "question_number": 19
   },
   {
     "text": "programming process for writing code to",
@@ -2152,7 +2171,8 @@
   {
     "text": "explain how a CPU differs from a GPU. Uh",
     "start": 1381.76,
-    "duration": 8.08
+    "duration": 8.08,
+    "question_number": 20
   },
   {
     "text": "so I know a CPU",
@@ -2247,7 +2267,8 @@
   {
     "text": "Explain what social engineering is and",
     "start": 1448.0,
-    "duration": 4.4
+    "duration": 4.4,
+    "question_number": 21
   },
   {
     "text": "how it's used in cyber attacks. Yeah,",
@@ -2392,7 +2413,8 @@
   {
     "text": "Explain what multitasking is and explain",
     "start": 1525.44,
-    "duration": 4.88
+    "duration": 4.88,
+    "question_number": 22
   },
   {
     "text": "the difference between multiprocessing",
@@ -2577,7 +2599,8 @@
   {
     "text": "How might an image be represented",
     "start": 1634.64,
-    "duration": 6.88
+    "duration": 6.88,
+    "question_number": 23
   },
   {
     "text": "numerically? Um let's see. So here was",
@@ -2752,7 +2775,8 @@
   {
     "text": "discuss the relative strengths,",
     "start": 1744.48,
-    "duration": 5.84
+    "duration": 5.84,
+    "question_number": 24
   },
   {
     "text": "weaknesses, and okay. Uh",
@@ -2867,7 +2891,8 @@
   {
     "text": "And then uh list five common HTML tags.",
     "start": 1809.76,
-    "duration": 5.6
+    "duration": 5.6,
+    "question_number": 25
   },
   {
     "text": "Um,",
@@ -2942,7 +2967,8 @@
   {
     "text": "explain the difference between logical",
     "start": 1878.64,
-    "duration": 5.84
+    "duration": 5.84,
+    "question_number": 26
   },
   {
     "text": "and physical storage models for a file.",
@@ -3067,7 +3093,8 @@
   {
     "text": "explain the role of JavaScript in a web",
     "start": 1949.039,
-    "duration": 5.36
+    "duration": 5.36,
+    "question_number": 27
   },
   {
     "text": "page. Um, so it's like what makes the",
@@ -3127,7 +3154,8 @@
   {
     "text": "Explain what an IP address is and why it",
     "start": 1980.96,
-    "duration": 3.599
+    "duration": 3.599,
+    "question_number": 28
   },
   {
     "text": "is important for the internet",
@@ -3182,7 +3210,8 @@
   {
     "text": "explain how Wikipedia articles are",
     "start": 2009.44,
-    "duration": 4.64
+    "duration": 4.64,
+    "question_number": 29
   },
   {
     "text": "written and edited. So if this is the",
@@ -3252,7 +3281,8 @@
   {
     "text": "thing. So, yeah. explain what device",
     "start": 2046.48,
-    "duration": 6.159
+    "duration": 6.159,
+    "question_number": 30
   },
   {
     "text": "drivers are, why they're necessary. So",
@@ -3332,7 +3362,8 @@
   {
     "text": "explain what encryption is. Uh, so I'll",
     "start": 2092.159,
-    "duration": 6.96
+    "duration": 6.96,
+    "question_number": 31
   },
   {
     "text": "just draw a lock, then an unlock.",
@@ -3392,7 +3423,8 @@
   {
     "text": "Randomly generate a two digit decimal",
     "start": 2125.119,
-    "duration": 7.641
+    "duration": 7.641,
+    "question_number": 32
   },
   {
     "text": "number and convert it to binary.",
@@ -3592,7 +3624,8 @@
   {
     "text": "Explain the input process output like I",
     "start": 2267.04,
-    "duration": 5.28
+    "duration": 5.28,
+    "question_number": 33
   },
   {
     "text": "was sitting there looking at that time.",
@@ -3687,7 +3720,8 @@
   {
     "text": "give three examples of cloud services",
     "start": 2323.92,
-    "duration": 4.08
+    "duration": 4.08,
+    "question_number": 34
   },
   {
     "text": "that you might use in daily life and",
@@ -3857,7 +3891,8 @@
   {
     "text": "Explain what input output devices are,",
     "start": 2430.079,
-    "duration": 5.201
+    "duration": 5.201,
+    "question_number": 35
   },
   {
     "text": "why they're important to computing. So",
@@ -3932,7 +3967,8 @@
   {
     "text": "What is a poll request and how does it",
     "start": 2476.72,
-    "duration": 5.359
+    "duration": 5.359,
+    "question_number": 36
   },
   {
     "text": "facilitate collaboration?",
@@ -4032,7 +4068,8 @@
   {
     "text": "um explain the six degrees of",
     "start": 2533.68,
-    "duration": 5.2
+    "duration": 5.2,
+    "question_number": 37
   },
   {
     "text": "separation. Like it it's annoying",
@@ -4050,7 +4087,7 @@
     "duration": 7.199
   },
   {
-    "text": "it's so annoying. It's uh 6\u00b0 is so like",
+    "text": "it's so annoying. It's uh 6° is so like",
     "start": 2542.8,
     "duration": 6.96
   },
@@ -4092,7 +4129,8 @@
   {
     "text": "Explain what spoofing is. Um, so if you",
     "start": 2564.96,
-    "duration": 5.04
+    "duration": 5.04,
+    "question_number": 38
   },
   {
     "text": "like say you wanted to spoof your IP",
@@ -4157,7 +4195,8 @@
   {
     "text": "Explain how a web application differs",
     "start": 2605.04,
-    "duration": 5.2
+    "duration": 5.2,
+    "question_number": 39
   },
   {
     "text": "from a traditional desktop application.",
@@ -4247,7 +4286,8 @@
   {
     "text": "explain what happens behind the scenes",
     "start": 2652.8,
-    "duration": 4.48
+    "duration": 4.48,
+    "question_number": 40
   },
   {
     "text": "when you access the URL in your browser.",
@@ -4357,7 +4397,8 @@
   {
     "text": "explain what malware is. Um, so sorry,",
     "start": 2716.64,
-    "duration": 8.16
+    "duration": 8.16,
+    "question_number": 41
   },
   {
     "text": "just bad stuff like bad stuff that would",
@@ -4482,7 +4523,8 @@
   {
     "text": "explain what a root kit is.",
     "start": 2792.48,
-    "duration": 4.92
+    "duration": 4.92,
+    "question_number": 42
   },
   {
     "text": "I'm like trying to remember this one. I",
@@ -4572,7 +4614,8 @@
   {
     "text": "Explain the difference between RAM and",
     "start": 2862.4,
-    "duration": 5.199
+    "duration": 5.199,
+    "question_number": 43
   },
   {
     "text": "ROM. Uh,",
@@ -4697,7 +4740,8 @@
   {
     "text": "explain the difference between an",
     "start": 2943.28,
-    "duration": 4.559
+    "duration": 4.559,
+    "question_number": 44
   },
   {
     "text": "absolute file path and a relative file",
@@ -4857,7 +4901,8 @@
   {
     "text": "explain the role of a web browser with",
     "start": 3040.559,
-    "duration": 6.321
+    "duration": 6.321,
+    "question_number": 45
   },
   {
     "text": "respect to caching history and privacy.",
@@ -5057,7 +5102,8 @@
   {
     "text": "Explain how the internet defers from the",
     "start": 3154.0,
-    "duration": 5.839
+    "duration": 5.839,
+    "question_number": 46
   },
   {
     "text": "worldwide web. Uh, so the internet is",

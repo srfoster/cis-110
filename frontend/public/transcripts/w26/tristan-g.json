@@ -212,7 +212,8 @@
   {
     "text": "We're going to convert it to binary by",
     "start": 137.44,
-    "duration": 5.4
+    "duration": 5.4,
+    "question_number": 1
   },
   {
     "text": "and uh 64 can't go in but it it does",
@@ -347,7 +348,8 @@
   {
     "text": "explain the difference between absolute",
     "start": 250.799,
-    "duration": 5.44
+    "duration": 5.44,
+    "question_number": 2
   },
   {
     "text": "file path and relative file path. Okay,",
@@ -652,7 +654,8 @@
   {
     "text": "might letters and words be encoded",
     "start": 449.84,
-    "duration": 5.04
+    "duration": 5.04,
+    "question_number": 3
   },
   {
     "text": "numerically?",
@@ -922,7 +925,8 @@
   {
     "text": "uh name three applications you've used",
     "start": 628.48,
-    "duration": 6.16
+    "duration": 6.16,
+    "question_number": 4
   },
   {
     "text": "and what makes them useful. Um, last",
@@ -1352,7 +1356,8 @@
   {
     "text": "Uh, ninth of the way through. Describe a",
     "start": 967.519,
-    "duration": 5.201
+    "duration": 5.201,
+    "question_number": 5
   },
   {
     "text": "stored program concept. The stored",
@@ -1627,7 +1632,8 @@
   {
     "text": "Explain how a web app uh differs from a",
     "start": 1173.36,
-    "duration": 8.16
+    "duration": 8.16,
+    "question_number": 6
   },
   {
     "text": "traditional desktop application. So um a",
@@ -1867,7 +1873,8 @@
   {
     "text": "uh IO devices and why they're so",
     "start": 1341.679,
-    "duration": 5.161
+    "duration": 5.161,
+    "question_number": 7
   },
   {
     "text": "important to computing.",
@@ -2027,7 +2034,8 @@
   {
     "text": "Uh HTML",
     "start": 1457.84,
-    "duration": 3.4
+    "duration": 3.4,
+    "question_number": 8
   },
   {
     "text": "explain what HTML is. So HTML",
@@ -2302,7 +2310,8 @@
   {
     "text": "Uh, explain what encryption is. So,",
     "start": 1686.88,
-    "duration": 3.679
+    "duration": 3.679,
+    "question_number": 9
   },
   {
     "text": "encryption",
@@ -2537,7 +2546,8 @@
   {
     "text": "Okay. Spoofing.",
     "start": 1868.72,
-    "duration": 7.839
+    "duration": 7.839,
+    "question_number": 10
   },
   {
     "text": "Uh, spoofing is when you're trying to",
@@ -2942,7 +2952,8 @@
   {
     "text": "This concept of cloud computing and how",
     "start": 2152.96,
-    "duration": 4.159
+    "duration": 4.159,
+    "question_number": 11
   },
   {
     "text": "it benefits users and developers of",
@@ -3272,7 +3283,8 @@
   {
     "text": "keep going from there. Six degrees of",
     "start": 2378.16,
-    "duration": 5.199
+    "duration": 5.199,
+    "question_number": 12
   },
   {
     "text": "separation. I uh had this as like a",
@@ -3575,7 +3587,7 @@
     "duration": 5.76
   },
   {
-    "text": "only needing six\u00b0",
+    "text": "only needing six°",
     "start": 2581.76,
     "duration": 5.2
   },
@@ -3607,7 +3619,8 @@
   {
     "text": "Uh, Ramen ROM.",
     "start": 2613.359,
-    "duration": 5.841
+    "duration": 5.841,
+    "question_number": 13
   },
   {
     "text": "So,",
@@ -3832,7 +3845,8 @@
   {
     "text": "Uh web cookie.",
     "start": 2769.359,
-    "duration": 6.321
+    "duration": 6.321,
+    "question_number": 14
   },
   {
     "text": "Maybe I can go back to this other one.",
@@ -4062,7 +4076,8 @@
   {
     "text": "assembly language and how it respond",
     "start": 2926.64,
-    "duration": 8.04
+    "duration": 8.04,
+    "question_number": 15
   },
   {
     "text": "how it relates to machine code.",
@@ -4297,7 +4312,8 @@
   {
     "text": "Oh, right. Okay. This is one of my",
     "start": 3124.8,
-    "duration": 8.759
+    "duration": 8.759,
+    "question_number": 16
   },
   {
     "text": "lookups, too. Root kit is",
@@ -4427,7 +4443,8 @@
   {
     "text": "Uh, explain difference between logical",
     "start": 3219.359,
-    "duration": 6.96
+    "duration": 6.96,
+    "question_number": 17
   },
   {
     "text": "physical storage models for a file. Um,",
@@ -4592,7 +4609,8 @@
   {
     "text": "Uh video represented numerically.",
     "start": 3353.44,
-    "duration": 6.24
+    "duration": 6.24,
+    "question_number": 18
   },
   {
     "text": "So video",
@@ -4967,7 +4985,8 @@
   {
     "text": "uh IPO model and its significance. Input",
     "start": 3614.0,
-    "duration": 5.839
+    "duration": 5.839,
+    "question_number": 19
   },
   {
     "text": "output",
@@ -5132,7 +5151,8 @@
   {
     "text": "Uh, what's a pull request and how does",
     "start": 3736.4,
-    "duration": 6.12
+    "duration": 6.12,
+    "question_number": 20
   },
   {
     "text": "it facilitate collaboration?",
@@ -5237,7 +5257,8 @@
   {
     "text": "it moving. Discuss the impact of AI",
     "start": 3809.76,
-    "duration": 6.0
+    "duration": 6.0,
+    "question_number": 21
   },
   {
     "text": "generated text, images, and videos on",
@@ -5527,7 +5548,8 @@
   {
     "text": "How might colors be? Okay, so um",
     "start": 4008.16,
-    "duration": 8.879
+    "duration": 8.879,
+    "question_number": 22
   },
   {
     "text": "we talked about this already.",
@@ -5607,7 +5629,8 @@
   {
     "text": "Uh common malware exploits. Uh,",
     "start": 4062.16,
-    "duration": 6.04
+    "duration": 6.04,
+    "question_number": 23
   },
   {
     "text": "so we're going to say",
@@ -5967,7 +5990,8 @@
   {
     "text": "Wikipedia articles are",
     "start": 4357.12,
-    "duration": 6.16
+    "duration": 6.16,
+    "question_number": 24
   },
   {
     "text": "um",
@@ -6162,7 +6186,8 @@
   {
     "text": "That's what I'll go with. Explain what",
     "start": 4509.36,
-    "duration": 4.16
+    "duration": 4.16,
+    "question_number": 25
   },
   {
     "text": "malware is. So malware",
@@ -6322,7 +6347,8 @@
   {
     "text": "that. Explain the role of web browser",
     "start": 4615.92,
-    "duration": 4.16
+    "duration": 4.16,
+    "question_number": 26
   },
   {
     "text": "with respect to caching history and",
@@ -6607,7 +6633,8 @@
   {
     "text": "How does the internet differ from the",
     "start": 4830.32,
-    "duration": 7.24
+    "duration": 7.24,
+    "question_number": 27
   },
   {
     "text": "worldwide web? um the internet",
@@ -6757,7 +6784,8 @@
   {
     "text": "How does a CPU differ from a GPU? So a",
     "start": 4968.4,
-    "duration": 5.72
+    "duration": 5.72,
+    "question_number": 28
   },
   {
     "text": "CPU",
@@ -6962,7 +6990,8 @@
   {
     "text": "Uh role of JavaScript.",
     "start": 5112.56,
-    "duration": 4.679
+    "duration": 4.679,
+    "question_number": 29
   },
   {
     "text": "Uh,",
@@ -7077,7 +7106,8 @@
   {
     "text": "uh explain what happens behind the",
     "start": 5200.0,
-    "duration": 3.679
+    "duration": 3.679,
+    "question_number": 30
   },
   {
     "text": "scenes when you access URL in your",
@@ -7352,7 +7382,8 @@
   {
     "text": "Uh, device drivers. I kind of went over",
     "start": 5375.28,
-    "duration": 6.28
+    "duration": 6.28,
+    "question_number": 31
   },
   {
     "text": "that earlier, but wait.",
@@ -7587,7 +7618,8 @@
   {
     "text": "Uh generate a 4bit binary number.",
     "start": 5530.08,
-    "duration": 5.2
+    "duration": 5.2,
+    "question_number": 32
   },
   {
     "text": "Convert it to a decimal.",
@@ -7787,7 +7819,8 @@
   {
     "text": "Okay. Um, strengths and weaknesses. Uh,",
     "start": 5702.0,
-    "duration": 6.92
+    "duration": 6.92,
+    "question_number": 33
   },
   {
     "text": "magnetic.",
@@ -7997,7 +8030,8 @@
   {
     "text": "Okay. Uh how many a pair of numbers like",
     "start": 5882.0,
-    "duration": 5.679
+    "duration": 5.679,
+    "question_number": 34
   },
   {
     "text": "a 2D coordinate be encoded as a single",
@@ -8207,7 +8241,8 @@
   {
     "text": "All right. 35. How does electricity",
     "start": 6052.639,
-    "duration": 3.841
+    "duration": 3.841,
+    "question_number": 35
   },
   {
     "text": "enable computers to represent binary",
@@ -8352,7 +8387,8 @@
   {
     "text": "Uh I think I already explained how HTTP",
     "start": 6156.48,
-    "duration": 6.4
+    "duration": 6.4,
+    "question_number": 36
   },
   {
     "text": "and TTPS",
@@ -8442,7 +8478,8 @@
   {
     "text": "Uh what is a database? A database",
     "start": 6228.08,
-    "duration": 5.0
+    "duration": 5.0,
+    "question_number": 37
   },
   {
     "text": "is",
@@ -8572,7 +8609,8 @@
   {
     "text": "How do magnetic fields store binary",
     "start": 6327.92,
-    "duration": 5.68
+    "duration": 5.68,
+    "question_number": 38
   },
   {
     "text": "information? So",
@@ -8832,7 +8870,8 @@
   {
     "text": "Uh, fair use doctrine. List the",
     "start": 6504.8,
-    "duration": 4.8
+    "duration": 4.8,
+    "question_number": 39
   },
   {
     "text": "characters. List the factors that",
@@ -9187,7 +9226,8 @@
   {
     "text": "and it is getting long and I",
     "start": 6747.599,
-    "duration": 8.761
+    "duration": 8.761,
+    "question_number": 40
   },
   {
     "text": "This is a",
@@ -9302,7 +9342,8 @@
   {
     "text": "I explain the difference between oh",
     "start": 6843.52,
-    "duration": 6.44
+    "duration": 6.44,
+    "question_number": 41
   },
   {
     "text": "compiler and interpreter um",
@@ -9417,7 +9458,8 @@
   {
     "text": "explain social engineering is and how is",
     "start": 6958.0,
-    "duration": 4.88
+    "duration": 4.88,
+    "question_number": 42
   },
   {
     "text": "using cyber attack. Social engineering",
@@ -9627,7 +9669,8 @@
   {
     "text": "List some of the basic steps of",
     "start": 7132.159,
-    "duration": 3.361
+    "duration": 3.361,
+    "question_number": 43
   },
   {
     "text": "programming process from writing code to",
@@ -9772,7 +9815,8 @@
   {
     "text": "I don't know if that's right down to the",
     "start": 7263.52,
-    "duration": 6.4
+    "duration": 6.4,
+    "question_number": 44
   },
   {
     "text": "like hitting the nail on the head, but I",
@@ -10032,7 +10076,8 @@
   {
     "text": "All right, one more qu two more",
     "start": 7454.08,
-    "duration": 4.24
+    "duration": 4.24,
+    "question_number": 45
   },
   {
     "text": "questions. Explain what it means to hold",
@@ -10242,7 +10287,8 @@
   {
     "text": "roll the operating system.",
     "start": 7612.239,
-    "duration": 5.281
+    "duration": 5.281,
+    "question_number": 46
   },
   {
     "text": "I don't even make I'm just gonna go for",

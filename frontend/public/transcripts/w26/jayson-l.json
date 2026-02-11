@@ -207,7 +207,8 @@
   {
     "text": "So randomly generate a 4-bit binary",
     "start": 130.399,
-    "duration": 5.041
+    "duration": 5.041,
+    "question_number": 1
   },
   {
     "text": "number and convert it into decimal. Let",
@@ -442,7 +443,8 @@
   {
     "text": "Uh so next question, identify common",
     "start": 271.759,
-    "duration": 5.761
+    "duration": 5.761,
+    "question_number": 2
   },
   {
     "text": "malware exploits. Um some of the ones",
@@ -592,7 +594,8 @@
   {
     "text": "difference between RAM and ROM. So, RAM",
     "start": 369.28,
-    "duration": 7.56
+    "duration": 7.56,
+    "question_number": 3
   },
   {
     "text": "is",
@@ -787,7 +790,8 @@
   {
     "text": "Um what's the point of the fair use",
     "start": 497.52,
-    "duration": 5.44
+    "duration": 5.44,
+    "question_number": 4
   },
   {
     "text": "doctrine? So kind of just to kickstart",
@@ -1117,7 +1121,8 @@
   {
     "text": "Um, what does it mean to um hold a",
     "start": 711.279,
-    "duration": 5.761
+    "duration": 5.761,
+    "question_number": 5
   },
   {
     "text": "copyright? That goes back to kind of",
@@ -1467,7 +1472,8 @@
   {
     "text": "uh design an efficient file organization",
     "start": 904.079,
-    "duration": 5.361
+    "duration": 5.361,
+    "question_number": 6
   },
   {
     "text": "system for a specific use case. So uh",
@@ -1717,7 +1723,8 @@
   {
     "text": "so a rootkit",
     "start": 1053.12,
-    "duration": 6.24
+    "duration": 6.24,
+    "question_number": 7
   },
   {
     "text": "to my knowledge from what I remember is",
@@ -1952,7 +1959,8 @@
   {
     "text": "um discuss the impact of AI generated",
     "start": 1192.88,
-    "duration": 6.0
+    "duration": 6.0,
+    "question_number": 8
   },
   {
     "text": "text images and videos on truth and",
@@ -2242,7 +2250,8 @@
   {
     "text": "Um what is social engineering or explain",
     "start": 1366.96,
-    "duration": 4.64
+    "duration": 4.64,
+    "question_number": 9
   },
   {
     "text": "what social engineering is and how it is",
@@ -2447,7 +2456,8 @@
   {
     "text": "Now I discussed the relative strengths",
     "start": 1497.039,
-    "duration": 4.24
+    "duration": 4.24,
+    "question_number": 10
   },
   {
     "text": "and weaknesses of magnetic uh optical",
@@ -2957,7 +2967,8 @@
   {
     "text": "Discuss issues with creating a strong",
     "start": 1848.96,
-    "duration": 4.48
+    "duration": 4.48,
+    "question_number": 11
   },
   {
     "text": "password.",
@@ -3752,7 +3763,8 @@
   {
     "text": "how might a pair of numbers like a 2D",
     "start": 2424.4,
-    "duration": 4.24
+    "duration": 4.24,
+    "question_number": 15
   },
   {
     "text": "coordinate uh be encoded as a single",
@@ -3902,7 +3914,8 @@
   {
     "text": "Um, explain the concept of cloud",
     "start": 2513.76,
-    "duration": 3.76
+    "duration": 3.76,
+    "question_number": 16
   },
   {
     "text": "computing and how it benefits users and",
@@ -4167,7 +4180,8 @@
   {
     "text": "Next question, explain the role of",
     "start": 2673.68,
-    "duration": 4.399
+    "duration": 4.399,
+    "question_number": 17
   },
   {
     "text": "JavaScript in a web page. So, I kind of",
@@ -4297,7 +4311,8 @@
   {
     "text": "Um, randomly generate a two-digit uh",
     "start": 2761.359,
-    "duration": 5.681
+    "duration": 5.681,
+    "question_number": 18
   },
   {
     "text": "decimal number and convert it into",
@@ -4532,7 +4547,8 @@
   {
     "text": "Uh, how might colors be encoded",
     "start": 2936.24,
-    "duration": 3.44
+    "duration": 3.44,
+    "question_number": 19
   },
   {
     "text": "numerically?",
@@ -4642,7 +4658,8 @@
   {
     "text": "Um what is an IP address and why is it",
     "start": 3014.96,
-    "duration": 6.399
+    "duration": 6.399,
+    "question_number": 20
   },
   {
     "text": "important for internet communication?",
@@ -4822,7 +4839,8 @@
   {
     "text": "is",
     "start": 3146.88,
-    "duration": 7.76
+    "duration": 7.76,
+    "question_number": 12
   },
   {
     "text": "uh somehow connected to person",
@@ -5137,7 +5155,8 @@
   {
     "text": "consisting",
     "start": 3357.52,
-    "duration": 4.0
+    "duration": 4.0,
+    "question_number": 13
   },
   {
     "text": "of",
@@ -5462,7 +5481,8 @@
   {
     "text": "big it is.",
     "start": 3591.2,
-    "duration": 3.399
+    "duration": 3.399,
+    "question_number": 14
   },
   {
     "text": "Did I say ones and twos? Ones and zeros.",
@@ -8027,7 +8047,8 @@
   {
     "text": "run the new code that it produces but",
     "start": 5231.199,
-    "duration": 6.081
+    "duration": 6.081,
+    "question_number": 22
   },
   {
     "text": "the interpreter",
@@ -8192,7 +8213,8 @@
   {
     "text": "whatever information is in this",
     "start": 5338.0,
-    "duration": 3.28
+    "duration": 3.28,
+    "question_number": 23
   },
   {
     "text": "protocol.",
@@ -8442,7 +8464,8 @@
   {
     "text": "And I feel like uh",
     "start": 5508.88,
-    "duration": 7.64
+    "duration": 7.64,
+    "question_number": 24
   },
   {
     "text": "uh",
@@ -8452,7 +8475,8 @@
   {
     "text": "I'm trying to remember what I said, but",
     "start": 5518.0,
-    "duration": 8.48
+    "duration": 8.48,
+    "question_number": 25
   },
   {
     "text": "yes, goes through a whole process of um",
@@ -8582,7 +8606,8 @@
   {
     "text": "processes or programs,",
     "start": 5608.48,
-    "duration": 7.12
+    "duration": 7.12,
+    "question_number": 26
   },
   {
     "text": "files being exchanged",
@@ -8767,7 +8792,8 @@
   {
     "text": "that? uh malfunctioning software. So",
     "start": 5718.48,
-    "duration": 6.08
+    "duration": 6.08,
+    "question_number": 27
   },
   {
     "text": "malware is basically",
@@ -9057,7 +9083,8 @@
   {
     "text": "Um, trace the execution of Oh, I almost",
     "start": 5917.04,
-    "duration": 5.84
+    "duration": 5.84,
+    "question_number": 28
   },
   {
     "text": "dropped the cap. Trace the execution of",
@@ -9187,7 +9214,8 @@
   {
     "text": "and store it to number four. So we add",
     "start": 6035.92,
-    "duration": 8.36
+    "duration": 8.36,
+    "question_number": 29
   },
   {
     "text": "five to zero",
