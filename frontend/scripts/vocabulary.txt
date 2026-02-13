@@ -1,0 +1,310 @@
+Wi-Fi adapter
+device driver
+in between
+acts as a translator
+the instructions for running this Wi-Fi adapter come through the device driver and then go to your computer
+device driver allows the computer to know what it needs to do for this device to operate correctly
+scamming the older generation
+person who is up to no good
+pose as someone he is not
+appealing to someone's good side or need to help to extort something like money or information
+bait package
+steal this information
+socially designing a way to scam people
+IP address
+worldwide web
+where you are
+your identifier
+issues an IP address for your computer
+a way to identify your device
+binary works in multiples of two
+eight, four, two, and one
+one one 0 0
+1 * 8 is 8. 1 * 4 is 4. 2 * 0 is 0. 1 * 0 is 0
+8 + 4 would equal 13
+decimal number 13
+CPU stands for a central processing unit
+GPU is a graphical processing unit
+CPU is extremely good at running one thing really really fast
+running one task at a time
+this thing is really good at doing graphics
+really good at running giant equations that help generate images and videos
+super duper long equations
+logical is where on my desktop
+within where inside of file explorer
+physical storage is is where it actually is physically on your computer
+is it in your magnetic? Is it in your optical? Is it in your um your USB stick
+where is it physically on your computer
+web server
+web server may be connected with a database
+receive the request from your computer
+hey database, I need X
+database
+I have that stored here
+send it X back to the server
+internet storage area
+storage area
+storage space um for anything and everything
+browser
+browser sends out a request
+hey I need this this and this from your website
+sends a package of information
+web server receives the quest
+I have this but I'm missing this this and this
+It goes to the database
+database sends back what it needs
+web server sends it back to your computer
+graph
+coordinate
+you could plug it into an equation
+reverse that
+there is an equation to transfer
+x5 and y5 uh into a single number
+magnetic fields
+polarities
+binary
+electricity
+voltage
+zeros
+ones
+pattern mash technique
+coordinates
+machine language
+router
+modem
+network
+cloud computing
+cloud
+web developer
+apps
+locally
+web app
+Amazon web services
+cloud services
+Google Drive
+packets
+web browser
+Google Docs
+YouTube
+AI
+tech literate
+deep fakes
+transistor
+electronic switch
+collector
+base
+CPU
+file naming conventions
+extension
+exe
+executable
+Windows Notepad
+file extension
+Java
+jar
+Java archive
+pull request
+GitHub
+repository
+collaborate
+merge
+collaboration
+Two-factor authentication
+password
+one factor
+two factor
+authenticator app
+security
+hijacked
+fair use
+copyright
+copyrighted content
+rights
+transform
+transformative
+public domain
+powers of two
+six degrees of separation
+IPO model
+input
+process
+output
+coordinate
+I/O devices
+input output
+output
+input
+monitor
+processed
+outputed
+GPU
+display device
+HTML tags
+HTML
+body
+divider
+header
+operating systems
+internet
+worldwide web
+database
+cached
+caching
+Privacy
+encryption
+encrypted
+secure connection
+HTTPS
+secure
+hyper text transfer protocol
+source code
+translate
+translator
+C++
+C
+Java
+compiled
+executable
+central processing unit
+AMD Ryzen
+RAM
+fetch
+decodes
+executes
+specialized
+PCIe lane
+motherboard
+integrated
+integrated graphics
+graphics
+LLMs
+crypto
+graphics processing unit
+values
+addresses
+arithmetic logic unit
+volatile memory
+volatile
+ROM
+BIOS
+read-only memory
+permanent storage
+nonvolatile memory
+NVME drives
+nonvolatile memory Express
+Operating system
+Windows 10
+user experience
+optical
+magnetic
+hard drive
+optical drive
+CD
+Blu-ray
+solid state
+NVME
+USB drive
+SATA SSD
+moving parts
+magnets
+slow
+No moving parts
+fast
+limited amount of rights
+SSD
+portable
+HDDs
+lasers
+scratched
+damaged
+programming language
+websites
+CSS
+web address
+hypertext transfer protocol
+encrypts
+web link
+assembly language
+readable
+machine code
+multitasking
+multiprocessing
+processes
+task manager
+background processes
+Steam
+multi-threading
+threads
+displayed
+visible format
+JavaScript
+interactability
+buttons
+program
+MP4
+web server
+on demand videos
+streaming
+XY coordinates
+frames
+one drive
+Discord
+Twitch
+web data
+temporary
+permanent
+history
+cookies
+stored
+faster
+browser
+IRS
+impersonate
+malicious intent
+passwords
+security measures
+decimal
+fish
+spoofing
+malware
+malicious software
+virus
+Trojan
+worm
+key logger
+Bitcoin miner
+login credentials
+credit card
+logs
+Windows Defender
+Common Sense
+R G B
+red green blue
+black
+color theory
+white
+algorithm
+outrage
+engaged
+advertisements
+plainly stored
+encrypt
+secured
+intercept
+Device drivers
+drivers
+translation
+compatibility
+graphics drivers
+hardware
+BIOS
+NVME drive
+physical storage
+logical
+OS
+file path
+absolute file path
+zeros
+ones
+electronic components
+Ethernet cable
