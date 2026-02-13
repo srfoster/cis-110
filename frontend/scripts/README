@@ -17,7 +17,7 @@ Makes a smaller text file out of the transcript
 # Step 2: Timestamping and organizing the transcript
 
 * Claude 4.5 does a pretty good job of looking at the text transcript, determining which questions were answered, and will prepopulate the student page with a list of questions answered.
-* It can then be asked to pull material from the text transcript and place it on the student page under the appropriate question.  Sample prompt: "Now, as with [student slug], I want you get other student's transcript material onto their student page, organized by the question they answered.  Let's do this with [new student slug] please"  The add_transcript_excerpts.py script should be used here.
+* It can then be asked to pull material from the text transcript and place it on the student page under the appropriate question.  Sample prompt: "Now, as with [student slug], I want you get other student's transcript material onto their student page, organized by the question they answered.  Please make bold, using markdown, words and phrases that seem pertinent to the answer (whether correct or not).  Let's do this with [new student slug] please"  The add_transcript_excerpts.py script should be used here.
 * It can then be asked to annotate each question with the timestamp it began to be answered.  It isn't perfect, but it is still helpful
 
 Finally, run `mark_question_timestamps.py` to port that information back into the JSON, so the exam browser identifies timestamps where a question is discussed. 

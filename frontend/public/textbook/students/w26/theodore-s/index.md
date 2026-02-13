@@ -9,6 +9,12 @@
 > Explain what a rook is. A rook. Come on pen. Sorry, my pen being a little. So, a ricketett is a highly sophisticated um piece of malware. So, you have some nasty malware getting into your system that's a computer, a laptop, whatever it may be. Um, but you have So, that's the malware going into your system. Um, but a lot of the times your antivirus will detect it and block it. However, a rook will disguise itself in a way as like a file or uh something that the operating system needs and it will find its way into the system into the OS and start changing files on the inside of the system like the system won't recognize that it's malware and so it'll be let in instead of getting rejected by like antivirus. Um, and so with a ricketett, it'll begin changing processes and files inside of the OS and begin to um possibly upload more malware or allow the um attackers to um download more malware into your system. uh basically acts like a back door for them to get into uh back door into your system so that they can keep putting more and more malware into it uh stealing data, stealing uh information, all that kind of stuff.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:05"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:35"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"2:05"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"2:35"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"3:05"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:05"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:35"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"2:05"}}
@@ -19,6 +25,12 @@
 > Next question, how might a pair of numbers like a 2D coordinate be encoded as a single number? Okay. So, I believe this one was so like five and one. So, one uh I'm trying to remember. Um I believe that it was through a few different complex equations. um or not complex but um a few different calculations and equations um using I believe it was like x + y um so x + y so like x is the five y is the one here's x and y um so x + y that would six. Um, and cuz when you're so like if this were to be on a graph and you were going from like 0 0 and then going up to 51, um, I believe the, um, single number in coding for it is like the slope of the line you would see on the graph. So you're going one over and then five up. Um so that would be okay. So that actually wouldn't be x plus y. My bad. So you would basically be putting x over y. So x over y which in this case would be 5 over 1 which means that you could encode the pair of numbers 51 as the single number five do. Next question.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"3:08"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"3:38"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"4:08"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"4:38"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"5:08"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"3:08"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"3:38"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"4:08"}}
@@ -29,6 +41,10 @@
 > Uh HTML um HTML is the hyperlink uh the hyperlink believe it's hyperlink transfer markup language uh which is the markup language for how um how web pages uh are made. Um, it basically creates the uh skeleton for a web page like how it's made, the internal parts of it. Uh, whatever we see like on the web page, like there can be different um there could be different things like on the side. Whoops, wrong side. Um, different things on the side like a little um margin taskbar or whatever. and then all like the main blurb of text in the middle. The HTML basically sets that up uh for us to be able to see and view it on the like a web browser or whatever it may be that we're utilizing to view it on.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"5:28"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"5:58"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"6:28"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"5:28"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"5:58"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"6:28"}}
@@ -37,6 +53,13 @@
 > Uh discuss file naming conventions and the role of the file extension. uh file naming conventions um and file extensions basically are what separate out types of files. Um so for example like a JPEG um or a JPG file I should say is a JPEG file which is a type of image file. Um, so you will have probably in like a screenshot or pictures folder uh a lot of like JPEGs um inside your like picture folder. Whoops. I didn't do that. Oh well. um in like your pick folder or your screenshot folder screen. Yeah. So, a lot of the time you'll see or you'll have like JPEGs in like a p your pictures folder, your screenshots folder. That's a lot of the time um where you'll see those kinds of things. Uh sometimes you'll see um believe it's uh WPM file. Uh that sometimes you'll also uh that will also be in the um picture folder or screenshot folder just depending on the setup of the file itself. Um but then you have like um files which are like your video or movie movie files um or um yeah your movie files. So like you'll probably have it in like a movie folder or a video videos folder. So for like when you're recording stuff for YouTube, you'll it'll probably be aov file for short for movie. Um but yeah, so they um the role of these file extensions um and naming conventions are basically to separate out types of files and be able to easily input them into different types of folders. So
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"6:45"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"7:15"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"7:45"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"8:15"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"8:45"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"9:15"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"6:45"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"7:15"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"7:45"}}
@@ -48,6 +71,13 @@
 > uh name three web applications you have used and explain what makes them useful. So for me uh web applications that I typically use are like Google Docs for example. I have quite a few Google Docs that I you know would like to enjoy editing or appreciate I should join. I appreciate being able to edit uh on the go when I'm like not at home on my computer. I can edit it on my phone uh and be able to, you know, if I come up with an idea for something, I can make that adjustment or add that into um you know, whatever I'm writing or whatever list I'm uh I have it on. Then I can immediately edit these different documents like on the go. So I can be anywhere. are basically that I have an internet connection. So, uh that's one. Um another one is YouTube. I watch YouTube literally all the time. It's uh basically become uh my my TV at this point. Um because I don't uh I don't watch cable. But it's uh it's mostly like a form of entertainment. So like down here we have Google Docs, being able to adjust uh and edit documents uh whenever and wherever I am. Then we have YouTube. And then last but not least, we have good old Gmail. I'm going to try and draw this best I can. I think I think think I more or less got that more or less got that right. Um but uh Gmail is really good because I'm able to utilize um like it's a Google web application um that I'm able to use pretty much anywhere. uh if I had like if I need to communicate with um like my boss or if I order something on Amazon and need to communicate with whoever at Amazon uh or even like FedEx, whatever it may be, any kind of like shipping company or any kind really any kind of company in general. Uh it's really useful to be able to contact them pretty much immediately via email. Um, next question.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"9:27"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"9:57"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"10:27"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"10:57"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"11:27"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"11:57"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"9:27"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"9:57"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"10:27"}}
@@ -59,6 +89,11 @@
 > Uh, explain what an IP address is and why it's important for internet communication. So, an IP address is a sequence of numbers. Uh, basically a um a code or a special um it's almost what's the best way to explain this? It's almost like a name tag for your computer uh or for your device in general. So, it's got like a certain number of um digits in it. I don't know exactly however many, but like it's got a certain number of digits. I think you can see that um a certain number of digits that is specific and unique to your device. Um no other device is going to have this same um same uh code. And the reason why it's important is because when you're communicating with millions and millions of other users on the internet uh or the worldwide web or whatever it may be, you need to have something very specific to be able to make sure that uh a certain user is getting whatever you need that it is whatever it is that you need them to get. So, making sure specifically that you're uh sending it to a specific IP address, a specific user uh account, whatever it may be, is incredibly important for internet communication. Next question. That's question six. Question seven. So question seven, what
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"12:14"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"12:44"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"13:14"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"13:44"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"12:14"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"12:44"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"13:14"}}
@@ -68,6 +103,12 @@
 > what is binary and why do computers use it? So binary is a two-digit um computer language that computers use because it is leagues easier for them to understand zero and one rather than understanding zero through nine. So it consists of zero and one which quite literally is just Affirm in an an affirmative or a negative. Uh so in terms of like computing numbers you have one two then three or not three um one two four eight 16 and so on. So for example, if um like if we have a binary number of 1 0 1 1 0. We're sitting there. Uh it's 1 0 1 1 0. That means that we have a 16. We have no eight. We have a four. So a one, a zero, a one, a one, and a zero. So 16, no eight, we have a four, we have a two, and we have no one. So 16 + 4, which is 20 + 2 = 22. So 1 0 1 1 0 uh in binary equals 22 in our human readable language. Um, and it's a lot easier for computers to compute it with one and zero because it's either yes this or no this rather than it being rather than it being uh 10 different digits that it has to try and sort through for different numbers and the different answers. Uh but yeah uh next question two-actor authentication.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"14:11"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"14:41"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"15:11"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"15:41"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"16:11"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"14:11"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"14:41"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"15:11"}}
@@ -78,6 +119,14 @@
 > So, two-factor authentication uh basically is a method to keep your devices, your accounts, all that kind of stuff safe. And this is what question eight. So, two-factor authentication basically you have your password and your username. Um so, user Sometimes it might be called a user ID just depending on the website and then your password. You put in uh you put in your username or your user ID, put in your password, and then from there it'll usually with two-factor authentication, it will usually prompt you to access some sort of authentication app or some uh form or method of uh a secondary authentication. So that can be a text message on your phone. uh that can be an email uh sent straight to you or it can be in an actual authenticator app because uh for me I have uh Google authenticator which has some of those different codes that it will generate that it wants you to put in um into here I'll just draw little app icon Um, it actually kind of looks like that. Um, but whatever code it sends you on one of these, it'll prompt you to put it into this little text box that works together with your user ID and password. Um, but usually it's like it's anywhere from like three to I think sometimes five uh numbers. um or excuse me, three to six. Three to six. Um again, just depending on what uh you're accessing, whether it's uh an account on a third party something or other. Um but that is what two-factor authentication is and it is important because you never know when somebody might have access to your your username or user ID user ID uh and password. But you will typically always know who has um access to any sort of your uh secondary authentication methods, text message, Gmail, uh email or an actual authenticator app. Um but moving on,
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"16:32"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"17:02"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"17:32"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"18:02"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"18:32"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"19:02"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"19:32"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"16:32"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"17:02"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"17:32"}}
@@ -90,6 +139,15 @@
 > explain what happens behind the scenes when you access a URL in your browser. So in your uh browser you type in or click on or copy and paste a URL and you press enter and you go. So first off the browser is uh going through and trying to establish a connection to the database. So, uh, utilizing your device, the browser is basically going to be your key into getting into the database. If it or if you are given access, it goes to um or excuse me, it act it accesses or attempts to access the database through something called a web server. So a web server receives a request. It receives a request from the uh web browser. Whoop receives a request from the web browser to go into the server the web server which then will access a database. So um or it will request excuse me it will request access to a database. So going this way to a bigger database. uh and then three uh the web server will send a access request to the database and the database will process and think a little bit trying to see oh well are they allowed to are they able to um and if you are permitted access it'll go back to the web server for step four it'll go back to the web server that will uh process this information, process what's going on, and then go back to your browser. And this is happening fairly quickly uh depending on your the quality of your machine or your device. Uh and then in step five, it'll go back to the machine or back to the web browser and say, "Hey, you've been given access. You have been allowed to access this thing. And from there the web browser um here I'll draw down here actually um the web browser will display the information that you requested or the uh the web page that you requested through the URL and it'll display it up to you. Uh if you are allowed access to that cuz certain things, certain databases, uh certain information on things will be protected by a certain level of clearance and that's usually in like government uh institutions and uh workplaces. So it's a usually a little bit higher up on the food chain.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"19:40"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"20:10"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"20:40"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"21:10"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"21:40"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"22:10"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"22:40"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"23:10"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"19:40"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"20:10"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"20:40"}}
@@ -103,6 +161,14 @@
 > But moving on, how do magnetic fields store binary information? That's an interesting one. Um uh magnetic fields store binary information. Huh? That one I'm blanking on. I remember reading about it, but I'm blanking on it. Um I believe for the mag magnetic fields it's storing uh binary information that has previously passed through it. So, um if there's if there's a um a magnetic field being generated uh around a server of some kind, it will basically um let me draw this out. So, magnetic field magnetic field and it's I'm kind of mimicking uh the diagrams that people draw all the time of like Earth's magnetic fields. So, it just it's an easier um it's an easier version of the diagram to draw, but it's whatever. Um, and then these are around like a some kind of device or storage uh device, whether it's a computer or like a uh solid state drive, you know, whatever it may be. Um it going around this device will um basically trap in some of the binary information um within the localized area. This is a little bit dramaticized. Um they're usually not like big or huge like this around it. I'm just drawing it for kind of dramatic effect. um or just overdramaticizing it a little bit. Um but they will typically kind of like go around or through uh the um device and pick up some of the binary um coding and like all that stuff that's moving through the um through the uh computer or whatever kind of device you're using. And kind of like with the magnetic fields um of Earth, it they kind of just rotate around, move around um as the magnetic fields kind of just do their thing uh and rotate. But uh yeah, that's how they just kind of store it and rotate it around, I think.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"23:22"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"23:52"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"24:22"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"24:52"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"25:22"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"25:52"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"26:22"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"23:22"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"23:52"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"24:22"}}
@@ -115,6 +181,12 @@
 > Um what is a poll request and how does it facilitate collaboration? Okay, so a poll request poll request is basically when someone wants to copy uh a piece of code and adapt it uh analyze it you know try to try to improve on it in some way. So you have these lines of code and let's say let's say this section right here. So like all those are lines of code but that uh section I outlined with a rectangle. Let's say that a certain person wants to copy that code and improve on it to help everything flow a little bit better. Basically, it'll keep that piece of code there, but it'll make a copy of it and it'll send it out or it'll basically give it to whoever's wanting to adapt it. And then they can basically work on it while the whole program is still functioning as it needs to because it's not pulling that code out of the system and then bricking the entire program. Basically, it's copying that line of code and giving it to the person who requested it so that they can improve and adapt and you know fix any like minor errors or minor things in it to make it uh make it work better, make it work easier. The way that this facilitates collaboration, however, is many people can do this all at one time and the program will still continue to function even while all these people have different copies and different poll requests and whatnot going on so that they can adapt the code in a larger scale all at the same time. Uh so with that, we'll move on to the
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"26:46"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"27:16"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"27:46"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"28:16"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"28:46"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"26:46"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"27:16"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"27:46"}}
@@ -125,6 +197,13 @@
 > next question. uh explain what it means to hold a copyright list of the rights that are exclusively exercised by copyright holders. So a copyright um what it means to hold a copyright means that you exclusively have all of the rights of uh reproducing, selling, controlling um basically anything that you create. You are the sole controller or um the maybe not the sole controller but uh the uh legally the sole controller of uh whatever you've created. Um one of the rights that you have is uh the right of um like reprod reproducing it. Um the basically that right is to be able to adjust it and change it. So you make this thing and then further on down the line you change it a little bit. You have changed the original thing but it is still the thing. It is still made from the thing that you created originally. So it is still under your copyright. Um uh another right that you have is mass distribution. So you have the thing you have the thing here that you made and then you basically want to give it and sell it to a bunch of different people out in the world. So that's quite literally what video game uh developers and video game companies do. They create a main copy and then they distribute and sell all these other like different copies um of the original original make of it if you can put it that way. Um and like the like these are some like of the big things that copyright holders uh some of the big rights that copy holders have. Um, not to say that, you know, certain fair use or um, uh, like parody laws, uh, can't supersede some of these specifics in certain ways. It's very specific when it comes to parody or fair use but more or less that is the main things about uh holding the copyright.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"28:57"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"29:27"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"29:57"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"30:27"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"30:57"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"31:27"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"28:57"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"29:27"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"29:57"}}
@@ -136,6 +215,14 @@
 > Um HTTP and HTTPS. Okay. So HTTP is hyper transfer link or hyper hyperlink um it's like hyperlink something transfer protocol um and it's basically the um basically the main way that you are taken from one uh website over to another. Um so like from Google's main search engine page like where the search bar is like in the middle uh and you type in something and you go uh the HTTP is what will take you off to that other web page uh of what you searched. Um, so you have your web page. You usually see like http slash something to that effect. Oh, come on. Camera focus. Uh, it's not wanting to focus. Come on. Well, you get what I mean. You get what I'm saying. It's like http colon back slashbacks slash or slash excuse me. Um I guess it would be back slashback slash anyway. Um you'll usually see that in your uh web page um like the address on your web page up top. Um, however, HTTPS is HTTP secure, specifically encoding and encrypting different pieces of data or different things, uh, like bits of information that you'd be sending over the internet or that you'd be accessing certain websites with. So, like your username and password, for example, on a certain site. um any personal information like your birthday, uh your weight, your hair color, all that kind of stuff. Um those are just rudimentary examples, but they're still examples enough. Those kinds of things will be protected better if you are using HTTPS. HTTPS. So uh HTTP is not so secure not recommended to use that. However, HTTPs definitely recommend to number 14.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"31:54"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"32:24"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"32:54"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"33:24"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"33:54"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"34:24"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"34:54"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"31:54"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"32:24"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"32:54"}}
@@ -148,6 +235,11 @@
 > Uh number 14. How does electricity enable computers to represent binary digits? So computers utilize voltage. Voltage high voltage specifically was represented in a computer with the number one. And in binary we remember that high voltage or excuse me in binary we remember that one is affirmative. So on certain bits in a binary number. So like 16 84 2 1 if you have 1 0 0 1 1 that means that there's higher voltage at the points for 16 2 and 1. Low voltage or no voltage at all is a zero. So zero. So where you see uh where you see any zeros in the uh like binary number that means like there's very low voltage or no voltage going to those parts of the binary code uh or the binary number. So those certain bits aren't getting voltage into them. Um so yeah so higher voltage you'll get a binary digit um in that slot. Low voltage or no voltage you won't. On number 15
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"35:03"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"35:33"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"36:03"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"36:33"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"35:03"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"35:33"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"36:03"}}
@@ -157,6 +249,12 @@
 > uh give three examples of cloud services that you might use in daily life and explain what each one does. Um, this kind of sort of goes back to the ones that I use uh commonly. Um back in question five, the uh Google Docs and the Gmail um there those are cloud services typically. Um like there like those are also cloud services. Uh YouTube not so much. Um but uh rather than um YouTube uh using Google Docs uh and uh email or Gmail for two of the examples because we've already went over what they're about. Um like Google Docs able to uh adjust and edit your documents wherever you're at. email getting emails and uh you know communication from pretty much anywhere. However, streaming services are another cloud service that I use quite a lot. So like Disney Plus, Netflix, um ornet. So um things things like those um I unfortunately can't draw the Disney Plus or uh the Netflix logos very well. So that's that's what we got. Um these are basically entertainment services or uh entertainment cloud services because all these um shows and um movies and whatnot are up in the cloud being stored up there so that you can access them easier whenever you're accessing the streaming service. Uh as long as you have internet you're able to access it. Question 16.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"36:54"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"37:24"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"37:54"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"38:24"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"38:54"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"36:54"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"37:24"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"37:54"}}
@@ -167,6 +265,11 @@
 > Uh CSS. Okay. So, I can't remember exactly what CSS stands for. Uh I believe it was like compound uh I can't remember off the top of my head but it basically helps uh HTML uh map out and build the um the web page like how a web page looks and it's usually relating to like color uh it relates to uh like the spacing of words and all that kind of stuff on a web page. So like it'll write words and then space them out, write words, space them out, write words. Uh it'll give a certain amount of room between the first line of text and the whatever you wrote in the search bar up above. Um or like it like on certain websites it'll have a search bar so you can search the website itself and then have all the like different uh results down below. Um CSS helps with the spacing of the different results uh as well as the first result between the search bar and the first result. But that's just one example of what CSS does. But uh in essence that is what CSS is. the assistive uh bit of code or programming that helps HTML build the web page for you so that you can see it easier. Uh number 17,
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"39:11"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"39:41"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"40:11"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"40:41"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"39:11"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"39:41"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"40:11"}}
@@ -176,6 +279,13 @@
 > uh design an efficient file organization system for a specific use case. Uh so I am a bit of a creative guy. Um, and I talked about this in the practice exam actually of how I would uh record raw footage um or just like record some of the raw footage for my YouTube channel or um well, it wouldn't be for Twitch, but uh recording raw footage of me like playing games or doing whatever uh with my friends uh for my YouTube channel and then I would have that in a filing uh or in a file called raw footage so that I know what hasn't been edited yet and what has which then from raw footage I'll grab it get it edited so from there get it edited did then thing is a little blurry. Okay, come on. There we go. Okay. Uh, get it edited and then move the uh and then move that edited footage to completed videos. So go going from edited to completed videos and then from there publish the video and from there don't necessarily have to include this bit but I personally would like to have a folder of published videos so that I don't have to go back through my completed videos and like search through that all over again in case something happens or goes wrong. I can find it a lot easier in my published videos uh folder. So basically going raw footage um taking the raw footage putting it in a raw uh folder named raw footage then taking the footage from that folder and editing it then putting that into a completed videos folder then publishing the video the completed video then me personally putting it into a uh published videos folder so that it's easier to find if something goes wrong.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"40:58"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"41:28"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"41:58"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"42:28"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"42:58"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"43:28"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"40:58"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"41:28"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"41:58"}}
@@ -187,6 +297,13 @@
 > Okay, number 18. Discuss the impact of AI generated text images and videos on truth and trust. Okie do. This is a big one for me and we've talked about it before in a couple actually uh of the practice exams. I personally don't like the idea of how where AI is going, but that's an opinion. I'm gonna try and remain as non biased or opinionated as I as possible. Um, but there's a very real threat to uh the truth and trust in digital communications when it comes to AI generated text, images, and videos. So, for example, deep fakes. If anybody has heard about deep fakes, it's where a public figure looks to be saying something absolutely heinous, but there's no recollection on the news. There's no recollection of anybody um in real life. It is simply just something that was said by an AI of some public figure, some famous person. Um that is completely fake and completely false. So some person um basically saying something but it they are getting more and more sophisticated uh these different AI programs they're getting more and more sophisticated that they're looking realer and realer which to me is startling and very concerning. um even even uh images like a lot of the times um you'll have a genuine copy but um more uh like earlier AI didn't really have an easy time with copying the original. However, nowadays you're getting AI that's beginning to get smarter and smarter in terms of authenticity between AI and the original humanmade uh thing. So, it's getting harder and harder to figure out which is which. Um, next question.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"43:55"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"44:25"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"44:55"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"45:25"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"45:55"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"46:25"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"43:55"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"44:25"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"44:55"}}
@@ -198,6 +315,11 @@
 > What is a transistor and how does it work in computers? Okay, a transistor is a component of a computer that basically regulates the amount of electricity uh and voltage and all that going into different pieces of the computer. So a transistor um it has a point of entry, a point that it exits uh a point of entry for electricity, a point of exit for electricity and then a point where it can uh connect or disconnect the flow of electricity uh through the rest of the machine. So, a transistor. So, it'll go in one end. You can have a little switch. So, it'll go in one end, the little switch to either shut it off or um turn it on, and then you have the exit for electricity going out. Um I can't remember exactly what they're called. I believe the middle part is called a gate, which can basically open and close for electricity as the system sees fit. So, like if there's too much electricity going to a certain part, then the transistor will flip off and not let it get too overheated or over um energized uh in a way. Um but it basically works to protect the computer's system 20
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"46:41"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"47:11"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"47:41"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"48:11"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"46:41"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"47:11"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"47:41"}}
@@ -207,6 +329,13 @@
 > uh the input process output model in its significance. So the input output or the input process output model basically takes uh data or information from an external source uh to the computer um such as like a keyboard or a mouse or something of the like. it will intake data which is like physical touch or you know whatever may be for your um for whatever you're doing. Um, and then here I'm actually curious because yeah, anyway, um, it'll take like an input from one of these like peripheral input devices like a keyboard, a mouse, a microphone, uh, anything kind of like that uh and it will take it and put it into the computer which there it'll process it'll do its whole thing. it'll process the information and depending on what kind of program you're running or what program that you're utilizing all of these things for that will determine oh sorry uh that'll determine what the output shows or uh plays back because your output devices ES are typically like your monitors, your speakers, uh the things that interact with the real world uh and display or show you the data um or provide the data to you in some way. So basically you have your inputs like keyboard and mouse that then go to the computer to process and when it's done processing it'll display or output the information or data onto a monitor or if it's for like a music thing or recording like voice recording it'll play back on the speakers or headphones. All right. Uh question 21.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"48:39"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"49:09"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"49:39"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"50:09"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"50:39"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"51:09"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"48:39"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"49:09"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"49:39"}}
@@ -218,6 +347,12 @@
 > So question 21 uh explain the concept of cloud computing and how it benefits users and developers of software. Um so cloud computing basically utilizes or provides um resources and services over the cloud rather than utilizing local resources on your device or your machine or your computer, whatever you want to call it. um it frees up a lot of um like processing power in your computer to be able to utilize uh and do more. So up in the canal, you got all these things happening. Um, and your computer will connect to the cloud and it will give back uh resources and different services and whatnot depending on what you're doing. Um the way that it benefits uh users specifically is they can access um they can access different documents or files or programs, excuse me, that are stored up in the cloud and typically it will load and boot up faster and they'll be able to do their different things faster and easier. developers. However, they will be able to do uh their coding and whatnot a lot easier and a lot faster because the uh services and uh resources are not all relying on the um physical machine. They're also utilizing the cloud to basically create this loop of um effort between your computer or the machine and the cloud, making it a lot easier on both or a lot easier on the machine um to be able to do all that work. All righty. 22.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"51:20"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"51:50"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"52:20"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"52:50"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"53:20"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"51:20"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"51:50"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"52:20"}}
@@ -228,6 +363,10 @@
 > Okay. So, in previous um in previous uh videos uh for like the videos for my practice exam, I kind of actually had these backwards. Um, I didn't realize that, but the CPU is a the component of the computer that does a lot more of the general processing with larger cores to be able to do more powerful calculations and powerful um equations and whatnot to do all these um bigger processes basically. However, the GPU has a lot of smaller cores. Um, like the CPU has larger cores to be able to do bigger, more complex stuff with, but the GPU has smaller cores to do a lot smaller um nonvolatile uh computations in the system with um so yeah, I kind of had it backwards before, but I figured it out now. did I did do some studying.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"53:38"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"54:08"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"54:38"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"53:38"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"54:08"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"54:38"}}
@@ -236,6 +375,13 @@
 > Uh question 23. Oh gosh. Um the five common HTML tags and what they do. So H I believe is one of them and it's the biggest one which is um basically the header. um I believe they called it for the web page. Um and it basically it displays the header of the web page like the title or whatever for the web page. So header of page. Um the other another one is P which distinguishes paragraphs or a paragraph within gosh dang it paragraph uh within the page. Um so like a paragraph of writing of some kind of information. Um gosh though. Um I'm trying to remember the others. I believe there was one that was like ul and li which ul is the list um like lists of information. Um, this of info and then li are the individual um the individual um pieces of info within the lists. with in the lists. I can't remember there. I think there's two more because ul and li kind of go hand in hand, but I cannot remember them off the top of my head right now. So, I do have those four. Uh the header of the page, the paragraph with a paragraph within the page, lists of info, and then pieces of info within the lists. Um those are the ones that I do remember off the top of my head. Um
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"54:58"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"55:28"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"55:58"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"56:28"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"56:58"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"57:28"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"54:58"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"55:28"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"55:58"}}
@@ -247,6 +393,12 @@
 > question 24 explain what assembly language is and how it relates to machine code. So assembly language is uh basically a system of uh human readable uh I believe they call it pneumonics which um we is basically um a version of um machine code that we can read far easier. Um, so it's like add, load or save. Um, you know, like those those different uh kinds of uh things that you know we know as like actual words like we know the word add, we know the word save, we know the word load, like we know all of these words. However, how it relates to machine code is a little bit different because uh we don't know exactly how to read machine code just off the rip. Uh we have to use assembly language to be able to understand it and read through it um in a bit of a arbitrary or rudimentary way. So, it's something that goes very much handinhand with machine code when you're looking through a process within your uh system. Whoops, I didn't mean to type that. I think I might have actually just seven, but it's fine. Um, so you have to have assembly language in order for the machine code to make even a slight bit of sense uh for you reading it or for whoever is reading it. But yeah, we're going to move on. 25.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"57:34"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"58:04"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"58:34"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"59:04"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"59:34"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"57:34"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"58:04"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"58:34"}}
@@ -257,6 +409,11 @@
 > All right. 25. What is a web browser? Explain what a web browser is and what it is for. A web browser is quite literally our and pun intended our window to the internet and the worldwide web. Uh we utilize web browsers to gain access into databases to access information whether it's for research, entertainment, you know, whatever it may be. We utilize these to technically first access a web server um that's going to put in a access request for us to a database. Then once the database uh confirms that we do or are allowed access, it'll basically tell the web server, hey, this person can access this web page. And then the web page will load and show you the information that you're looking for. Basically, it is our way of interacting with the internet and everything within. All right. Okay, I had the same question before in previous videos and I realized I was so far off.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"59:39"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:00:09"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:00:39"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:01:09"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"59:39"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:00:09"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:00:39"}}
@@ -266,6 +423,11 @@
 > Explain the six degrees of separation. The six degrees of separation don't relate to how you input files or manage files in your system. It is how any two people on the planet are connected in some way. So you can have yourself who knows someone who knows someone who knows someone and so on and so forth. up to six steps total of this. Meaning basically someone so like you knowing someone knowing someone knowing someone knowing someone knows another person down the line. That's that's the six the six degrees of separation. every person in the world, regardless of where they're at, can uh be can be um traced back um or traced between each other of people they know. Uh and it's that that is the theory more or less of the six degrees of separation because there's not really a quantifiable way to prove or disprove that theory um or this idea. But um anyways, moving on to question 27. All right. Device drivers.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:01:19"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:01:49"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:02:19"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:02:49"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:01:19"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:01:49"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:02:19"}}
@@ -275,6 +437,11 @@
 > Explain what device drivers are and why they're necessary. Device drivers are bits of programming or code uh that basically allow device drivers to even interact with the operating system in the first place. They are required for any devices to be able to interact with your operating system and function in really in any way but primarily in the way that they're supposed to. So, you have, let's say, you have a brand new monitor and you plug it into your computer. Uh, more than likely it'll prompt you to say, "Hey, you need to or you have device drivers you got to install." or sometimes it'll come pre-loaded with device drivers and it'll just basically copy or input or um not input um install install them into your computer, your device um and then it's ready to go and it doesn't even require you doing anything really extra that is necessary to get the monitor to even work like whether it's a built-in monitor to your computer or your laptop, excuse me, um or a completely separate monitor, it is necessary for them to function at all. But as I said before, primarily in the way that they are supposed to. Moving on to question 28. Uh okay. Um so
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:03:09"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:03:39"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:04:09"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:04:39"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:03:09"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:03:39"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:04:09"}}
@@ -284,6 +451,12 @@
 > in terms of database terminology, records, rows, columns and tables, tables are the main setup of databases. So you have these big tables all of these different different things on them. And these different things are appropriately named columns and rows or records. Rows and records are interchangeable terms mostly because the entire row is a fully set up record of a certain user. for example, your their email address, their um their first name, their last name, their birth date, you know, keeping track of all these things up here. And then each individual user has a row or record within this table. Now the rows as I mentioned are individual um rows record are individual entries of information that correlate and um correspond to these different columns. These columns are different bits of information that relate to each one of these entries or these records. So the name of the person, their username and their username, their uh birthday like like I was saying like these these columns are different bits of information or different pieces of information and the rows or records are the different entries for all these pieces of information. And the table is what these columns and rows all make up.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:04:56"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:05:26"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:05:56"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:06:26"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:06:56"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:04:56"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:05:26"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:05:56"}}
@@ -294,6 +467,12 @@
 > Non describe how an online intrusion might take place. You can do so by describing a specific system and steps in would take to compromise it or you may describe a general methodology that intruders use. So I'm going to describe a general methodology that intruders use which I might have used it previously but I can't remember. Um, so let's say for example, you're looking at your email. You're checking through everything, making sure you got everything squared away like you should, and oh, hey, something pops up that uh says, "Oh, hey, you won uh you won a Amazon gift card for $200. Just click on this link to claim." That is the most it and it's sad to say it's sad to say this. It is the most common way people fall for a online intrusion per se, also known as a scam. Uh but it's also the easiest to notice and easiest to avoid. And it's so sad how many times people run into this and don't think about it before they click, but you click on the embedded link. It's usually in a like a different color or something. Um, this is a big way that intruders get into your system and start messing with it, whether it's uh installing malware, installing a rugit like what we talked about earlier, so that they can keep that back door open long term and keep messing with your operating system down the road. Um but yeah, that's uh it's a pretty bad way that they or pretty bad um methodology or method that they use to get in there. Uh number 30.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:07:20"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:07:50"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:08:20"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:08:50"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:09:20"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:07:20"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:07:50"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:08:20"}}
@@ -304,6 +483,14 @@
 > So uh logical storage models are basically in that in a hierarchy system of um like if you think of your computer as like a filing cabinet and then you pull open in the file or like a cabinet that is a um like a larger scale folder. and you sift through all the folders to look for certain things like a certain file and then you find the folder that has your file in it that is a subset like a subfolder almost um or like a smaller scale folder uh and then you look through that and you find the file. There you go. Um that's kind of the same way that it works with the like a file explorer or something similar on your computer. Your computer is the filing cabinet. You click on the application to bring up your file explorer or whatever kind of app you have. And then you have all of these folders with all of your different files or other smaller folders within them. You find the bigger folder, you find the smaller folder within it, and then you find the file or you continue down into smaller and smaller folders to find the file you're looking for. Um, these are all in human readable names. it is much easier to utilize a logical storage model as a person or human. Um, however, with um, so put it this way, the computer going into folders. Then these split off. These split off. And then these split off into smaller and smaller pieces. So that is a logical so that is a logical storage model. Um, a physical storage model talks about the like the very literal blocks that the um the files are stored in, the folders are stored in, all this different stuff. So like you have a block and then within those blocks you have smaller blocks and then within those blocks you have smaller blocks and blocks and blocks and blocks more and more and more and more. Um basically the smaller the block gets the closer to finding your file you are pretty much. It's like it'll get smaller and smaller and smaller and smaller smaller smaller and smaller and smaller basically. So those are the difference between the two different models. One is a lot easier to read as a human while the other one is a lot easier to read to a computer.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:09:42"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:10:12"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:10:42"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:11:12"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:11:42"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:12:12"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:12:42"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:09:42"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:10:12"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:10:42"}}
@@ -316,6 +503,11 @@
 > That's one. How might colors be encoded numerically? Uh this one's fun. Uh Um so uh colors will typically have a threedigit code to them which relates RGB red green blue. So for example learned this recently um didn't realize it but 0 0 is the code for black. That is the color encoding for the color black. And that means that there is no red, no green, and no blue. No color at all. Um, but you can have it between anywhere between 0 and 273, I think it was. Um, and basically these numbers are just the saturation of the specific color of each specific color you have. Now, it's kind of confusing. Why wouldn't it be red, yellow, blue? Because those are the primary colors. Yellow doesn't show up very well on its own. You got to combine it with blue for or to make green so that it can combine on the uh different displays a little bit better. Um, but that is how you would encode a color numerically. Specifically for this one, the color black. Uh, oh, fun, fun, fun.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:12:52"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:13:22"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:13:52"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:14:22"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:12:52"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:13:22"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:13:52"}}
@@ -325,6 +517,11 @@
 > Explain what social engineering is and how it is used in cyber attacks. Social engineering is basically convincing people to click on a link, no matter what they've been told or taught. And basically trying to rewire their brain into believing what you're saying in your emails or your text messages or, you know, whatever it may be. It could be any form of communication or it could be any form of um of um basically um well yeah I guess it would only be communication because communicating with the computer uh itself like through the internet or like literally a communication like a social media app of some kind. Uh it genu generally just depends um on how they're doing it, but social engineering typically is thought about over social media or some kind of communication program like email, like text messaging or like any of the social media apps like Snapchat, uh Facebook, um nowadays Tik Tok. It's it literally just depends on where they're at and what kind of um tactic they're using.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:14:29"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:14:59"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:15:29"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:15:59"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:14:29"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:14:59"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:15:29"}}
@@ -334,6 +531,10 @@
 > Um a zero day exploit. Uh just actually learned about one of these recently. So, a zero day exploit is where a hacker or a uh scammer or whoever gets into an operating system through a previously unknown security flaw that wasn't wasn't known before, wasn't heard about before. And these uh exploits can be taken and copied and then sold on the dark web, which then basically becomes a race between the hackers or the um scammers or whatever and the developers of how many people can the scammers uh hackers uh inflict with this exploit and basically damage and hurt versus the developers coming up with some kind of patch to fix the exploit.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:16:10"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:16:40"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:17:10"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:16:10"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:16:40"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:17:10"}}
@@ -342,6 +543,9 @@
 > And moving on, a web cookie, uh, a web cookie is a small bit of code that a web page will attach on to your um operating system so that it knows, hey, you've been here before. Why don't you check this part out? Um, it can kind of tailor things to you to be able to uh almost like sell you stuff. It almost feels like uh that's similar to it, but it's not like usually outright selling you something. It's typically along more of the lines of tailoring the experience you have on the web page to you. Yep. Next question. 35.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:17:24"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:17:54"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:17:24"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:17:54"}}
 35. [1:18:21] Randomly generate a 4-bit binary number and convert it to decimal.
@@ -349,6 +553,9 @@
 > Write a four bit binary number and convert it to decimal. So 8 4 2 and one. So we'll go with one one. Um for a binary number, you never want it to start with zero because that's a placeholder. It's pointless at that point and it's just taking up space it doesn't need to be. But uh for 1 1 0 1 that means we have an eight, we have a four, we do not have a two, we have a 1. So 8 + 4 = 12 + 1 = 13.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:18:21"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:18:51"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:18:21"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:18:51"}}
 36. [1:19:13] Discuss the relative strengths and weaknesses of magnetic, optical and solid state storage technology.
@@ -356,6 +563,14 @@
 > uh discuss the relative strengths and weaknesses between magnetic, optical and solid state uh solid state technology. So I've talked about these before and I was a bit off from what I remember. Magnetic storage solid state storage techn or magnetic storage technology is your thumb drives, your USBs, all of that kind of stuff. You typically will be paying less per uh bite or gigabyte or whatever it is um for a USB stick or a thumb drive. Um, but you have the problem of physical wear and other possible issues down the road with these. Um, optical is DVDs and CDs. This is the one that I screwed up on. I didn't realize that cloud storage uh wasn't actually part of this or wasn't um the optical whatever um or magnetic. But uh with these you have usually have a higher um storage capacity along or not higher storage capacity but a faster uh writing rate I believe they called it. Um, but again, physical wear and they're much more fragile typically than like a USB stick uh or a magnetic um storage is because these can get scratched. These can get dented. These can get cracked much easier than um magnetic storage can. Now you have solid state storage technology. typically the stuff that you already have inside of a um inside of your computer or an external hard drive that actually like plugs in and all that. Um, these ones are going to be a bit beefier and a bit stronger than um a USB stick or CD because they are integrated into the system which means that they have a higher security um threshold as well as um it's much easier and faster to access these. However, it's slower uh to basically write or it's a slower writing rate I think they call it. Um as compared to like the faster writing rate on a CD, it's a slower writing rate into a solid state storage. Um so pros and cons of all three. Uh let's see 36. So moving on to 37.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:19:13"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:19:43"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:20:13"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:20:43"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:21:13"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:21:43"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:22:13"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:19:13"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:19:43"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:20:13"}}
@@ -368,6 +583,10 @@
 > Explain what a database is. So a database is a collection of information that can be accessed uh with a web server via a web browser. This is something that people access all the time. People utilize uh to gather information for a research project or for you know whatever it may be. Um, but it stores information and it stores it in a way that it makes it easy to manipulate um or excuse me, not manipulate but like edit, update, uh, and all of these different things. Um, just it has it set up in a way that it is easy to manage and update the information within it. Right. Question 38.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:22:20"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:22:50"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:23:20"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:22:20"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:22:50"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:23:20"}}
@@ -376,6 +595,10 @@
 > So uh let's s some of the basic steps in the programming process from writing code to running it. So obviously first off you got to write the code. writing the code. Then you have to compile or translate the um the code which then uh which then it gets interpreted interpreted and then you execute. Execute and then from there you log the runtime of the program. So you have actually writing the code, you compile and translate it. It is then interpreted um and execute and then you log the runtime. The next question okay 39.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:23:22"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:23:52"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:24:22"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:23:22"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:23:52"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:24:22"}}
@@ -384,6 +607,11 @@
 > Explain what IO devices are and why they're important to computing uh input and output devices. keyboards, mice, microphones, those are all your input devices. Those are the things that you are putting data into uh using to put data into the computer and basically get something back out of it. Now it goes into the computer where kind of like with the input out or input input process output model where it goes into the computer it does its whole thing and then it after it processes it it'll go to your O devices or output devices such as headphones, monitors, speakers um and display the data or play back the data. that uh it process through from your inputs. And it's important in computing because all of these things work together to make computing work in general because you can't interface with a computer if you don't have some kind of input device like a mouse, a keyboard, a microphone if it's c on in certain programs. And you can't see what the heck you're doing if you have no monitor as an output device. And you can't hear what you're doing if you have no speaker or headphones. So, it's very important that you have all of these while you're computing, while you're doing any kind of work on a computer.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:24:52"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:25:22"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:25:52"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:26:22"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:24:52"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:25:22"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:25:52"}}
@@ -393,6 +621,11 @@
 > Next question. Discuss issues with creating a strong password. So, um I'm kind of or excuse me, I'll say I used to be guilty of this. Um, I don't really do it anymore, but one of the issues with creating a strong password is you so badly want to use it for everything else. You want to use it on basically all of your stuff. It takes one time for somebody to crack your password, they have access to anything and everything that you use that password on. So, like if you use the same password for your email as you do like uh a online gaming store like uh Steam or the Epic Game Store, whatever it may be, they now have access into your account for those stores as well. If they access your email and get your password from that and you use the same password there, oops. So that's why creating a strong password but creating multiple strong passwords for each place that you need a password at is crucial and smart. So having password one um and using it for like maybe two things but then having password two being used for something else, you know, just having it being used for certain other things. It just depends. Um,
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:26:32"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:27:02"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:27:32"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:28:02"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:26:32"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:27:02"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:27:32"}}
@@ -402,6 +635,12 @@
 > okay. Randomly generated a twodigit decimal number and convert it to binary. Okay. Uh, it's 41. Okay. So, let's go with 90. We'll go with 90. So we go one, then two, then four, then eight, then 16, 16, then 32, then 64, and then we stop because 128 does not go into 90 because you're basically just doubling. You're just basically doubling the whole time you go up. You go from one to 64, you're doubling that whole time. 1 to 2 to 4 to 8 to 16 to 32 to 64. So 90 64 goes into it one time. 90 - 64 that is 26. Doesn't go into the 32 does not go into that. 16 does one time. - 16 you get 10. Uh 8 goes into 10 once you get a yeah you get eight minus or 10 minus 8 you get two no four one two and then you have your number. So 90 in binary is 1 0 1 1 0 1 0. Kind of want to check my math on that, but it should be fine cuz Yeah. Yeah. Yeah. No. Yeah, that's that's correct. So 90 is 1 0 1 1 0 1 0 in binary.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:28:20"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:28:50"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:29:20"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:29:50"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:30:20"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:28:20"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:28:50"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:29:20"}}
@@ -412,6 +651,11 @@
 > processors. Uh, explain how a processor works. So, a processor is the little um not little um it is the components within the um within computers that basically do most of the thinking power. They do a lot of the computations, a lot of the um management of tasks and threads of tasks or excuse me tasks and tasks of threads um that basically need the entire system or basically are needed for the entire system to run. So they're managing all these different things. They're doing all these kinds of computations. they uh I believe they are a crucial part of the CPU and GPU. Um considering it's the central processing unit and the general processing unit um they are crucial little pieces on motherboards and other pieces of the um other pieces of the computer. So you have few components here on a motherboard and then those those two squares there are processors. Those are basically doing a big portion of the thinking for those other components in there so that they can focus on what their actual purpose in the computer is rather than having to do that extra work. Okay.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:30:33"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:31:03"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:31:33"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:32:03"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:30:33"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:31:03"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:31:33"}}
@@ -421,6 +665,12 @@
 > explain the difference between a compiler and an interpreter. See, it's 43. Um, a compiler takes the code and transforms it from a human readable language into uh machine code or um it might even be assembly language um or no because assembly language is what the code basically is made of. So the compiler will take uh the code and turn it into machine language um and turn it into a compiled file or a compiled program which then the interpreter We'll take it and interpret interpret and interpret it to the um to the program so that it can then be executed. whatever which then it can run. So uh it'll it takes the code uh and the compiler turns it into a compiled version of the code which then the interpreter is able to read and interpret and send to into the system to be executed and ran.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:32:18"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:32:48"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:33:18"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:33:48"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:34:18"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:32:18"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:32:48"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:33:18"}}
@@ -431,6 +681,14 @@
 > Uh okay. So the point of the fair use doctrine basically is to determine whether or not something under copyright is um able to be used for certain aspects. So you have say you have this certain thing that's been copyrighted. If you want to use that certain thing um for you know one thing or another, you have to consider the factors of um what you're using it for and the um certain portions of the uh thing that you're using. First off being what is the purpose of you using it? Is it for an educational purpose? Is it for maybe critiquing the uh product that was made the this copyrighted product? You have to specify the intended use. Second, you have to consider is it going to damage or hurt the um the creator's um ability to make money off of it? So will it hurt creators capitalization. Um, number three depends number three is uh it also depends on what parts and how much uh of the this copyrighted product you're using. How much what parts? Um, and I can't remember the fourth factor off the top of my head right now. Um, but there's a fourth re uh fourth factor um involved that I can't I legitimately can't remember it off the top of my head right now, but these are the main things relating to the fair use doctrine and um even like parody citation uh including like parody citations and whatnot within uh these factors like considering all of these things.
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:34:21"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:34:51"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:35:21"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:35:51"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:36:21"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:36:51"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:37:21"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:34:21"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:34:51"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:35:21"}}
@@ -443,6 +701,10 @@
 > Uh let's see 44 explain the role of the operating system. Huh? The operating system its role is to make the computer work in the most basic sense. It is what makes the computer function in the way it's supposed to. it it is the basically the brain and the um thought process of the computer. So you have your computer and then within it you have this little guy called the OS. I did my best to draw a brain inside of a computer, but uh it's a brain labeled OS. uh it's basically the whole entire thinking uh system of a computer. It almost I would even say is the computer itself in a digital sense. Uh next question
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:37:33"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:38:03"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:38:33"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:37:33"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:38:03"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:38:33"}}
@@ -452,6 +714,11 @@
 
 
 
+
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:38:53"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:39:23"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:39:53"}}
+{{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:40:23"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:38:53"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:39:23"}}
 {{ShowFrame:https://youtu.be/SAWjqDF2JuY time:"1:39:53"}}

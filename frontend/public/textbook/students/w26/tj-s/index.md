@@ -9,6 +9,9 @@
 > explain what a zero day exploit is. Um, unfortunately I do not remember this off the top of my head, but my best guess is that when a something is initially brought online. Um, so like day zero. Um, that is when a system is most vulnerable because all the bugs have not been completely patched out of the system. um as much testing as you want to do, it's possible that you just don't find every bug. And so when there are the most vulnerabilities, that's when your um your system is most vulnerable.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"0:47"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"1:17"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"0:47"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"1:17"}}
 2. [1:32] Explain the role of JavaScript in a web page.
@@ -16,6 +19,9 @@
 > The role of JavaScript in a web page is to tie together um essentially all the elements of your web page. Um so you have HTML, you have CSS, and then you have JavaScript. Um, HTML I believe is like essentially the bones of your um, website. Um, CSS covers more of the outward facing like aesthetics. So, JavaScript is um, all the the code that goes into making your your website run. um I guess like all the fancy external items that are not um I don't know like the standard stuff that goes into HTML. Um the rest of it is blanking me. So that's the best I got right now.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"1:32"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"2:02"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"1:32"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"2:02"}}
 3. [2:31] Discuss file naming conventions and the role of file extensions.
@@ -23,6 +29,13 @@
 > Discuss file naming conventions and the role of a file extension. Um, well, a file extension essentially tells you what type of file you have. So, you can have, you know, dot That's not very good. Um, you could have dot text um, JPEG, doc. So, all of those um, follow a general convention on what type of file type that is. So a text file, a JPEG file, a document type file. Um, and that essentially tells you us the user what type of file it is. Um, on the computer side of things, as far as I understand, is that it doesn't entirely matter what file extension is assigned to it. um as long as you have the proper program that can run any given extension. Um so you can't like open a a text file actually text is probably the most basic. You can't open a PNG file in a textbased editor if it doesn't support PGs. Um and then file naming conventions. Um the way I've always liked naming files is by the date backwards. So it be 2026 um 0209 and then underscore and then I don't know midterm um when you put the date backwards at the beginning um that if you were then to sort your files this would be in numerical order. So if I did another one for tomorrow um 2026210 then these two files would come one after another um and you can name it I don't know whatever you want. Um but that way whenever you sort if you have a large database of files you can just sort them by date and quickly be able to assign them from there. And then if you wanted to search by um by keywords that's what you know explaining what you have in here um is also helpful for basic database terminology record rows
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"2:31"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"3:01"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"3:31"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"4:01"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"4:31"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"5:01"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"2:31"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"3:01"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"3:31"}}
@@ -34,6 +47,10 @@
 > columns and tables. Um so as far as I understand records and rows are synonymous. Um, so if you were to have a table, you would have your columns up and down and your rows or records side to side and all that together makes a table. Um, so your rows contain different bits of information. So if you have your column, so if this is name and then you could have um I don't know a picture and then you have your ID number for example and then going down each column you have all the names, all the pictures, all IDs and then left to right in your records slash rows um you have your your name. So you can have TJ, a picture of me, and an ID associated with me all on one row.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"5:04"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"5:34"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"6:04"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"5:04"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"5:34"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"6:04"}}
@@ -42,6 +59,12 @@
 > Explain what multitasking is and explain the difference between multiprocessing and multi-threading. Um, so there was I believe it's within the CPU It handles a lot of your data processing. Um, but then I believe also connected over to your RAM. CPU your RAM. Um, you have those um Q. So, you have a list of instructions, one, two, three, four, etc., etc. Um, it goes through each of these things and let's say four loops it back up to one. Then you're going through this cycle over and over again and the CPU and the RAM work together to complete these tasks um as efficiently as possible. Um, so you get multi-tasking is when two things are concurrently happening at the same time because even though your computer processes things in milliseconds, it may not actually happen be happening at the exact same moment. So multitasking is when they are happening at the same moment. And then multi-processing um is when a certain subse subsection of your I believe CPU is so it's handling a certain program and then multi-threading is if you take that certain program we have program one and then within program one you can have oh computer is crashing you have a and b so multi-threading would be handling A and B um separately explain the difference between RAM and
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"6:15"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"6:45"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"7:15"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"7:45"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"8:15"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"6:15"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"6:45"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"7:15"}}
@@ -52,6 +75,10 @@
 > ROM and why most computers are both. The RAM is your random access memory and then ROM is random operating memory I believe. Um so RAM handles most of your quick computations. Um, well, ROM is essentially the bare minimum your computer needs to boot up. Um, so I believe it's a diagram sort of like this with your CPU and then you add your RAM down here and then you add a database or hard drive of it's not very good um of stuff down here and your operating system. And so ROM It's kind of in this area between that bridges the two. So if your computer's completely shut down, ROM is what's able to pull from your operating system, your hard disk, your like permanent storage, and it gives the RAM the basic instructions just to start up um your computer. randomly generate a two-digit decimal
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"8:20"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"8:50"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"9:20"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"8:20"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"8:50"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"9:20"}}
@@ -60,6 +87,12 @@
 > number and convert to binary. Um I just searching it. So twodigit number randomizer if it loads 36. So 36 in decimal. Um, the way I like to do it, I'm not a huge fan of the divide by two method. Um, I like to work from the smallest up and then knowing uh, I guess where to stop counting, if that makes sense. Um, so you have your one. So if you do base two, two to the zero is one, two to the one is two, two is four, etc., etc. 16 and then 32. And then I don't need to go up to 64 because the numbers 30 36. So it's going to be a 32 plus something else. In this case, four. So then I mean just looking at this one, I know it's a 32 and a four. So it' be a one zero zero one zero zero. So 36 as a decimal. Oops. 36 decimal would be 1 0 0 1 0 0 binary. And if I wanted to re reverse engineer that, I can go 0 to the first or anything times 0. So two to the 0 0 two to the one that's zero. 2 to the two is four. Two to the three that's a zero. Two to the four is 0. 2 to the 5 is 32. And that's the 32 + 4 is 36 in decimal.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"9:45"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"10:15"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"10:45"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"11:15"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"11:45"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"9:45"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"10:15"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"10:45"}}
@@ -70,6 +103,11 @@
 > What HTTP is and how HTTPS differs from it. Um I want to say it's hyper text transfer pro protocol and I guess in simple terms it's how so if this is my computer and I'm connecting to a different computer on the web or in the cloud on the internet um and I'm trying to access a web server. Um, it requests I think it's the DNS. Um, I don't know if it's called a protocol, but the domain name server. My computer's asking for that to get the IP address of this server. But during that whole process, our IP addresses are talking with each other. And if you do that and it's not encrypted, then your computer becomes sus susceptible to being hacked or tampered with by bad actors. Um so HTTPS ensures that your connection with web servers um is a secure connection. And so usually up on your um your URL bar um you'll have either the lock or it has the HTTPS um at the beginning to show that you indeed have a secure connection.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"11:50"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"12:20"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"12:50"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"13:20"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"11:50"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"12:20"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"12:50"}}
@@ -79,6 +117,10 @@
 > The role of the operating operating system is to essentially run your computer and it's all the instructions to have your computer do what it does. Um I mean it's essentially the building block of your computer. So at the bottom you can have I guess the building block of the software. So you have um you can have your hardware. Oops. You have your hardware at the bottom. So your actual CPU, your hard disk, all your transistors, everything that goes into building the computers. And above that you have your operating system, which is the building block of all the software um within your computer. Um, so my operating system would be Windows and that's just the rule of or I guess the rules in place to say how my computer works um and how it essentially everything else is built um on top of it. How a browser, web server and database
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"13:28"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"13:58"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"14:28"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"13:28"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"13:58"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"14:28"}}
@@ -87,6 +129,10 @@
 > interact. So your browser is how you interact with the internet. So, um I'm on the Brave browser right now, Google Chrome, Internet Explorer, whatever it is. A web server is where your a website is hosted. So, if I have my computer and then within it, I have my browser and I'm connecting with a web server over here. Um let's just say I'm trying to on Amazon um to buy something um I would use my browser so let's say like I said rave to interact with Amazon and Amazon has its databases of information um so it could have multiple databases so it could have user information so this could be my everyone's credentials and credit card info and all that um on one database and then this can be the database of all the I don't know all the different chairs they have on Amazon. Um and essentially database is just storage. Um it's where information is stored and later retrieved um for future use. Describe the stored program concept and
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"14:38"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"15:08"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"15:38"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"14:38"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"15:08"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"15:38"}}
@@ -95,6 +141,10 @@
 > why it distinguishes computers from other simpler devices. Um, as far as I understand, a stored program is the ability to retain information in memory um versus stuff that cannot cannot be retained because it is not um set up to do so. Um, so an example of this and while it might not seem like I guess a computer First, it would be like a very basic computer, but like if you have a coffee maker that you can set the time on it and make it brew automatically at certain times, I'd say that could be a very rudimentary computer. Um, but if I had one of those calculators from elementary school that once you turn it off, everything is cleared and you can't bring anything up again, I wouldn't really call that a computer on its own because it cannot it's not capable of storing information um for use at a later time.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"16:08"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"16:38"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"17:08"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"16:08"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"16:38"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"17:08"}}
@@ -103,6 +153,10 @@
 > CPU differs from GPU. Um, CPU is I the way I put it is it handles all the major processing of your computer except the graphics where the GPU then handles the graphics. So even like right now I'm moving my mouse around um it has to compute where my mouse is located and display the arrow on the screen. uh so the GPU can handle all that heavy lifting and in this example it's a very basic computation but if I were to play a movie or play a video game on the computer then it's a much more um complicate complicated task so separating that out from the CPU allows both of them to work at the same time um simultaneously um you know working off each other so the CPU can handle all the computations in the background while the GPU handles all the visual computations. What is a poll request and how does it
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"17:23"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"17:53"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"18:23"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"17:23"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"17:53"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"18:23"}}
@@ -111,6 +165,9 @@
 > facilitate collaboration? Um poll request is someone else requesting information from you. So it's like they are pulling. So if this is my computer, this is their computer. they're reaching out to me and then they want the information back this way versus a push request. It would be if they're trying to send me information. Um, so a pull is asking for information or asking for something from another server which push would be the opposite is trying to give things um to another server. How does it facilitate collaboration? I mean it just essentially allows people to work together from different computers and share information across um networks.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"18:31"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"19:01"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"18:31"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"19:01"}}
 14. [19:25] Name three web applications you have used and explain what makes them useful.
@@ -118,6 +175,10 @@
 > Name three web applications you use. Explain what makes them useful. Um my banking application um just being able to access my banking info online versus having to walk in to a physical location every time I want to do something. I mean that makes it useful. Um I mean like I said earlier, Amazon um being able to shop in a convenient location and that's kind of the use of all applications is it just makes our lives easier um in one way or another. Um, and then maybe I mean even this right here, Canvas, um, and this website, this testing exam, all that stuff. I am doing this course at my own pace from my computer at any location I want versus having to be in class at a specific time to do the course. Um, for my current situation, this is the the only way I could possibly take this class. So, I mean, I'd say that's pretty useful. How might letters and words be encoded
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"19:25"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"19:55"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"20:25"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"19:25"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"19:55"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"20:25"}}
@@ -126,6 +187,10 @@
 > numerically? Um, essentially every letter is stored as a binary um representation. Um, so I guess if we take a lowerase A, we could assign that a decimal number just for our ease of reference. So lowerase A is equal to 68 whatever 68 and then 68 and binary would be one 0 0 one Z. So then lowerase A is stored in memory or I mean just within the operating system. So this represents lowerase A. And so anytime I hit A on the keyboard, this is what's actually happening behind the scenes um in my computer. And then you do that for every single possible key on the keyboard. And I mean binary you have lots of bits to work with. So you can have I'm sure you can fit every single key within the first 128 bits or 256. Um, and then it just uses those references anytime you hit a specific key.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"20:39"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"21:09"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"21:39"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"20:39"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"21:09"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"21:39"}}
@@ -134,6 +199,9 @@
 > Generate a four bit by number numbered to decimal. So binary number generator is O11. But I think it has to start with a one or else it doesn't really mean anything. 11 1 0. Okay. So 1 one o. I like to work just right to left using the base two method. So zeros are all zeros. Zeros. This is two to the 0 is one but times zero. Two to the one. This is two to the two. So that' be a four. And then this would be two to three which is eight. Add them all together 12. So 11 in binary is 12 in decimal.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"22:07"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"22:37"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"22:07"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"22:37"}}
 17. [23:06] What is the point of the fair use doctrine? List some factors that characterize fair use.
@@ -141,6 +209,10 @@
 > What is the point of the fair use doctrine? List of factors that characterize fair use. Um, fair use essentially allows an individual or I guess a company to use copyrighted material under certain conditions. Um, and that's usually for educational purposes or for like news reporting. Um, factors that characterize fair use. I'd say the biggest one is it is transformative. Um so if I take I know Disney is very strict about their copyrights. Um so if I took uh Mickey Mouse and like there was an episode of Mickey Mouse. If I just downloaded that episode and re-uploaded it and started selling it for my own benefit, that wouldn't fall under fair use. But if I downloaded that episode and I added commentary over the episode trying to explain the artwork that went into the episode or how certain animations were created, um that would be fair use because I am transforming the original work and adding um my own value to it. Design an efficient file organization
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"23:06"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"23:36"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"24:06"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"23:06"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"23:36"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"24:06"}}
@@ -149,6 +221,11 @@
 > system for a specific use case. Well, I guess like I said earlier, so I like the date and year, month, day, and then you can do um whatever the um title of your file you want it to be. So, if I just throw in just random dates here, Um, if I don't have a way to sort it here, but if I had a way to sort this from highest to lowest, it would put the highest, so 2026, the most recent stuff first, and then it would sort it. So, it put this one up above that. Um, so it sort everything newest to oldest. Now, I'd say most of the time you're accessing your newest files first, but in the case you want to look up anything specific, um you always have a tag associated with it, so you know, as long as it's a general enough understanding of what you're trying to search for, um you're able to find it. And then, if you wanted to take this a step further, you can sort by year or by month. So, anything with the 2026 at the beginning, you could put in a 2026 folder. So, you just know it's exactly from 2026 and it um you know, it keeps your your files organized, especially if you're working with dozens of files in any given month. Explain what encryption is. So
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"24:31"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"25:01"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"25:31"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"26:01"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"24:31"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"25:01"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"25:31"}}
@@ -158,6 +235,11 @@
 > encryption is essentially encoding your data so that it cannot be um deciphered from the outside. Um so I've recently been learning this in my other classes but um there's usually encryption algorithms um that go into place. It's a one-way process. So when you Oh no, excuse me. That's hashing. Um encrypting essentially is a code to um cipher your data. So I think one of the most common examples is the Caesar cipher where if you take all the letters in the alphabet, let's start there. Um you shift them a couple spots down. So A B CDE E you do come C D E F G H. So then if you to write anything any of these letters that appear in your words you would rewrite with the letters down here. Um and so that makes it so if someone doesn't know your encryption algorithm, they're not able to understand what the original message was. Um so essentially it's just a way to hide your data without um or and the only people who can read it are the people with the access keys.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"26:16"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"26:46"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"27:16"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"27:46"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"26:16"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"26:46"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"27:16"}}
@@ -167,6 +249,11 @@
 > Explain the role of a web browser respect to caching history and privacy. Um so a web browser is how you browse the internet. Um so you have your web browser here and then your connecting with other um servers um to do your internet browsing. Caching is essentially instead of having to talk back and forth with this server every single request you make, if you already have that information, you can keep it stored on your device, which speeds up the processing time on your um computer. History is more of a private or like an isolated version of caching. So history only pertains to your device. So if you want to revisit a previous web page, it can be there in your history. And then privacy within the web browser. Um, the way I understand that is more with your um, cookies you enable or disable within a site. Um, if you allow your data to be tracked or sold within the site. Um, anything of that nature to safeguard your own data or if you do not care for whatever reason, then being able to out there um and not make it private. Explain what a database is. Well,
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"27:52"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"28:22"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"28:52"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"29:22"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"27:52"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"28:22"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"28:52"}}
@@ -176,6 +263,9 @@
 > database essentially is just a server um that stores information. Um usually the input output does not take place at the database itself, but usually from an external server. So I can input something on my computer, have it transfer it over to the database, and then in the future I can input a request from the database and get that pulled back over um to my computer.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"29:29"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"29:59"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"29:29"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"29:59"}}
 22. [30:02] Explain the difference between absolute file path and relative file path.
@@ -183,6 +273,10 @@
 > When the difference between absolute file path and a relative file path, uh I want to say an absolute is literally the exact file path. So usually it's like your C drive for example slash user slash type it see user slash my name slash slash it's just in your documents slash school dot dot you get the idea. It's just the long drawn out file directory on how to get to a a file. The relative file path I think usually skips out on all these middle sections and it just shows the C drive um and then whatever file. So if I say I'm in my CS or CIS 110 folder CIS 110 and then the midterm text. Um, so relative file path doesn't show the full path versus absolute does
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"30:02"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"30:32"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"31:02"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"30:02"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"30:32"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"31:02"}}
@@ -191,6 +285,10 @@
 > IO devices and why they're important to computing. So input output is what IO stands for and they're important because that's how you give and receive data. Um so if you don't have a way to put data in your computer, it doesn't have anything to process and then if you have no way to output that data, then you have no idea what has been processed. Um so common input output devices for us is the keyboard, the mouse. Um our inputs and outputs would be like your screen or um your speakers for sound. Um in the past I believe they used punch cards to input and output before um electricity was involved. Um but essentially if you don't have a form of input and output and you aren't able to compute um it's essentially not having one part of the math equation. You need the input and output to get the full picture. Social engineering how in cybert. So
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"31:21"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"31:51"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"32:21"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"31:21"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"31:51"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"32:21"}}
@@ -199,6 +297,9 @@
 > social engineering is essentially everything that goes on outside the computer. Um so usually human interactions. Um so example social engineering would be like um someone impersonates your boss and gets sensitive information out of you and now they can use that to blackmail the company. um anything that doesn't it doesn't require direct access to computer. So like someone could do this over the phone. Um someone could do this via a postcard. Um it's just a way to get information out of you which then can be later used um to cause a cyber attack. How might a par numbers like a 2D
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"32:25"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"32:55"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"32:25"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"32:55"}}
 25. [33:17] How might a pair of numbers like a 2D coordinate be encoded as a single number?
@@ -206,6 +307,10 @@
 > coordinate be encoded as a single number? Um so if I understand this correctly you can take let's just say a pair of numbers. So we can do say the ninth. So two and nine each of those can be broken down to their binary form. Uh that be that be 01 one I think. So um and then you take those numbers and you can put them together. not physically string them together but now they can be stored as one um pairing within a database. So if you have this like your I don't know your ID row or ID column in a in a table then these two numbers can be put together in that row um and stored within the database. A web cookie is sort of like cache, but
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"33:17"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"33:47"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"34:17"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"33:17"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"33:47"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"34:17"}}
@@ -214,6 +319,9 @@
 > it's more like the server is storing your information versus you. So, if I'm at my computer and I'm shopping on a website and then I leave that website after I added some things to my cart, I can return back to that website at a later date and those items will still be in my cart. Um, so it's essentially them saving my data versus cash is me saving it on my side. Um,
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"34:40"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"35:10"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"34:40"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"35:10"}}
 27. [35:18] Explain how the internet differs from the worldwide web.
@@ -221,6 +329,10 @@
 > internet differs from the worldwide web. So the way I remember it is you can have multiple you know databases on the are multiple servers or computers a part of the internet. But the worldwide web is if this item right here is part um of a web server. So if this is uh I don't know Amazon again Amazon itself like there's not someone behind the scenes using Amazon to talk to us. This is more of an automated service that us as users down here are going up to use and then back down um to us down below. So it's users usually websites or like companies or servers, databases, things like that. And then back to the users, but the users can also talk directly to each other.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"35:18"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"35:48"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"36:18"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"35:18"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"35:48"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"36:18"}}
@@ -229,6 +341,9 @@
 > A device driver and why they're necessary. So, external devices may not be configured properly to just run immediately on your computer. So, like my mouse, it has its own driver. Um, so the operating system can run that driver. So then my mouse then works. Um, because my mouse has its own it had its own language that was coded with and not every like not every single language is going to be on the operating system of my computer. So if I have my computer and a driver to run my mouse, the computer and operating system can run the driver and then the driver gives it instructions on how to run my mouse. Input process output model and its
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"36:31"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"37:01"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"36:31"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"37:01"}}
 29. [37:25] Explain the input-process-output model and its significance.
@@ -236,6 +351,9 @@
 > significance. Um I mean essentially it's you have to take an input from the user. Let's do it like this. Take an input from the user. So this would be the user over here. You take an input from them. Your CPU can process that information. Um your RAM can process that information. Oops. You get it? RAM. Um and then After that information is done processing, it's sent back as an output um that we are able to digest and use at a human level.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"37:25"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"37:55"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"37:25"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"37:55"}}
 30. [38:22] How does electricity enable computers to represent binary digits?
@@ -243,6 +361,9 @@
 > How does electricity enable computers that represent binary digits? So your computer is full of tiny transistors and those transistors detect the voltage. So if you have I think it's if there is voltage detected let's say this our transistor you can have ones and zeros. So if there is a voltage it's a one and if there's not it's a zero. And so ones and zeros on and off is a very easy way to represent information. Um because if we had multiple numbers for example now we either have to have a sliding scale or it's not easy to represent multiple numbers. So just having two states on and off um can essentially represent binary digits as our ones and zeros and then we're able to represent more complex information um building up from there.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"38:22"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"38:52"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"38:22"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"38:52"}}
 31. [39:20] Discuss issues with creating a strong password.
@@ -250,6 +371,11 @@
 > discuss issues with creating a strong password. Um the biggest issue is actually it's not it's not people don't create strong passwords, it's that people create weak passwords that are very easy to crack. Um, and I think that's the the social like human side of things is that many people reuse the same passwords and they use passwords that are easy to remember just for convenience. Um, so the biggest thing with strong password is that it's complex and that it does not get reused over and over again. Um I guess to add on that something I learned from my other class is that when a password is um hashed it a certain text so let's just say password anyone who uses the password password it will be encoded to the exact same hash. So this is all stored in the database and it needs to be kept safe. So if you're using a very common password, um hackers can go through those databases of hashes and eventually reverse engineer your passwords. That is why um super complex passwords with non common phrases um make your your password more secure.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"39:20"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"39:50"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"40:20"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"40:50"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"39:20"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"39:50"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"40:20"}}
@@ -259,6 +385,9 @@
 > What a web browser is and what it is for. Um web browser is essentially how you browse the internet. So my computer, the browser. I have access to other computers on the internet. Um, and this is just essentially how I access other computers. Um, there are other ways like via email. Um, but most of your internet connection would be on a web browser. Um, from your end to other computers.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"40:51"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"41:21"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"40:51"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"41:21"}}
 33. [41:30] Explain how a video might be represented numerically.
@@ -266,6 +395,9 @@
 > a video represented numerically. Um, I'd say it's the same way anything else is represented numerically in memory. Um, it'll just be binary. Um, a video will have a lot more information in it versus a text file. So it would be a longer um binary representation of the file but at the end of the day it would still be a binary representation um of the video file.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"41:30"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"42:00"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"41:30"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"42:00"}}
 34. [42:05] Explain how a web application differs from a traditional desktop application.
@@ -273,6 +405,9 @@
 > Explain how web applications differ from a traditional desktop application. Um from what I understand is that desktop applications do not require the internet to run. Um, that doesn't mean they're they don't connect to the internet, but you if it's a desktop application, it's already on your operating system. So, I can open up Apple Music from my um computer, but if I don't have an internet connection, nothing's going to work because I do need the internet to access all my music. Versus a web application, I have to go through my web browser, which if I don't have an internet connection, then I can't even get on my browser. Nothing's going to work. A rootkit.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"42:05"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"42:35"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"42:05"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"42:35"}}
 35. [42:52] Explain what a rootkit is.
@@ -280,18 +415,25 @@
 > Unfortunately, I do not know what this one is. Um, if I have to take my best guess, it is a way to diagnose issues with your computer um at the root level. So maybe at your operating system level. Um, but that is my my best guess.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"42:52"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"42:52"}}
 36. [43:15] How might an image be represented numerically?
 
 > How might an image be represented numerically? Same way the video is represented numerically. Um images are generally smaller files than videos, but it would still be in binary um somewhere on your in sort in memory.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"43:15"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"43:15"}}
 37. [43:33] Explain what it means to hold a copyright and list some of the rights that are exclusively reserved.
 
 > So I know what it means to hold a copyright and some of the rights exclusively exercised by copyright holders. Um essentially means you have protected your intellectual property. um and it it becomes yours. So you have the right to sell stuff that's your copyright. You have the right to free use of whatever is copyrighted. Um and then this is where the opposite of that and fair use comes into play. Um so people can use copyrighted material but only if it's under um the fair use doctrine and applicable applicable rules of that plan what happens behind the scenes and
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"43:33"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"44:03"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"43:33"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"44:03"}}
 38. [44:16] Explain what happens behind the scenes when you access a URL in your browser.
@@ -299,6 +441,9 @@
 > you access a URL in your browser. Um, so if you're in your computer, you type in amazon.com, you do your DNS, and then that communicates with Amazon, and then it says yes, this IP address is allowed to access Amazon. And then you are able to connect um over to Amazon. Um, if it's HTTPS, which you want it to be, it ensures it's a secure connection and all this communication between servers is encrypted. Explain what an IP address is and why
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"44:16"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"44:46"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"44:16"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"44:46"}}
 39. [44:58] Explain what an IP address is and why it's important for internet communication.
@@ -306,6 +451,9 @@
 > it's important for internet communication. Well, like I was saying, um, your IP address is it's essentially the name of your computer. So, if I'm TJ, my computer has its own name or IP address. And that's how you identify it on a network. Um, it's important for internet communication because you need a way to talk to other computers and that is done via your your IP address. So my IP is on this computer. This one has its own IP. This one has its own IP. And so when you're talking to other computers, you're talking to their IP addresses. And that's how you're able to know which computer you're actually talking to. How a processor works. Um,
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"44:58"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"45:28"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"44:58"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"45:28"}}
 40. [45:48] Explain how a processor works.
@@ -313,6 +461,9 @@
 > if I remember properly, that's the one where you have a list of tasks. So if you do task one, two, three, four, etc. And so task one can be load four. So then you jump to four and then four says I don't know, let's just say jump to two and then you go back up to two and then you say three, etc., etc. Um, and it processes all this information in whatever sequence um it requests in. And that's how um a computer essentially handles task. And it just does does this many times a second. I think like thousands of times a second depending on how fast your processor is. Um that's how it does all its information processing. The cell also strengths and weaknesses
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"45:48"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"46:18"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"45:48"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"46:18"}}
 41. [46:47] Discuss the relative strengths and weaknesses of magnetic, optical and solid state storage technology.
@@ -320,6 +471,10 @@
 > magnetic, optical and solid state storage technology. Um so magnetic and optical are both low cost storage systems but they are also relatively slow. Um versus solid state is a much higher cost per memory unit but it can be accessed much quicker similar to RAM. Um, and I guess a personal anecdote of this is I had an old hard drive that I used to store my my Xbox games on when technology at the time was not that quick. But as technology advanced and games got more um fancy, for lack of better words, um that um hard disc drive was no longer fast enough to play those these newer games. So I had to upgrade to a solid state hard drive to um be able to access the games on that piece of memory.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"46:47"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"47:17"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"47:47"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"46:47"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"47:17"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"47:47"}}
@@ -328,6 +483,10 @@
 > What is a transistor and how does it work in computers? A transistor is essentially the basic unit that tells us in binary if something's a one or a zero. Um so as a transistor detects voltage. If it does have a voltage it's a one. If there is no voltage, it's a zero or I believe it's a high voltage or low voltage. Um is ones and zeros and then you have millions if not billions of transistors within your entire computer that are all calculating a bunch of ones and zeros and together they can create more complicated um systems. So I know you have like your not gate that wasn't very good. You have your not gate which means if you take a one in zero out, zero in, one out. You can do your and gates, or gates, exor gates, NAND gates, whatever. And that's essentially just a system of transistors working together to create a more complex organism, I guess, because the impact of AI generated text,
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"47:53"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"48:23"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"48:53"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"47:53"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"48:23"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"48:53"}}
@@ -336,6 +495,10 @@
 > images, and videos on truth and trust in digital communications. Um well in AI world we are living in now it is getting especially harder to tell the difference between genuine information and AI generated generated information just because AI um systems are just getting better and better. Um, especially I'd say the images and videos are the more concerning ones because two years ago, you know, it was very obvious to tell something was AI generated, but nowadays you actually have to pay attention to the small details that AI is still working on figuring out. Um, so overall it's kind of just making like 10 years ago if you saw a video of someone you'd say, "Yep, that's for sure like a real video." this can be used as evidence against someone. Now, it's like you cannot be 100% certain, at least not right away, because of the complexity AI brings to the whole trust of um online media.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"49:01"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"49:31"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"50:01"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"49:01"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"49:31"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"50:01"}}
@@ -344,6 +507,9 @@
 > AI algorithms shape what information people see online. So, AI algorithms essentially, I mean, that's how AI works. It's built off of learning models. It's just trial and error to the millionth degree. Um so through lots and lots of trial and error, it's able to accurately um suggest what information people want to see based on an individual's habits. And they get that information usually by buying your data. So when you're on websites or you sign up for an app and it's asking, did you accept these terms and conditions? It's usually within those terms and conditions there are they're selling your data to data brokers or companies who need your data um to curate usually it's marketing and in this case AI algorithms to market whatever they are marketing
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"50:17"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"50:47"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"50:17"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"50:47"}}
 45. [51:16] What is two-factor authentication?
@@ -351,6 +517,9 @@
 > two-actor authentication is essentially two two passwords to get into something so you can have your standard um alpha numeric password and then you can have a a fingerprint um biometric password. Um but it also usually requires two different devices. So if you're logging in on your computer, then it sends a text to your phone as well saying, "Is this you?" And this is just so if someone compromises your email, maybe yes, they have access to your email, but if they can't answer the two-factor authentic authentic authentication because they don't have access to your phone to accept the text, then your your stuff is a lot more secure.
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"51:16"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"51:46"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"51:16"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"51:46"}}
 46. [52:05] Explain how an online intrusion might take place.
@@ -359,6 +528,11 @@
 
 
 
+
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"52:05"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"52:35"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"53:05"}}
+{{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"53:35"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"52:05"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"52:35"}}
 {{ShowFrame:https://youtu.be/ac6rg7HAVsU time:"53:05"}}

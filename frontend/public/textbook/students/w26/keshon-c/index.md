@@ -9,6 +9,10 @@
 > Right. How my colors be encoded numerically? Um, so I'm going to just use this. It's the RGB. I'm glad I actually know this one. Um, so if you have like like one over here, um, just like a combination of these colors, uh, and like 16 and then like 111. Um, you would do it with like the padding. So, uh, I think it was like 255 or something it can go up to. So, it' be the 0 01 And then um 016 and then the 111. Yeah. And then you could cross these these out and then it would just be all this one number and you'd be able to if you didn't have this um you'd be able to like divide it up and know what what you got.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"2:19"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"2:49"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"3:19"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"2:19"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"2:49"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"3:19"}}
@@ -17,6 +21,9 @@
 > How might a pair of numbers like a 2D coordinate be encoded as a single number? Um this one see it was like a coordinate you have this um you do the same thing just the padding. So you do 01 and 16 so that you can get rid of this then have these two numbers. Um and you'd be able to tell because if you just did one it'd be like you wouldn't be able to you wouldn't be able to like read it or anything if they were combined.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"3:36"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"4:06"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"3:36"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"4:06"}}
 3. [4:21] Trace the execution of assembly code and explain what happens.
@@ -24,6 +31,11 @@
 > trace the execution of this assembly code program and what happened and explain what happens. Um, see I think I think I'm pretty sure I now this one is uh the CPU. I don't know if this is uh I might be thinking of the wrong question, but um let's see. This is broken up. So you'd have zero, one, two, three, four, five. Then you do load and add. It's got It's going to be like pretty rough to try and write this all down, but try and uh do it real quick. Yeah. Other than the zero and the eight. And then um the CPU is broken up into like three parts. So it fetches um decodes then executes. Yeah. So it' be pulling each thing just one at a time. So it start with this go through it cycle and then it would fetch a new one and go through the cycle and it would go all the way down.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"4:21"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"4:51"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"5:21"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"5:51"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"4:21"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"4:51"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"5:21"}}
@@ -33,6 +45,10 @@
 > Explain what a zero day exploit is. Um, so this one, uh, I didn't I didn't study this one today. Like, uh, I just studied the other three. I was trying to, but I've been out of town, so it's, um, but the zero day is, uh, like from what I remember, it's um, let me see. So if someone like someone bad uh finds like a bug in the uh the software before um the good people can find it and then they use it for bad things. Um it be like over here have bad intentions and like sell it or something. um the vulnerability and then whenever the good people like the people who created it um figure it out, they're basically having to fight the bad person. Uh like the black hat um having to fight them, you know, to uh figure out how to fix it um while they're, you know, using it for for bad things. So, yeah.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"6:01"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"6:31"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"7:01"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"6:01"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"6:31"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"7:01"}}
@@ -41,6 +57,10 @@
 > How do magnetic fields store binary information? Like I I said I was going to use paint, but I was just basically using this for most of this. Um, so let me see if there's like uh let's see, this would be one, this would be zero. Um, then electricity is running flowing over here. So that could uh would like cause like a magnetic reaction. So it'd be like switched up. Um and then it would stay that that same it would stay the same like it would store that information until uh like so if the uh electricity shut off it would still be this way and then if it would be turning back on then it would switch. Um but but yeah, it was like from what I was seeing it was um that it needs that electricity to to switch uh things, but then Intel um if the the electricity was shut off, then it would just store that information the same way.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"7:15"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"7:45"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"8:15"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"7:15"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"7:45"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"8:15"}}
@@ -49,6 +69,9 @@
 > Explain what CSS is. Um see, pull this up. That's like the uh the appearance. So, I just started doing it over here. But, um, like if you wanted to have some words be red on the screen, but then some be blue um, some be green. That would be how you would do that. You'd use CSS. It's like the colors and everything. And, uh, HTML would be like the content, but then if you wanted to change the appearance of that content, you would use CSS.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"8:27"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"8:57"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"8:27"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"8:57"}}
 7. [9:02] Explain the difference between a compiler and an interpreter.
@@ -56,6 +79,9 @@
 > and then explain the difference between a compiler and an interpreter. Um I think I'm pretty sure so the compiler um it'll take all of the information in the program. Um and then it would translate that all at once. Um then the interpreter would be it would focus on like one line at a time. Um like I then translate just one line and then it would move on to the next and translate that then it would just keep going down just one line at a time.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"9:02"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"9:32"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"9:02"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"9:32"}}
 8. [9:46] Explain what HTML is.
@@ -63,12 +89,17 @@
 > Explain what HTML is. Uh like I was saying the last one it's the content. So you be like HTML up here and then the ending. So HTML and then all the content within that you know so it's all the content in the page
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"9:46"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"9:46"}}
 9. [10:12] Discuss how AI algorithms shape what information people see online.
 
 > discuss how AI algorithms shape what information people see online um so like if you have uh YouTube and you watch like how I I was saying last time uh like watch watch a video of a cat. There's my cat. And then um the algorithm would see that and then start showing you bunch of bunch of videos of a cat um because it thinks you like cat videos. All right. Yeah.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"10:12"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"10:42"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"10:12"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"10:42"}}
 10. [10:56] What is a transistor and how does it work in computers?
@@ -76,6 +107,9 @@
 > What is a transistor and how does it work in computers? Um, so I do like like a line like electricity. The transistor would be like like a bridge. Um, and then it would basically if you like there's electricity over here that's not flowing over here, but as soon as you turn on the transistor, it'll like move this this bridge out the way and then it'll start flowing. Um, and then as soon as you turn it off, it'll cut the electricity from from that spot
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"10:56"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"11:26"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"10:56"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"11:26"}}
 11. [11:36] Randomly generate a four-bit binary number and convert it to decimal.
@@ -83,6 +117,11 @@
 > and then uh randomly generate a 4bit binary number and convert it to a decimal. Let's see. No, can't type. All right. So, 10 10. I I kind of suck at these. Like I I was literally just watching the video. I I feel like it shouldn't be too hard, but um I don't know. I don't know if I'm going to get this one right. It's uh I think it started with one. I'm hoping it uh Yeah, I'm hoping it did. But yeah, so you would just do like 1 * 4 plus 0 * 3. So that' be zero. So it's I mean I don't know if we have to write that but then 2 * 1 plus another zero. So other than uh yeah so I mean It would just be six. Pretty sure that's how you do it. So, the answer would just be six.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"11:36"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"12:06"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"12:36"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"13:06"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"11:36"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"12:06"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"12:36"}}
@@ -92,6 +131,9 @@
 > Explain what a database is. Um, so this right here uh whenever someone accesses something like a website or something, it'll pull information um from the database and it's like it's split up. So, there's a bunch of stuff here that's stored. Um, and then whenever the server requests it, they'll pull information from there and then it'll jump back here so the user can uh get what what information they're trying to get.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"13:21"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"13:51"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"13:21"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"13:51"}}
 13. [13:58] Describe how an online intrusion may take place.
@@ -99,6 +141,12 @@
 > Describe how an online intrusion might take place. You may do so by describing a specific system and the steps an intruder would take to compromise it. Or you may describe a general methodology that intruders use. Um I'll do like I think this is considered um something that'll work for this. It's like if a uh the social like I think it's like social engineering or something. I don't remember. Um or actually I'll do I'll do just an email like a fishing email. So someone who's bad like another person who's bad uh kind of that's like a cowboy looks like but uh he basically creates something like a website that looks exactly like uh something you would trust. Um, then you would send it to you in your email. This actually happened to me with like PayPal. Someone when there was like a PayPal uh was like people were getting paid by PayPal and everything. So, um, someone sent me an email that looked exactly like PayPal. Um, and then when you click on it, you open it, it asks for like your login information to receive like $50 or something. uh but it's a fake link and as soon as you give them your login information, you sign in, that's sent back to them, then they can get access to all your banking information um like your login info and uh you know, steal steal stuff from you. So like drain your bank account and uh yeah, it it he almost got me. like he almost got me cuz I it looked exactly like PayPal. It like looked official and everything. Um but I called PayPal and they're like, "Yeah, we didn't send you any emails." And I I was already like sketched about it. So I I just wanted to confirm. So I didn't get my stuff stolen.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"13:58"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"14:28"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"14:58"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"15:28"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"15:58"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"13:58"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"14:28"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"14:58"}}
@@ -109,6 +157,9 @@
 > Explain how a processor works. Um let me see. Yeah, I didn't do that over here. So um so it's like the brain. Um, let's see. Like I was drawing earlier, like I It kind of sucks I erased it. Uh, all right. So, it works in like three steps. Um, so it does the fetch, uh, the decode, and then, um, the execution like it's, uh, yeah. So, it it pulls from here. So it' be like zero one two 3 and then uh decodes whatever it's working on um and then executes. So then it'll go through. So it'll jump from this one to that one and down the line. Put a sub uh brain in the computer.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"16:08"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"16:38"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"16:08"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"16:38"}}
 15. [17:05] How might letters and words be encoded numerically?
@@ -116,6 +167,10 @@
 > How might letters and words be encoded numerically? Um so like do a I don't know why I just my brain just drew a circle, but uh I will. Oh no. Okay. Do it this way because it'll be easier. All right. Um, so see basically it'll so you can make sure that uh the letters once you get to uh two digits you would do um two zeros for like the padding cuz a would be one and then two three four and you just keep going down the line. I'm like I uh I wish I I have more time. I'm like it's 11:27. I was just watching uh videos all day on on this stuff trying to like get ready for it. But um yeah, so you would do it like that. Then um so you'd be like 01 02 03. Then uh once you get to the other digits, you'd be able to do like, you know, you wouldn't get mixed up on anything.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"17:05"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"17:35"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"18:05"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"17:05"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"17:35"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"18:05"}}
@@ -124,6 +179,10 @@
 > All right. explain what HTTP is and how HTTPS differs from it. So that's like the process from like when you uh look up a website or something. Um when it's going from here up to the server, uh HTTPS is just like the basic one. Um, it's not encrypted or anything, but http t. Okay, what's the https? I had a hard time saying that, but um, that one's encrypted. Uh, yeah. So, it's locked. So, someone um, bad can't just like access that information. Sure, they can, but just not easy, you know, like they uh it's not going to be just open for them to to see it all. It's going to be locked encrypted. So, so it's safe. So, if you have like your bank information here, um it'll be encrypted. So, it's, you know, if it's sensitive information, it's not going to be just exposed out there for anyone to see. Yeah, I'm hoping I have enough time to post this before before midnight. Like I I thought I would uh I just wanted to go through things a little bit more, but um
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"18:29"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"18:59"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"19:29"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"18:29"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"18:59"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"19:29"}}
@@ -132,6 +191,9 @@
 > explain what a web browser is and what it is used for. So the browser, it's like um what you'd use to uh access something online. So, if you want to like go to YouTube, um you'd pull up a web browser and that's how you would access that, you know, like what I'm doing right now, the website I'm on. Um got to pull up my browser, which is Chrome, and uh that's how I'm able to access this.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"19:58"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"20:28"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"19:58"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"20:28"}}
 18. [20:30] Identify common malware exploits.
@@ -139,6 +201,11 @@
 > Identify common malware exploits. Um, I know. Yeah. Like one would be the fishing email like I uh discussed earlier where they send you um like a link to your email and then once you click on it, it'll download stuff to your uh your computer or they'll send you something that's like um looks real but it's not. Uh, and then like you log in and then you send over your uh login information. This looks like a face, but um I'm like my drawing is so bad. It's it's horrible. It's um yeah, like you you'll give them your information. Then another one is like see the bad guy over there. He um basically will like call you on the phone. That's a phone. And then um like talk to you, get you to believe that they're someone you trust, like your phone company. Um be like calling from Verizon. Uh, and then act like they work there. Get you to give them information over the phone or then um they'll take that and um yeah, use it for bad bad purposes. That's that's yeah, I think two of them. And then um yeah, those are the most common that I know of.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"20:30"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"21:00"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"21:30"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"22:00"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"20:30"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"21:00"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"21:30"}}
@@ -148,6 +215,9 @@
 > lists uh some of the basic steps in the programming process for writing code to running it. Uh so you'd be like using VS code. Um then you would code something in use the live server uh open that up and it'll open up what you're working on. Um, so you can see like a live view of everything that you're coding and then make adjustments. Yeah, make whatever adjustments you want and you'll be able to see it over here, which is pretty nice. I actually enjoy that as for my web development class. I've been having a lot of fun with that one. So, we're building the website.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"22:10"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"22:40"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"22:10"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"22:40"}}
 20. [23:01] Explain how a CPU differs from a GPU.
@@ -155,6 +225,10 @@
 > explain how a CPU differs from a GPU. Uh so I know a CPU um so like yeah so this will be the GPU over here CPU. So um the CPU will handle like um it's super smart. it can handle one thing um and do it really well like one thing at a time move on to the next um and then the GPU if it's got like a job um it can break it up into bits like uh so have like so if you had like one job you had one person working on it um but they're going to do it really well then like the GPU would have multiple people doing it so they'd be able to do it faster um just not as good as the CPU would like because it's smarter and everything, but it can handle things pretty quickly.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"23:01"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"23:31"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"24:01"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"23:01"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"23:31"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"24:01"}}
@@ -163,6 +237,10 @@
 > Explain what social engineering is and how it's used in cyber attacks. Yeah, I'm glad I'm I'm glad I didn't say wrong earlier. Um, so like I was drawing earlier, someone um that's a hat and then uh they'll call you I'll then um act like they're Verizon and talk you into um giving them personal information. They'll be like, "Oh, you got to do this or something or your account uh your account's at risk." Or um maybe get you to like try and change your password over the phone. Um login information other than like I feel like this doesn't work a lot of the time, but there's people out there who just I just am amazed that they actually get them to give them information. But um I mean it almost happened with me so like I can't I can't really talk about it but u yeah they get they get the information um if they can talk you into it and then uh they steal your information. So they'll steal your login information everything and steal your money and steal all types of stuff. So it's pretty bad.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"24:08"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"24:38"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"25:08"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"24:08"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"24:38"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"25:08"}}
@@ -171,6 +249,11 @@
 > Explain what multitasking is and explain the difference between multiprocessing and multi-threading. Uh multitasking is like like your processor or not your processor, your um operating system will do like if it needs to handle multiple things at once. Um I'm like like trying to figure out how I'm going to draw this. It it'll use like time slicing. So it'll give little bits of time to each program um so that it can work function and uh yeah it'll give like bits to whatever is the most important um and then multiprocessing uh and multi-threading. Multiprocessing is like if you have like if you have like two people working um like these are desks and they're working on one one task completely separate and then this other person's working on another task that's completely separate. Um you know they're they're doing their own thing. Then multi-threading would be like if you have like um one thing that they're working on, just that one thing has like multiple uh like things running in it. So if it's like Spotify, you'd have like the search up here and you'd have like all your songs over here. Then uh here would be like the player for it. So be playing your music. So it's like um multiple uh like tasks being handled within one program. Yeah.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"25:25"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"25:55"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"26:25"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"26:55"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"25:25"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"25:55"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"26:25"}}
@@ -180,6 +263,11 @@
 > How might an image be represented numerically? Um let's see. So here was the image be broken down into um pixels be three four um and then each one of these. Okay, I messed up on that but it'd be messed up on that too. It's my mouse is like super sensitive but uh RGB in each one of these. So, how we did the colors, um, you would just do that same process for each one of these. Uh, so you'd have like the three whatever the three numbers were. Um, yeah, you would do that for each one of these boxes. Then you would combine them. Um, so it' end up being like a a pretty long number. Um, yeah. So it' be three, three, three, and then you would just combine all those. Um, but to get them um in the right order whenever you like decode them and everything, you would do uh the width and the height right here before each one of them. And then um if you needed to you'd add padding. So if it went beyond just one like single digits up to two or three um you would add the circles or not circles the zeros the padding for that so that you u would be able to like uh easily you know separate them.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"27:14"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"27:44"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"28:14"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"28:44"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"27:14"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"27:44"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"28:14"}}
@@ -189,6 +277,10 @@
 > discuss the relative strengths, weaknesses, and okay. Uh I I was like kind of panicking. This is one of the ones that I didn't get an understanding of um before I started this cuz it was already 11 and I was like, "Okay, I have to start this." But uh I think this is actually one of the only ones that I really just cannot really explain. Um I just I know you broke them down. Um, and like like this uh because I was watching a little bit of the video, but I just didn't have time to finish it. Um, and I think this one was like a like it spins around and it um has perfect timing. I just I like I I I really I can't do this one. It's um I don't know how to do this one. Like I think this one was like with a laser like how you do with a CD. Um, it kind of sucks cuz I really wish I was able to uh figure this one out.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"29:04"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"29:34"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"30:04"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"29:04"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"29:34"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"30:04"}}
@@ -197,6 +289,10 @@
 > And then uh list five common HTML tags. Um, let's open Paint Back up. So, one of them is P for paragraph. And then uh A for for links. Then H1 would be for headings. Um and then img for images. And then ul and li that'd be for like um ordered lists. So like cannot type it all right now but um like a bullet point you know. So it's just do like this or yeah like that. Um yeah,
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"30:09"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"30:39"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"31:09"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"30:09"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"30:39"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"31:09"}}
@@ -205,6 +301,10 @@
 > explain the difference between logical and physical storage models for a file. Um I think I'm pretty sure I got this one with the right one in mind. Uh so the logical is like what um what you see, you know? So, it's like a crisp uh version. And then um the physical I'm hoping I'm not getting this mixed up with another question. Uh the the physical would be um that broken into parts. So, the clean version that you see is all split up for the computer. what the computer sees, but you see like the clean version, even though this isn't clean, like the it's pretty sloppy, but uh it's like what you know, and I'm I'm I'm like I'm pretty sure I got the right question in mind, but I don't know. Like I know there's three of them that I I got mixed up a couple times, but I think this was it. Yeah.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"31:18"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"31:48"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"32:18"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"31:18"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"31:48"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"32:18"}}
@@ -213,6 +313,9 @@
 > explain the role of JavaScript in a web page. Um, so it's like what makes the web page like the interaction of it. So if you have like um something cool on it on the web page that you want to happen uh like when you click on something like maybe if you click on this link or something and then just a bunch of confetti or something would pop out. Um it'd be like the interactions of it. So it makes makes the web page like um do cool stuff.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"32:29"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"32:59"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"32:29"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"32:59"}}
 28. [33:00] What is an IP address and why is it important for an internet connection?
@@ -220,12 +323,17 @@
 > Explain what an IP address is and why it is important for the internet communication. Um it's how computers can find each other. Uh it's like the address. So it's like those four numbers. Um and each one of them has one and it allows them to find each other. And that's important to be able to find each other and everything like uh you know communicate
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"33:00"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"33:00"}}
 29. [33:29] Explain how Wikipedia articles are written and edited.
 
 > explain how Wikipedia articles are written and edited. So if this is the article I'm like getting real close to that number like that that 12:00 uh it just sucks. I'm like, I really thought I had enough time. But, um, this is the content. Uh, and multiple people can edit it. And then there's somebody up here that'll be moderating it. Um, so if they want to add to it, they can with their own little bits of information. And then, uh, they'll check, make sure it's not like spam or anything, you know. Um, it's like a community type
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"33:29"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"33:59"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"33:29"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"33:59"}}
 30. [34:06] Explain what device drivers are and why they're necessary.
@@ -233,6 +341,9 @@
 > thing. So, yeah. explain what device drivers are, why they're necessary. So if you have like a printer, um this is a printer and then uh your computer. The driver would be like the middleman. So um it takes what you want to do with the computer and gives the instructions like uh to the computer or the printer take the what you want to do from the printer uh and gives those instructions to the computer and um feel like I keep saying the same thing but uh yeah it's like the middleman that that tells the computer what to do with um the printer and everything you
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"34:06"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"34:36"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"34:06"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"34:36"}}
 31. [34:52] Explain what encryption is.
@@ -240,6 +351,9 @@
 > explain what encryption is. Uh, so I'll just draw a lock, then an unlock. Uh, that looks like a house, but it's like your data is encrypted. It's in that little lock. And then if it's not encrypted, it would just be unlocked. Um, so it'd be easy to just take that away. Someone could access that if they really wanted to. But if it's encrypted, it's like locked and uh secured.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"34:52"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"35:22"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"34:52"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"35:22"}}
 32. [35:25] Randomly generate a two-digit decimal number and convert it to binary.
@@ -247,6 +361,12 @@
 > Randomly generate a two digit decimal number and convert it to binary. All right. Let's see. Um, I'll do a different number. 43. Um, see, go back here. So, this is another one. I'm like, I I don't think I'm going to have this done before midnight. I'm like, it's so frustrating. Uh, so yeah. Yeah, we'll take 43. Um, there's no way I'm going to have it. It's already 11:45, but it's annoying. It's um So, you do I think it was like started with like a zero and then a two. Um four, eight, 16, and 32. I think I think that's how it was done. I'm like I might have it wrong. Um might have these a little bit mixed up, but uh other than you see how many numbers or how many times 32 goes into 43. So it' be like what? 43. 32 then. So it' be 11. Then you would see if 11 can go into 16. Um wait. Yeah. Yeah. You take away 32 from 43, so it can't go. So that'd be a one. Uh can't go. You can't take 16 out of 11. So it' be a zero. And then um the eight be. So you'd be one right there. And then this one would be zero. Then this one um minus two would be one. So it' be one right there. Then uh I think this would just be a zero. Yeah. So it'd be one 0 one 0 one zero be the answer.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"35:25"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"35:55"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"36:25"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"36:55"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"37:25"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"35:25"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"35:55"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"36:25"}}
@@ -257,6 +377,9 @@
 > Explain the input process output like I was sitting there looking at that time. I'm like uh I got fast internet but it's it's not fast enough for that. Uh so input um it's like yeah so say this is the input then this is the process then the output so it works on a bunch of different things um like taking in information like when I was reading about this stuff you know I was that was the input taking in that information then processing it my brain processing it and then the output is like what I'm doing now you know doing this test and uh all that information is you know being put out right now so it's input output or input process then output
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"37:47"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"38:17"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"37:47"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"38:17"}}
 34. [38:43] Give three examples of cloud services you might use in daily life and explain what each one does.
@@ -264,6 +387,11 @@
 > give three examples of cloud services that you might use in daily life and explain what each one does um I'll just do it this because it's easy uh Gmail you like all my emails and everything are stored there. They don't have to be stored on my computer. Um so it doesn't use a bunch of space. Uh let me see. Cloud services. Yeah. And then um iCloud be for like my photos. Uh I can store all my photos on there. Um, so I don't have to have, you know, I have like 40,000 photos, so I have to store them in the iCloud. It's pretty insane. And then the other one, um, cloud services, I don't know why I'm struggling with this last one. I can't think of a third one. like I uh Arcloud, Gmail, um I don't know and like stream like streaming streaming services. Uh I think that might be one. It's so like Netflix and stuff. Uh so you can have um all your your movies and everything stored there and you don't actually have to like store them on your computer. It' be just get on there. Um, all that stuff is on Netflix itself. Um, and then you can go there and watch a bunch of movies, not take a ridiculous amount of space on your computer.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"38:43"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"39:13"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"39:43"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"40:13"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"38:43"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"39:13"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"39:43"}}
@@ -273,6 +401,9 @@
 > Explain what input output devices are, why they're important to computing. So like if you have like a keyboard um keyboard that's the input device and then your computer you know processes the info in here and then um it'll show you the output would be like what you see like um on your computer screen. So if you like typed hey my name is Keshan you would see on your your monitor hey my name is Keshan. I mean that's important because you need to like uh be able to communicate with the computer and be able to see what you know a response like an output for that.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"40:30"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"41:00"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"40:30"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"41:00"}}
 36. [41:16] What is a pull request and how does it facilitate collaboration?
@@ -280,6 +411,9 @@
 > What is a poll request and how does it facilitate collaboration? Um this one pretty sure was like like get uh GitHub. It's where you can get um someone else's code. uh you know bring it onto your computer and then edit that and then you'd want to upload it back over here. Then you'd basically ask permission from the person who created it if you can change that, you know, change their code um add what you what you coded um onto their version. So then they would approve it and say yes. And uh yeah, I mean then you can collaborate. You'd be like, "Okay, well not just one person's working on it. You'd have a bunch of people maybe over here and over here that are doing the same thing.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"41:16"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"41:46"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"41:16"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"41:46"}}
 37. [42:13] Explain the six degrees of separation.
@@ -287,6 +421,9 @@
 > um explain the six degrees of separation. Like it it's annoying because it's going to be just a couple minutes past the deadline. And it's so it's so annoying. It's uh 6° is so like say you know this person um that person knows this person. So see six so you have a message to send you send it to that person. and that person would send it to that person and then they'd send it over here and it would just go down the line.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"42:13"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"42:43"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"42:13"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"42:43"}}
 38. [42:44] Explain what spoofing is.
@@ -294,6 +431,9 @@
 > Explain what spoofing is. Um, so if you like say you wanted to spoof your IP address, that's a really really long line, but uh you you want to say that instead of like your IP address saying you live in Cali um where you actually live, you would spoof it. Then it would say when someone would look it up that you actually are in like Oregon. Yeah. So you're just hiding your like the true identity I guess like um of your location or your number or something stuff like that.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"42:44"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"43:14"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"42:44"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"43:14"}}
 39. [43:25] Explain how a web application differs from a traditional desktop application.
@@ -301,6 +441,9 @@
 > Explain how a web application differs from a traditional desktop application. web application would be like like Facebook. Um so you actually have to go onto a web browser to access that. Uh it's not downloaded to your computer but uh desktop application would be like let's see you got it downloaded um like like paint I'm using I don't have to go online to use it. I don't have to go on the internet to use it. Um use the internet to use it. uh it's just on my computer and um so I'm able to draw and everything uh without having to like go to a browser and search it up and use it, you know,
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"43:25"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"43:55"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"43:25"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"43:55"}}
 40. [44:12] What happens behind the scenes when you access a URL in your browser?
@@ -308,6 +451,10 @@
 > explain what happens behind the scenes when you access the URL in your browser. Uh see, so you type in um I think this is another one that I wasn't too confident on yet. uh which I feel like I should be. Yeah. So you type in your your URL um where you want to access and then it goes uh to the server the request. Um I think this would be the database would be in involved with that. Um, but it would like trying to think. Um, yeah. Yeah, I would find the the address that you're looking for. Like I think it's just goes through uh the servers and then finds what you're looking for. Then it sends it back to you um with the actual website that she requested. you know,
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"44:12"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"44:42"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"45:12"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"44:12"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"44:42"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"45:12"}}
@@ -316,6 +463,10 @@
 > explain what malware is. Um, so sorry, just bad stuff like bad stuff that would be on your computer. Um, like if somebody created something like a virus, uh, then you somehow get it to your computer could like damage your computer. like oh and break things um or just like kind of install it. Uh if you clicked on the wrong link or something and it installed to your computer um it would be stored over here. I'm so close but so far I'm like it's 55 right now. So it's uh I'm on 41. But uh yeah I'm just going to relax because I'm not going to make it in time. But uh yeah. Yeah. So they would install it. You would install it somehow to your computer. Like you download something that' be like acting like it's a game or something. So then you download a virus and uh it'll harm your computer. Like it'll it can steal your information or like break things. Um and yeah,
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"45:16"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"45:46"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"46:16"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"45:16"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"45:46"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"46:16"}}
@@ -324,6 +475,10 @@
 > explain what a root kit is. I'm like trying to remember this one. I remember I had it before, but I almost like I completely forgot what it is. Um yeah, I don't uh Yeah, I don't remember. I don't remember this one at all. I'm lucky it was in that section that I didn't get to tonight. So, it's um I feel like it's easy. It's something I should know. I'm like, it's it's it's easy, but it's I just my mind's just blank. I just have no I I don't remember it at all. Um yeah, I don't even know where it would be on here either. Um, yeah, that one sounds just blank on that one. I don't know.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"46:32"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"47:02"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"47:32"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"46:32"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"47:02"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"47:32"}}
@@ -332,6 +487,10 @@
 > Explain the difference between RAM and ROM. Uh, RAM is like ROM is uh or we'll start start with the RAM. Yeah. So, the RAM is um the memory and everything that it'll it'll go blank um as soon as you shut off your computer. All of that stuff is like lost. Then, um ROM is like the little bit of stuff that's that never goes away, you know, like it's needed to uh to turn your computer on. um like then yeah so it's a little bit of information that's stored um that never goes away. It's always there and then the RAM is uh cleared out as soon as you shut your computer off um whatever you're working on. But uh why do most computers have both? I mean you need you need it to turn on your computer the ROM. Uh so that's pretty important. and RAM. It like makes things fast on your computer like uh so yeah. Yeah, it's like your computer you're able to run things pretty quickly and yeah
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"47:42"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"48:12"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"48:42"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"47:42"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"48:12"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"48:42"}}
@@ -340,6 +499,11 @@
 > explain the difference between an absolute file path and a relative file path. Um yeah. So absolute is like you give someone like an address be like one two three McDonald's that's McDonald's. Uh so you give them this address and no matter where they are they can find it. Um it doesn't matter. And then for relative um I'm just like if I if I just had like 15 more minutes I'd be fine. Like 10 more minutes I'd be good. But it's 11:59 right now and it's so annoying. It's uh relative is um so it matters where you're starting from or where the person's starting from. So, uh, if you give them directions like, um, be like go down the street, take a left, you know, walk to the stoplight or then take a right, you know, like it it giving them the directions and everything, but it's uh based on where they start from. So, it's important where they start other than uh the absolute. It's not important where they start. Um you can start anywhere in the world and and you'll still get like to the same address. Um yeah and relative you you need to know the starting point
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"49:03"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"49:33"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"50:03"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"50:33"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"49:03"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"49:33"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"50:03"}}
@@ -349,6 +513,11 @@
 > explain the role of a web browser with respect to caching history and privacy. Um so see you got your browser. Um so the caching is like bits of information that's stored so that the next time you visit a web page it can load faster. Um doesn't it just takes off a little bit of time so it's a little bit faster to load. uh the history um every time you visit a website if you're not like in uh incognito it stores uh your your history. So, you know, like it if you have a a website you visit, you know, if I go to Facebook um or YouTube to watch a video, it's going to store that um every every web page I've visited, it's going to be stored on my history um until I go through and like clear the history, you know, if I wanted to do that. But then the privacy, you can go on incognito mode. Uh so everything that you visit um is basically not going to be stored on your history. It's all going to be hidden. Uh so it's like a a blank slate. Uh it's not really even totally private, but it's uh like it's not going to be stored over here. And I don't think the cash is stored either. Yeah, probably not. Um, so as soon as you exit out of this, it's gone and it's not going to be showing up anywhere. So it's like, you know, you got that privacy while you're browsing.
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"50:40"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"51:10"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"51:40"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"52:10"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"50:40"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"51:10"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"51:40"}}
@@ -359,6 +528,11 @@
 
 
 
+
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"52:34"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"53:04"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"53:34"}}
+{{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"54:04"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"52:34"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"53:04"}}
 {{ShowFrame:https://youtu.be/fXR6lRdlMCc time:"53:34"}}

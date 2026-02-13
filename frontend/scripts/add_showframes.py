@@ -92,7 +92,7 @@ def add_showframes(input_file, interval=30):
     print(f"Found {len(questions)} questions")
     
     # Pattern to match questions with their full transcript excerpts
-    full_pattern = r'(\d+\.\s+\[(\d+:\d+(?::\d+)?)\]\s+[^\n]+\n\n>[^\n]+(?:\n(?!(?:\{\{|#+|\d+\.))[^\n]*)*)'
+    full_pattern = r'(\d+\.\s+\[(\d+:\d+(?::\d+)?)\]\s+[^\n]+\n+>[^\n]+(?:\n(?!(?:\{\{|#+|\d+\.))[^\n]*)*)'
     
     # Build a map of question numbers to their content blocks
     question_blocks = {}

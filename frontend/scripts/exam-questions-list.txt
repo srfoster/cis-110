@@ -1,0 +1,78 @@
+00-zero-computers/questions/binary/convert-binary-to-decimal.yml: Randomly generate a 4-bit binary number, and convert it to decimal
+00-zero-computers/questions/binary/convert-decimal-to-binary.yml: Randomly generate a 2-digit decimal number, and convert it to binary
+00-zero-computers/questions/binary/explain-what-is-binary.yml: What is binary and why do computers use it?
+00-zero-computers/questions/electricity/explain-electricity-binary-relationship.yml: How does electricity enable computers to represent binary digits?
+00-zero-computers/questions/electricity/explain-magnetic-storage.yml: How do magnetic fields store binary information?
+00-zero-computers/questions/electricity/explain-transistors.yml: What is a transistor, and how does it work in computers?
+00-zero-computers/questions/data_information/explain-coordinate-encoding.yml: How might a pair of numbers, like a 2D-coordinate, be encoded as a single number...
+00-zero-computers/questions/data_information/explain-color-encoding.yml: How might colors be encoded numerically?
+00-zero-computers/questions/data_information/explain-image-encoding.yml: How might an image be represented numerically?
+00-zero-computers/questions/data_information/explain-video-encoding.yml: How might a video be represented numerically?
+00-zero-computers/questions/data_information/explain-text-encoding-binary.yml: How might letters and words be encoded numerically?
+01-one-computer/questions/hardware/discuss-storage-technology-strengths.yml: Discuss the relative strengths and weaknesses of magnetic, optical, and solid-st...
+01-one-computer/questions/hardware/explain-ipo-model.yml: Explain the Input/Process/Output (IPO) model and its significance.
+01-one-computer/questions/hardware/explain-ram-vs-rom.yml: Explain the difference between RAM and ROM and why most computers have both
+01-one-computer/questions/hardware/explain-io-devices.yml: Explain what I/O devices are and why they are important to computing
+01-one-computer/questions/hardware/explain-how-processor-works.yml: Explain how a processor works
+01-one-computer/questions/hardware/explain-cpu-vs-gpu.yml: Explain how a CPU differs from a GPU
+01-one-computer/questions/os/explain-role-of-operating-system.yml: Explain the role of the operating system
+01-one-computer/questions/os/explain-multitasking-vs-multiprocessing.yml: Explain what multitasking is, and explain the difference between multiprocessing...
+01-one-computer/questions/os/explain-device-drivers.yml: Explain what device drivers are, why they're necessary
+01-one-computer/questions/files/discuss-file-naming-conventions.yml: Discuss file naming conventions and the role of the file extension
+01-one-computer/questions/files/explain-absolute-vs-relative-paths.yml: Explain the difference between an absolute file path and a relative file path
+01-one-computer/questions/files/explain-logical-vs-physical-storage.yml: Explain the difference between the logical and physical storage models for a fil...
+01-one-computer/questions/files/design-efficient-file-organization.yml: Design an efficient file organization system for a specific use case (academic, ...
+01-one-computer/questions/programs/describe-stored-program-concept.yml: Describe the stored program concept and why it distinguishes computers from othe...
+01-one-computer/questions/programs/trace-machine-code-execution.yml: Trace the execution of this assembly code program and explain what happens: 
+
+0)...
+01-one-computer/questions/programs/compare-compiler-interpreter.yml: Explain the difference between a compiler and an interpreter
+01-one-computer/questions/programs/explain-assembly-language.yml: Explain what assembly language is and how it relates to machine code
+01-one-computer/questions/programs/explain-programming-process.yml: List some of the basic steps in the programming process from writing code to run...
+02-a-few-computers/questions/browsers/explain-web-browser-purpose.yml: Explain what a web browser is and what it is for
+02-a-few-computers/questions/browsers/explain-browser-caching-history-privacy.yml: Explain the role of a Web browser with respect to caching, history, and privacy
+02-a-few-computers/questions/browsers/explain-http-https.yml: Explain what HTTP is and how HTTPS differs from it.
+02-a-few-computers/questions/browsers/explain-web-cookies.yml: Explain what a Web cookie is
+02-a-few-computers/questions/browsers/explain-html.yml: Explain what HTML is
+02-a-few-computers/questions/browsers/list-common-html-tags.yml: List 5 common HTML tags and explain what they do
+02-a-few-computers/questions/browsers/explain-css.yml: Explain what CSS is
+02-a-few-computers/questions/browsers/explain-javascript-role.yml: Explain the role of JavaScript in a Web page
+02-a-few-computers/questions/networks/explain-internet-vs-web.yml: Explain how the internet differs from the World Wide Web
+02-a-few-computers/questions/networks/explain-ip-address-importance.yml: Explain what an IP address is and why is it important for internet communication
+02-a-few-computers/questions/networks/explain-url-behind-scenes.yml: Explain what happens 'behind the scenes' when you access a URL in your browser
+02-a-few-computers/questions/web_apps/explain-browser-webserver-database-interaction.yml: Explain how a browser, webserver, and database interact
+02-a-few-computers/questions/web_apps/explain-web-vs-desktop-apps.yml: Explain how a web application differs from a traditional desktop application
+02-a-few-computers/questions/web_apps/identify-useful-web-applications.yml: Name three web applications you have used and explain what makes them useful.
+02-a-few-computers/questions/web_apps/explain-what-is-database.yml: Explain what a database is
+02-a-few-computers/questions/web_apps/define-database-terminology.yml: Define basic database terminology: records, rows, columns, and tables
+02-a-few-computers/questions/the_cloud/explain-cloud-computing-benefits.yml: Explain the concept of cloud computing and how it benefits users and developers ...
+02-a-few-computers/questions/the_cloud/identify-cloud-service-examples.yml: Give three examples of cloud services that you might use in daily life and expla...
+03-a-lot-of-computers/questions/connected_society/list-copyright-holder-rights.yml: Explain what it means to hold a copyright.  List some of the rights that are exc...
+03-a-lot-of-computers/questions/connected_society/list-fair-use-factors.yml: What's the point of the fair use doctrine?  List the factors that characterize f...
+03-a-lot-of-computers/questions/connected_society/discuss-ai-generated-content-impact.yml: Discuss the impact of AI-generated text, images, and videos on truth and trust i...
+03-a-lot-of-computers/questions/connected_society/discuss-ai-algorithm-information-shaping.yml: Discuss how AI algorithms shape what information people see online
+03-a-lot-of-computers/questions/connected_society/explain-six-degrees-separation.yml: Explain the 6 degrees of separation
+03-a-lot-of-computers/questions/connected_society/explain-wikipedia-editing.yml: Explain how Wikipedia articles are written and edited
+03-a-lot-of-computers/questions/connected_society/explain-pull-request.yml: What is a pull request and how does it facilitate collaboration?
+03-a-lot-of-computers/questions/cybersecurity/explain-encryption.yml: Explain what encryption is
+03-a-lot-of-computers/questions/cybersecurity/explain-two-factor-authentication.yml: Explain what two-factor authentication is
+03-a-lot-of-computers/questions/cybersecurity/discuss-strong-password-issues.yml: Discuss issues with creating a strong password
+03-a-lot-of-computers/questions/cybersecurity/explain-firewall-role.yml: Explain the role of a firewall
+03-a-lot-of-computers/questions/cybersecurity/explain-malware.yml: Explain what malware is
+03-a-lot-of-computers/questions/cybersecurity/explain-rootkit.yml: Explain what a rootkit is
+03-a-lot-of-computers/questions/cybersecurity/identify-malware-exploits.yml: Identify common malware exploits
+03-a-lot-of-computers/questions/cybersecurity/describe-online-intrusion.yml: Describe how an online intrusion might take place.  You may do so by describing ...
+03-a-lot-of-computers/questions/cybersecurity/explain-zero-day-exploit.yml: Explain what a zero-day exploit is
+03-a-lot-of-computers/questions/cybersecurity/explain-spoofing.yml: Explain what spoofing is
+03-a-lot-of-computers/questions/cybersecurity/explain-social-engineering.yml: Explain what social engineering is and how it is used in cyber attacks
+04-proposed-new-exam-questions/questions/add-two-binary-numbers.yml: Randomly generate two 2-digit decimal numbers, convert them to binary, add them ...
+04-proposed-new-exam-questions/questions/explain-markdown.yml: Explain what Markdown Language is and what it is useful for
+04-proposed-new-exam-questions/questions/describe-password-managers.yml: Discuss the role of password managers in cybersecurity
+04-proposed-new-exam-questions/questions/discuss-pros-cons-password-manager.yml: Discuss the pros and cons of using a password manager
+04-proposed-new-exam-questions/questions/explain-malware-types.yml: What are the main types of malware that you should look out for?
+04-proposed-new-exam-questions/questions/explain-what-single-sign-on-is.yml: Explain what single sign on is
+04-proposed-new-exam-questions/questions/identify-four-reasons-why-a-bad-actor-would-want-to-hack-a-computer-or-system.yml: Identify four reasons why a bad actor would want to hack a computer or system
+04-proposed-new-exam-questions/questions/explain-role-of-command-line-interface.yml: Explain the role of the command line interface
+04-proposed-new-exam-questions/questions/explain-vpn.yml: Explain what a VPN is
+
+Total questions found: 74
