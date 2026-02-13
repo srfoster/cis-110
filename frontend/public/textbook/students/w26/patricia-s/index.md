@@ -6,29 +6,24 @@
 
 1. [0:54] How might letters and words be encoded numerically?
 
-> How might letters and words be encoded numerically? So letters and words um we would encode them numerically.
-> Um I guess first by just assigning a code something that would make sense and it um so we would say a= 1.
+> How might letters and **words** be encoded numerically? So letters and **words** um we would encode them numerically.
+> Um I guess first by just assigning a code something that would make sense and it um so we would say a= **1**.
 > Let me just make sure you can see what I'm doing here.
-> A = 1, B = 2, and then **C** would equal three.
-> Um, and then D, E, four, five.
-> Essentially we could take these spell a word um like bad would be two one four.
-> Now if we went down the whole alphabet there'd be two digits and in that case we would just zero pad these.
-> That way we could you know um put full put together words um with the whole alphabet.
+> A = **1**, B = **2**, and then **C** would equal **three**.
+> Um, and then D, E, **four**, **five**.
+> Essentially we could take these spell a word um like bad would be **two** **one** **four**.
+> Now if we went down the whole alphabet there'd be **two** digits and in that case we would just **zero** pad these.
+> That way we could you know um put full put together **words** um with the whole alphabet.
 > How does **electricity** enable computers to
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"0:54"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:24"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:54"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"0:54"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:24"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:54"}}
 2. [2:10] How does electricity enable computers to represent binary digits?
 
-> represent **binary** digits? **Electricity** um through through switches or transistors.
+> represent **binary** digits? **Electricity** um through through **switches** or **transistors**.
 > We can control the um the **voltage** that comes through a wire.
-> Um I can't remember the symbol for transistors.
+> Um I can't remember the symbol for **transistors**.
 > I think it was a little rhombus.
 > Essentially what we could do is we could open and close this um this switch and manipulate the numbers that it that we are getting um from **ones** and **zeros**.
 > So **electricity** can be ran through the wire.
@@ -38,15 +33,12 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"2:10"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"2:40"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"2:10"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"2:40"}}
 3. [3:01] What is a pull request and how does it facilitate collaboration?
 
 > facilitate **collaboration**? Um, a **pull request** is something used um when collaborating on coding.
 > So you would I guess a diagram for that.
 > Um, I mean, essentially what you would do is if you you you were collaborating with somebody on a project and um you saw that there was something you wanted to change, you would create a copy of that code, edit your copy, and then you would submit it with a **pull request** um for them to review it and see if it, you know, the edits edits could be made or if you could **collaborate** in that sense.
-> um for a diagram for that I would say there's a person on a computer and they are let's see **internet**'s over here our computer's connected to another computer software and we See, they've got a code in here that we would essentially take a copy of this on our desktop, their **HTML**.
+> um for a diagram for that I would say there's a person on a **computer** and they are let's see **internet**'s over here our **computer**'s connected to another **computer** **software** and we See, they've got a code in here that we would essentially take a copy of this on our desktop, their **HTML**.
 > Um, and then we would rewrite it or write or edit it edits and then we could submit it back to their **database** and they could go through it.
 > Hey.
 > Okay, next question.
@@ -54,30 +46,20 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"3:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"3:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"4:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"4:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"3:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"3:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"4:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"4:31"}}
 4. [4:44] Explain how a web application differs from a traditional desktop application.
 
-> explain how a web application differs from a traditional desktop application.
-> Um so like a web application is what it is.
+> explain how a **web application** differs from a traditional **desktop application**.
+> Um so like a **web application** is what it is.
 > It's it's on the **internet**.
-> Um you on your computer you're accessing the **internet** their software and you're working online editing your documents.
-> The desktop application is on your computer itself.
+> Um you on your **computer** you're accessing the **internet** their **software** and you're working online editing your **documents**.
+> The **desktop application** is on your **computer** itself.
 > So it's from your your **CPU** is working.
 > You are I guess your **CPU** is working anyway you look at it.
-> But you're editing it on your computer rather than through the **internet**.
+> But you're editing it on your **computer** rather than through the **internet**.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"4:44"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"5:14"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"4:44"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"5:14"}}
 5. [5:31] Discuss file naming conventions and the role of file extensions.
 
 > Discuss **file naming conventions** and the role of file extensions.
@@ -86,21 +68,21 @@
 > So, first I guess there's the name here.
 > So, name and then your **extension** here.
 > The **extension** is essentially what kind of file it is.
-> So it could be like a text file.
+> So it could be like a **text** file.
 > Um, PDF, uh, word file but it's also determines of what **program** can run it.
 > Um, so, um, like doc would be a word file and then you would need word to open this document.
 > Um, PDF, there's there's several different PDF viewers out there.
 > My work uses Adobe.
 > I think you mentioned Adobe in your in your practice videos.
-> And then the text file.
-> Um there's text editors out there that you can read those documents with.
+> And then the **text** file.
+> Um there's **text** editors out there that you can read those **documents** with.
 > Now the name is something that it could be anything you know it's something that you do.
 > You are um you are in control of the name.
-> Um at work we name things um so we can find them easier on our computer.
+> Um at work we name things um so we can find them easier on our **computer**.
 > like um if I'm uploading a PDF invoice to send off to um a company, I would put the invoice number here.
 > And it could just be anything that um makes sense, I guess.
 > Um if it's your project, it could be like my midterm exam.
-> Um uh if it was like for a paper, it could be, you know, a doc or a dox um doox.
+> Um uh if it was like for a **paper**, it could be, you know, a doc or a dox um doox.
 > Um but that is the rule.
 > It's what kind of what kind of file is your **extension** and then what can open it, what **program** can run it and then your name is an identifier for it.
 > Define basic **database** terminology
@@ -108,23 +90,14 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"5:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"6:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"6:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"7:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"7:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"5:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"6:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"6:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"7:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"7:31"}}
 6. [8:00] Define basic database terminology: records, rows, columns and tables.
 
 > records, rows, columns and tables.
 > Um, so essentially it's like a spreadsheet, right? And we've got records and rows, which I believe are are the same thing.
 > Columns would be up and down.
 > Rows would be right to right to left.
-> Oh, am I butchering this one? Um, I know records and rows are the same thing **database** terminology.
-> Um, like your address would be here for your CP or your your your **RAM** or your **ROM**.
+> Oh, am I butchering this **one**? Um, I know records and rows are the same thing **database** terminology.
+> Um, like your **address** would be here for your CP or your your your **RAM** or your **ROM**.
 > Um, and then you'd have your value here.
 > Um, it's basically it's it's showing you where the location is, records and rows, um, columns and tables.
 > All right, next question.
@@ -132,45 +105,31 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"8:00"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"8:30"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"9:00"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"8:00"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"8:30"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"9:00"}}
 7. [9:20] Explain the difference between RAM and ROM and why most computers have both.
 
 > Explain the difference between **RAM** and **ROM** and why most computers have both.
-> Um **RAM** is something that's on your computer.
-> It's your computer memory.
-> And when the power is shut off, your memory is gone.
-> **ROM** is **stored** in the computer.
-> And it's like I want to say hard written into the memory or um I guess the difference would be **in between** is that this is very **volatile** if I can spell **volatile**.
+> Um **RAM** is something that's on your **computer**.
+> It's your **computer** **memory**.
+> And when the **power** is shut off, your **memory** is gone.
+> **ROM** is **stored** in the **computer**.
+> And it's like I want to say hard written into the **memory** or um I guess the difference would be **in between** is that this is very **volatile** if I can spell **volatile**.
 > That's not spelled correctly.
 > Um and then this is not **volatile**.
-> Um power gets shut off your memory is gone.
+> Um **power** gets shut off your **memory** is gone.
 > whatever you're working on.
-> With **RAM**, goes away when the power's gone.
+> With **RAM**, goes away when the **power**'s gone.
 > **ROM** is different.
-> You can pull from **ROM**, it's **stored** memory that you can use.
+> You can pull from **ROM**, it's **stored** **memory** that you can use.
 > Um, and why most computers have both? Well, because to store everything that would be on **ROM**, well, you need you need you need both.
-> Um, **RAM** takes up, I believe, less memory in your computer because it's it's not hardw written and it's and um it's reset rand, you know, and **ROM**.
+> Um, **RAM** takes up, I believe, less **memory** in your **computer** because it's it's not hardw written and it's and um it's reset rand, you know, and **ROM**.
 > Um, yikes.
 > Why why most computers you have both? It helps us **process** things better.
-> We can pull things out of **ROM**, access it on our computer, and when you reset the computer, it's not storing memory.
-> You're not having to um gum up your computer, I guess, would be my answer.
+> We can pull things out of **ROM**, access it on our **computer**, and when you reset the **computer**, it's not storing **memory**.
+> You're not having to um gum up your **computer**, I guess, would be my answer.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"9:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"9:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"10:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"10:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"11:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"9:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"9:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"10:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"10:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"11:20"}}
 8. [11:31] Explain what device drivers are and why they're necessary.
 
 > Explain what **device drivers** are and why they're necessary.
@@ -178,23 +137,18 @@
 > So, we have our **operating system** We have our **hardware** and then we've got like our printer and then we've got so we can have other **ones** too, right? We've got all these different devices.
 > Um **device drivers** is essentially the the **program** that your **operating system** does not have in order to run your device.
 > So, the **operating system** is already really complex.
-> There's a lot of information in there.
-> Um, some of them do have certain devices added into them, but for the most part, whoever created this printer would create the software it needs to be ran on your **operating system**.
+> There's a lot of **information** in there.
+> Um, some of them do have certain devices added into them, but for the most part, whoever created this printer would create the **software** it needs to be ran on your **operating system**.
 > They're necessary in order for our devices to run.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"11:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"12:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"12:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"11:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"12:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"12:31"}}
 9. [12:44] What is binary and why do computers use it?
 
-> What is **binary** and why do computers use it? **Binary** **binary** is information coded in a **binary**.
-> So **ones** and **zeros** which then can be transferred in **electricity** or **magnets** to be ran in a computer.
-> Um it's what we it's how we **transform** information into signals that computers can read.
+> What is **binary** and why do computers use it? **Binary** **binary** is **information** coded in a **binary**.
+> So **ones** and **zeros** which then can be transferred in **electricity** or **magnets** to be ran in a **computer**.
+> Um it's what we it's how we **transform** **information** into signals that computers can read.
 > Computers read read it because it's easy.
 > It's um it's just **ones** and **zeros**.
 > It's not infinite numbers.
@@ -204,63 +158,46 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"12:44"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"13:14"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"12:44"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"13:14"}}
 10. [13:43] Explain how Wikipedia articles are written and edited.
 
 > Explain how Wikipedia articles are written and edited.
-> Wikipedia articles um are collaborative documents online.
-> Um and essentially anybody can go in and write and edit these documents.
-> Now there are things in place for um so for for **privacy** or like for um and it's not **privacy** but for um prevention of like vandalism or things like that.
+> Wikipedia articles um are collaborative **documents** online.
+> Um and essentially anybody can go in and write and edit these **documents**.
+> Now there are things in place for um so for for **privacy** or like for um and it's not **privacy** but for um prevention of like **vandalism** or things like that.
 > Um Wikipedia has policies in place to ensure that doesn't happen.
 > But you can you can read a Wikipedia article.
 > You can edit the PDF, you know, you can um request an edit and edit it and then peers I guess would you say peers? Um essentially they would go through it and see if the edits were accepted.
-> Um, so if you are on your computer and you're connected to the **internet**, connected to Wikipedia, um, you could edit and **collaborate** with others who have written this document to um, to change it.
+> Um, so if you are on your **computer** and you're connected to the **internet**, connected to Wikipedia, um, you could edit and **collaborate** with others who have written this document to um, to change it.
 > essentially um it's a platform that we use to to **collaborate**.
 > How might colors be encoded numerically?
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"13:43"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"14:13"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"14:43"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"15:13"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"13:43"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"14:13"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"14:43"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"15:13"}}
 11. [15:19] How might colors be encoded numerically?
 
 > Go to another page cuz I'm writing kind of big.
 > Okay, colors.
-> They would go through the red, blue, green, right? The three the the main primary colors used to make other colors.
+> They would go through the red, blue, green, right? The **three** the the main primary colors used to make other colors.
 > And each color is um assigned a number.
-> I want to say it's up to 255.
-> So anywhere between 1 and 255.
+> I want to say it's up to **255**.
+> So anywhere between **1** and **255**.
 > So they would be encoded numerically by assign by by taking the assigned color code and writing them out.
-> So, um I don't know the colors off the top of my head, but if they were, let's say a color code was 003 and then um 255 and then 725.
-> Um these three colors could make any, you know, a a different color together.
-> Um, between 1 and 255.
-> I guess it wouldn't be 7:25.
-> Be one between 1 and 255.
+> So, um I don't know the colors off the top of my head, but if they were, let's say a color code was 003 and then um **255** and then 725.
+> Um these **three** colors could make any, you know, a a different color together.
+> Um, between **1** and **255**.
+> I guess it wouldn't be **7**:**25**.
+> Be **one** between **1** and **255**.
 > Red, green, blue, red, green, blue, I believe, is how it's actually written.
 > Yikes.
 > I am trying here.
-> Um, essentially you take the number that the that the color is coded with and every color has a code um between 1 and 255 and you could encode them numerically.
+> Um, essentially you take the number that the that the color is coded with and every color has a code um between **1** and **255** and you could encode them numerically.
 > Um, there wouldn't be commas here.
 > It would just be the colors.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"15:19"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"15:49"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"16:19"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"16:49"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"15:19"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"15:49"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"16:19"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"16:49"}}
 12. [17:13] What is HTML?
 
 > Okay.
@@ -268,22 +205,17 @@
 > Um it is the the bones and meat I believe that we described.
 > Um so **HTML** HT TML is the bones and meat of the web pages.
 > Um, I think we said **JavaScript** was um like interactive interactive portions like **buttons** that you push and um **CSS** is like the styling of a web page.
-> Um, they work they all three work together to create a web page.
+> Um, they work they all **three** work together to create a web page.
 > Um but **HTML** is essentially the structure the bones and meat of a web page.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"17:13"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"17:43"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"18:13"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"17:13"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"17:43"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"18:13"}}
 13. [18:16] What is malware?
 
-> **Malware** um **malware** is um an intentionally intentional um destructive software I think is what I understand as **malware** is.
+> **Malware** um **malware** is um an intentionally intentional um destructive **software** I think is what I understand as **malware** is.
 > It's a **program** that's designed for negative outcomes.
-> Um, it can be used to steal information, um, mess up **operating systems**, rewrite things.
+> Um, it can be used to steal **information**, um, mess up **operating systems**, rewrite things.
 > Um, you can get those through like fishing, you know, fishing.
 > Um, I guess a real world example of **malware**.
 > Um, our company was actually affected by it recent recently.
@@ -291,24 +223,17 @@
 > Um in this case it's development project which is really expensive.
 > Um luckily luckily we have policies in place where we don't just pay random companies that contact us.
 > Um we reach out to the company directly through through contact means that we have already in place to prevent this kind of thing happening.
-> Um but we have heard that they've gotten our partners' information and and through that they've been able to steal money.
+> Um but we have heard that they've gotten our partners' **information** and and through that they've been able to steal money.
 > But **malware** has it's a it's intentionally destructive.
-> Um it's essentially a **virus** that goes through your computer either to steal information or disrupt operations.
+> Um it's essentially a **virus** that goes through your **computer** either to steal **information** or disrupt operations.
 > Yeah.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"18:16"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"18:46"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"19:16"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"19:46"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"18:16"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"18:46"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"19:16"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"19:46"}}
 14. [20:08] Discuss the relative strengths and weaknesses of magnetic, optical and solid state storage technology.
 
-> Discuss the relative strengths and weaknesses of **magnetic** **optical** and **solid state** technology or **solid state** storage technology.
+> Discuss the relative strengths and weaknesses of **magnetic** **optical** and **solid state** technology or **solid state** **storage** technology.
 > Okay.
 > So, can you still see what I'm doing? I keep moving this dang thing.
 > Okay.
@@ -325,80 +250,55 @@
 > So, it's not as um rewritable as like say **magnetic** or **solid state**.
 > It does have like a limit to it.
 > Um a positive would be that it's **portable**.
-> um you can essentially store information on it, put it in your backpack and carry it with you.
-> Um use it on a different computer where these two are are um are not **portable**.
+> um you can essentially store **information** on it, put it in your backpack and carry it with you.
+> Um use it on a different **computer** where these **two** are are um are not **portable**.
 > And then **solid state** um it's not mechanical.
 > So it's um it's less uh wear outable than like say the **magnetic** counterpart.
 > Um it is rewritable.
 > So that's a positive.
-> essentially just how we store the information and and um yeah I guess there's options and I'm going to stop there and move on because I think I answered that question.
+> essentially just how we store the **information** and and um yeah I guess there's options and I'm going to stop there and move on because I think I answered that question.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"20:08"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"20:38"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"21:08"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"21:38"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"22:08"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"22:38"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"20:08"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"20:38"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"21:08"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"21:38"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"22:08"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"22:38"}}
 15. [22:48] Explain how a browser, a web server and database interact.
 
 > Explain how a a **browser** a **web server** and **database** interact.
-> Um okay so we've got person who is on a computer and we've got the **internet** which has a computer and a **database** attached to it.
-> Right? And let's say inside there there's more these are different programs or different web pages inside our **internet**.
+> Um okay so we've got person who is on a **computer** and we've got the **internet** which has a **computer** and a **database** attached to it.
+> Right? And let's say inside there there's more these are different **programs** or different web pages inside our **internet**.
 > um how a **browser**, **web server** and **database** interact.
-> So on our computer, our **web browser** is how we would connect to the **internet** to other this is our **browser**, right? Our **browser** is our um our device essentially that we can use to connect to other computers and other and other web servers.
-> The **database** is information that's **stored** in this computer and like the computer **CPU** would communicate with the **database** to pull information.
-> So our **browser** connects to this computer requesting information.
-> The **CPU** needs to pull the information from this **database** so we can access it on our computer.
+> So on our **computer**, our **web browser** is how we would connect to the **internet** to other this is our **browser**, right? Our **browser** is our um our device essentially that we can use to connect to other computers and other and other web servers.
+> The **database** is **information** that's **stored** in this **computer** and like the **computer** **CPU** would **communicate** with the **database** to pull **information**.
+> So our **browser** connects to this **computer** requesting **information**.
+> The **CPU** needs to pull the **information** from this **database** so we can access it on our **computer**.
 > Um **web server**.
 > So datab **browser** a **web server** I believe it helps us get the destination correct.
 > Um your **browser** is your device.
-> The **web server** helps you connect to the correct place and then the **c** their computer will connect to the **database** to pull information.
+> The **web server** helps you connect to the correct place and then the **c** their **computer** will connect to the **database** to pull **information**.
 > um
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"22:48"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"23:18"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"23:48"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"24:18"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"24:48"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"22:48"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"23:18"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"23:48"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"24:18"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"24:48"}}
 16. [24:53] Explain what encryption is.
 
 > explain what **encryption** is.
-> Um so I guess we'll use the same table of contents here.
+> Um so I guess we'll use the same **table** of contents here.
 > Um **encryption** is is how you would protect yourself from outside forces watching what you're doing.
 > Um, so in your **browser** you you can control **security** through like incognito to tabs, incognito tabs, right? But that only protects you when you're searching online from people in your household.
 > Um, say there's someone else watching your **network** activity.
-> If this was **encrypted**, it would protect you from being vulnerable with your information.
+> If this was **encrypted**, it would protect you from being vulnerable with your **information**.
 > Um, **encryption** is also something that like banks will use on their um their **secure** **websites**.
-> Um, I know that like Fidelity when I log into um my retirement account that would it's **encrypted** so um outside forces can't see the data that I'm sending and receiving.
+> Um, I know that like Fidelity when I log into um my retirement account that would it's **encrypted** so um outside forces can't see the **data** that I'm sending and receiving.
 > Um, it's an extra layer of protection.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"24:53"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"25:23"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"25:53"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"24:53"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"25:23"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"25:53"}}
 17. [26:12] Explain five common HTML tags and explain what they do.
 
-> Explain five common **HTML tags** and explain what they do.
-> Um, so **HTML**, each one would be a heading.
+> Explain **five** common **HTML tags** and explain what they do.
+> Um, so **HTML**, each **one** would be a heading.
 > It gives you a heading on your code.
 > Um, P would be a paragraph.
 > Oh, paragraph.
@@ -406,7 +306,7 @@
 > Okay.
 > Um U L and I L um or bullets.
 > Bullet points.
-> Um images is image.
+> Um **images** is image.
 > Yeah, img.
 > I think img.
 > Uh I think it's img.
@@ -416,37 +316,30 @@
 > Um so these you would you would put in your um your your hyperlink, your image, your bullet, you know, how you want to set up with bullet points.
 > Um you could change your paragraph, start a new paragraph by using P.
 > Um and I've made this referenced quite a few videos.
-> Um, the only real **HTML** I did was like in middle school and we we made um our website and um in one of the computer classes I took or like in MySpace.
+> Um, the only real **HTML** I did was like in middle school and we we made um our website and um in **one** of the **computer** classes I took or like in MySpace.
 > I could make a really cool page with **HTML**.
 > It's funny how retention works though.
 > So you don't essentially H1 is heading P paragraph.
-> This one it's ul and I are bullet points.
+> This **one** it's ul and I are bullet points.
 > IMG is image and A is hyperlink.
 > So it inserts those perspective.
-> Discuss the impact of **AI** generated text, images
+> Discuss the impact of **AI** generated **text**, **images**
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"26:12"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"26:42"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"27:12"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"27:42"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"26:12"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"26:42"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"27:12"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"27:42"}}
 18. [28:07] Discuss the impact of AI generated text, images and videos on truth and trust in digital communications.
 
 > and videos on truth and trust in digital communications.
-> **AI** generated text, images and videos.
+> **AI** generated **text**, **images** and videos.
 > Um it's it's changing the way um we trust technology.
 > Um it's been an ongoing issue for uh many years on the **internet**.
 > You don't trust what you hear on the **internet**.
-> Um but it has a huge impact on how we how we receive and we receive information and um it can affect how we trust real sources in the in the future depending on if we believe it or not because we've learned not to trust things on the **internet**.
+> Um but it has a huge impact on how we how we receive and we receive **information** and um it can affect how we trust real sources in the in the future depending on if we believe it or not because we've learned not to trust things on the **internet**.
 > Um it's scary.
 > you can see something that looks so real that's absolutely um fiction or non-f or absolutely fiction.
 > So, it's it's um incredibly um terrifying, but it's also something that we have to adapt to and react to and and um and learn to grow with just like anything else.
-> Um, I know that for months I was believing things I saw on social media and um the the the videos I was seeing, the the pictures I was seeing, they looked real.
+> Um, I know that for months I was believing things I saw on social media and um the the the videos I was seeing, the the **pictures** I was seeing, they looked real.
 > Um, it's just it's just going to how how are we going to um how do we see the difference between real and fiction? especially like in children where children have not fully developed that sense of knowing what's true and what's not.
 > So yeah, it's got a huge impact.
 > We have to adapt and um and learn to live with it because it's not going away.
@@ -456,83 +349,58 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"28:07"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"28:37"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"29:07"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"29:37"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"28:07"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"28:37"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"29:07"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"29:37"}}
 19. [30:01] Explain what assembly language is and how it relates to machine code.
 
 > how it relates to **machine code**.
 > Okay.
-> **Assembly language** would be um so we've got like 0 1 2 3 assembly languages like um I think the example was like load and then a number load let's say was let's load three um add two store um store zero.
+> **Assembly language** would be um so we've got like **0** **1** **2** **3** assembly **languages** like um I think the example was like load and then a number load let's say was let's load **three** um add **two** store um store **zero**.
 > Um, I don't know if this is going to make sense, but essentially, um, this is your order of operations.
-> Your **CPU**, um, inside your **CPU**, there's like two parts.
+> Your **CPU**, um, inside your **CPU**, there's like **two** parts.
 > There's the um I want to say it's the counter which keeps track of where you're at and then um the actual **process** um yikes.
 > Okay.
 > So, **assembly language** is the language in which your your **CPU** is reading to create a **process** or a um a code or a **program**, right? The **machine code** is just this translated into **binary** like **ones** and **zeros**.
-> Um so you would take so your first pro your zero **process** right you load three so you load three into so zero's here and you load three into here um there's one more box here and I can't remember exactly what this box is called um then you go to the next **process** and this would change to one and is like add to.
+> Um so you would take so your first pro your **zero** **process** right you load **three** so you load **three** into so **zero**'s here and you load **three** into here um there's **one** more box here and I can't remember exactly what this box is called um then you go to the next **process** and this would change to **one** and is like add to.
 > So you would add to your um essentially the the m you know the the **assembly language** is order of operations of things is going to do.
-> It's going to have different instructions to go into your **CPU** to to then have an action attached to it.
+> It's going to have different **instructions** to go into your **CPU** to to then have an action attached to it.
 > The **machine code** is just your assembly code translated into **binary**.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"30:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"30:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"31:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"31:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"32:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"32:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"33:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"30:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"30:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"31:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"31:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"32:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"32:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"33:01"}}
 20. [33:17] Explain what a zero day exploit is.
 
-> Explain what zero day exploit is.
-> Zero day exploit is where um the programmer.
-> So the the writer of the **program** has had zero days to fix or patch something like a vulnerability.
-> Um essentially zero day exploits are sold on the **black** market.
+> Explain what **zero** day **exploit** is.
+> **Zero** day **exploit** is where um the programmer.
+> So the the writer of the **program** has had **zero** days to fix or patch something like a vulnerability.
+> Um essentially **zero** day exploits are sold on the **black** market.
 > Um they're like gaps in in their programming where there's vulnerabilities.
-> So, a um a hacker or somebody that's ill intent could then find this exploit and um I guess steal their information, do it do what it wants to do, do its purpose.
+> So, a um a hacker or somebody that's ill intent could then find this **exploit** and um I guess steal their **information**, do it do what it wants to do, do its purpose.
 > And there's been no time for the programmer to fix it because it's it's so new.
 > It's just a gap that they they were unaware of.
-> They've had zero time to um to patch it before it was exploited.
+> They've had **zero** time to um to patch it before it was exploited.
 > Okay.
-> Some of the basic steps in the programming **process** from writing code to running it using paper here.
+> Some of the basic **steps** in the programming **process** from writing code to running it using **paper** here.
 > Okay.
-> Basic steps in the programming **process**
+> Basic **steps** in the programming **process**
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"33:17"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"33:47"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"34:17"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"33:17"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"33:47"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"34:17"}}
 21. [34:42] Explain some of the basic steps in the programming process from writing code to running it.
 
 > from writing code to running it.
-> Um, so there's you and you have your computer.
+> Um, so there's you and you have your **computer**.
 > Um, you have an **input** device, I guess.
 > Um, I just pretend.
-> So, you got your little **input** device, your keyboard or whatever the case may be.
-> Um, I guess it wouldn't be computer.
-> Um, essentially you're writing this code and it's going to some sort of **program** on your computer, right? Um, and then you would hit run.
+> So, you got your little **input** device, your **keyboard** or whatever the case may be.
+> Um, I guess it wouldn't be **computer**.
+> Um, essentially you're writing this code and it's going to some sort of **program** on your **computer**, right? Um, and then you would hit run.
 > So, you write your code and then you you would send it.
 > See what happens.
-> um some of the basic programming steps or some of the basic steps in the programming **process** from writing code to running it.
+> um some of the basic programming **steps** or some of the basic **steps** in the programming **process** from writing code to running it.
 > I believe you said that was the dev cycle.
 > Um, it's it's basically when you're you're running your code in your **program** to see what you get before you actually um end up with what you are intending to.
-> Um, you're inputting information into a **program**.
+> Um, you're inputting **information** into a **program**.
 > You're running it to see what you get as the outcome.
 > I know the answer's not complete.
 > Um, trial and error, but that's what I'm
@@ -540,67 +408,51 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"34:42"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"35:12"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"35:42"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"36:12"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"36:42"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"34:42"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"35:12"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"35:42"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"36:12"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"36:42"}}
 22. [36:45] Randomly generate a 4-bit binary number and convert it to decimal.
 
 > going with.
-> Randomly generate a 4bit **binary** number and can it convert it to **decimal**.
-> Um, we want a four bit.
-> I think I want to start with one.
+> Randomly generate a 4bit **binary** number and can it **convert** it to **decimal**.
+> Um, we want a **four** **bit**.
+> I think I want to start with **one**.
 > I think we said I don't know if that really matters.
-> Um, but for this case, I guess we'll do 1 1 0 1.
-> Um, I'm just wasting paper here.
+> Um, but for this case, I guess we'll do **1** **1** **0** **1**.
+> Um, I'm just wasting **paper** here.
 > Don't mind me.
 > Okay.
-> So, 1 1 01 is our number.
+> So, **1** **1** 01 is our number.
 > Okay.
 > Um, so we're going to start with our um our places.
-> 1 2 4 8 8 * 1 is 8 + 4 + 0 + 1.
-> So 8 9 10 11 12 13.
-> So 13 would be our answer.
+> **1** **2** **4** **8** **8** * **1** is **8** + **4** + **0** + **1**.
+> So **8** **9** **10** **11** **12** **13**.
+> So **13** would be our answer.
 > And we're using these numbers because it's this.
-> It's to the power of two for each of these places.
+> It's to the **power** of **two** for each of these places.
 > Um, okay.
 > Next question.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"36:45"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"37:15"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"37:45"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"38:15"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"36:45"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"37:15"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"37:45"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"38:15"}}
 23. [38:27] Design an efficient organization system for a specific use case.
 
 > Design an efficient organization system for a specific use case.
 > Um, academic, um, professional or creative.
-> I guess that I'll use one of, um, our work **processes**, I guess.
+> I guess that I'll use **one** of, um, our work **processes**, I guess.
 > Um so inside SharePoint we have a um a folder and that's our campus development.
-> And then inside the campus development we've got subfolders like this one would be um maybe the vision the vision of what they see St.
+> And then inside the campus development we've got subfolders like this **one** would be um maybe the vision the vision of what they see St.
 > Davidson Depal being in the next few years.
-> And inside that folder would be um things that are related to that like our um strate or 5-year plan or you know things like that.
-> We also have one for like um invoices.
+> And inside that folder would be um things that are related to that like our um strate or **5**-year plan or you know things like that.
+> We also have **one** for like um invoices.
 > That's my my world is when I'm paying invoices, I would upload um the invoice I paid.
 > That way our board members can see them and that they know that certain things are getting done.
 > But I would put all my invoices in there.
-> Um, I've got one for contracts where I store all of the contracts for each company that I have um in there.
+> Um, I've got **one** for contracts where I store all of the contracts for each company that I have um in there.
 > Um, there's also um a subfolder for our campaign.
 > Um and then inside the campaign would be like our pledge forms.
 > um like who's pledged money and for how long and what years and then inside the so then we've got so I guess also inside a campaign I've also got like paid pledges like that and tracking sheets essentially um an efficient file organization system is just anything that really makes sense.
 > I'm sorry for my messy writing here, but if you end the big project is campus development and then there's a bunch of subfolders that all relate to campus development.
 > Um I know that in your your um example you use more of like a coding example.
-> Um I'm still learning that the code and computer systems and whatnot, but this is what I'm familiar with for file organization systems.
+> Um I'm still learning that the code and **computer** systems and whatnot, but this is what I'm familiar with for file organization systems.
 > Um, okay.
 > Next question.
 > Explain the role of a **web browser** with
@@ -608,50 +460,30 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"38:27"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"38:57"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"39:27"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"39:57"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"40:27"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"40:57"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"38:27"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"38:57"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"39:27"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"39:57"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"40:27"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"40:57"}}
 24. [41:06] Explain the role of a web browser with respect to caching, history and privacy.
 
 > respect to **caching** **history** and **privacy**.
 > Um, so make sure I'm not messing this up here.
 > Okay.
-> So **web browser** um computer and then we we have our **browser** on our computer right and it's connecting us it's a software connecting us to the **internet** and um this **websites** here with computers and databases and there's other programs.
+> So **web browser** um **computer** and then we we have our **browser** on our **computer** right and it's connecting us it's a **software** connecting us to the **internet** and um this **websites** here with computers and databases and there's other **programs**.
 > Okay, so **caching** **history** and **privacy**.
 > So **history** first, it keeps track of web pages that you visited throughout your time, right? You can go to like yesterday, last week, um, and you can view those for later use.
 > um you can't remember what you were doing yesterday or the day before, but it was a really interesting article, you could go back to it be your **history**.
 > Um **privacy** would be using like an incognito **browser** or a **browser** that is um just not tracking **history** or **caching**.
-> **Caching** is where it's saving information from your website, whether that be images or um **processes** it needs in order to run the website to save time and energy from your your computer communicating with it.
+> **Caching** is where it's saving **information** from your website, whether that be **images** or um **processes** it needs in order to run the website to save time and energy from your your **computer** **communicating** with it.
 > Um, okay.
-> I think it's important to note too that **privacy** is only um in your household or on your computer.
-> Um the incognito **browser** is not going to protect you from any outside forces watching what you're doing as you're transmitting the data back and forth.
+> I think it's important to note too that **privacy** is only um in your household or on your **computer**.
+> Um the incognito **browser** is not going to protect you from any outside forces watching what you're doing as you're transmitting the **data** back and forth.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"41:06"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"41:36"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"42:06"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"42:36"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"43:06"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"41:06"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"41:36"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"42:06"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"42:36"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"43:06"}}
 25. [43:20] Explain how the internet differs from the worldwide web.
 
 > Explain how the **internet** differs from the **worldwide web**.
-> The **internet** is a group of global um web pages and programs computers is a group of global computers all communicating together that we can access, right? the world.
+> The **internet** is a group of global um web pages and **programs** computers is a group of global computers all **communicating** together that we can access, right? the world.
 > So they the **internet** would be like the highway and the **worldwide web** would just be something that's on the highway.
-> I know that's the 5-year-old response, but that's what I'm remembering at the moment.
+> I know that's the **5**-year-old response, but that's what I'm remembering at the moment.
 > Um, the **worldwide web** is essentially something that uses the **internet**.
 > It's a **web address** specifically to to those web pages with www.
 > Um the **internet** is the bigger picture, the global connection of all the computers running through like um lines and wires um underground and yeah.
@@ -660,20 +492,15 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"43:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"43:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"44:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"43:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"43:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"44:20"}}
 26. [44:34] What is a web cookie?
 
-> A web cookie is not a chocolate chip cookie.
-> I have researched this one.
-> So, a web cookie is um when you're on the **internet** and you are visiting a website and it clicks up and says, "Would you like to save your **password**?" Your computer then stores that and now it's um something that when you revisit that website, your **password**'s there.
+> A web **cookie** is not a chocolate chip **cookie**.
+> I have researched this **one**.
+> So, a web **cookie** is um when you're on the **internet** and you are visiting a website and it clicks up and says, "Would you like to save your **password**?" Your **computer** then stores that and now it's um something that when you revisit that website, your **password**'s there.
 > Or like your Amazon cart.
 > you go to the web page, you order a bunch of things, you don't check out, and you exit that.
-> The cookie is essentially that little piece of information that's saved on that web page.
-> Um, and that's in your in your computer that's saved.
+> The **cookie** is essentially that little piece of **information** that's saved on that web page.
+> Um, and that's in your in your **computer** that's saved.
 > Okay.
 > Next, the **six degrees of separation**.
 > So the
@@ -681,92 +508,67 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"44:34"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"45:04"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"44:34"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"45:04"}}
 27. [45:27] Explain the six degrees of separation.
 
 > **six degrees of separation** is a theory and essentially what they're talking about is um the idea that through the **internet** to have a personal relationship there can only be **six degrees of separation**.
-> So like a person that knows a person that knows a person that knows a person that knows a person that knows a person only six steps.
+> So like a person that knows a person that knows a person that knows a person that knows a person that knows a person only **six** **steps**.
 > I did read that there is some um question that the **internet** like social media and things like that that that's changing the amount needed to build a the personal connection.
 > Um but the **six degrees of separation** is essentially a person that knows a person that knows a person in order to um form a personal relationship.
-> or they're saying it can only be up to six to form a personal relationship, but the **internet** has now changed that idea a little bit, but um still not for sure.
+> or they're saying it can only be up to **six** to form a personal relationship, but the **internet** has now changed that idea a little **bit**, but um still not for sure.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"45:27"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"45:57"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"46:27"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"45:27"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"45:57"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"46:27"}}
 28. [46:36] Explain what a web browser is and what it's used for.
 
 > Explain what a **web browser** is and what it's used for.
 > The **web browser** is our device in order to connect to the **internet**.
 > It's what we use to connect to the **internet**.
-> Um how we connect um our interface that we use to connect to different web pages, programs and softwares online.
+> Um how we connect um our **interface** that we use to connect to different web pages, **programs** and softwares online.
 
 
 
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"46:36"}}
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"46:36"}}
 29. [47:01] Give three examples of cloud services that you might use in daily life and explain what each one does.
 
-> Give three examples of **cloud services** that you might use in daily life and explain what each one does.
-> Um, in daily life, I have an iPhone and I have like the Apple **cloud** and it's essentially sharing my or it's storing my information from my phone in the **internet**, right? That way I have my my documents I can access from any device.
-> I break my phone, I um lose it, I can go back and I can restore it through the Apple **Cloud** website and downloaded my information again.
-> Um I use SharePoint on a daily basis and that's a um a **program** that we use online or I guess a **program** or software, but it's a **program** that we use online to **collaborate** on documents in in real time.
-> I can um go online from any computer, log into our SharePoint.
-> Um I can upload files that we can all work on, you know, to **collaborate** on or I can um edit files that are already uploaded and then my my boss can go on that same file while I'm on there and edit it in real time and we can see the the differences as we do it.
+> Give **three** examples of **cloud services** that you might use in daily life and explain what each **one** does.
+> Um, in daily life, I have an iPhone and I have like the Apple **cloud** and it's essentially **sharing** my or it's storing my **information** from my phone in the **internet**, right? That way I have my my **documents** I can access from any device.
+> I break my phone, I um lose it, I can go back and I can restore it through the Apple **Cloud** website and downloaded my **information** again.
+> Um I use SharePoint on a daily basis and that's a um a **program** that we use online or I guess a **program** or **software**, but it's a **program** that we use online to **collaborate** on **documents** in in real time.
+> I can um go online from any **computer**, log into our SharePoint.
+> Um I can upload **files** that we can all work on, you know, to **collaborate** on or I can um edit **files** that are already uploaded and then my my **boss** can go on that same file while I'm on there and edit it in real time and we can see the the differences as we do it.
 > Another **cloud** service um would be um our email.
-> Our email we use we can access from any computer anywhere and it stores all of our emails in there.
-> Um all we have to do is go to that that web page, sign in and all of our information is on there.
+> Our email we use we can access from any **computer** anywhere and it stores all of our emails in there.
+> Um all we have to do is go to that that web page, sign in and all of our **information** is on there.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"47:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"47:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"48:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"48:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"47:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"47:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"48:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"48:31"}}
 30. [48:52] Discuss how AI algorithms shape what information people see online.
 
-> discuss how **AI** algorithms shape what information people see online.
-> Um wasted paper here.
+> discuss how **AI** **algorithms** shape what **information** people see online.
+> Um wasted **paper** here.
 > Sorry.
 > Okay.
-> **AI** algorithms um they use our um our browsing **history** Uh they use our like social media um um where we shop or what we're shopping for our search our search **history** um to formulate what best to advertise for or what we see online.
+> **AI** **algorithms** um they use our um our browsing **history** Uh they use our like social media um um where we shop or what we're shopping for our search our search **history** um to formulate what best to advertise for or what we see online.
 > Um there's more things that it uses as well.
-> Um, and it can also be like I've noticed on social media, and I think you mentioned this in one of the the study videos, um, that if something's really, um, getting a lot of attention online, it'll then show up in your like social media or in your news.
+> Um, and it can also be like I've noticed on social media, and I think you mentioned this in **one** of the the study videos, um, that if something's really, um, getting a lot of **attention** online, it'll then show up in your like social media or in your news.
 > Um, and it can it can also it's not it's helpful in some ways.
 > You're seeing what you want to see in some cases, but it's also very destructive in other ways.
 > Um, it can create like almost like a tunnel vision of what you're seeing online.
 > Um, it could be politically charged and then before you know it, you're just seeing just political um political terrifying things or, you know, or just there's pros and cons to it.
 > Um, but it's there and it's shaping by everything that we do online.
-> you know, it it's it's taking that information and and compiling data and um translating it into something that they think we want to see or that we may think would get a lot of attention.
+> you know, it it's it's taking that **information** and and compiling **data** and um translating it into something that they think we want to see or that we may think would get a lot of **attention**.
 > **CSS**.
 > So, I think I explained this
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"48:52"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"49:22"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"49:52"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"50:22"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"50:52"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"48:52"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"49:22"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"49:52"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"50:22"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"50:52"}}
 31. [51:04] What is CSS?
 
-> earlier a little bit.
-> Um so **HTML**, **JavaScript** and **CSS** there are three things that work hand in hand to build a web page, right? To um to write a a web page um page.
+> earlier a little **bit**.
+> Um so **HTML**, **JavaScript** and **CSS** there are **three** things that work hand in hand to build a web page, right? To um to write a a web page um page.
 > Um so **HTML** is the bones or the structure.
 > Can you see what I'm doing still? I'm getting nervous about this.
 > Yeah.
@@ -783,117 +585,86 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"51:04"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"51:34"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"52:04"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"51:04"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"51:34"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"52:04"}}
 32. [52:30] Explain the difference between logical and physical storage models for a file.
 
 > and **physical storage** models for a file.
-> So **logical** is what we think of, right? So it' be like files and folders, files and folders.
-> Um it's how we perceive things being **stored** on um uh on our computer.
-> It's how we it's how we find files.
-> It's how we how we locate information or programs.
+> So **logical** is what we think of, right? So it' be like **files** and folders, **files** and folders.
+> Um it's how we perceive things being **stored** on um uh on our **computer**.
+> It's how we it's how we find **files**.
+> It's how we how we locate **information** or **programs**.
 > It's what we think.
 > It's in our head only.
 > Um **physical storage** models for a file are much different.
-> Um physical it's written in code for one.
-> So it's it's it's all mumble jumbled, but they can also be it's not as organized.
+> Um physical it's written in code for **one**.
+> So it's it's it's all mumble jumbled, but they can also be it's not as **organized**.
 > It's like on your **hard drive**.
-> You could have file one here, right? and file two here, which would seem easy enough.
-> But then also there could be bits of file two here, bits of file one here, um sections of file three here.
-> So files in, you know, **logical** and **physical storage** models for a file.
+> You could have file **one** here, right? and file **two** here, which would seem easy enough.
+> But then also there could be bits of file **two** here, bits of file **one** here, um **sections** of file **three** here.
+> So **files** in, you know, **logical** and **physical storage** models for a file.
 > So **logical** is what we think of like when we say I'm going to go click on my um my desktop.
-> I'm going to go to my files.
-> This is our our our um our **logical** how how we see things being um **stored** and then physically it's just how it's written on the computer.
-> How is the computer accessing it?
+> I'm going to go to my **files**.
+> This is our our our um our **logical** how how we see things being um **stored** and then physically it's just how it's written on the **computer**.
+> How is the **computer** accessing it?
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"52:30"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"53:00"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"53:30"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"54:00"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"52:30"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"53:00"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"53:30"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"54:00"}}
 33. [54:08] What is two-factor authentication?
 
-> Two-actor authentication is used for **security** and and **privacy**.
+> **Two**-actor **authentication** is used for **security** and and **privacy**.
 > It's to ensure that only the person who is meant to be accessing whatever it is, email, um online accounts, bank accounts, things like that.
 > It's an extra an extra **security** measure used.
-> Um at work, we use um text or email verification where I'm logging into an account I need to view.
-> It'll send me an au authentication code and I have to type that in in order to access it.
+> Um at work, we use um **text** or email verification where I'm logging into an account I need to view.
+> It'll send me an au **authentication** code and I have to type that in in order to access it.
 > It's a **security** measure we use.
 > um to be more safe
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"54:08"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"54:38"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"54:08"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"54:38"}}
 34. [54:47] Explain the role of an operating system.
 
 > explain the role of an **operating system**.
 > Okay.
 > Um, so we have our **operating system**, we have this line here, and we got our **hardware**.
-> We have our programs.
+> We have our **programs**.
 > I think **CPU** is down here, I believe.
 > um or it may not be down there, but it's the **CPU**.
-> So, the **operating system** determines when programs, including itself, get to use the **CPU**.
-> Since the **CPU** can only do um one **process** at a time, it has it schedules projects projects **processes** or programs right to get time with the **CPU** including itself.
-> Um the **operating system** also uh it's imperative to like to boot up your computer.
+> So, the **operating system** determines when **programs**, including itself, get to use the **CPU**.
+> Since the **CPU** can only do um **one** **process** at a time, it has it schedules projects projects **processes** or **programs** right to get time with the **CPU** including itself.
+> Um the **operating system** also uh it's imperative to like to **boot up** your **computer**.
 > It's um it's how we see our desktop.
 > Um it um there's many roles to the **operating system**.
-> Um it pulls information from from our **RAM**.
+> Um it pulls **information** from from our **RAM**.
 > That's written incorrectly.
 > a **RAM**.
-> Um it it can I think it can also interpret information um in the sense where like it can execute functions rather than just um rather than just pull information and uh compile can also execute the function.
-> Um but there's many roles of the **operating system** but a large One of the bigger roles is essentially scheduling time with programs to run with the **CPU**, including itself.
+> Um it it can I think it can also interpret **information** um in the sense where like it can **execute** functions rather than just um rather than just pull **information** and uh compile can also **execute** the function.
+> Um but there's many roles of the **operating system** but a large **One** of the bigger roles is essentially **scheduling** time with **programs** to run with the **CPU**, including itself.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"54:47"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"55:17"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"55:47"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"56:17"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"56:47"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"54:47"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"55:17"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"55:47"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"56:17"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"56:47"}}
 35. [57:05] Explain what social engineering is and how it's used in cyber attacks.
 
-> Explain what social engineering is and how it's used in cyber attacks.
-> Social engineering, I believe, is a is a is a form of um It's a technique that's used in **malware** um or like getting you to to to essentially open the doors for the attack.
+> Explain what **social engineering** is and how it's used in cyber attacks.
+> **Social engineering**, I believe, is a is a is a form of um It's a technique that's used in **malware** um or like getting you to to to essentially open the doors for the attack.
 > Um it could be done through like clickbait.
 > Um you need to do something in order for the um the vulnerability to take place.
-> Um so social engineering would be like an email comes through and um it says download this file in order to um view um something pertinent to you something that's like um I can't think of an example at the moment but They can be like pulling at your heartstrings to get you to click on something.
+> Um so **social engineering** would be like an email comes through and um it says download this file in order to um view um something pertinent to you something that's like um I can't think of an example at the moment but They can be like pulling at your heartstrings to get you to click on something.
 > It can be um it's **malware** it's **malware** tailored um based on people um people reacting to and and and engaging in I guess um I think how do **magnetic fields** store **binary**
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"57:05"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"57:35"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"58:05"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"58:35"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"57:05"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"57:35"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"58:05"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"58:35"}}
 36. [58:42] How do magnetic fields store binary information?
 
-> information? Um **magnetic fields** essentially Let's think of these as little fields, right? They point up and down.
+> **information**? Um **magnetic fields** essentially Let's think of these as little fields, right? They point up and down.
 > Um the **magnets** point up and down like north and south.
 > Um to determine like **ones** and **zeros**.
-> So like if the **magnets** pointing upward that would be a one.
-> If the **magnets** porting downward, it would be a zero.
-> Um so each one of these squares would be one or the other.
-> One or zero.
+> So like if the **magnets** **pointing** upward that would be a **one**.
+> If the **magnets** porting downward, it would be a **zero**.
+> Um so each **one** of these squares would be **one** or the other.
+> **One** or **zero**.
 > And that's how it's **stored**.
 > It's **stored** on the um on the **hard drive** itself.
 > A **database** is explain what a **database**
@@ -901,81 +672,66 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"58:42"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"59:12"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"58:42"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"59:12"}}
 37. [59:34] What is a database?
 
 > is.
 > Okay.
-> So if we go to the table of contents, let me get a new piece of paper.
+> So if we go to the **table** of contents, let me get a new piece of **paper**.
 > Okay.
-> So you have people on a computer and we're going to go to the **internet** and inside the **internet** are many other programs and it could be having a **database** here.
+> So you have people on a **computer** and we're going to go to the **internet** and inside the **internet** are many other **programs** and it could be having a **database** here.
 > Um, okay.
 > And there's other people here represent other users of the **internet**.
-> Um, so essentially when you're connecting to a computer and the computer needs to pull information from its **database**, it would connect to the **database** and pull information back.
-> Um, in my head, I see it as a bank of information.
-> Um it's essentially an extra place of memory that the computer can pull information from.
-> Um instead of storing it on his computer itself, it's **stored** elsewhere.
+> Um, so essentially when you're connecting to a **computer** and the **computer** needs to pull **information** from its **database**, it would connect to the **database** and pull **information** back.
+> Um, in my head, I see it as a bank of **information**.
+> Um it's essentially an extra place of **memory** that the **computer** can pull **information** from.
+> Um instead of storing it on his **computer** itself, it's **stored** elsewhere.
 > Explain the **input** **process** **output** model
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"59:34"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:00:04"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:00:34"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"59:34"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:00:04"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:00:34"}}
 38. [1:01:01] Explain the input-process-output model and its significance.
 
 > and its significance.
 > um **input** **process** **output** model.
-> So essentially what it's what it's talking about is we **input** information into a **program** or into some sort of **process** um and to get some sort of **output**.
+> So essentially what it's what it's talking about is we **input** **information** into a **program** or into some sort of **process** um and to get some sort of **output**.
 > It can be done through **input** devices like um keyboards.
 > Um it needs to be some sort of **process** happens and then it happens through an **output**.
 > So like in in code you would **input** your code into a **program** which then gives you your desired **output**.
 > Its significance is because it's essentially like just an a model that we can we can use to um I don't want to say dumb down but dumb down the extremely intricate **process** of **input** **process** **output**.
 > It could mean anything.
-> It can be um um inputting sunlight into a tree to get chloroform or chlorophyll, you know, or um but in in the in computer science, it's inputting information into some sort of **program** or **process** and getting an outcome.
+> It can be um um inputting sunlight into a tree to get chloroform or chlorophyll, you know, or um but in in the in **computer** science, it's inputting **information** into some sort of **program** or **process** and getting an outcome.
 > um
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:01:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:01:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:02:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:02:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:01:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:01:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:02:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:02:31"}}
 39. [1:02:43] Randomly generate a two-digit decimal number and convert it to binary.
 
-> randomly generate a twodigit **decimal** number and convert it to **binary**.
+> randomly generate a twodigit **decimal** number and **convert** it to **binary**.
 > Um let's just go into number generator.
 > Okay.
-> Um do 100 generate.
-> So 35 is our number.
-> I am running through paper here.
+> Um do **100** generate.
+> So **35** is our number.
+> I am running through **paper** here.
 > Okay, I know I got to write smaller and neater.
-> Okay, so 35.
+> Okay, so **35**.
 > So we're going to start with our places.
-> So we have 1 2 4 8 16 32 and 64.
-> These are the the second power or the power of two, right? Um, so if we take 64, we don't need 64 because it's it's too large.
-> So we would take 32 and we'd subtract 32 and that would be um three.
-> So yes, it fits into three.
-> So that would be a one.
-> 16 does not fit.
-> Eight does not fit.
-> Four does not fit.
-> Two does.
-> So min - 2.
-> 1.
+> So we have **1** **2** **4** **8** **16** **32** and **64**.
+> These are the the second **power** or the **power** of **two**, right? Um, so if we take **64**, we don't need **64** because it's it's too large.
+> So we would take **32** and we'd subtract **32** and that would be um **three**.
+> So yes, it fits into **three**.
+> So that would be a **one**.
+> **16** does not fit.
+> **Eight** does not fit.
+> **Four** does not fit.
+> **Two** does.
+> So min - **2**.
+> **1**.
 > So yes.
-> And then 1 - 1 is zero.
+> And then **1** - **1** is **zero**.
 > And yes.
-> So 35 would equal 1 0 0 1 1.
+> So **35** would equal **1** **0** **0** **1** **1**.
 > Hopefully you can see that.
 > Okay.
 > Yeah.
@@ -986,179 +742,133 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:02:43"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:03:13"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:03:43"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:04:13"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:02:43"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:03:13"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:03:43"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:04:13"}}
 40. [1:04:31] Explain what IO devices are and why they are important to computing.
 
 > are important to computing.
-> Um IO devices is anything that we can use to in **input** data or information into the computer.
-> Um they make like gloves where we can make movements that would be um putting data into the computer that we can um then **translate** into something different.
-> um your keyboard is an **input** device where we're we're writing in information that way.
-> Um it's important to computing because it's our connection to um to the computer.
-> It's how we interact with the computer.
+> Um IO devices is anything that we can use to in **input** **data** or **information** into the **computer**.
+> Um they make like gloves where we can make movements that would be um putting **data** into the **computer** that we can um then **translate** into something different.
+> um your **keyboard** is an **input** device where we're we're writing in **information** that way.
+> Um it's important to computing because it's our connection to um to the **computer**.
+> It's how we interact with the **computer**.
 > Um **input output** devices.
 > So um **output** devices would be like what you're getting out of it.
 > Um, I guess like your speaker could be an **output** device.
 > Um, could also be something to do with like we're putting our hand movements in to a **program**.
-> That **program** is then transferring those hand movements into something actually like robotic that's moving it moving the robot.
+> That **program** is then transferring those hand movements into something actually like robotic that's moving it moving the **robot**.
 > Um, so yeah, they're important because it's how we interact.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:04:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:05:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:05:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:04:31"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:05:01"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:05:31"}}
 41. [1:05:50] Trace the execution of this assembly code program and explain what happens.
 
 > trace the execution of this assembly code **program** and explain what happens.
 > Okay.
 > Um I'm g page.
-> This one's a little bit trickier to me.
+> This **one**'s a little **bit** trickier to me.
 > I'm going to Okay.
 > Double check.
 > You can see my my work here.
 > Okay.
-> So, start with our table.
-> How many are there? Five, six.
-> One, two, three, four, five.
-> One, two, three, four, five, six.
+> So, start with our **table**.
+> How many are there? **Five**, **six**.
+> **One**, **two**, **three**, **four**, **five**.
+> **One**, **two**, **three**, **four**, **five**, **six**.
 > Okay.
-> And then zero, one, two, three, four, five.
-> And then it would be load four, add five.
+> And then **zero**, **one**, **two**, **three**, **four**, **five**.
+> And then it would be load **four**, add **five**.
 > I'm just writing this down so then I can explain it here.
-> Stow store four jump zero zero and eight.
+> Stow store **four** jump **zero** **zero** and **eight**.
 > Okay.
 > And then we've got our **CPU** here and put it down the middle here.
 > Um and then we've got these little squares.
 > And I still can't remember what this square means.
 > Okay.
 > So trace the execution of this assembly code **program** and explain what happens.
-> Um, so we would go the **CPU** would go to the first section, right? Zero load four.
-> It would load four into our No, our counter is at zero cuz we're we're at we're at zero.
+> Um, so we would go the **CPU** would go to the first section, right? **Zero** load **four**.
+> It would load **four** into our No, our counter is at **zero** cuz we're we're at we're at **zero**.
 > That's our counter.
 > This is where um the **input** **process** is.
 > I believe there's another word you use for it.
 > Um, and then this is the outcome.
 > I think.
-> Um, so we would load four.
-> So zero, we're at counter zero.
-> Load four.
-> So it would load four here, I believe.
-> Um, and then it would move to one and add five.
-> So we'd go to five and it would it wants you to put an eight.
+> Um, so we would load **four**.
+> So **zero**, we're at counter **zero**.
+> Load **four**.
+> So it would load **four** here, I believe.
+> Um, and then it would move to **one** and add **five**.
+> So we'd go to **five** and it would it wants you to put an **eight**.
 > Yikes.
 > Um, okay.
-> Number two.
-> It would then go to number two.
-> Store four.
+> Number **two**.
+> It would then go to number **two**.
+> Store **four**.
 > Um, no, it add.
 > Okay.
-> Load four.
-> It loads four into the the processor.
-> Add five.
-> You go to five and eight.
-> Store four.
-> store for zero.
+> Load **four**.
+> It loads **four** into the the **processor**.
+> Add **five**.
+> You go to **five** and **eight**.
+> Store **four**.
+> store for **zero**.
 > When I watched your video, um I felt like I understood it.
-> Um essentially the assembly code **program** is a list of tasks for the **CPU**.
+> Um essentially the assembly code **program** is a list of **tasks** for the **CPU**.
 > Um the **CPU** then um fetches **decodes** and **executes**.
-> So the **CPU** would then **fetch** zero which meant load four.
-> Um, and I believe that means it would load four.
-> So, it's essentially like the address of the counter and it's giving you some sort of value or action that it needs to be done and it goes through each one.
-> Um, I wish I could remember this better, but if we're text, if we're tracing the execution, essentially the **values** go into the **CPU** to the various um uh action steps it's requesting.
+> So the **CPU** would then **fetch** **zero** which meant load **four**.
+> Um, and I believe that means it would load **four**.
+> So, it's essentially like the **address** of the counter and it's giving you some sort of value or action that it needs to be done and it goes through each **one**.
+> Um, I wish I could remember this better, but if we're **text**, if we're tracing the execution, essentially the **values** go into the **CPU** to the various um uh action **steps** it's requesting.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:05:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:06:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:06:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:07:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:07:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:08:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:08:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:09:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:09:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:05:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:06:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:06:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:07:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:07:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:08:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:08:50"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:09:20"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:09:50"}}
 42. [1:10:19] Explain what a rootkit is.
 
-> explain what a rootkit is.
-> A rootkit is a type of **malware** that rewrites the um the computer itself.
+> explain what a **rootkit** is.
+> A **rootkit** is a type of **malware** that rewrites the um the **computer** itself.
 > I believe it it rewrites the um **CPU** or maybe it's the **operating system**.
 > Um it's a type of **malware** that's very malicious.
-> It goes in and it and it changes what's going on in your computer.
+> It goes in and it and it changes what's going on in your **computer**.
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:10:19"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:10:49"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:10:19"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:10:49"}}
 43. [1:11:03] How might an image be represented numerically?
 
-> How might an image be represented numerically? So, we have an image, whether it be a picture of you, your dot, whatever, right? You have a picture and it's broken down into these pixels, itty bitty pixels.
+> How might an image be represented numerically? So, we have an image, whether it be a picture of you, your dot, whatever, right? You have a picture and it's broken down into these **pixels**, itty bitty **pixels**.
 > These are not to scale.
-> and a picture each pixel is broken down into the red, green, blue **values**.
-> So the numbers of 1 to 255.
-> So essentially each color let's say it's 10 um 120 160 um 118 255 one N.
-> Each each pixel has its own value of color and the pixels all come together to um create that picture.
+> and a picture each **pixel** is broken down into the red, green, blue **values**.
+> So the numbers of **1** to **255**.
+> So essentially each color let's say it's **10** um 120 160 um 118 **255** **one** N.
+> Each each **pixel** has its own value of color and the **pixels** all come together to um create that picture.
 > Now it'd be represented numerically by taking these numbers.
-> We know it's going to be a three-digit number.
+> We know it's going to be a **three**-digit number.
 > So you would number pad **in between** them as you smoosh them together.
-> Right? So 120, 160, 118, 255.
-> And from this you could then you could make the information go into **binary**.
+> Right? So 120, 160, 118, **255**.
+> And from this you could then you could make the **information** go into **binary**.
 > Um so your picture would be encoded into color.
 > You'd have a big number.
 > You could then go into **binary**.
-> um for each of these **values** I guess um so that's how it would be encode represented as be encoded so how would an image be represented numerically if you represented numerically by the the **red green blue** theory of their colors assigning a number to each color each pixel would be a different color okay next question explain the difference between a compiler and an
+> um for each of these **values** I guess um so that's how it would be encode represented as be encoded so how would an image be represented numerically if you represented numerically by the the **red green blue** theory of their colors assigning a number to each color each **pixel** would be a different color okay next question explain the difference between a compiler and an
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:11:03"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:11:33"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:12:03"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:12:33"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:13:03"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:11:03"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:11:33"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:12:03"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:12:33"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:13:03"}}
 44. [1:13:11] Explain the difference between a compiler and an interpreter.
 
-> interpreter.
-> Um, so compiler interpreter.
-> Okay, so a compiler takes text and it reads the it runs runs the information and un unchanged version I guess it compiles compiles compiler reads the text it goes through um it it's unchanged when and it goes through a compiler.
-> A compiler reads a text, rearranges the **values**, and you get another text file out of it.
-> Um, I think you mentioned the text file might not be able to be **readable**.
-> An interpreter would actually run the file.
-> So, you would insert text into the interpreter and it would execute whatever function that you set it to be.
+> **interpreter**.
+> Um, so compiler **interpreter**.
+> Okay, so a compiler takes **text** and it reads the it runs runs the **information** and un unchanged version I guess it compiles compiles compiler reads the **text** it goes through um it it's unchanged when and it goes through a compiler.
+> A compiler reads a **text**, rearranges the **values**, and you get another **text** file out of it.
+> Um, I think you mentioned the **text** file might not be able to be **readable**.
+> An **interpreter** would actually run the file.
+> So, you would insert **text** into the **interpreter** and it would **execute** whatever function that you set it to be.
 > Okay, next question.
 > Explain the role of **JavaScript** in a web
 
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:13:11"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:13:41"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:14:11"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:13:11"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:13:41"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:14:11"}}
 45. [1:14:26] Explain the role of JavaScript in a web page.
 
 > page.
@@ -1173,16 +883,11 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:14:26"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:14:56"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:15:26"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:14:26"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:14:56"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:15:26"}}
 46. [1:15:36] Discuss issues with creating a strong password.
 
 > **password**.
 > um issues creating a strong **password**.
-> So, I know that like when you're doing um **passwords** for emails or for um for different programs, they they suggest letters and numbers and um what do you call them? Punctuation marks and um symbols.
+> So, I know that like when you're doing um **passwords** for emails or for um for different **programs**, they they suggest letters and numbers and um what do you call them? Punctuation marks and um symbols.
 > I know my issues with a strong **password** is I forget them.
 > Um I have to update my **password** regularly on my work email and it's a constant battle of remembering it.
 > Um but not creating a strong **password** leaves you vulnerable.
@@ -1194,10 +899,3 @@
 
 
 {{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:15:36"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:16:06"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:16:36"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:17:06"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:15:36"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:16:06"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:16:36"}}
-{{ShowFrame:https://youtu.be/4PJhuFMh1U4 time:"1:17:06"}}

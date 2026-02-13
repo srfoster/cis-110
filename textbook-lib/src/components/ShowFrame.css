@@ -34,6 +34,24 @@
   position: relative;
   width: 100%;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  transition: border-color 0.2s ease;
+}
+
+.show-frame-container:hover {
+  border-color: #667eea;
+}
+
+.show-frame-wrapper.active {
+  box-shadow: inset 0 0 0 3px rgba(102, 126, 234, 0.5);
+}
+
+.show-frame-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
 }
 
 .show-frame-container iframe {
@@ -43,6 +61,79 @@
   width: 100%;
   height: 100%;
   border: none;
+}
+
+.show-frame-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  cursor: crosshair;
+}
+
+.selection-box {
+  position: absolute;
+  border: 2px dashed #4CAF50;
+  background: rgba(76, 175, 80, 0.2);
+  pointer-events: none;
+}
+
+.reset-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.reset-button:hover {
+  background: white;
+  transform: scale(1.05);
+}
+
+.play-pause-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.play-pause-button:hover {
+  background: white;
+  transform: scale(1.05);
+}
+
+.controls-hint {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.8em;
+  pointer-events: none;
 }
 
 .show-frame-error {

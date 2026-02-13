@@ -473,7 +473,6 @@
 > So that programmer has split this **process** into different **threads** and it's basically saying uh each thread is then kind of given more or less of a priority based upon what the programmer wanted.
 > the original programmer.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"22:37"}}
 
 > Uh sometimes you're able to change the uh processing of uh something.
 > Sometimes you're able to change how many **threads** are spent on something.
@@ -526,7 +525,6 @@
 > It just doesn't have that one step between it.
 > Um the other thing that like you could kind of say that's the difference here is that if you run a Python script uh because it's being interpreted you can kind of go through and continue like modifying the **program** as it's running while in a **compiled** language you you can't really do that as easily.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"22:37"}}
 
 > Uh so in Python we have Jupyter notebooks that allow us to run things cell by cell.
 > Uh, and that means that the Python script is constantly kind of loaded into **RAM**.
@@ -579,7 +577,6 @@
 > Ah okay talking more about uh **hardware** we have discussed the relative strengths and weaknesses of m of **magnetic** **optical** and **solid state** storage technology.
 > So when we're talking about like storage, we're talking about something other than **RAM** and **ROM** here.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"33:44"}}
 
 > I mean **ROM** is storing val like can store **values** inside of it.
 > I believe it like I believe it's done magnetically.
@@ -632,7 +629,6 @@
 > Um, now the thing about **optical** storage is that it's really **portable**.
 > like you're able it's easy to exchange discs with somebody like you can you can very easily uh write a a DVD which the writing **process** is called burning.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"22:37"}}
 
 > So you may have heard of like burning music or something.
 > That means that you're burning that data onto the **optical drive** or onto the **optical** disc.
@@ -685,7 +681,6 @@
 > But yeah, if you don't know about **solid state** drives, the so the chemical like stuff is so cool with it.
 > Uh let's see.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"11:05"}}
 
 > 21 is the next one.
 > All right.
@@ -791,7 +786,6 @@
 > Meanwhile, a relative **file path** is like if you decided to stop at a gas station and then recalculated the route from there like that would be relative to the location that you are at now.
 > Uh it would change and then last one is 34.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"33:44"}}
 
 > Design an efficient or file organization system for a specific use case.
 > Academic, professional, creative.
@@ -950,7 +944,6 @@
 > I'm actually Yeah, I need to make that bigger.
 > DNS And what a DNS server does is it basically takes the HTTP request that you have which oftentimes is something like www.google.com something like that.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"20:38"}}
 
 > uh and it needs to be translated into an **IP address** cuz uh even though we typically think of **websites** as having domain names, **websites** themselves are act like not **websites** themselves but the servers themselves have **addresses** and those are IP **addresses** and uh that's what we're actually trying to uh send our request to so we often times have to **translate** our uh our HTTP request into an **IP address** before hitting this **web server**.
 > Uh there's also another **process** that happens here which is that at the point in which you send a request at the time in which you send the request, it can be **stored** that request can be **stored** within your **history**.
@@ -1003,7 +996,6 @@
 > Uh, another thing that like it's less common now, but like an original definition for like **cloud computing** used to also mean that like it was interconnected with other people.
 > Um it's not as like it's not as common now but like uh **cloud computing** and **cloud** applications uh or it's not talked about in terms of like **cloud** stuff now but uh it used to be that you could share things between like share processing power between different like user computers.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"29:53"}}
 
 > ers and they would be uh they would all be connected to this web service and providing this service with extra computing power.
 > Uh I believe that uh there was a uh there was a astron uh an astronomy like a big telescope that ended up using that type of thing.
@@ -1056,7 +1048,6 @@
 > I've seen people make a job off of it but uh not me.
 > Um, yeah.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"11:05"}}
 
 > Uh, trying to think of like if there's another one that I like.
 > Um, actually, you know what? I'm going to add one as well.
@@ -1162,7 +1153,6 @@
 > Uh and you don't really have any skin.
 > So, uh, you're pretty ugly and also you're pretty useless.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"0:55"}}
 
 > Um, man, that halfway through saying that I was just like, that's mean.
 > I'm being mean to **HTML**.
@@ -1215,7 +1205,6 @@
 > Um, I'm going to go with button.
 > I'll And I like the button tag here because button is usually used in order to add some type of functionality to the page.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"29:53"}}
 
 > Usually you have **JavaScript** that is attached to it or like an event handler that is attached to it.
 > Um and that is how like so if I click on something on this page uh I would imagine that these are probably **buttons**.
@@ -1268,7 +1257,6 @@
 > Ah, professor.
 > We're going to change that.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"33:44"}}
 
 > We're It's not different things anymore, right? Like it's it's still the same, I think.
 > Yeah, that that seems the same.
@@ -1321,7 +1309,6 @@
 > It's pretty easy to find out people's usernames because usually it's visible to people.
 > **Passwords**, you don't show those to people, but they're not as hard to get as you would think.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"22:37"}}
 
 > There are a lot of ways in which we could get somebody's **password**.
 > Um, so when we talk about usernames and **passwords**, we're not really all I would say like we're semicure.
@@ -1480,7 +1467,6 @@
 > It's not a matter of like they don't make money based on you changing your ideals.
 > They make money based upon how many times you see **advertisements** for the next WWE game.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"22:37"}}
 
 > So yeah, uh basically the people who want to advertise to you, they don't trust people that want to advertise to you a ton.
 > it it like they're they're probably not thinking for your best case.
@@ -1533,7 +1519,6 @@
 > It's actually a lot more common than you would think.
 > And when you add Wikipedia, pull requests, uh, **GitHub**, uh, all these things, you kind of realize that one person can actually affect the another person pretty easily.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"0:55"}}
 
 > Um, so if I spread information to this group, it can spread to the rest of the group in six steps.
 > that article could travel millions of miles without uh without much difficulty.
@@ -1586,7 +1571,6 @@
 > But this is of course like really really useful because uh open-source like code, open source **operating systems**, they're just they allow users to fill in gaps that ex that would exist within other systems.
 > So, like if you don't like Windows because it lacks something, you can make a version of Linux that has that thing and push that up.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"0:55"}}
 
 > Um, and people will use it and people will **collaborate** with you and they'll make their own changes and that's how you get like Ubuntu and Ki Linux and whatnot.
 > Uh, which are extremely helpful uh in pretty much all of computing.
@@ -1639,7 +1623,6 @@
 > But there are certain things that that guy could then do in order to defend himself and those are he can claim **fair use**.
 > Now there are a couple there are a lot of different ways in which **fair use** works.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"33:44"}}
 
 > Uh but the most important parts are the intent of the copy.
 > So if this person was uh if he's made this as a critique of uh if he made frowny face mountain as a critique to smiley face mountain uh that is the his intent he's uh saying I'm using this in order to criticize the artistic value of the original piece.
@@ -1692,7 +1675,6 @@
 > The amount that he copied is minimal.
 > Uh, and usually this is like connected to the market damage part as well, where it's just like I'm not going to affect like this guy's sales of a book if I copy one line.
 
-{{ShowFrame:https://youtu.be/1Gc0eE1405k time:"29:53"}}
 
 > If like for the purposes of like telling people about this line, it's just not going to it it just is a it's an insignificant amount and that's basically **fair use**.
 > The main thing to remember with **copyright** law and **fair use** is that this entire system is like based upon claiming someone did something and then that person defending it.

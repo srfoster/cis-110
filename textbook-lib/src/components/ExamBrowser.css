@@ -6,6 +6,12 @@
   background: linear-gradient(to bottom, #f8f9fa, #ffffff);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   position: relative;
+  transition: border-color 0.2s ease;
+}
+
+.exam-browser.active {
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
 }
 
 .exam-browser-fullscreen {

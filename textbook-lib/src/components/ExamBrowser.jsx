@@ -17,6 +17,35 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   const [selectedGroupIndex, setSelectedGroupIndex] = useState(0);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [videoFullscreen, setVideoFullscreen] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+
+  const componentId = 'exam-browser';
+
+  // Track when this ExamBrowser is interacted with
+  const handleInteraction = () => {
+    if (window.activeVideoComponent !== componentId) {
+      window.activeVideoComponent = componentId;
+      console.log('Active video component changed to: ExamBrowser');
+    }
+    setIsActive(true);
+  };
+
+  // Check if this is the active component
+  useEffect(() => {
+    const checkActive = () => {
+      setIsActive(window.activeVideoComponent === componentId);
+    };
+    
+    const interval = setInterval(checkActive, 100);
+    return () => clearInterval(interval);
+  }, []);
+
+  // Make this active on mount
+  useEffect(() => {
+    window.activeVideoComponent = componentId;
+    setIsActive(true);
+    console.log('ExamBrowser mounted and set as active');
+  }, []);
 
   // Initialize transcript from prop or fetch from file
   useEffect(() => {
@@ -111,25 +140,14 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   // Keyboard navigation for group slider
   useEffect(() => {
     const handleKeyDown = (event) => {
-      if (!transcriptData) return;
-      
-      const groupedView = getGroupedTranscriptView();
-      const maxIndex = groupedView.length - 1;
+      if (!transcriptData || !isActive) return;
       
       if (event.key === 'ArrowLeft') {
         event.preventDefault();
-        const newIndex = Math.max(0, selectedGroupIndex - 1);
-        setSelectedGroupIndex(newIndex);
-        if (groupedView[newIndex]) {
-          handleSeekToTime(groupedView[newIndex].start);
-        }
+        handleSeek(-5); // Seek backward 5 seconds
       } else if (event.key === 'ArrowRight') {
         event.preventDefault();
-        const newIndex = Math.min(maxIndex, selectedGroupIndex + 1);
-        setSelectedGroupIndex(newIndex);
-        if (groupedView[newIndex]) {
-          handleSeekToTime(groupedView[newIndex].start);
-        }
+        handleSeek(5); // Seek forward 5 seconds
       } else if (event.key === 'Escape' && isFullscreen) {
         setIsFullscreen(false);
       }
@@ -137,7 +155,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [selectedGroupIndex, transcriptData, groupDuration, isFullscreen]);
+  }, [transcriptData, isFullscreen, isActive, currentTime, duration]);
 
   // Extract video ID from various YouTube URL formats
   const extractVideoId = (url) => {
@@ -326,10 +344,13 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   const embedUrl = `https://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=${window.location.origin}`;
 
   return (
-    <div className={`exam-browser ${isFullscreen ? 'exam-browser-fullscreen' : ''}`}>
+    <div className={`exam-browser ${isFullscreen ? 'exam-browser-fullscreen' : ''} ${isActive ? 'active' : ''}`}>
       <button 
         className="fullscreen-toggle-button"
-        onClick={() => setIsFullscreen(!isFullscreen)}
+        onClick={() => {
+          handleInteraction();
+          setIsFullscreen(!isFullscreen);
+        }}
         title={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
       >
         {isFullscreen ? '✕ Exit Fullscreen' : '⛶ Fullscreen'}
@@ -338,7 +359,10 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
       {isFullscreen && (
         <button 
           className="video-fullscreen-toggle-button"
-          onClick={() => setVideoFullscreen(!videoFullscreen)}
+          onClick={() => {
+            handleInteraction();
+            setVideoFullscreen(!videoFullscreen);
+          }}
           title={videoFullscreen ? "Normal layout" : "Enlarge video"}
         >
           {videoFullscreen ? '⇄ Normal' : '⛶ Enlarge Video'}
@@ -346,7 +370,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
       )}
 
       <div className={`exam-browser-content ${isFullscreen ? 'split-view' : ''} ${isFullscreen && videoFullscreen ? 'video-fullscreen' : ''}`}>
-        <div className="exam-browser-player">
+        <div className="exam-browser-player" onMouseEnter={handleInteraction} onClick={handleInteraction}>
           <iframe
             ref={iframeRef}
             width="100%"
@@ -396,7 +420,10 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
               max="300"
               step="5"
               value={groupDuration}
-              onChange={(e) => setGroupDuration(Number(e.target.value))}
+              onChange={(e) => {
+                handleInteraction();
+                setGroupDuration(Number(e.target.value));
+              }}
               className="group-duration-slider"
             />
           </div>
@@ -412,8 +439,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
               max={Math.max(0, groupedView.length - 1)}
               step="1"
               value={selectedGroupIndex}
-              onChange={(e) => {
-                const index = Number(e.target.value);
+              onChange={(e) => {                handleInteraction();                const index = Number(e.target.value);
                 setSelectedGroupIndex(index);
                 if (groupedView[index]) {
                   handleSeekToTime(groupedView[index].start);
@@ -433,6 +459,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
                 <button
                   className="transcript-timestamp"
                   onClick={() => {
+                    handleInteraction();
                     setSelectedGroupIndex(index);
                     handleSeekToTime(group.start);
                   }}

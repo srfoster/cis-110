@@ -6,728 +6,324 @@
 
 1. [05:13] What is binary?
 
-> um, what is binary and why do computers use it? Um, binary is a two number system that is comprised out of ones and zeros. Um, and computers use it because we need because computers need electricity to run. Computers are made out of um these things called transistors. I'm trying to remember how. I think this diagram is like this. Basically, right? And this is just going to be like the super zoomed in version of that. Computers are made out of transistors which when there is voltage running through it gives out or which exists in two states on or off. And where there when there is voltage or electricity going through this transistor it puts out a one because that is stating that the switch is on. So if there's electricity or power or voltage going through the transistor it means it's on. That's one. Um if there is no power there is no power it's and that's a that'll be at its off state. So that'll give out zero. So computers are made out of billions of these and binary is what computers use to basically uh take uh use electricity to to run properly. So the transistors enables the computers to properly use electricity because um the way we read electricity is through binary and binary looping back around is a number system that consists of one and zero. So that is binary and um why computers use it. Um, explain how a processor work.
+> um, what is **binary** and why do computers use it? Um, **binary** is a **two** **number system** that is comprised out of **ones** and **zeros**. Um, and computers use it because we need because computers need **electricity** to run. Computers are made out of um these things called **transistors**. I'm trying to remember how. I think this diagram is like this. Basically, right? And this is just going to be like the super zoomed in version of that. Computers are made out of **transistors** which when there is **voltage** running through it gives out or which exists in **two** states on or off. And where there when there is **voltage** or **electricity** going through this **transistor** it puts out a **one** because that is stating that the switch is on. So if there's **electricity** or **power** or **voltage** going through the **transistor** it means it's on. That's **one**. Um if there is no **power** there is no **power** it's and that's a that'll be at its off state. So that'll give out **zero**. So computers are made out of **billions** of these and **binary** is what computers use to basically uh take uh use **electricity** to to run properly. So the **transistors** enables the computers to properly use **electricity** because um the way we read **electricity** is through **binary** and **binary** looping back around is a **number system** that consists of **one** and **zero**. So that is **binary** and um why computers use it. Um, explain how a **processor** work.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"5:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"5:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"6:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"6:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"7:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"7:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"5:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"5:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"6:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"6:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"7:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"7:43"}}
 2. [07:48] How does a processor work?
 
-> Okay, processor is kind of like the brains the brains of the computer is a processor. you. And what that does is it kind of has it goes through a cycle to kind of read um program instructions. So it works together with RAM. The CPU and RAM work uh very close together. And what happens is when there is an instruction that the CPU needs to do, it'll it'll go in um fetch that instruction from RAM. It'll bring it in. It'll kind of um decode uh what that instruction is. For example, maybe the instruction is add. It's going to say, "Hey, I want you to add five or something like that." So, it'll fetch that instruction, bring it in, decode it, and then once it figures out what it needs to do, it's like uh the computer reads that the instruction says to add the computer or not the computer, the processor. The processor then is going to execute that instruction and it's going to go ahead and say, "Hey, I'm going to go do that." We go and do do this and then we go and move on to the next instruction. So, it's the fetch, decode, execute cycle. So, it's going to continuously until it's the program is done running or until or it goes infinitely. So, it's just going to keep on going and getting instructions, decoding what it it has to do, and then executing that instruction. So, it'll just kind of loop loop like that. And that's how a processor works. How might a video be represented
+> Okay, **processor** is kind of like the brains the brains of the **computer** is a **processor**. you. And what that does is it kind of has it goes through a cycle to kind of read um **program** **instructions**. So it works together with **RAM**. The **CPU** and **RAM** work uh very close together. And what happens is when there is an **instruction** that the **CPU** needs to do, it'll it'll go in um **fetch** that **instruction** from **RAM**. It'll bring it in. It'll kind of um **decode** uh what that **instruction** is. For example, maybe the **instruction** is add. It's going to say, "Hey, I want you to add **five** or something like that." So, it'll **fetch** that **instruction**, bring it in, **decode** it, and then once it figures out what it needs to do, it's like uh the **computer** reads that the **instruction** says to add the **computer** or not the **computer**, the **processor**. The **processor** then is going to **execute** that **instruction** and it's going to go ahead and say, "Hey, I'm going to go do that." We go and do do this and then we go and move on to the next **instruction**. So, it's the **fetch**, **decode**, **execute** cycle. So, it's going to continuously until it's the **program** is done running or until or it goes infinitely. So, it's just going to keep on going and getting **instructions**, decoding what it it has to do, and then executing that **instruction**. So, it'll just kind of loop loop like that. And that's how a **processor** works. How might a video be represented
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"7:48"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"8:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"8:48"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"9:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"9:48"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"7:48"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"8:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"8:48"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"9:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"9:48"}}
 3. [10:16] How might a video be represented numerically?
 
-> numerically? So, a video you can kind of think of as a series of kind of put together um kind of put together into one whole file. Um and that series of images you um could be rep this is how you start representing um videos numerically because the series of images could be called we call them frames. So they can be uh videos can be represented numerically by their frames. For example 30 uh frames per second. And what this means is every second 30 frames or 30 images will be going by for however long the video is. And we'll say maybe the video is this whole video is 60 seconds. Um that's a way that the video can be represented numerically through their frames through how the length of the video 60 seconds. That's how it could be um uh represented numerically. Those are two ways that it can happen. Um
+> numerically? So, a video you can kind of think of as a series of kind of put together um kind of put together into **one** whole file. Um and that series of **images** you um could be rep this is how you start representing um videos numerically because the series of **images** could be called we call them **frames**. So they can be uh videos can be represented numerically by their **frames**. For example **30** uh **frames** per second. And what this means is every second **30** **frames** or **30** **images** will be going by for however long the video is. And we'll say maybe the video is this whole video is **60** seconds. Um that's a way that the video can be represented numerically through their **frames** through how the length of the video **60** seconds. That's how it could be um uh represented numerically. Those are **two** ways that it can happen. Um
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"10:16"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"10:46"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"11:16"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"11:46"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"10:16"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"10:46"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"11:16"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"11:46"}}
 4. [11:53] Electricity and binary.
 
-> how does electricity enable computers to represent binary digits? Kind of mentioned with what is binary and why do computers use it? But to kind of repeat and maybe go into a little bit more depth um for electricity electricity enabling computers to represent binary digits, we'll just start again with drawing a transistor, right? And we'll just say that that's part of like a wire. Um these transistors exist in two states on and off. When there is power or voltage going through the transistor it is on which is represented by one and off is represented by zero. when there's no um voltage running through um these transistors like I like I mentioned um computers are made out of millions and billions of them. So when electricity goes through the computer, these transistors um read off or give off the you know are switched with by excuse me the transistors give off ones or zeros which enable the computer to read and translate into machine code. So that's how electricity um enables computers to represent binary digits. How might an image be represented
+> how does **electricity** enable computers to represent **binary** digits? Kind of mentioned with what is **binary** and why do computers use it? But to kind of repeat and maybe go into a little **bit** more depth um for **electricity** **electricity** enabling computers to represent **binary** digits, we'll just start again with drawing a **transistor**, right? And we'll just say that that's part of like a wire. Um these **transistors** exist in **two** states on and off. When there is **power** or **voltage** going through the **transistor** it is on which is represented by **one** and off is represented by **zero**. when there's no um **voltage** running through um these **transistors** like I like I mentioned um computers are made out of **millions** and **billions** of them. So when **electricity** goes through the **computer**, these **transistors** um read off or give off the you know are switched with by excuse me the **transistors** give off **ones** or **zeros** which enable the **computer** to read and **translate** into **machine code**. So that's how **electricity** um enables computers to represent **binary** digits. How might an image be represented
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"11:53"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"12:23"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"12:53"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"13:23"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"11:53"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"12:23"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"12:53"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"13:23"}}
 5. [13:37] How might an image be represented numerically?
 
-> numerically? This is actually a perfect question because I have paint open. Um, one way an image can be represented. Oops. uh an image can be represented numerically is if you can look down here the size of my paint canvas is 1914 by 862 pixel. So that's a way that an image can be represented numerically because if I was to you know draw something like this this here is an image. Um, and what this these numbers mean is the amount of pixels in that image. So in this paint document that I have open right now, this is the size of the image. So that means that 1914 * 862 is the number of pixels in this image. How can it also get represented numerically is with colors. So, if you know, if I start adding some colors in here, um each each one of these pixels, I know it's all red right now, but each one of these pixels will have the um the number code, the three the three number um RGB code for that for the color that's in that pixel. and those taken all together and when it kind of when you zoom it all out creates the picture itself. So those are ways that um an image can get represented numerically. Um through the uh through the size of the of the image um for example an 800 by 600 uh image will have 8 32 million pixels in it. Um and each one of those pixels will have the RGB color uh number code. Um and though that's how the uh images get numeric
+> numerically? This is actually a perfect question because I have paint open. Um, **one** way an image can be represented. Oops. uh an image can be represented numerically is if you can look down here the size of my paint canvas is 1914 by 862 **pixel**. So that's a way that an image can be represented numerically because if I was to you know draw something like this this here is an image. Um, and what this these numbers mean is the amount of **pixels** in that image. So in this paint document that I have open right now, this is the size of the image. So that means that 1914 * 862 is the number of **pixels** in this image. How can it also get represented numerically is with colors. So, if you know, if I start adding some colors in here, um each each **one** of these **pixels**, I know it's all red right now, but each **one** of these **pixels** will have the um the number code, the **three** the **three** number um **RGB** code for that for the color that's in that **pixel**. and those taken all together and when it kind of when you zoom it all out creates the picture itself. So those are ways that um an image can get represented numerically. Um through the uh through the size of the of the image um for example an 800 by 600 uh image will have **8** **32** **million** **pixels** in it. Um and each **one** of those **pixels** will have the **RGB** color uh number code. Um and though that's how the uh **images** get numeric
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"13:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"14:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"14:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"15:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"15:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"16:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"13:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"14:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"14:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"15:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"15:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"16:07"}}
 6. [16:08] Decimal to binary.
 
-> um randomly generate a uh two uh digit decimal number and convert it to binary. We'll go ahead and um generator. Oops. Random generator. Um 1 to 99 generate 13 seems a little too easy. 31 the backwards version. All right, I'll do Okay, this is 31. Cool. Um, let's see here. We need to convert 31 to binary. Um, and I think this is dividing with the powers. So, we're going to start off with 16 because we can't take 32 out of 31. Good one. We're going to do 16 8 one. Um, let's see. So when we're dividing, we have to for me the trick for me that's easiest for me to remember is if I can divide or if I can remove that power of two from the number then that it's a one and if I cannot then it's a zero and then I just kind of go down the go down the line. So I can take 16 out of 31. So right off the bat we get a one. Um, and 31 - 16 is 15. We can't take 15 out of eight or we can't take eight out of 15. So that's a one. So 8 9 10. So we have seven remaining. We can take four out of seven. So that's a one. Um, 7 - 4 is three. We can take three or two out of three. So that's a one. 2 minus or 3 - 2 is one. And we can take one out of one. So we get one. So 31 actually equals just all ones um generated into binaries. 31 equals 1 one one.
+> um randomly generate a uh **two** uh digit **decimal** number and **convert** it to **binary**. We'll go ahead and um generator. Oops. Random generator. Um **1** to 99 generate **13** seems a little too easy. **31** the backwards version. All right, I'll do Okay, this is **31**. Cool. Um, let's see here. We need to **convert** **31** to **binary**. Um, and I think this is dividing with the powers. So, we're going to start off with **16** because we can't take **32** out of **31**. Good **one**. We're going to do **16** **8** **one**. Um, let's see. So when we're dividing, we have to for me the trick for me that's easiest for me to remember is if I can divide or if I can remove that **power** of **two** from the number then that it's a **one** and if I cannot then it's a **zero** and then I just kind of go down the go down the line. So I can take **16** out of **31**. So right off the bat we get a **one**. Um, and **31** - **16** is **15**. We can't take **15** out of **eight** or we can't take **eight** out of **15**. So that's a **one**. So **8** **9** **10**. So we have **seven** remaining. We can take **four** out of **seven**. So that's a **one**. Um, **7** - **4** is **three**. We can take **three** or **two** out of **three**. So that's a **one**. **2** minus or **3** - **2** is **one**. And we can take **one** out of **one**. So we get **one**. So **31** actually equals just all **ones** um generated into binaries. **31** equals **1** **one** **one**.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"16:08"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"16:38"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"17:08"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"17:38"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"18:08"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"18:38"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"16:08"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"16:38"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"17:08"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"17:38"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"18:08"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"18:38"}}
 7. [19:00] Binary to decimal.
 
-> Uh okay. Okay, we'll do the backwards version and generate a 4bit binary number and convert to decimal random generator. Um okay 20 results um I guess I'll do don't think I've done one one zero yet. Guess I'll out and this one is one equals we're going to use the powers of two again. We're going to do eight. Oops. Four. One. And for this one is if there's a one, you add the powers of two together. So for example this would be um 8 + 4 + 2. We don't add one because this is we only add when there is a. So 8 + 2 is 10 + 4 is 14. So 1 1 0 is 14 in decimal form.
+> Uh okay. Okay, we'll do the backwards version and generate a 4bit **binary** number and **convert** to **decimal** random generator. Um okay **20** **results** um I guess I'll do don't think I've done **one** **one** **zero** yet. Guess I'll out and this **one** is **one** equals we're going to use the **powers of two** again. We're going to do **eight**. Oops. **Four**. **One**. And for this **one** is if there's a **one**, you add the **powers of two** together. So for example this would be um **8** + **4** + **2**. We don't add **one** because this is we only add when there is a. So **8** + **2** is **10** + **4** is **14**. So **1** **1** **0** is **14** in **decimal** form.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"19:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"19:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"20:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"20:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"21:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"19:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"19:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"20:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"20:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"21:00"}}
 8. [21:02] What is a transistor?
 
-> What is a transistor and how does it work in computers? I I have mentioned this now three times now. Binary electricity and binary digits. Um and now transistor. So I I don't think the one thing I don't think I mentioned was what it was made out of. But again, transistors are basically these tiny little switches that exist in two states, on and off. They are typically made out of silicone. Um when there is electricity running through them or power or voltage it will be at an on state and the on state is represented by the number one in the binary number system and when there is no power or voltage going through the transistor it will be in an off state represented by the number zero in the binary number system. Um, how does it work in computers? Computers are made out of all these transistors. So, it's made out of all these little switches that turn on and off depending on if it is receiving power or not. And this data is read by the um this binary data gets basically translated into code that computers can use to run and execute um programs and instructions. So that's a transistor bit computers. Um
+> What is a **transistor** and how does it work in computers? I I have mentioned this now **three** times now. **Binary** **electricity** and **binary** digits. Um and now **transistor**. So I I don't think the **one** thing I don't think I mentioned was what it was made out of. But again, **transistors** are basically these tiny little **switches** that exist in **two** states, on and off. They are typically made out of silicone. Um when there is **electricity** running through them or **power** or **voltage** it will be at an on state and the on state is represented by the number **one** in the **binary** **number system** and when there is no **power** or **voltage** going through the **transistor** it will be in an off state represented by the number **zero** in the **binary** **number system**. Um, how does it work in computers? Computers are made out of all these **transistors**. So, it's made out of all these little **switches** that turn on and off depending on if it is receiving **power** or not. And this **data** is read by the um this **binary** **data** gets basically translated into code that computers can use to run and **execute** um **programs** and **instructions**. So that's a **transistor** **bit** computers. Um
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"21:02"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"21:32"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"22:02"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"22:32"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"21:02"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"21:32"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"22:02"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"22:32"}}
 9. [22:52] IO devices?
 
-> explain what IO devices are and why they're important to computing. IO IO stands for um input output output and the IO devices are things like for input. Um, microphones, keyboard. These things are considered input devices. And what it is is you something these are like the physical devices that the user has and they will put like something will happen with these devices. For example, for keyboard, you will press a button. That input will get sent to the computer to the CPU to um process whatever instruction that the uh OS will tell it to do. Um and when that instruction gets processed then it gets output to um something that you can see. So that can be you're in a computer. Um you open up a word doc, you're typing the letter A. Press the letter A on your keyboard. your keyboard inputs that data into the com into the computer. The uh operating system and CPU kind of work together to figure out the instructions and data that gets processed and then that gets output into a result that uh the user can see. So for example, you're filling out a form or you're writing in a word document. You press the letter A, then monitor will output that result to you so that you can see the letter A pop up. Um why is it important to computing? Um basically every every interaction in computing is going to have some type of input that needs to get processed and output for something else. Um and that's why um design an efficient file organization
+> explain what IO devices are and why they're important to computing. IO IO stands for um **input output** **output** and the IO devices are things like for **input**. Um, microphones, **keyboard**. These things are considered **input devices**. And what it is is you something these are like the physical devices that the user has and they will put like something will happen with these devices. For example, for **keyboard**, you will press a button. That **input** will get sent to the **computer** to the **CPU** to um **process** whatever **instruction** that the uh **OS** will tell it to do. Um and when that **instruction** gets **processed** then it gets **output** to um something that you can see. So that can be you're in a **computer**. Um you open up a word doc, you're **typing** the letter A. Press the letter A on your **keyboard**. your **keyboard** inputs that **data** into the com into the **computer**. The uh **operating system** and **CPU** kind of work together to figure out the **instructions** and **data** that gets **processed** and then that gets **output** into a **result** that uh the user can see. So for example, you're filling out a form or you're writing in a word document. You press the letter A, then **monitor** will **output** that **result** to you so that you can see the letter A pop up. Um why is it important to computing? Um basically every every interaction in computing is going to have some type of **input** that needs to get **processed** and **output** for something else. Um and that's why um design an efficient file organization
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"22:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"23:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"23:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"24:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"24:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"25:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"25:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"22:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"23:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"23:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"24:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"24:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"25:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"25:52"}}
 10. [25:57] File organization system.
 
-> system for a specific use case. academic, professional, creative. Um, I I like to just use an example for what I would use for class. So, for myself, if I was in documents folder, I would make a folder for school. And in that folder, I would have folders for classes. And in those folders, I would have folders for maybe specific assignments, um maybe discussion board post, um documents, or maybe just like some miscellaneous study material. Uh but this is typically how I I structure my my um folders when especially when I do a lot of um online classes because the material be downloaded online. So I'll say for example my classes for this quarter is 1101 assignments. These would be maybe discussion boards. These would be miscellaneous. Fine. And then well and then you know as you go in then you get you know your actual just document files stuff like that. So this is what my organization could kind of like my my file system, how I would keep myself organized.
+> system for a specific use case. academic, professional, creative. Um, I I like to just use an example for what I would use for class. So, for myself, if I was in **documents** folder, I would make a folder for school. And in that folder, I would have folders for classes. And in those folders, I would have folders for maybe specific assignments, um maybe discussion board post, um **documents**, or maybe just like some miscellaneous study material. Uh but this is typically how I I structure my my um folders when especially when I do a lot of um online classes because the material be downloaded online. So I'll say for example my classes for this quarter is 1101 assignments. These would be maybe discussion boards. These would be miscellaneous. Fine. And then well and then you know as you go in then you get you know your actual just document **files** stuff like that. So this is what my organization could kind of like my my **file system**, how I would keep myself **organized**.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"25:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"26:27"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"26:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"27:27"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"27:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"28:27"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"25:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"26:27"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"26:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"27:27"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"27:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"28:27"}}
 11. [28:37] Compiler versus interpreter.
 
-> Um, explain the difference between a compiler and an interpreter. Okay. So, a compiler um is a program. They're both They're both programs. Um but one does a whole bunch of things at the at once and then the other uh kind of translates along the way. So an a compiler will take whatever code is, you know, is written by the um by the programmer. It'll take that code and it'll read it and translate it all at once um and then it'll spit out a ready readym made um exe file or a file that just has that code all completely translated and ready to go and ready to be ran. Um so that's what a compiler does. Um and an interpreter uh for what makes it different um is you know you take that code and the interpreter instead of waiting for all the code to be written um to translate it like a compiler would the interpreter will just translate as you go. So you input your programmer code, the interpreter will go ahead and as you're going down line by line, we'll take that code and interpret it into machine code. Um, and then when it's done, you can go ahead and run it, run the program. And that's basically the main difference between a compiler and an interpreter. How might letters be encoded
+> Um, explain the difference between a compiler and an **interpreter**. Okay. So, a compiler um is a **program**. They're both They're both **programs**. Um but **one** does a whole bunch of things at the at once and then the other uh kind of translates along the way. So an a compiler will take whatever code is, you know, is written by the um by the programmer. It'll take that code and it'll read it and **translate** it all at once um and then it'll spit out a ready readym made um **exe** file or a file that just has that code all completely translated and ready to go and ready to be ran. Um so that's what a compiler does. Um and an **interpreter** uh for what makes it different um is you know you take that code and the **interpreter** instead of waiting for all the code to be written um to **translate** it like a compiler would the **interpreter** will just **translate** as you go. So you **input** your programmer code, the **interpreter** will go ahead and as you're going down line by line, we'll take that code and interpret it into **machine code**. Um, and then when it's done, you can go ahead and run it, run the **program**. And that's basically the main difference between a compiler and an **interpreter**. How might letters be encoded
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"28:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"29:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"29:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"30:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"30:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"28:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"29:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"29:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"30:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"30:37"}}
 12. [30:57] Letter and word encoding.
 
-> numerically? uh letters and words. Um you can use the padding method that was taught in class to to encode letters. Um and what that is is you know we have 26 letters in the alphabet and basically assigning those um letters a specific number. But keeping in mind that because um you know your digits are from zero to to zero to nine that the first couple of um letters need to have uh two digits because there's 26 total letters in the alphabet. So the first uh couple of letters that the first 10 uh 10 uh letters need to have two digits because um and that'll be the padding method which is adding a zero in front of it because there will be an instance when you go past nine and you hit 10 and if you don't have some sort of padding in between the numbers then you won't be able to know when you're actually separating those numbers so that you can know what letter what the correct letter is because if instead of having 01 and you just had one and you wanted to write B a C instead of writing 231 you write 020301 so that in the in case there was another letter whatever the 11th letter of the alphabet is. For example, K. Um, if there's repeating numbers, then you can you'll know you won't be confused if there's repeating numbers because the numbers will be padded so that you know what each um number what each lettering is for each number. That's how you can encode them numerically. Just making sure that there's padding so that there's no confusion when there's repeating numbers so that you know what the actual letters are. Um, explain the input process output model
+> numerically? uh letters and **words**. Um you can use the padding method that was taught in class to to encode letters. Um and what that is is you know we have **26** letters in the alphabet and basically assigning those um letters a specific number. But keeping in mind that because um you know your digits are from **zero** to to **zero** to **nine** that the first couple of um letters need to have uh **two** digits because there's **26** total letters in the alphabet. So the first uh couple of letters that the first **10** uh **10** uh letters need to have **two** digits because um and that'll be the padding method which is adding a **zero** in front of it because there will be an instance when you go past **nine** and you hit **10** and if you don't have some sort of padding **in between** the numbers then you won't be able to know when you're actually separating those numbers so that you can know what letter what the correct letter is because if instead of having 01 and you just had **one** and you wanted to write B a **C** instead of writing 231 you write 020301 so that in the in case there was another letter whatever the 11th letter of the alphabet is. For example, K. Um, if there's repeating numbers, then you can you'll know you won't be confused if there's repeating numbers because the numbers will be padded so that you know what each um number what each lettering is for each number. That's how you can encode them numerically. Just making sure that there's padding so that there's no confusion when there's repeating numbers so that you know what the actual letters are. Um, explain the **input** **process** **output** model
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"30:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"31:27"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"31:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"32:27"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"32:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"33:27"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"30:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"31:27"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"31:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"32:27"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"32:57"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"33:27"}}
 13. [33:37] IPO Model.
 
-> and its significance. And I think I kind of went over it when I talked about IO devices and why they're important. Um, but that was with devices. But this is just a model in general. We'll have the input process and we'll use the keyboard and the monitor as the inputs and outputs and What happens is is some device or something will send some input to the computer. In in this example, pressing the letter A on the keyboard, it takes that input and sends it to the processor so that it um takes whatever instructions um and executes it. Say I'm pressing A because I want it to show up in a Word document. And when it follows and executes that instruction, it'll put out the result, which is the output, and it'll pop up the letter A in your document. It's significant because basically everything in computing is going to have some sort of input process out. Doesn't matter. It's going to probably have it. Um, explain the difference between RAM
+> and its significance. And I think I kind of went over it when I talked about IO devices and why they're important. Um, but that was with devices. But this is just a model in general. We'll have the **input** **process** and we'll use the **keyboard** and the **monitor** as the inputs and outputs and What happens is is some device or something will send some **input** to the **computer**. In in this example, pressing the letter A on the **keyboard**, it takes that **input** and sends it to the **processor** so that it um takes whatever **instructions** um and **executes** it. Say I'm pressing A because I want it to show up in a Word document. And when it follows and **executes** that **instruction**, it'll put out the **result**, which is the **output**, and it'll pop up the letter A in your document. It's significant because basically everything in computing is going to have some sort of **input** **process** out. Doesn't matter. It's going to probably have it. Um, explain the difference between **RAM**
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"33:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"34:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"34:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"35:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"33:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"34:07"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"34:37"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"35:07"}}
 14. [35:11] RAM versus ROM.
 
-> and ROM. and my most typical. Okay. RAM. Um RAM like this. This is ran random access memory. read only memory and here's the difference. Random access memory RAM. This needs power. Random access memory or RAM needs power to work because when it has power, it's able to load in programs and data and instructions for the uh for the CPU. Read only memory ROM does not does not Um so volatile. So whatever data is stored in read only memory will be saved because it does not need power to save and hold that data. Random access memory needs that power to hold that data in its in its storage but read only does. Um why you need readon memory is because most of the time your BIOS or your boot data your boot information is stored in your read from memory. So, you need ROM because ROM helps turn your computer on by getting P when you get power, it'll um boot up with it, you know, the boot code and uh turn the computer on so that you can actually use it. And then while you're actually using the computer, then you're using your random access memory because this is how the computer um kind of uses um instructions to like uh load programs, run programs and stuff like that. So that's the difference between RAM and ROM and why most computers have both. Trace the execution of this assembly
+> and **ROM**. and my most typical. Okay. **RAM**. Um **RAM** like this. This is ran **random access memory**. read only **memory** and here's the difference. **Random access memory** **RAM**. This needs **power**. **Random access memory** or **RAM** needs **power** to work because when it has **power**, it's able to load in **programs** and **data** and **instructions** for the uh for the **CPU**. Read only **memory** **ROM** does not does not Um so **volatile**. So whatever **data** is **stored** in read only **memory** will be saved because it does not need **power** to save and hold that **data**. **Random access memory** needs that **power** to hold that **data** in its in its **storage** but read only does. Um why you need readon **memory** is because most of the time your **BIOS** or your boot **data** your boot **information** is **stored** in your read from **memory**. So, you need **ROM** because **ROM** helps turn your **computer** on by getting P when you get **power**, it'll um **boot up** with it, you know, the boot code and uh turn the **computer** on so that you can actually use it. And then while you're actually using the **computer**, then you're using your **random access memory** because this is how the **computer** um kind of uses um **instructions** to like uh load **programs**, run **programs** and stuff like that. So that's the difference between **RAM** and **ROM** and why most computers have both. Trace the execution of this assembly
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"35:11"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"35:41"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"36:11"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"36:41"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"37:11"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"37:41"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"35:11"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"35:41"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"36:11"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"36:41"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"37:11"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"37:41"}}
 15. [38:01] Assembly code trace.
 
-> code program and explain what happens. One, two, three, four, five. One, two, three, two, five. I think I just have enough. Okay, I'll just do a new diagram actually. We're going to do the RAM diagram. And this says four and five zero So, here's what happens with this assembly code. The CPU does it fetch the code execute cycle. So, Uh what is it called? Program counter. So the CPU is going to fetch the instruction and the program counter kind of keeps track of where to fetch that instruction. So we're going to start at zero. So the program counter is going to uh go to zero. It's going to say load what is in address 4. So, we're going to go to address 4 and take whatever is in address 4 and put it in our instruction. And then when we are done with that, the program counter will go into the next address will be address number one within address five. So we follow that instruction. We take what's in five and add it to the current instruction is eight. So you get a total of eight. When that instruction is done, the program counter will go to the next instruction and that instruction says to stow that number back in address 4. So the instruction will happen. it'll execute and now an address four instead of a zero we have eight um and then the the counter will go into the next instruction and it'll say jump to zero jump zero and this essentially is where it starts looping because then you go back to zero which is loading four which takes that number eight goes takes it back into the instruction adding what's in five which is adding adding another eight to 16. Taking that 16 and putting it back into four. So, basically, it's just going to keep going up like 32. Um, and that's what happens. But that is the uh execution of the uh Sorry, I don't know if it's fires or what, but it's a lot of noise outside. um execution of the assembly code probe. Uh discuss the relative strengths and
+> code **program** and explain what happens. **One**, **two**, **three**, **four**, **five**. **One**, **two**, **three**, **two**, **five**. I think I just have enough. Okay, I'll just do a new diagram actually. We're going to do the **RAM** diagram. And this says **four** and **five** **zero** So, here's what happens with this assembly code. The **CPU** does it **fetch** the code **execute** cycle. So, Uh what is it called? **Program counter**. So the **CPU** is going to **fetch** the **instruction** and the **program counter** kind of keeps track of where to **fetch** that **instruction**. So we're going to start at **zero**. So the **program counter** is going to uh go to **zero**. It's going to say load what is in **address** **4**. So, we're going to go to **address** **4** and take whatever is in **address** **4** and put it in our **instruction**. And then when we are done with that, the **program counter** will go into the next **address** will be **address** number **one** within **address** **five**. So we follow that **instruction**. We take what's in **five** and add it to the **current** **instruction** is **eight**. So you get a total of **eight**. When that **instruction** is done, the **program counter** will go to the next **instruction** and that **instruction** says to stow that number back in **address** **4**. So the **instruction** will happen. it'll **execute** and now an **address** **four** instead of a **zero** we have **eight** um and then the the counter will go into the next **instruction** and it'll say jump to **zero** jump **zero** and this essentially is where it starts looping because then you go back to **zero** which is **loading** **four** which takes that number **eight** goes takes it back into the **instruction** adding what's in **five** which is adding adding another **eight** to **16**. Taking that **16** and putting it back into **four**. So, basically, it's just going to keep going up like **32**. Um, and that's what happens. But that is the uh execution of the uh Sorry, I don't know if it's fires or what, but it's a lot of noise outside. um execution of the assembly code probe. Uh discuss the relative strengths and
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"38:01"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"38:31"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"39:01"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"39:31"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"40:01"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"40:31"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"41:01"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"41:31"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"42:01"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"38:01"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"38:31"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"39:01"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"39:31"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"40:01"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"40:31"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"41:01"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"41:31"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"42:01"}}
 16. [42:24] Storage comparison.
 
-> weaknesses of magnetic consult. Okay. Um, so well, first I'll start off with magnetic. And magnetic storage is basically your typical hard drive. And inside of that hard drive, you'll have a magnetic platter. And what's used to read that magnetic platter, it's called a read. So this is your typical magnetic a hard drive. Think of a hard drive. So how it works is that you Okay. Okay, I'm sorry. That's my cat. Um, I'm just going to close my window really, really quickly. Okay, sorry about that. Uh so yes the hard drives magnetic storage and how hard drives work is um the they have a a magnetic platter platter right here. Um and in that platter um you know there is many different sectors in that platter that you can save data to. Um, and how it's saved because it's magnetic, um, is through the use of binary. Um, and with binary um, north up is one and south down is zero. Oops. Zero. So when um you want to save data to magnetic storage, the read and write head will when the platter is spinning change whatever information is in that sector. For example, whenever you this one wants to be changed to a one or maybe this needs to change to zero. This changed to zero. this one. This is zero. But in the aspect that instead of one to zeros, it's turning the it's changing the the field to either north or south. That's how a uh a magnetic storage drive works to in terms of saving and writing data. Um pros and cons to it. pros is it's cheap for the amount of storage. You can get a lot of storage for cheap when it comes to magnetic storage hard drives. Um, but the cons are it's made out of moving parts, so it's not shock resistant. uh can lose data easily because um because of the moving parts, you can lose data easily. So, it's not shock resistant. Um and it's also slow compared to what we have now. probably the even the fastest magnetic storage is slower than your I would honestly say your slowest SSD 480 gigs mate. Um so that's just the strengths and weakness of magnetic storage. Um I'll do optical. I'll just do a new Oops. I'm just do I do a new doodle. Um, optical we can think of as um CDs or DVDs um when you think of optical storage or those um CDs that you would make mixtapz out of say you listen to in your car, stuff like that. Optical storage. Um these use kind um lasers to save data. Lasers kind of etch into the reflective surface of the um CD um to kind of save that data. Um and that's how that works. Pros and cons. Pros I cannot spell today. rows. Um uh distribution different distribution distriution maybe long-term of data. Um, cons limited storage. So, you're not going to get the best storage cuz most of the time maybe they get limited to maybe eight to I don't know 16 gigs per per drive or something. Um, not fast. Um, and it's not something that would be used ever for primary storage. Um, and that's um, optical storage. And then the last one is solid state. Arguably probably the best in my opinion. solid state. Solid state uses um these things called me uh flash memory cells. Um, and they're they're just basically little tiny cells that that you write data to that can store data. Um, absolutely no moving parts. That's a right here. No moving parts. Um, fastest Um but cons definitely more expensive compared to hard drives. Um and I would say limited because memory cells. So compared to a hard drive, solid state drives don't have any moving parts. Um, and they are probably one of the fastest uh storage, reading, writing stuffs right now because you get it almost feels like stuff happens in instantaneously whenever you have a computer using a solid state drive compared to one that's running on a hard drive. Cons definitely way more uh expensive compared to a regular hard drive compared to magnetic storage and there are chances of it failing because the memory cells can die. So it's limited on its lifespan there. So um those are the strengths and weaknesses of magnetic optical and a solid state storage technology.
+> weaknesses of **magnetic** consult. Okay. Um, so well, first I'll start off with **magnetic**. And **magnetic storage** is basically your typical **hard drive**. And inside of that **hard drive**, you'll have a **magnetic** platter. And what's used to read that **magnetic** platter, it's called a read. So this is your typical **magnetic** a **hard drive**. Think of a **hard drive**. So how it works is that you Okay. Okay, I'm sorry. That's my cat. Um, I'm just going to close my window really, really **quickly**. Okay, sorry about that. Uh so yes the **hard drives** **magnetic storage** and how **hard drives** work is um the they have a a **magnetic** platter platter right here. Um and in that platter um you know there is many different sectors in that platter that you can save **data** to. Um, and how it's saved because it's **magnetic**, um, is through the use of **binary**. Um, and with **binary** um, north up is **one** and south down is **zero**. Oops. **Zero**. So when um you want to save **data** to **magnetic storage**, the read and write head will when the platter is spinning change whatever **information** is in that sector. For example, whenever you this **one** wants to be changed to a **one** or maybe this needs to change to **zero**. This changed to **zero**. this **one**. This is **zero**. But in the aspect that instead of **one** to **zeros**, it's turning the it's changing the the **field** to either north or south. That's how a uh a **magnetic storage** drive works to in terms of saving and writing **data**. Um pros and cons to it. pros is it's cheap for the amount of **storage**. You can get a lot of **storage** for cheap when it comes to **magnetic storage** **hard drives**. Um, but the cons are it's made out of **moving parts**, so it's not shock resistant. uh can lose **data** easily because um because of the **moving parts**, you can lose **data** easily. So, it's not shock resistant. Um and it's also **slow** compared to what we have now. probably the even the fastest **magnetic storage** is slower than your I would honestly say your slowest **SSD** 480 gigs mate. Um so that's just the strengths and weakness of **magnetic storage**. Um I'll do **optical**. I'll just do a new Oops. I'm just do I do a new doodle. Um, **optical** we can think of as um CDs or **DVDs** um when you think of **optical storage** or those um CDs that you would make mixtapz out of say you listen to in your car, stuff like that. **Optical storage**. Um these use kind um **lasers** to save **data**. **Lasers** kind of etch into the reflective surface of the um **CD** um to kind of save that **data**. Um and that's how that works. Pros and cons. Pros I cannot spell today. rows. Um uh distribution different distribution distriution maybe long-term of **data**. Um, cons limited **storage**. So, you're not going to get the best **storage** cuz most of the time maybe they get limited to maybe **eight** to I don't know **16** gigs per per drive or something. Um, not **fast**. Um, and it's not something that would be used ever for primary **storage**. Um, and that's um, **optical storage**. And then the last **one** is **solid state**. Arguably probably the best in my opinion. **solid state**. **Solid state** uses um these things called me uh **flash memory** cells. Um, and they're they're just basically little tiny cells that that you write **data** to that can store **data**. Um, absolutely **no moving parts**. That's a right here. **No moving parts**. Um, fastest Um but cons definitely more expensive compared to **hard drives**. Um and I would say limited because **memory** cells. So compared to a **hard drive**, **solid state** drives don't have any **moving parts**. Um, and they are probably **one** of the fastest uh **storage**, reading, writing stuffs right now because you get it almost feels like stuff happens in instantaneously whenever you have a **computer** using a **solid state** drive compared to **one** that's running on a **hard drive**. Cons definitely way more uh expensive compared to a regular **hard drive** compared to **magnetic storage** and there are chances of it failing because the **memory** cells can die. So it's limited on its lifespan there. So um those are the strengths and weaknesses of **magnetic** **optical** and a **solid state** **storage** technology.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"42:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"42:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"43:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"43:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"44:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"44:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"45:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"45:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"46:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"46:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"47:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"47:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"48:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"48:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"49:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"49:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"50:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"50:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"42:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"42:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"43:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"43:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"44:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"44:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"45:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"45:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"46:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"46:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"47:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"47:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"48:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"48:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"49:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"49:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"50:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"50:54"}}
 17. [50:59] Multitasking, multiprocessing and multi threading.
 
-> Um, explain what multitasking is. Uh, and explain the difference between multiprocessing and multi- threading. All right, this is just so we do threads process and let's Okay, multitasking is if you can like the in general layman's term doing multiple things at once. So multitasking I'll say this is firefox and this is paint and this is OBS that's running that's what's running on my computer right now. So I could say that my computer multitasking would be kind of switching in between the two or in between the three different programs that I have open right now. You know can go ahead and close um and let's see multitasking um multipprocessing and multi-threading. So multitasking, yes, basically doing being able to switch in between different kinds of programs like I can switch between Paint, oops, and switch between Paint, um, Firefox, hosting the exam, um, OBS here on my other screen. Um, multipprocessing is um the ability to run kind of uh these different programs at the same time because you're more because it can be conf confusing for me. So I just think that processes equals kind of programs and whatever those programs need to run effectively and then multi-threading is within those programs themselves maybe something is uh some other data can be ran and executed uh simultaneously. So multi-threading um for example maybe uh recording uh uh recording with my microphone and then making sure that I can see that my microphone is recording. Maybe that's like the um an example of maybe like multi- threading very lame not the greatest example um but something like that. So multitasking is I would say um switching in between the programs. Multipprocessing is having multiple different programs open and then multi-threading is within those programs. If they have other things to run that they that they can run simultaneously then um if the computer handles it then it can go ahead and thread. um describe the stored program concept
+> Um, explain what **multitasking** is. Uh, and explain the difference between **multiprocessing** and multi- threading. All right, this is just so we do **threads** **process** and let's Okay, **multitasking** is if you can like the in general layman's term doing multiple things at once. So **multitasking** I'll say this is firefox and this is paint and this is OBS that's running that's what's running on my **computer** right now. So I could say that my **computer** **multitasking** would be kind of switching **in between** the **two** or **in between** the **three** different **programs** that I have open right now. You know can go ahead and close um and let's see **multitasking** um multipprocessing and **multi-threading**. So **multitasking**, yes, basically doing being able to switch **in between** different kinds of **programs** like I can switch between Paint, oops, and switch between Paint, um, Firefox, hosting the exam, um, OBS here on my other **screen**. Um, multipprocessing is um the ability to run kind of uh these different **programs** at the same time because you're more because it can be conf confusing for me. So I just think that **processes** equals kind of **programs** and whatever those **programs** need to run effectively and then **multi-threading** is within those **programs** themselves maybe something is uh some other **data** can be ran and executed uh simultaneously. So **multi-threading** um for example maybe uh **recording** uh uh **recording** with my **microphone** and then making sure that I can see that my **microphone** is **recording**. Maybe that's like the um an example of maybe like multi- threading very lame not the greatest example um but something like that. So **multitasking** is I would say um switching **in between** the **programs**. Multipprocessing is having multiple different **programs** open and then **multi-threading** is within those **programs**. If they have other things to run that they that they can run simultaneously then um if the **computer** handles it then it can go ahead and **thread**. um describe the **stored **program** concept**
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"50:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"51:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"51:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"52:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"52:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"53:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"53:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"50:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"51:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"51:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"52:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"52:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"53:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"53:59"}}
 18. [54:24] Stored program concept.
 
-> and why it distinguishes computers from other simpler devices. Um this basically talks about um RAM kind of again. And basically um what it is is when a computer is running stored program in in memory um it can store program and um program data so that it can be accessed fairly quickly by the processor. So this means you can um have multiple things running at the same time or at at at different times or have things that are preloaded so that when you open up a program it doesn't take as long. And it it's distinguished from other simpler devices because most of the time uh you have to for example in in this case there's three channels of RAM. So, in a simpler in a simpler device, maybe there's going to only be one channel. And instead of being able to do to load have multiple different things loaded in, you only have one channel. So, you can only have one program loaded in. So, you would have to if you wanted to use a different one simpler device, you would have to unload that program and then bring a new program in. Uh so that's why um computers uh the store program concept uh distinguishes computers from devices. Um explain how a GPU differs Explain how
+> and why it distinguishes computers from other simpler devices. Um this basically talks about um **RAM** kind of again. And basically um what it is is when a **computer** is running **stored** **program** in in **memory** um it can store **program** and um **program** **data** so that it can be accessed fairly **quickly** by the **processor**. So this means you can um have multiple things running at the same time or at at at different times or have things that are preloaded so that when you open up a **program** it doesn't take as long. And it it's distinguished from other simpler devices because most of the time uh you have to for example in in this case there's **three** channels of **RAM**. So, in a simpler in a simpler device, maybe there's going to only be **one** channel. And instead of being able to do to load have multiple different things loaded in, you only have **one** channel. So, you can only have **one** **program** loaded in. So, you would have to if you wanted to use a different **one** simpler device, you would have to unload that **program** and then bring a new **program** in. Uh so that's why um computers uh the store **program** concept uh distinguishes computers from devices. Um explain how a **GPU** differs Explain how
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"54:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"54:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"55:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"55:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"54:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"54:54"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"55:24"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"55:54"}}
 19. [56:18] CPU versus GPU.
 
-> a CPU differs from a GPU. A CPU and a EPU. Okay. So, a CPU is some it has fewer cores, but they have a lot of power. So, a CPU has fewer cores, but it has a lot of power. A GPU has a bunch of cores, a bunch of littleler cores, but they're not as powerful. I I'll say that they're weaker compared to CPU's cores. The difference between them is a GPU because it has so many of these smaller kind of weaker cores um it can run very simple things all at once. So GPUs a lot of time are used to kind of render for example like rendering graphic. um CPUs, their cores um are more powerful because it has to um do with having to deal with program instructions and how to execute those instructions efficiently. So that's the main difference between a CPU and a GPU. Um explain the role of the operating
+> a **CPU** differs from a **GPU**. A **CPU** and a EPU. Okay. So, a **CPU** is some it has fewer cores, but they have a lot of **power**. So, a **CPU** has fewer cores, but it has a lot of **power**. A **GPU** has a bunch of cores, a bunch of littleler cores, but they're not as powerful. I I'll say that they're weaker compared to **CPU**'s cores. The difference between them is a **GPU** because it has so many of these smaller kind of weaker cores um it can run very simple things all at once. So GPUs a lot of time are used to kind of render for example like **rendering** graphic. um CPUs, their cores um are more powerful because it has to um do with having to deal with **program** **instructions** and how to **execute** those **instructions** **efficiently**. So that's the main difference between a **CPU** and a **GPU**. Um explain the role of the operating
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"56:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"56:48"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"57:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"57:48"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"56:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"56:48"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"57:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"57:48"}}
 20. [58:18] Role of the operating system.
 
-> system. Think I can just one right here. And this is the OS. Um, the operating system kind of manages the uh computers resources along with the uh processor. So it kind of um works behind the scenes to make sure our hard all the hardware in your computer gets used to as best of its ability whenever it's needed. Uh and uh it kind of tell uh manages which programs will have time with the processor to execute whatever that program needs to do. Uh it's basically just a manager between the hardware and the uh the processor and any programs. For example, um the OS will kind of if you're if you're running a video game that's more GPU intensive, then you can have the OS say, "Hey, I want to use the GPU over the CPU." Because then it'll free up the CPU to do other things. and the GPU can use its multiple uh cores to render that video game. So that's kind of how OS works. Um give three examples of cloud services
+> system. Think I can just **one** right here. And this is the **OS**. Um, the **operating system** kind of **manages** the uh computers **resources** along with the uh **processor**. So it kind of um works behind the scenes to make sure our hard all the **hardware** in your **computer** gets used to as best of its ability whenever it's needed. Uh and uh it kind of tell uh **manages** which **programs** will have time with the **processor** to **execute** whatever that **program** needs to do. Uh it's basically just a **manager** between the **hardware** and the uh the **processor** and any **programs**. For example, um the **OS** will kind of if you're if you're running a video game that's more **GPU** intensive, then you can have the **OS** say, "Hey, I want to use the **GPU** over the **CPU**." Because then it'll free up the **CPU** to do other things. and the **GPU** can use its multiple uh cores to render that video game. So that's kind of how **OS** works. Um give **three** examples of **cloud services**
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"58:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"58:48"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"59:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"59:48"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"58:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"58:48"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"59:18"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"59:48"}}
 21. [59:52] Name 3 Cloud services.
 
-> that you might use in daily life and explain what each one is. Excuse me. Change this color. Um, I use Google Drive. Google. Um, I use Google Drive a lot. Um, and I use this one's more for a cloud storage. Um, and sometimes I kind of store photos, videos into um my Google Drive. And since it's not localized on like any since it's not doesn't have to be localized on any on my and any one of my computers, I can access it through access my stuff through my phone, my computer, my tablet, um, wherever I need to. Um, as long as I'm able to sign in to my Google Drive. So, that's what I use. It's kind of cloud storage. Um, I use YouTube Music for um or listening to music or podcasts, etc. Um, and uh, this one obviously I don't have a whole library of music saved anywhere um, on my any of my computers. So, I use YouTube Music and uh, listen to uh, my music through there. And I guess it' kind of be kind of similar to a a cloud storage because um, or like a streaming it's it's more streaming than anything. Um let's see one more example of a cloud service. Um I mean I guess I mean it would it be a different example because one drive and Google drive are kind of the same thing except one drive can kind of also back up your desktop. So, I guess that's a difference between Google Drive. Um, also kind of cloud storage. Not really the biggest fan, but sometimes computers just kind of get stuck with one drive and um, explain what device drivers are
+> that you might use in daily life and explain what each **one** is. Excuse me. Change this color. Um, I use **Google Drive**. Google. Um, I use **Google Drive** a lot. Um, and I use this **one**'s more for a **cloud storage**. Um, and sometimes I kind of store photos, videos into um my **Google Drive**. And since it's not localized on like any since it's not doesn't have to be localized on any on my and any **one** of my computers, I can access it through access my stuff through my phone, my **computer**, my tablet, um, wherever I need to. Um, as long as I'm able to sign in to my **Google Drive**. So, that's what I use. It's kind of **cloud storage**. Um, I use **YouTube** **Music** for um or listening to **music** or podcasts, etc. Um, and uh, this **one** obviously I don't have a whole **library** of **music** saved anywhere um, on my any of my computers. So, I use **YouTube** **Music** and uh, listen to uh, my **music** through there. And I guess it' kind of be kind of similar to a a **cloud storage** because um, or like a **streaming** it's it's more **streaming** than anything. Um let's see **one** more example of a **cloud** service. Um I mean I guess I mean it would it be a different example because **one drive** and **Google drive** are kind of the same thing except **one drive** can kind of also back up your desktop. So, I guess that's a difference between **Google Drive**. Um, also kind of **cloud storage**. Not really the biggest fan, but sometimes computers just kind of get stuck with **one drive** and um, explain what **device drivers** are
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"59:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:00:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:00:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:01:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:01:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:02:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"59:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:00:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:00:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:01:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:01:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:02:22"}}
 22. [62:23] Device drivers.
 
-> and why they're necessary. So let's say we have a keyboard and you have um the device driver for that keyboard and here is keyboard device driver. Okay. So basically device drivers are hardware instructions. They're like instructions on how to use this piece of hardware, but it's written as software so that the computer can understand it. Um yeah, that's basically it. Um so that's what a device driver is. It's basically manufacturer instructions written in in some type of software um that uh helps not have to helps make it simpler so that you don't have to bloat the OS with extra code to think of to kind of um make it compatible with every piece of hardware and software imaginable. um instead you just have a device driver that kind of comes with instructions on how to use this piece of tech uh equipment and that device driver um gets kind of loaded into the CPU so that the CPU uh reads the instructions in that driver and goes hey okay this is a keyboard um and this is how you want this keyboard used so that when you press A you want A to appear somewhere on the screen right gotcha um and that's basically device drivers and why they're necessary. So, um if you have um hardware, it makes sure that um it's compatible and you can actually use it without any issues. Um explain the role of a web browser
+> and why they're necessary. So let's say we have a **keyboard** and you have um the **device driver** for that **keyboard** and here is **keyboard** **device driver**. Okay. So basically **device drivers** are **hardware** **instructions**. They're like **instructions** on how to use this piece of **hardware**, but it's written as **software** so that the **computer** can understand it. Um yeah, that's basically it. Um so that's what a **device driver** is. It's basically manufacturer **instructions** written in in some type of **software** um that uh helps not have to helps make it simpler so that you don't have to bloat the **OS** with extra code to think of to kind of um make it compatible with every piece of **hardware** and **software** imaginable. um instead you just have a **device driver** that kind of comes with **instructions** on how to use this piece of tech uh equipment and that **device driver** um gets kind of loaded into the **CPU** so that the **CPU** uh reads the **instructions** in that driver and goes hey okay this is a **keyboard** um and this is how you want this **keyboard** used so that when you press A you want A to appear somewhere on the **screen** right gotcha um and that's basically **device drivers** and why they're necessary. So, um if you have um **hardware**, it makes sure that um it's compatible and you can actually use it without any issues. Um explain the role of a **web browser**
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:02:23"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:02:53"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:03:23"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:03:53"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:04:23"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:02:23"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:02:53"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:03:23"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:03:53"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:04:23"}}
 23. [64:43] Web browser caching history and privacy.
 
-> with respect to caching history and privacy. So, cache control history. I see. All right. A cash. The cash is kind of like um little snippet, a little snippet of a website, right? that gets uh it's like a snapshot of a website that kind of gets saved to your browser so that when you revisit that website, it doesn't have to load the whole thing again. It'll already have some parts saved so that um it it's a fast it uh loads back faster um the next time you visit it. Um so that's a cache. to kind of um saves information about that website, takes a little snippet of it so that when you go back to it um it'll load faster. History is like a record a record. So like a record of all the websites you visited. So for example, you'll have like Google, YouTube, Facebook, Reddit. Um, so that if you were to want to go back to to those websites, you can go ahead and view the history and you can see, oh, hey, I was actually at Google that I want to go. That's how a web browser saves your history. Privacy um is stuff like in u private mode. Privacy need a mode so that it does Oh my god. I right. Let's see. Um, this one when it comes to privacy does not save history or cache the website. This is just on the local web browser itself. Um but also there's other also other um privacy settings that web browsers provide for users. Uh kind of like ad blocking tracking cookies or tracking in general. Um some web browsers do provide against that. Um,
+> with respect to **caching** **history** and **privacy**. So, cache control **history**. I see. All right. A cash. The cash is kind of like um little snippet, a little snippet of a website, right? that gets uh it's like a snapshot of a website that kind of gets saved to your **browser** so that when you revisit that website, it doesn't have to load the whole thing again. It'll already have some parts saved so that um it it's a **fast** it uh loads back **faster** um the next time you visit it. Um so that's a cache. to kind of um saves **information** about that website, takes a little snippet of it so that when you go back to it um it'll load **faster**. **History** is like a **record** a **record**. So like a **record** of all the **websites** you visited. So for example, you'll have like Google, **YouTube**, Facebook, Reddit. Um, so that if you were to want to go back to to those **websites**, you can go ahead and view the **history** and you can see, oh, hey, I was actually at Google that I want to go. That's how a **web browser** saves your **history**. **Privacy** um is stuff like in u private mode. **Privacy** need a mode so that it does Oh my god. I right. Let's see. Um, this **one** when it comes to **privacy** does not save **history** or cache the website. This is just on the local **web browser** itself. Um but also there's other also other um **privacy** settings that web browsers provide for users. Uh kind of like ad blocking tracking **cookies** or tracking in general. Um some web browsers do provide against that. Um,
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:04:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:05:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:05:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:06:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:06:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:07:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:07:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:04:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:05:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:05:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:06:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:06:43"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:07:13"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:07:43"}}
 24. [67:59] What is Cloud Computing?
 
-> explain the concept of cloud computing and how it benefits users and developers of software. Um, Um, okay. Cloud computing. I'm going to use the um example for the answer that I used about cloud services and I'm going to use Google Drive to kind of explain cloud computing, excuse me. Um, cloud computing is kind of like Google Drive. How you don't have um stuff running or stored on your your local computer. Um, what it is is you can have stuff stored on the cloud. Or you can even have services run on the cloud. We'll say that this is a type of we'll say this is a ser whatever service it may be. If you're running a service on the cloud, um you won't have to have it hosted on your local computer. And um in the cloud there's also even the possibility that you can um uh host multiple different services on cloud without ever really having to host anything on your local computers. Um, and it's a benefit because, um, I would say it kind of gives more accessibility for users and developers because, um, if their hardware can't run stuff properly because it's not powerful enough, then they could, you know, use a cloud service to to kind of run a program that offloads whatever that they need to do. Um, so that's kind of like the concept collection is data or programs being run by a service that kind of handles all of the data portion of it for you. cut um
+> explain the concept of **cloud computing** and how it benefits users and developers of **software**. Um, Um, okay. **Cloud computing**. I'm going to use the um example for the answer that I used about **cloud services** and I'm going to use **Google Drive** to kind of explain **cloud computing**, excuse me. Um, **cloud computing** is kind of like **Google Drive**. How you don't have um stuff running or **stored** on your your local **computer**. Um, what it is is you can have stuff **stored** on the **cloud**. Or you can even have services run on the **cloud**. We'll say that this is a type of we'll say this is a ser whatever service it may be. If you're running a service on the **cloud**, um you won't have to have it hosted on your local **computer**. And um in the **cloud** there's also even the possibility that you can um uh host multiple different services on **cloud** without ever really having to host anything on your local computers. Um, and it's a benefit because, um, I would say it kind of gives more accessibility for users and developers because, um, if their **hardware** can't run stuff properly because it's not powerful enough, then they could, you know, use a **cloud** service to to kind of run a **program** that offloads whatever that they need to do. Um, so that's kind of like the concept collection is **data** or **programs** being run by a service that kind of handles all of the **data** portion of it for you. cut um
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:07:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:08:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:08:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:09:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:09:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:10:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:10:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:07:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:08:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:08:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:09:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:09:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:10:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:10:59"}}
 25. [71:16] What is Javascript?
 
-> playing the role of JavaScript in a web page. JavaScript kind of um is what allows the interactivity to happen. For example, if you had a website and there was just this nice big red button Um, and it and it was like you've won a million dollar and you click and you click on that you click on that big red arrow. Um, if it takes you to like a new location or it sends you somewhere else, that's basically JavaScript in action because JavaScript is allowing that mouse click to interact with the web page so that it will what run whatever code the background to bring you to wherever that arrow is. Yeah. So that's basically JavaScript the inter it adds interactivity. um explain what HTTP is and how HTTPS
+> playing the role of **JavaScript** in a web page. **JavaScript** kind of um is what allows the **interactivity** to happen. For example, if you had a website and there was just this nice big red button Um, and it and it was like you've won a **million** dollar and you click and you click on that you click on that big red arrow. Um, if it takes you to like a new location or it sends you somewhere else, that's basically **JavaScript** in action because **JavaScript** is allowing that **mouse** click to interact with the web page so that it will what run whatever code the background to bring you to wherever that arrow is. Yeah. So that's basically **JavaScript** the inter it adds **interactivity**. um explain what **HTTP** is and how **HTTPS**
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:11:16"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:11:46"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:12:16"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:11:16"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:11:46"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:12:16"}}
 26. [72:30] HTTP versus HTTPS?
 
-> differs from it and differs from it. Um, let's see. http um I believe it's hyper hypertext something protocol X down X t and then this one is http sec here hyper markup. Um basically um these two n these two are kind of rule that a web server will you or a web a browser will use. Excuse me. Whenever it wants to go visit the website um when we're talking protocol um it's basically uh um going to commun the browser is going to communicate with whatever website with these protocols to make sure hey this is the information yes we're good to go. Um secure the s sec secure means um whatever data is on that website is encrypted or scrambled so that um because the information is probably sensitive like banking information, social security, private uh personal identifi identifying information and stuff like that. So when websites have HTTPS secure, HTTP secure, it means that your data on that website is protected and uh encrypted. Um and yeah, but these are just kind of like the rules that your browser uses to interact and load to interact with other websites to make to load that website to
+> differs from it and differs from it. Um, let's see. **http** um I believe it's hyper hypertext something **protocol** X down X t and then this **one** is **http** sec here hyper markup. Um basically um these **two** n these **two** are kind of rule that a **web server** will you or a web a **browser** will use. Excuse me. Whenever it wants to go visit the website um when we're talking **protocol** um it's basically uh um going to commun the **browser** is going to **communicate** with whatever website with these protocols to make sure hey this is the **information** yes we're good to go. Um **secure** the s sec **secure** means um whatever **data** is on that website is **encrypted** or scrambled so that um because the **information** is probably sensitive like banking **information**, social **security**, private uh personal identifi identifying **information** and stuff like that. So when **websites** have **HTTPS** **secure**, **HTTP** **secure**, it means that your **data** on that website is protected and uh **encrypted**. Um and yeah, but these are just kind of like the rules that your **browser** uses to interact and load to interact with other **websites** to make to load that website to
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:12:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:13:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:13:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:14:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:14:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:15:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:15:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:12:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:13:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:13:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:14:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:14:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:15:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:15:30"}}
 27. [75:38] Web Cookies.
 
-> explain what a web cookie is. Um, basically a web cookie is like a little text file that a website saves on your browser um that kind of saves preferences to your um from that website uh from your visit. Um they can be anything like your login status, login information, um shopping cart status. Um and what happens is it's saved on your browser so that whenever you go back to that website, go back to that. The browser goes ahead and gives that cookie back to that website so that when you load that website back up, it knows, hey, oh, your language preference was in English. You had three things in your shopping cart and you were logged in. Explain what a web browser is and what
+> explain what a web **cookie** is. Um, basically a web **cookie** is like a little **text** file that a website saves on your **browser** um that kind of saves preferences to your um from that website uh from your visit. Um they can be anything like your login status, login **information**, um shopping cart status. Um and what happens is it's saved on your **browser** so that whenever you go back to that website, go back to that. The **browser** goes ahead and gives that **cookie** back to that website so that when you load that website back up, it knows, hey, oh, your language preference was in English. You had **three** things in your shopping cart and you were logged in. Explain what a **web browser** is and what
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:15:38"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:16:08"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:15:38"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:16:08"}}
 28. [76:36] What is a Browser?
 
-> it's for. This is a web browser. It allows you to access websites via the internet by connecting via e uh protocol and stuff like that. Uh because I've kind of been already talking about browsers, but yeah. um browsers just allow you to access the uh other websites through the internet using the rules of HTTP to kind of make sure that the data is sent and received back where it's supposed to go. Um, HTML is
+> it's for. This is a **web browser**. It allows you to access **websites** via the **internet** by connecting via e uh **protocol** and stuff like that. Uh because I've kind of been already talking about browsers, but yeah. um browsers just allow you to access the uh other **websites** through the **internet** using the rules of **HTTP** to kind of make sure that the **data** is sent and received back where it's supposed to go. Um, **HTML** is
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:16:36"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:17:06"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:16:36"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:17:06"}}
 29. [77:17] What is HTML?
 
-> hyper text language. Um, and this is basically when you're when you're thinking of a website, hypertext markup, which is the skeleton of that website, the foundation. So if you're to see, you know, paragraphs and stuff like that, uh, paragraphs and headlines, an image Maybe that is um the hypert that's HTML in action hypertext markup. It's the programming uh it's the language used to kind of make the uh the backbone the foundation of the website.
+> hyper **text** language. Um, and this is basically when you're when you're thinking of a website, hypertext markup, which is the skeleton of that website, the foundation. So if you're to see, you know, paragraphs and stuff like that, uh, paragraphs and headlines, an image Maybe that is um the hypert that's **HTML** in action hypertext markup. It's the programming uh it's the language used to kind of make the uh the backbone the foundation of the website.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:17:17"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:17:47"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:18:17"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:17:17"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:17:47"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:18:17"}}
 30. [78:35] What is CSS?
 
-> CSS um is cascading um stylesheets. cascading sheets. And what that is is it makes the website look good. It uh it it's basically the the paint and wallpaper of a website. It makes the website it adds visual effects to it. HTML is like the foundation. And earlier I mentioned JavaScript and JavaScript would would be the um like interactability. But CSS is basically another um thing that's um used when making a website and that's kind of like the the making it pretty portion of making a website making it look nice and stuff. Um five common HTML tags and explain
+> **CSS** um is **cascading** um stylesheets. **cascading** sheets. And what that is is it makes the website look good. It uh it it's basically the the paint and wallpaper of a website. It makes the website it adds visual effects to it. **HTML** is like the foundation. And earlier I mentioned **JavaScript** and **JavaScript** would would be the um like **interactability**. But **CSS** is basically another um thing that's um used when making a website and that's kind of like the the making it pretty portion of making a website making it look nice and stuff. Um **five** common **HTML tags** and explain
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:18:35"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:19:05"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:19:35"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:18:35"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:19:05"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:19:35"}}
 31. [79:36] 5 HTML Tags.
 
-> what they do. Don't know if I can name all five, but H. We have H. Nope. H1 or making a heading. Uh, P for par graph. Um, what else? Um, oh, um, the easy one for image image. Um, and I think this is hyperlink and I believe ul is a list makes a list. These are the uh HTML tags right here.
+> what they do. Don't know if I can name all **five**, but H. We have H. Nope. H1 or making a heading. Uh, P for par **graph**. Um, what else? Um, oh, um, the easy **one** for image image. Um, and I think this is hyperlink and I believe ul is a list makes a list. These are the uh **HTML tags** right here.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:19:36"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:20:06"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:20:36"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:19:36"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:20:06"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:20:36"}}
 32. [80:52] Behind the Scenes? When you access the URL.
 
-> Okay. Explain what happens behind the scenes when you access a URL in your browser. I'm going to do um we need a web server. So what happens when you go to here what happens is Google will send a request to to canvas. Basically it'll send a request to Canvas's web server. This this is connected to canvas. This is web server and canvas will um the canvas web server will go ahead and take that request, check it against its little database, make sure it has all its information. Um, I'm sorry, not the database. E, there's all sorts of backwards. ENS. Sorry. Let me erase wire. All right. All right. All right. So, Google will type out the um the website to canvas. When you press enter on the URL, it'll go through the domain name system, kind of like the giant address book of the internet. And for example, you go to canvas, whatever it is for canvas for the DNS is going to say, "Oh, I found the address that you want. I'm going to connect you to that web server." So canvas is uh the canvas. The web server is going to kind of process that request and make sure that it has enough information from its um from its database. And then once it has that information from its database to make sure that it has all the information it needs to load the website, it's going to go ahead and send it back to the to the browser and it's going to go ahead and display the website. Um, Oops. That's kind of what happens behind the scene when you access.
+> Okay. Explain what happens behind the scenes when you access a URL in your **browser**. I'm going to do um we need a **web server**. So what happens when you go to here what happens is Google will send a request to to canvas. Basically it'll send a request to Canvas's **web server**. This this is connected to canvas. This is **web server** and canvas will um the canvas **web server** will go ahead and take that request, check it against its little **database**, make sure it has all its **information**. Um, I'm sorry, not the **database**. E, there's all sorts of backwards. ENS. Sorry. Let me erase wire. All right. All right. All right. So, Google will type out the um the website to canvas. When you press enter on the URL, it'll go through the **domain name** system, kind of like the giant **address** book of the **internet**. And for example, you go to canvas, whatever it is for canvas for the **DNS** is going to say, "Oh, I found the **address** that you want. I'm going to connect you to that **web server**." So canvas is uh the canvas. The **web server** is going to kind of **process** that request and make sure that it has enough **information** from its um from its **database**. And then once it has that **information** from its **database** to make sure that it has all the **information** it needs to load the website, it's going to go ahead and send it back to the to the **browser** and it's going to go ahead and display the website. Um, Oops. That's kind of what happens behind the scene when you access.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:20:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:21:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:21:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:22:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:22:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:23:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:23:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:20:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:21:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:21:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:22:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:22:52"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:23:22"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:23:52"}}
 33. [84:12] Two factor authentication.
 
-> Um, explain what two factor authentication is. Um, pretty sure everyone has this one way or another, but um, it could be something as simple as maybe your email or your phone number and excuse me. It's basically just another uh layer of security for maybe like your account uh, logged in. Um, and what happens is is when you log into a website, as that extra layer of security, that website is going to ask, "Hey, is this really you?" Um, we're going to send you a code to your one of these, either your email or phone or whatever you have it set up, maybe an authenticator. Uh, we're going to need a code from wherever we're going to send this code. uh from the email that we send you from this email. We're going to need this code from the email that we send you to verify that you were you um and when you get that email and you put that code back in the two factor is going to um say okay yes this is definitely you and it'll just another layer of security.
+> Um, explain what **two factor** **authentication** is. Um, pretty sure everyone has this **one** way or another, but um, it could be something as simple as maybe your email or your phone number and excuse me. It's basically just another uh layer of **security** for maybe like your account uh, logged in. Um, and what happens is is when you log into a website, as that extra layer of **security**, that website is going to ask, "Hey, is this really you?" Um, we're going to send you a code to your **one** of these, either your email or phone or whatever you have it set up, maybe an authenticator. Uh, we're going to need a code from wherever we're going to send this code. uh from the email that we send you from this email. We're going to need this code from the email that we send you to verify that you were you um and when you get that email and you put that code back in the **two factor** is going to um say okay yes this is definitely you and it'll just another layer of **security**.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:24:12"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:24:42"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:25:12"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:24:12"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:24:42"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:25:12"}}
 34. [85:40] Web applications.
 
-> Um name three web applications you have you shoot you have used um and explain what makes them useful. Um I've used um let's see teams Microsoft Teams. This one is when I was used I used used to use R. Um and it was great because um sometimes um the government computers really did not like having the actual Microsoft Teams installed. So it was nice that I was able to use the web app to at least be able to do the same things I could without having to have deal with um permissions of reinstalling Microsoft Teams. Um, let's see. We application. Um, I would say maybe like some banking. So, I use um USAA um because they also have like phone apps and stuff like um secure login to, you know, check my bank's accounts and stuff like that. Definitely useful to keep track of, you know, money and stuff. Um, and also another one that h that has an actual program to install, but you don't need to, is Discord cuz they also have a web app that functions basically in the same way as Teams does, but um it's voice chat. I think it's really cool for people who don't have maybe the proper um uh permissions or something is up with their computer that they can't run Discord that they have the ability to just run it through a browser. I think that's pretty cool. Explain what a rootkit is. So to explain
+> Um name **three** web applications you have you shoot you have used um and explain what makes them useful. Um I've used um let's see teams Microsoft Teams. This **one** is when I was used I used used to use R. Um and it was great because um sometimes um the government computers really did not like having the actual Microsoft Teams installed. So it was nice that I was able to use the **web app** to at least be able to do the same things I could without having to have deal with um permissions of reinstalling Microsoft Teams. Um, let's see. We application. Um, I would say maybe like some banking. So, I use um USAA um because they also have like phone **apps** and stuff like um **secure** login to, you know, check my bank's accounts and stuff like that. Definitely useful to keep track of, you know, money and stuff. Um, and also another **one** that h that has an actual **program** to **install**, but you don't need to, is **Discord** cuz they also have a **web app** that functions basically in the same way as Teams does, but um it's voice chat. I think it's really cool for people who don't have maybe the proper um uh permissions or something is up with their **computer** that they can't run **Discord** that they have the ability to just run it through a **browser**. I think that's pretty cool. Explain what a **rootkit** is. So to explain
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:25:40"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:26:10"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:26:40"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:27:10"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:25:40"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:26:10"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:26:40"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:27:10"}}
 35. [87:36] What is the Rootkit?
 
-> a rootkit, we need to understand what the what a root is. And the root is essentially Um, in computer in computer terms like your C uh your C drive. Oh, I have weird um Japanese keyboard stuff turned on right now. So, it's turning stuff weird. Okay. your C drive. Um, it's where it's like the main drive of your computer. So, that would be the root. Um, a root kit is a type of malicious software malware that um installs itself into um deep into like the files, your C drive or your root drive. Um and it can do it can be you know do dangerous stuff like you know taking data or messing up um programs or bloating stuff and uh it's all around just not a good time and it can be some it can be hard to find because it can hide itself very deep into in the in your main root drive of your computer. um explain what encryption is. Um
+> a **rootkit**, we need to understand what the what a root is. And the root is essentially Um, in **computer** in **computer** terms like your **C** uh your **C** drive. Oh, I have weird um Japanese **keyboard** stuff turned on right now. So, it's turning stuff weird. Okay. your **C** drive. Um, it's where it's like the main drive of your **computer**. So, that would be the root. Um, a root kit is a type of **malicious software** **malware** that um installs itself into um deep into like the **files**, your **C** drive or your root drive. Um and it can do it can be you know do dangerous stuff like you know taking **data** or messing up um **programs** or bloating stuff and uh it's all around just not a good time and it can be some it can be hard to find because it can hide itself very deep into in the in your main root drive of your **computer**. um explain what **encryption** is. Um
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:27:36"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:28:06"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:28:36"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:29:06"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:27:36"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:28:06"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:28:36"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:29:06"}}
 36. [89:15] Encryption.
 
-> encryption is kind of like uh scrambling information I would say. Um you kind of need uh for to decode it, you would need like a a special key or specific key. So um for example, take this phrase. Pretend it's pretend this is a password. Teams army work. um to encrypt it. Maybe it gets scrambled and turned into a bunch of random um symbols instead so that anyone looking or like anyone trying to intercept and read whatever this password or this message is won't see team's army work. they'll see this weird jumble of characters unless they have the specific key to decode that message which will give them the actual passwords. That's kind of what encryption is rambling so that it's another kind of like layer of security. um discuss the impact of AI generated
+> **encryption** is kind of like uh scrambling **information** I would say. Um you kind of need uh for to **decode** it, you would need like a a special key or specific key. So um for example, take this phrase. Pretend it's pretend this is a **password**. Teams army work. um to **encrypt** it. Maybe it gets scrambled and turned into a bunch of random um symbols instead so that anyone looking or like anyone trying to **intercept** and read whatever this **password** or this message is won't see **team**'s army work. they'll see this weird jumble of characters unless they have the specific key to **decode** that message which will give them the actual **passwords**. That's kind of what **encryption** is rambling so that it's another kind of like layer of **security**. um discuss the impact of **AI** generated
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:29:15"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:29:45"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:30:15"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:29:15"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:29:45"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:30:15"}}
 37. [90:40] AI on truth and trust.
 
-> text, images, and videos. It's not great. I'll say that. Um it kind of makes it hard because when we're talking about AI generated text and images, you know, it could they could be of people, they could be of maybe influential uh they could be deep faked, sorry. um to show things that aren't necessarily true. Um so for example, you can say uh oh, someone deep faked a video of me saying that I hate ice cream, right? Someone deep faked a video saying of me saying I hate ice cream when in fact I love ice cream. Um uh um but and when it's deep faked um and it's and and if it looks real enough then people won't know if you like ice if I like ice cream or not because they'll see one thing that isn't true and if it's spread out in the internet um then that's what they'll see. So, it's it's really good at spreading misinformation. So, it makes it hard to kind of believe the information that you read. Uh, it's kind of gotten to the point where sometimes me, even me personally, I would read something and then automatically start secondguessing myself. Is that AI? Like, did someone is this an AI bot that I'm reading a comment on on Reddit? or is this video looks too weird to be AI, but is it or is it not? So, it kind of makes it hard to see what's real and what's not. So, and you have to put in a little bit more effort to make sure that you're getting actual information and not spreading misinformation. Um, discuss issues with creating a
+> **text**, **images**, and videos. It's not great. I'll say that. Um it kind of makes it hard because when we're talking about **AI** generated **text** and **images**, you know, it could they could be of people, they could be of maybe influential uh they could be deep faked, sorry. um to show things that aren't necessarily true. Um so for example, you can say uh oh, someone deep faked a video of me saying that I hate ice cream, right? Someone deep faked a video saying of me saying I hate ice cream when in fact I love ice cream. Um uh um but and when it's deep faked um and it's and and if it looks real enough then people won't know if you like ice if I like ice cream or not because they'll see **one** thing that isn't true and if it's spread out in the **internet** um then that's what they'll see. So, it's it's really good at spreading **misinformation**. So, it makes it hard to kind of believe the **information** that you read. Uh, it's kind of gotten to the point where sometimes me, even me personally, I would read something and then automatically start secondguessing myself. Is that **AI**? Like, did someone is this an **AI** bot that I'm reading a comment on on Reddit? or is this video looks too weird to be **AI**, but is it or is it not? So, it kind of makes it hard to see what's real and what's not. So, and you have to put in a little **bit** more effort to make sure that you're getting actual **information** and not spreading **misinformation**. Um, discuss issues with creating a
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:30:40"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:31:10"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:31:40"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:32:10"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:32:40"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:30:40"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:31:10"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:31:40"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:32:10"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:32:40"}}
 38. [92:51] Strong passwords.
 
-> strong password. A strong password should be long and hard. I wouldn't say hard to remember, but it should be long and difficult to guess. Um but that's the issues with creating a strong password because you know if you have a password like password one two three um it's too simple because well it's it's short first of all and it doesn't really have like um like any ways to kind of make it different or distinguishable. So, it's like a very basic password. Um, but when you want a strong password, um, and I think I remembered when we were discussing this in class about how you can kind of have passwords where it's the phrases are kind of generated, but the phrases each other makes no sense. Um, but the issues with that is um the longer the password is, the harder it is, the stronger the password is, maybe the most the longer and complicated it is, the um the harder it is to remember. So, I guess it's kind of writing that fine line of having a strong enough password, excuse me. Um, but also making sure that it's memorable. explain how the internet differs from
+> strong **password**. A strong **password** should be long and hard. I wouldn't say hard to remember, but it should be long and difficult to guess. Um but that's the issues with creating a strong **password** because you know if you have a **password** like **password** **one** **two** **three** um it's too simple because well it's it's short first of all and it doesn't really have like um like any ways to kind of make it different or distinguishable. So, it's like a very basic **password**. Um, but when you want a strong **password**, um, and I think I remembered when we were discussing this in class about how you can kind of have **passwords** where it's the phrases are kind of generated, but the phrases each other makes no sense. Um, but the issues with that is um the longer the **password** is, the harder it is, the stronger the **password** is, maybe the most the longer and complicated it is, the um the harder it is to remember. So, I guess it's kind of writing that fine line of having a strong enough **password**, excuse me. Um, but also making sure that it's memorable. explain how the **internet** differs from
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:32:51"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:33:21"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:33:51"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:34:21"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:32:51"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:33:21"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:33:51"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:34:21"}}
 39. [94:30] Internet versus World Wide Web.
 
-> the worldwide web. Um, okay. So, we'll do this is the internet. This is the that's the web. This is the computer. Here are different websites. You're different. So the internet is this like kind of network or structure of other computers that are kind that can host the worldwide web. Excuse me. If you think of the internet, your browser is a car. The internet is a road. So you take your browser onto the road and the destinations are the worldwide web or websites that create the worldwide web. So that's kind of what makes the internet different because the internet itself is not the worldwide web because the worldwide web is just the collection of different websites that are on the internet and the internet is kind of the road that you get to that you travel on to get to those two.
+> the **worldwide web**. Um, okay. So, we'll do this is the **internet**. This is the that's the web. This is the **computer**. Here are different **websites**. You're different. So the **internet** is this like kind of **network** or structure of other computers that are kind that can host the **worldwide web**. Excuse me. If you think of the **internet**, your **browser** is a car. The **internet** is a road. So you take your **browser** onto the road and the destinations are the **worldwide web** or **websites** that create the **worldwide web**. So that's kind of what makes the **internet** different because the **internet** itself is not the **worldwide web** because the **worldwide web** is just the collection of different **websites** that are on the **internet** and the **internet** is kind of the road that you get to that you travel on to get to those **two**.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:34:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:35:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:35:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:36:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:34:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:35:00"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:35:30"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:36:00"}}
 40. [96:02] Six degrees of separation.
 
-> All right. Explain the six degrees of separation. Um, excuse me. This is talking about how no matter what, you're kind of going to be linked to another person within six handshake. Um, it's basically kind of saying that there are so many people in the world that chances are you know someone through someone else. That's kind of explaining like the links. And when it's saying six degrees, it's saying like, hey, within six people, you may actually know someone through those six people. Um, and that's the six degrees of separation. Excuse me. Um, explain explain what a zero day
+> All right. Explain the **six degrees of separation**. Um, excuse me. This is talking about how no matter what, you're kind of going to be linked to another person within **six** handshake. Um, it's basically kind of saying that there are so many people in the world that chances are you know someone through someone else. That's kind of explaining like the links. And when it's saying **six** degrees, it's saying like, hey, within **six** people, you may actually know someone through those **six** people. Um, and that's the **six degrees of separation**. Excuse me. Um, explain explain what a **zero** day
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:36:02"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:36:32"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:37:02"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:36:02"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:36:32"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:37:02"}}
 41. [97:05] Zero day exploit.
 
-> exploit is. Um, uh, taking the term zero day, I would say that I'll say that's the exploit right there. Um so for you release a program and you and you run it. Um a zero day exploit is someone or someone finds some vulnerability in the code of your program before the programmers themselves even have a chance to rectify it. Um, so that's basically zero day. It's like before the the the programs released and before the developers even have a chance to notice that something that there's a vulnerability in their code. Um, someone else has already kind of gone in there and um been able to find the exploit and uh uh take advantage of it. That's it for the exploit.
+> **exploit** is. Um, uh, taking the term **zero** day, I would say that I'll say that's the **exploit** right there. Um so for you release a **program** and you and you run it. Um a **zero** day **exploit** is someone or someone finds some vulnerability in the code of your **program** before the programmers themselves even have a chance to rectify it. Um, so that's basically **zero** day. It's like before the the the **programs** released and before the developers even have a chance to notice that something that there's a vulnerability in their code. Um, someone else has already kind of gone in there and um been able to find the **exploit** and uh uh take advantage of it. That's it for the **exploit**.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:37:05"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:37:35"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:38:05"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:37:05"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:37:35"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:38:05"}}
 42. [98:25] Malware.
 
-> Um malware. Malware is um malicious software. They can be anything from Trojans or viruses to spy wear and adear. Um and uh there malware is basically negative there it's bad intentions. Um like an like an ex not like an exploit cuz we're going to be taking advantage of an exploit. So, it's it's malicious software made with bad intentions to steal information or data or to just um mess intentionally um mess up or destroy um how computers uh run. So, you know, make mess up internally how an operating operating system could work. Um, yeah, that's that's basically malware. Any type of software that has negative intentions like viruses or Trojans um that can track or steal your data or do even more nefarious things. Uh common malware exploits
+> Um **malware**. **Malware** is um **malicious software**. They can be anything from Trojans or viruses to spy wear and adear. Um and uh there **malware** is basically negative there it's bad intentions. Um like an like an ex not like an **exploit** cuz we're going to be taking advantage of an **exploit**. So, it's it's **malicious software** made with bad intentions to steal **information** or **data** or to just um mess intentionally um mess up or destroy um how computers uh run. So, you know, make mess up internally how an operating **operating system** could work. Um, yeah, that's that's basically **malware**. Any type of **software** that has negative intentions like viruses or Trojans um that can track or steal your **data** or do even more nefarious things. Uh common **malware** exploits
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:38:25"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:38:55"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:39:25"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:38:25"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:38:55"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:39:25"}}
 43. [99:51] Common malware exploits.
 
-> um would be something like uh um I wouldn't say like adwear or spyware because that's just like well I mean I guess it could because um if a malware is installing adw wear into the uh uh user the user's computer or not adverse spyware. Then that's allowing them to take advantage of whatever um vulnerability in the operating system to be able to spy on the um the the users activities kind of something like that.
+> um would be something like uh um I wouldn't say like adwear or **spyware** because that's just like well I mean I guess it could because um if a **malware** is installing adw wear into the uh uh user the user's **computer** or not adverse **spyware**. Then that's allowing them to take advantage of whatever um vulnerability in the **operating system** to be able to spy on the um the the users activities kind of something like that.
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:39:51"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:40:21"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:39:51"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:40:21"}}
 44. [100:46] Wikipedia articles.
 
-> All right. Explain how Wikipedia articles are written. God are written and edited. Nope. Um this is it's kind of having to do with um a lot of people kind of working together and they all kind of make their own contributions to editing, you know, specific articles um and stuff like that. So they all kind of collaborate with each other um uh to edit and make sure information is as accurate as possible. Um and then these people you know they kind of contribute their changes and then um other people you know they'll go ahead and approve those changes so that um they'll be like yes these changes will definitely like we'll say this change gets approved and this change gets approved for this article and this article. Um so that's how the articles are kind of written in it. So we have these users who kind of contribute their time into making sure the information that they want to put out is correct. They go in make edits to the article um and submit it and then those are those submissions kind of get moderated and made sure like it they're as accurate as they can be. Um, and then the uh if it's good then it gets public uh published the changes get published onto the article and that's how those get written and edited. Um, I'm going to use the exact same
+> All right. Explain how Wikipedia articles are written. God are written and edited. Nope. Um this is it's kind of having to do with um a lot of people kind of working together and they all kind of make their own contributions to editing, you know, specific articles um and stuff like that. So they all kind of **collaborate** with each other um uh to edit and make sure **information** is as accurate as possible. Um and then these people you know they kind of contribute their changes and then um other people you know they'll go ahead and approve those changes so that um they'll be like yes these changes will definitely like we'll say this change gets approved and this change gets approved for this article and this article. Um so that's how the articles are kind of written in it. So we have these users who kind of contribute their time into making sure the **information** that they want to put out is correct. They go in make edits to the article um and submit it and then those are those submissions kind of get moderated and made sure like it they're as accurate as they can be. Um, and then the uh if it's good then it gets public uh published the changes get published onto the article and that's how those get written and edited. Um, I'm going to use the exact same
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:40:46"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:41:16"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:41:46"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:42:16"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:40:46"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:41:16"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:41:46"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:42:16"}}
 45. [102:35] Pull requests.
 
-> diagram because that's I I was honestly not going trying to not say pull request. Um, uh, so what is a pull request and how does it facilitate collaboration? Um a pull request is you know if someone wants to contribute or you know make a change to something some code they would make a request uh a pull request to whoever um created that code to say hey can I make some changes to the code. So, they're going to send out a pull request and whoever it is is going to um say, "Hey, yes, you can go ahead and try to make some changes to the code." They're going to take a copy of that code and it's going to go and get sent to you so that you can go ahead and make your changes. And once you're done, you submit this code back to the people and they're going to look at it and say yes this is good or no this is not good we will not use it and if it's good then they'll add this code into the main like uh main source code and then it gets kind of implemented. So that's how coll uh pull requests work and how collaborations work. Pull request is basically asking to uh make a change to the code and whoever is in charge of it um goes ahead and sends a good copy and then you make your changes to that copy send it back and if it's good then it gets implemented and if not then it doesn't. Um,
+> diagram because that's I I was honestly not going trying to not say **pull request**. Um, uh, so what is a **pull request** and how does it facilitate **collaboration**? Um a **pull request** is you know if someone wants to contribute or you know make a change to something some code they would make a request uh a **pull request** to whoever um created that code to say hey can I make some changes to the code. So, they're going to send out a **pull request** and whoever it is is going to um say, "Hey, yes, you can go ahead and try to make some changes to the code." They're going to take a copy of that code and it's going to go and get sent to you so that you can go ahead and make your changes. And once you're done, you submit this code back to the people and they're going to look at it and say yes this is good or no this is not good we will not use it and if it's good then they'll add this code into the main like uh main **source code** and then it gets kind of implemented. So that's how coll uh pull requests work and how collaborations work. **Pull request** is basically asking to uh make a change to the code and whoever is in charge of it um goes ahead and sends a good copy and then you make your changes to that copy send it back and if it's good then it gets implemented and if not then it doesn't. Um,
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:42:35"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:43:05"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:43:35"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:44:05"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:42:35"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:43:05"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:43:35"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:44:05"}}
 46. [104:29] Fair use.
 
-> what is the point of the fair use doctrine and list of factors that characterize fair use? Um, well, fair use has to talk about basically right. Um so fair use is basically if whoever has the copyright says um hey yes you can distribute as needed or whatever. Fair use is kind of um not in a way requesting or asking permission, but it's saying, "Hey, you don't necessarily have to always come and ask for permission as long as it's within these boundaries and it has to do with the purpose um uh of it. Is it educational or is it for profit? Um because you know if it was educational then it would be okay in terms of fair use but if it's for profit then it wouldn't be because then you're making money out of someone else's idea. Um uh you know there's that um market for the profit would be like if you can't is this going to have market value because if yes then it wouldn't technically be fair use because you're using someone else's idea. Uh purpose of it the nature of it is it educational is it not? Um, basically it's, yeah, I would say it's kind of like not necessarily having to ask permission. I I would have to study more and try to word that better for the final exam, but um, yes, it's it has to one in the same with copyright and fair use. Okay, that was a terrible answer. I'm just going to say that this definitely goes on the last chapter of the textbook. Many many computers. I'm just going to go ahead and stop right there and just hit submit for answering all the questions. All right. So, that was my midterm. Um, and I will go ahead and stop the recording now.
+> what is the point of the **fair use** doctrine and list of factors that characterize **fair use**? Um, well, **fair use** has to talk about basically right. Um so **fair use** is basically if whoever has the **copyright** says um hey yes you can distribute as needed or whatever. **Fair use** is kind of um not in a way requesting or **asking permission**, but it's saying, "Hey, you don't necessarily have to always come and ask for permission as long as it's within these boundaries and it has to do with the purpose um uh of it. Is it educational or is it for profit? Um because you know if it was educational then it would be okay in terms of **fair use** but if it's for profit then it wouldn't be because then you're making money out of someone else's idea. Um uh you know there's that um market for the profit would be like if you can't is this going to have market value because if yes then it wouldn't technically be **fair use** because you're using someone else's idea. Uh purpose of it the nature of it is it educational is it not? Um, basically it's, yeah, I would say it's kind of like not necessarily having to ask permission. I I would have to study more and try to word that better for the final exam, but um, yes, it's it has to **one** in the same with **copyright** and **fair use**. Okay, that was a terrible answer. I'm just going to say that this definitely goes on the last chapter of the textbook. Many many computers. I'm just going to go ahead and stop right there and just hit submit for answering all the questions. All right. So, that was my midterm. Um, and I will go ahead and stop the **recording** now.
 
 
 
 
 {{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:44:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:44:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:45:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:45:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:44:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:44:59"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:45:29"}}
-{{ShowFrame:https://youtu.be/5Bd_onCysfw time:"1:45:59"}}
