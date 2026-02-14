@@ -13,8 +13,8 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
   const [showFrames, setShowFrames] = useState([]); // {id, afterParagraphIndex, timestamp}
   const [vocabulary, setVocabulary] = useState([]);
   const [diagramsData, setDiagramsData] = useState(diagrams);
-  const [debugParagraphs, setDebugParagraphs] = useState(new Set());
-  const [hoveredParagraph, setHoveredParagraph] = useState(null);
+  const [activeFragments, setActiveFragments] = useState(new Set());
+  const [visibleParagraphs, setVisibleParagraphs] = useState(50);
 
   // Load transcript JSON
   useEffect(() => {
@@ -38,24 +38,7 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
         
         // Initialize paragraphs
         const baseParagraphs = groupIntoParagraphsFromData(data);
-        
-        // Try to restore from localStorage
-        const storageKey = `transcript-browser-${transcript_json}`;
-        try {
-          const stored = localStorage.getItem(storageKey);
-          if (stored) {
-            const parsed = JSON.parse(stored);
-            console.log('Restored from localStorage:', parsed);
-            setParagraphs(parsed.paragraphs || baseParagraphs);
-            setHighlights(parsed.highlights || []);
-            setShowFrames(parsed.showFrames || []);
-          } else {
-            setParagraphs(baseParagraphs);
-          }
-        } catch (e) {
-          console.error('Failed to restore from localStorage:', e);
-          setParagraphs(baseParagraphs);
-        }
+        setParagraphs(baseParagraphs);
       } catch (e) {
         console.error('Failed to load transcript:', e);
         setError(e.message);
@@ -129,6 +112,7 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
       
       if (entryIndex === -1) {
         console.warn(`❌ No entry found near timestamp ${targetTime}s in transcriptData`);
+        diagram.highlightedText = `[No transcript entry near ${targetTime}s]`;
         return;
       }
       
@@ -142,14 +126,12 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
       
       while (!foundPeriod && nextIndex < transcriptData.length && nextIndex < entryIndex + 6) {
         const nextEntry = transcriptData[nextIndex];
-        // Stop if there's a big pause (new paragraph)
         if (nextEntry.start - transcriptData[nextIndex - 1].start > 1.0) {
           break;
         }
         fullText += ' ' + nextEntry.text;
         if (nextEntry.text.includes('.')) {
           foundPeriod = true;
-          // Truncate at period
           const periodIdx = fullText.indexOf('.', matchedEntry.text.length);
           if (periodIdx !== -1) {
             fullText = fullText.substring(0, periodIdx + 1);
@@ -159,116 +141,55 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
         nextIndex++;
       }
       
-      console.log(`  Built highlight text: "${fullText.substring(0, 50)}..."`);
+      console.log(`  Built highlight text: "${fullText}"`);
       
-      // Now find which paragraph contains this text by searching for the actual text content
+      // Find the paragraph that contains this entry
       let targetParagraphIndex = -1;
       let startOffset = 0;
       let endOffset = 0;
       
-      // For short entries (< 10 chars), search for a longer context (first 20+ chars of fullText)
-      // For longer entries, search for just the entry text
-      const searchText = matchedEntry.text.length < 10 && fullText.length > 20
-        ? fullText.substring(0, Math.min(30, fullText.length))
-        : matchedEntry.text;
-      
-      console.log(`  Searching for: "${searchText}"`);
-      
-      // Normalize text for searching (collapse whitespace, lowercase)
-      const normalizeText = (text) => text.toLowerCase().replace(/\s+/g, ' ').trim();
-      const normalizedSearchText = normalizeText(searchText);
-      
-      // Narrow down which paragraphs to search by checking timestamp range
-      // Use a wider range (±10 seconds) to account for timing discrepancies
-      const candidateParagraphs = [];
       for (let pIdx = 0; pIdx < paragraphs.length; pIdx++) {
         const para = paragraphs[pIdx];
-        if (!para.timestamp) continue;
+        if (!para.entries) continue;
         
-        // Check if this paragraph's time range is near our target (within 10 seconds)
-        const paraStart = para.timestamp;
-        const paraEnd = pIdx < paragraphs.length - 1 ? paragraphs[pIdx + 1].timestamp : Infinity;
+        // Check if this paragraph contains the matched entry
+        const entryInPara = para.entries.find(e => Math.abs(e.start - matchedEntry.start) < 0.1);
         
-        if ((targetTime >= paraStart - 10 && targetTime <= paraEnd + 10) ||
-            (paraStart >= targetTime - 10 && paraStart <= targetTime + 10)) {
-          candidateParagraphs.push({index: pIdx, para});
-        }
-      }
-      
-      console.log(`  Found ${candidateParagraphs.length} candidate paragraphs by timestamp (±10s window)`);
-      
-      for (const {index: pIdx, para} of candidateParagraphs) {
-        if (!para.text) continue;
-        
-        console.log(`  Searching in paragraph ${pIdx} @ ${para.timestamp}s: "${para.text.substring(0, 60)}..."`);
-        
-        // Try exact match first
-        let textIndex = para.text.indexOf(searchText);
-        
-        // If exact match fails, try normalized matching
-        if (textIndex === -1) {
-          const normalizedParaText = normalizeText(para.text);
-          const normalizedIndex = normalizedParaText.indexOf(normalizedSearchText);
-          
-          if (normalizedIndex !== -1) {
-            // Map normalized position back to original text position
-            // Count non-whitespace characters in both strings
-            let normalizedCount = 0;
-            let origIndex = 0;
-            
-            // Count characters in normalized text up to match position
-            for (let i = 0; i < normalizedIndex; i++) {
-              if (normalizedParaText[i] !== ' ') normalizedCount++;
-            }
-            
-            // Find same character count in original text
-            let origCount = 0;
-            while (origIndex < para.text.length && origCount < normalizedCount) {
-              if (para.text[origIndex] !== ' ' && para.text[origIndex] !== '\t' && para.text[origIndex] !== '\n') {
-                origCount++;
-              }
-              origIndex++;
-            }
-            
-            textIndex = origIndex;
-            console.log(`  Found normalized match, mapped to position ${textIndex} in original text`);
-          }
-        }
-        
-        if (textIndex !== -1) {
+        if (entryInPara) {
           targetParagraphIndex = pIdx;
-          startOffset = textIndex;
+          console.log(`  Found in paragraph ${pIdx}`);
           
-          // Try to find where fullText ends in the paragraph
-          // First, try to find the full text
-          const fullTextIndex = para.text.indexOf(fullText, textIndex);
-          if (fullTextIndex === textIndex) {
-            // Full text is in this paragraph
-            endOffset = textIndex + fullText.length;
-            console.log(`  Found complete fullText at position ${startOffset}`);
-          } else {
-            // Full text spans beyond this paragraph or was truncated, use what we can
-            const periodIndex = para.text.indexOf('.', textIndex + searchText.length);
-            if (periodIndex !== -1 && periodIndex > textIndex) {
-              endOffset = periodIndex + 1;
-              console.log(`  Found period at ${periodIndex}, using that as end`);
-            } else {
-              endOffset = Math.min(textIndex + fullText.length, para.text.length);
-              console.log(`  Using estimated end offset based on fullText length`);
+          // Calculate character offset by summing lengths of previous entries
+          let charOffset = 0;
+          for (const e of para.entries) {
+            if (Math.abs(e.start - matchedEntry.start) < 0.1) {
+              // Found it - this is where we start
+              startOffset = charOffset;
+              
+              // Calculate end by adding the fullText length
+              // But need to make sure fullText actually exists in the paragraph
+              const remainingText = para.text.substring(charOffset);
+              const fullTextInPara = remainingText.substring(0, fullText.length);
+              
+              if (fullTextInPara.toLowerCase().trim() === fullText.toLowerCase().trim()) {
+                endOffset = charOffset + fullText.length;
+              } else {
+                // Just highlight the matched entry
+                endOffset = charOffset + matchedEntry.text.length;
+              }
+              
+              console.log(`  Highlight position: ${startOffset}-${endOffset}`);
+              break;
             }
+            // Add this entry's length plus a space
+            charOffset += e.text.length + 1;
           }
-          
-          console.log(`  Final highlight: paragraph ${pIdx}, offset ${startOffset}-${endOffset}`);
           break;
         }
       }
       
       if (targetParagraphIndex === -1) {
-        console.warn(`❌ Could not find text "${searchText}" in ${candidateParagraphs.length} candidate paragraphs`);
-        if (candidateParagraphs.length > 0) {
-          console.warn(`  Candidates were:`, candidateParagraphs.map(cp => `P${cp.index} @ ${cp.para.timestamp}s: '${cp.para.text?.substring(0, 50)}...'`));
-        }
-        // Still store the text for caption even if we can't highlight it
+        console.warn(`❌ Could not find entry with timestamp ${matchedEntry.start}s in any paragraph`);
         diagram.highlightedText = fullText;
         return;
       }
@@ -324,90 +245,47 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
     loadVocabulary();
   }, []);
 
-  // Save to localStorage whenever highlights, showFrames, or paragraphs change
+  // Create ShowFrames for paragraphs with active fragments
   useEffect(() => {
-    if (!transcript_json || !transcriptData || paragraphs.length === 0) return;
+    const frames = [];
     
-    const storageKey = `transcript-browser-${transcript_json}`;
-    const dataToSave = {
-      highlights: highlights.filter(h => !h.isDiagramHighlight), // Don't save diagram highlights
-      showFrames,
-      paragraphs
-    };
+    paragraphs.forEach((para, index) => {
+      if (!para.entries) return;
+      
+      // Check if this paragraph has any active fragments
+      const activeInPara = para.entries.filter(entry => activeFragments.has(entry.start));
+      
+      if (activeInPara.length > 0) {
+        // Use the first active fragment's timestamp
+        frames.push({
+          id: `frame-${index}`,
+          afterParagraphIndex: index,
+          timestamp: activeInPara[0].start
+        });
+      }
+    });
     
-    try {
-      localStorage.setItem(storageKey, JSON.stringify(dataToSave));
-      console.log('Saved to localStorage:', storageKey, dataToSave);
-    } catch (e) {
-      console.error('Failed to save to localStorage:', e);
-    }
-  }, [highlights, showFrames, paragraphs, transcript_json, transcriptData]);
+    setShowFrames(frames);
+  }, [activeFragments, paragraphs]);
 
-  // Handler to remove a ShowFrame and its associated yellow highlight
+  // Handler to remove a ShowFrame
   const handleRemoveShowFrame = (frameId) => {
-    const frame = showFrames.find(f => f.id === frameId);
-    const highlight = highlights.find(h => h.showFrameId === frameId);
-    
-    if (!frame) {
-      console.warn('ShowFrame not found:', frameId);
-      return;
+    // Extract paragraph index from frame ID
+    const match = frameId.match(/frame-(\d+)/);
+    if (match) {
+      const paraIndex = parseInt(match[1]);
+      const para = paragraphs[paraIndex];
+      
+      if (para && para.entries) {
+        // Deactivate all fragments in this paragraph
+        setActiveFragments(prev => {
+          const newSet = new Set(prev);
+          para.entries.forEach(entry => newSet.delete(entry.start));
+          return newSet;
+        });
+      }
     }
-    
-    if (!highlight) {
-      // Just remove the frame if no highlight is associated
-      setShowFrames(prev => prev.filter(f => f.id !== frameId));
-      console.log('Deleted ShowFrame (no associated highlight)');
-      return;
-    }
-    
-    // Check if we should merge split paragraphs
-    const splitIndex = frame.afterParagraphIndex;
-    const firstPara = paragraphs[splitIndex];
-    const secondPara = paragraphs[splitIndex + 1];
-    
-    // Only merge if both paragraphs exist AND they share the same entries array
-    if (firstPara && secondPara && firstPara.entries === secondPara.entries) {
-      // Merge the two paragraphs back together
-      const mergedParagraph = {
-        ...firstPara,
-        text: firstPara.text + ' ' + secondPara.text
-      };
-      
-      // Create new paragraphs array with the merged paragraph
-      const newParagraphs = [
-        ...paragraphs.slice(0, splitIndex),
-        mergedParagraph,
-        ...paragraphs.slice(splitIndex + 2)
-      ];
-      
-      setParagraphs(newParagraphs);
-      
-      // Adjust highlight indices (anything after the merged point needs to be decremented)
-      setHighlights(prev => prev
-        .filter(h => h.id !== highlight.id) // Remove the associated highlight
-        .map(h => h.paragraphIndex > splitIndex 
-          ? { ...h, paragraphIndex: h.paragraphIndex - 1 }
-          : h
-        )
-      );
-      
-      // Adjust ShowFrame indices and remove this frame
-      setShowFrames(prev => prev
-        .filter(f => f.id !== frameId) // Remove this ShowFrame
-        .map(f => f.afterParagraphIndex > splitIndex
-          ? { ...f, afterParagraphIndex: f.afterParagraphIndex - 1 }
-          : f
-        )
-      );
-      
-      console.log('Merged split paragraphs and deleted highlight/ShowFrame');
-      return;
-    }
-    
-    // If no merge needed, just remove both
-    setHighlights(prev => prev.filter(h => h.id !== highlight.id));
-    setShowFrames(prev => prev.filter(f => f.id !== frameId));
-    console.log('Deleted highlight and ShowFrame (no merge needed)');
+    console.log('Deleted ShowFrame:', frameId);
   };
 
   // Group transcript entries into paragraphs based on pauses
@@ -452,145 +330,156 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
   };
 
   // Handle text selection to create highlights
-  const handleMouseUp = (e, paragraphIndex) => {
-    const selection = window.getSelection();
-    const selectedText = selection.toString().trim();
-    
-    if (!selectedText) return;
+  const handleDoubleClick = (e, paragraphIndex) => {
+    const para = paragraphs[paragraphIndex];
+    if (!para.entries) return;
 
-    // Get the range of the selection
+    // Get click position in the paragraph text
+    const selection = window.getSelection();
     const range = selection.getRangeAt(0);
     const container = e.currentTarget;
     
-    // Create a range for the entire paragraph to calculate offsets
     const fullRange = document.createRange();
     fullRange.selectNodeContents(container);
     fullRange.setEnd(range.startContainer, range.startOffset);
-    const startOffset = fullRange.toString().length;
-    fullRange.setEnd(range.endContainer, range.endOffset);
-    const endOffset = fullRange.toString().length;
+    const clickOffset = fullRange.toString().length;
 
-    // Find next period after the selection
-    const paragraph = paragraphs[paragraphIndex];
-    const periodIndex = paragraph.text.indexOf('.', endOffset);
+    // Find which entry was clicked
+    let charOffset = 0;
+    let clickedEntry = null;
     
-    // Calculate timestamp for the highlighted text
-    let highlightTimestamp = paragraph.timestamp;
-    if (paragraph.entries && paragraph.entries.length > 0) {
-      // Build character offset to entry mapping
-      let charOffset = 0;
-      for (let i = 0; i < paragraph.entries.length; i++) {
-        const entry = paragraph.entries[i];
-        const entryTextLength = entry.text.length;
-        
-        // Check if the highlight starts within this entry
-        // Each entry is followed by a space (except the last one)
-        if (startOffset >= charOffset && startOffset < charOffset + entryTextLength) {
-          highlightTimestamp = entry.start;
-          console.log(`Found highlight at offset ${startOffset}, charOffset ${charOffset}, entry ${i}:`, entry.text, 'timestamp:', highlightTimestamp);
-          break;
-        }
-        
-        // Move to next entry (add entry length + 1 for the space)
-        charOffset += entryTextLength + 1;
+    for (const entry of para.entries) {
+      const entryStart = charOffset;
+      const entryEnd = charOffset + entry.text.length;
+      
+      if (clickOffset >= entryStart && clickOffset <= entryEnd) {
+        clickedEntry = entry;
+        break;
       }
       
-      // If we didn't find it, use the last entry's timestamp
-      if (highlightTimestamp === paragraph.timestamp && paragraph.entries.length > 0) {
-        const lastEntry = paragraph.entries[paragraph.entries.length - 1];
-        highlightTimestamp = lastEntry.start;
-        console.log(`Highlight not found in entries, using last entry timestamp:`, highlightTimestamp);
+      charOffset += entry.text.length + 1; // +1 for space
+    }
+
+    if (!clickedEntry) return;
+
+    console.log('Double-clicked fragment:', clickedEntry.text, 'at', clickedEntry.start);
+
+    // Toggle this fragment's active state
+    setActiveFragments(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(clickedEntry.start)) {
+        newSet.delete(clickedEntry.start);
+      } else {
+        newSet.add(clickedEntry.start);
       }
-    }
-    
-    if (periodIndex !== -1 && periodIndex < paragraph.text.length - 1) {
-      // Split the paragraph at the period
-      const splitPoint = periodIndex + 1; // Include the period
-      const firstPart = paragraph.text.substring(0, splitPoint).trim();
-      const secondPart = paragraph.text.substring(splitPoint).trim();
-      
-      // Create new paragraphs array
-      const newParagraphs = [
-        ...paragraphs.slice(0, paragraphIndex),
-        { ...paragraph, text: firstPart, entries: paragraph.entries },
-        { ...paragraph, text: secondPart, timestamp: paragraph.timestamp, entries: paragraph.entries },
-        ...paragraphs.slice(paragraphIndex + 1)
-      ];
-      
-      setParagraphs(newParagraphs);
-      
-      // Adjust highlight indices for paragraphs after the split
-      setHighlights(prev => prev.map(h => 
-        h.paragraphIndex > paragraphIndex 
-          ? { ...h, paragraphIndex: h.paragraphIndex + 1 }
-          : h
-      ));
-      
-      // Adjust ShowFrame indices for frames after the split
-      setShowFrames(prev => prev.map(frame =>
-        frame.afterParagraphIndex >= paragraphIndex
-          ? { ...frame, afterParagraphIndex: frame.afterParagraphIndex + 1 }
-          : frame
-      ));
-      
-      // Add a new ShowFrame at the split point
-      const showFrameId = Date.now();
-      const newShowFrame = {
-        id: showFrameId,
-        afterParagraphIndex: paragraphIndex,
-        timestamp: highlightTimestamp
-      };
-      
-      setShowFrames(prev => [...prev, newShowFrame]);
-      
-      // Add the new highlight linked to the ShowFrame
-      const newHighlight = {
-        id: Date.now() + 1, // Offset to avoid ID collision
-        paragraphIndex,
-        startOffset,
-        endOffset: Math.min(endOffset, splitPoint),
-        text: selectedText,
-        showFrameId: showFrameId
-      };
-      
-      setHighlights(prev => [...prev, newHighlight]);
-      
-      console.log('Added highlight, split paragraph, and inserted ShowFrame:', newHighlight, newShowFrame);
-    } else {
-      // No period found or at end - create ShowFrame at end of paragraph without splitting
-      const showFrameId = Date.now();
-      const newShowFrame = {
-        id: showFrameId,
-        afterParagraphIndex: paragraphIndex,
-        timestamp: highlightTimestamp
-      };
-      
-      setShowFrames(prev => [...prev, newShowFrame]);
-      
-      const newHighlight = {
-        id: Date.now() + 1,
-        paragraphIndex,
-        startOffset,
-        endOffset,
-        text: selectedText,
-        showFrameId: showFrameId
-      };
-      
-      setHighlights(prev => [...prev, newHighlight]);
-      console.log('Added highlight and ShowFrame at end (no split):', newHighlight, newShowFrame);
-    }
-    
-    // Clear selection
-    selection.removeAllRanges();
+      return newSet;
+    });
   };
 
-  // Render paragraph with highlights applied
+  // Helper to render entry text with vocabulary bolding and diagram highlights
+  const renderEntryText = (entryText, paragraphIndex, entryStartOffset, keyPrefix = '') => {
+    const entryEndOffset = entryStartOffset + entryText.length;
+    
+    // Collect vocab replacements
+    const vocabReplacements = [];
+    if (vocabulary.length > 0) {
+      const sortedVocab = [...vocabulary].sort((a, b) => b.length - a.length);
+      
+      sortedVocab.forEach(term => {
+        if (term.length < 3) return;
+        const escapedTerm = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const regex = new RegExp(`\\b${escapedTerm}\\b`, 'gi');
+        
+        let match;
+        while ((match = regex.exec(entryText)) !== null) {
+          vocabReplacements.push({
+            type: 'vocab',
+            start: match.index,
+            end: match.index + match[0].length
+          });
+        }
+      });
+    }
+
+    // Collect diagram highlights that overlap with this entry
+    const paraHighlights = highlights.filter(h => h.paragraphIndex === paragraphIndex);
+    const entryHighlights = [];
+    
+    paraHighlights.forEach(highlight => {
+      // Check if highlight overlaps with this entry's range in the paragraph
+      if (highlight.startOffset < entryEndOffset && highlight.endOffset > entryStartOffset) {
+        // Calculate the intersection with this entry
+        const relativeStart = Math.max(0, highlight.startOffset - entryStartOffset);
+        const relativeEnd = Math.min(entryText.length, highlight.endOffset - entryStartOffset);
+        
+        entryHighlights.push({
+          type: 'highlight',
+          start: relativeStart,
+          end: relativeEnd,
+          id: highlight.id
+        });
+      }
+    });
+
+    // If no vocab or highlights, just return plain text
+    if (vocabReplacements.length === 0 && entryHighlights.length === 0) {
+      return entryText;
+    }
+
+    // Combine and sort all markers
+    const allMarkers = [...vocabReplacements, ...entryHighlights].sort((a, b) => a.start - b.start);
+    
+    const parts = [];
+    let lastIndex = 0;
+
+    allMarkers.forEach((marker) => {
+      // Skip if overlapping with previous
+      if (marker.start < lastIndex) {
+        return;
+      }
+      
+      // Add text before marker
+      if (marker.start > lastIndex) {
+        parts.push(entryText.substring(lastIndex, marker.start));
+      }
+      
+      if (marker.type === 'vocab') {
+        parts.push(
+          <strong key={`${keyPrefix}-vocab-${marker.start}`}>
+            {entryText.substring(marker.start, marker.end)}
+          </strong>
+        );
+      } else if (marker.type === 'highlight') {
+        parts.push(
+          <mark 
+            key={`${keyPrefix}-highlight-${marker.id}`} 
+            className="transcript-highlight diagram-highlight"
+            title="Diagram highlight"
+          >
+            {entryText.substring(marker.start, marker.end)}
+          </mark>
+        );
+      }
+      
+      lastIndex = marker.end;
+    });
+
+    // Add remaining text
+    if (lastIndex < entryText.length) {
+      parts.push(entryText.substring(lastIndex));
+    }
+
+    return parts.length > 0 ? parts : entryText;
+  };
+
+  // Render paragraph with diagram highlights only
   const renderParagraphWithHighlights = (para, paragraphIndex) => {
     const paraHighlights = highlights.filter(h => h.paragraphIndex === paragraphIndex);
     
     // First, bold vocabulary words
     let processedText = para.text;
     const vocabReplacements = [];
+    
     
     if (vocabulary.length > 0) {
       // Sort vocabulary by length (longest first) to match longer phrases first
@@ -648,80 +537,13 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
       }
       
       if (marker.type === 'highlight') {
-        const highlight = marker;
+        const highlight = marker;        
+        // Only render diagram highlights (orange)
         parts.push(
           <mark 
             key={`highlight-${highlight.id}`} 
-            className={highlight.isDiagramHighlight ? "transcript-highlight diagram-highlight" : "transcript-highlight"}
-            onContextMenu={(e) => {
-              e.preventDefault();
-              e.stopPropagation();
-              
-              // Diagram highlights are not deletable
-              if (highlight.isDiagramHighlight) {
-                return;
-              }
-              
-              // If this highlight has a ShowFrame, check if we should merge split paragraphs
-              if (highlight.showFrameId) {
-                const frame = showFrames.find(f => f.id === highlight.showFrameId);
-                if (frame) {
-                  const splitIndex = frame.afterParagraphIndex;
-                  const firstPara = paragraphs[splitIndex];
-                  const secondPara = paragraphs[splitIndex + 1];
-                  
-                  // Only merge if both paragraphs exist AND they share the same entries array
-                  // (which indicates they came from the same split)
-                  if (firstPara && secondPara && firstPara.entries === secondPara.entries) {
-                    // Merge the two paragraphs back together
-                    const mergedParagraph = {
-                      ...firstPara,
-                      text: firstPara.text + ' ' + secondPara.text
-                    };
-                    
-                    // Create new paragraphs array with the merged paragraph
-                    const newParagraphs = [
-                      ...paragraphs.slice(0, splitIndex),
-                      mergedParagraph,
-                      ...paragraphs.slice(splitIndex + 2)
-                    ];
-                    
-                    setParagraphs(newParagraphs);
-                    
-                    // Adjust highlight indices (anything after the merged point needs to be decremented)
-                    setHighlights(prev => prev
-                      .filter(h => h.id !== highlight.id) // Remove this highlight
-                      .map(h => h.paragraphIndex > splitIndex 
-                        ? { ...h, paragraphIndex: h.paragraphIndex - 1 }
-                        : h
-                      )
-                    );
-                    
-                    // Adjust ShowFrame indices and remove this frame
-                    setShowFrames(prev => prev
-                      .filter(f => f.id !== highlight.showFrameId) // Remove this ShowFrame
-                      .map(f => f.afterParagraphIndex > splitIndex
-                        ? { ...f, afterParagraphIndex: f.afterParagraphIndex - 1 }
-                        : f
-                      )
-                    );
-                    
-                    console.log('Merged split paragraphs and deleted highlight/ShowFrame');
-                    return;
-                  }
-                }
-                
-                // If no merge needed but has ShowFrame, just remove both
-                setHighlights(prev => prev.filter(h => h.id !== highlight.id));
-                setShowFrames(prev => prev.filter(f => f.id !== highlight.showFrameId));
-                console.log('Deleted highlight and ShowFrame (no merge needed)');
-                return;
-              }
-              
-              // If no ShowFrame, just delete the highlight
-              setHighlights(prev => prev.filter(h => h.id !== highlight.id));
-            }}
-            title={highlight.isDiagramHighlight ? "Diagram highlight" : "Right-click to remove highlight"}
+            className="transcript-highlight diagram-highlight"
+            title="Diagram highlight"
           >
             {para.text.substring(highlight.startOffset, highlight.endOffset)}
           </mark>
@@ -772,18 +594,6 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
     return null;
   }
 
-  const toggleDebugMode = (index) => {
-    setDebugParagraphs(prev => {
-      const newSet = new Set(prev);
-      if (newSet.has(index)) {
-        newSet.delete(index);
-      } else {
-        newSet.add(index);
-      }
-      return newSet;
-    });
-  };
-
   return (
     <div className="transcript-browser">
       <div className="transcript-header">
@@ -794,43 +604,55 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
       </div>
       
       <div className="transcript-paragraphs">
-        {paragraphs.map((para, index) => (
+        {paragraphs.slice(0, visibleParagraphs).map((para, index) => (
           <React.Fragment key={index}>
-            <div 
-              className="transcript-paragraph-container"
-              onMouseEnter={() => setHoveredParagraph(index)}
-              onMouseLeave={() => setHoveredParagraph(null)}
-              style={{ position: 'relative' }}
-            >
-              {hoveredParagraph === index && para.entries && (
-                <button
-                  className="paragraph-debug-button"
-                  onClick={() => toggleDebugMode(index)}
-                  title={debugParagraphs.has(index) ? "Hide timestamps" : "Show timestamps"}
-                >
-                  🐛 {debugParagraphs.has(index) ? 'Hide' : 'Show'} Timestamps
-                </button>
-              )}
+            <div className="transcript-paragraph-container">
               <p 
                 className="transcript-paragraph" 
                 data-timestamp={para.timestamp}
-                onMouseUp={(e) => handleMouseUp(e, index)}
-                style={{ cursor: 'text' }}
+                style={{ cursor: 'pointer' }}
                 >
-                {debugParagraphs.has(index) && para.entries ? (
-                  // Debug mode: show each entry with its timestamp
-                  para.entries.map((entry, entryIdx) => (
-                    <span key={entryIdx}>
-                      <span className="timestamp-marker" title={`${entry.start.toFixed(2)}s`}>
-                        [{Math.floor(entry.start / 60)}:{String(Math.floor(entry.start % 60)).padStart(2, '0')}]
-                      </span>
-                      {' '}{entry.text}{' '}
-                    </span>
-                  ))
-                ) : (
-                  // Normal mode: render with highlights
-                  renderParagraphWithHighlights(para, index)
-                )}
+                {(() => {
+                  if (para.entries) {
+                    // Render each entry, showing timestamps for active fragments
+                    // Calculate character offsets for each entry in the paragraph
+                    let charOffset = 0;
+                    return para.entries.map((entry, entryIdx) => {
+                      const isActive = activeFragments.has(entry.start);
+                      const entryOffset = charOffset;
+                      charOffset += entry.text.length + 1; // +1 for space
+                      
+                      return (
+                        <span 
+                          key={entryIdx}
+                          onClick={() => {
+                            // Toggle this fragment's active state
+                            setActiveFragments(prev => {
+                              const newSet = new Set(prev);
+                              if (newSet.has(entry.start)) {
+                                newSet.delete(entry.start);
+                              } else {
+                                newSet.add(entry.start);
+                              }
+                              return newSet;
+                            });
+                          }}
+                          style={{ cursor: 'pointer' }}
+                        >
+                          {isActive && (
+                            <span className="timestamp-marker active" title={`${entry.start.toFixed(2)}s`}>
+                              [{Math.floor(entry.start / 60)}:{String(Math.floor(entry.start % 60)).padStart(2, '0')}]
+                            </span>
+                          )}
+                          {' '}{renderEntryText(entry.text, index, entryOffset, `entry-${index}-${entryIdx}`)}{' '}
+                        </span>
+                      );
+                    });
+                  } else {
+                    // No entries, just render with diagram highlights
+                    return renderParagraphWithHighlights(para, index);
+                  }
+                })()}
               </p>
             </div>
             {showFrames
@@ -872,6 +694,17 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
             }
           </React.Fragment>
         ))}
+        
+        {visibleParagraphs < paragraphs.length && (
+          <div className="load-more-container">
+            <button 
+              className="load-more-button"
+              onClick={() => setVisibleParagraphs(prev => Math.min(prev + 50, paragraphs.length))}
+            >
+              Load More ({paragraphs.length - visibleParagraphs} paragraphs remaining)
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

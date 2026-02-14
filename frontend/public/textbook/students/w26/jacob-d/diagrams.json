@@ -1,9 +1,15 @@
 {
-  "3:25": "/textbook/students/w26/jacob-d/Diagrams/basic-binary.png",
-  "6:31": "/textbook/students/w26/jacob-d/Diagrams/transistor.png",
-  "8:56": "/textbook/students/w26/jacob-d/Diagrams/encoding.png",
-  "11:22": "/textbook/students/w26/jacob-d/Diagrams/coin-flip.png",
-  "13:38": "/textbook/students/w26/jacob-d/Diagrams/binary-conversion-1.png",
-  "16:09": "/textbook/students/w26/jacob-d/Diagrams/binary-conversion-2.png",
-  "18:37": "/textbook/students/w26/jacob-d/Diagrams/binary-conversion-3.png"
+  "3:25": "/textbook/students/w26/jacob-d/Diagrams/00-basic-binary.png",
+  "6:31": "/textbook/students/w26/jacob-d/Diagrams/01-transistor.png",
+  "8:56": "/textbook/students/w26/jacob-d/Diagrams/02-encoding.png",
+  "11:22": "/textbook/students/w26/jacob-d/Diagrams/03-coin-flip.png",
+  "13:38": "/textbook/students/w26/jacob-d/Diagrams/04-binary-conversion-1.png",
+  "16:09": "/textbook/students/w26/jacob-d/Diagrams/05-binary-conversion-2.png",
+  "18:37": "/textbook/students/w26/jacob-d/Diagrams/06-binary-conversion-3.png",
+  "21:16": "/textbook/students/w26/jacob-d/Diagrams/07-magnetism.png",
+  "24:59": "/textbook/students/w26/jacob-d/Diagrams/08-coordinates.png",
+  "28:20": "/textbook/students/w26/jacob-d/Diagrams/09-coordinate-decoding.png",
+  "33:08": "/textbook/students/w26/jacob-d/Diagrams/10-pixel-image-video.png",
+  "43:26": "/textbook/students/w26/jacob-d/Diagrams/11-input-process-output.png",
+  "49:28": "/textbook/students/w26/jacob-d/Diagrams/12-ram-memory.png"
 }

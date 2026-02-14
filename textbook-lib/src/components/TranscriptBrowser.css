@@ -111,23 +111,6 @@
   position: relative;
 }
 
-.paragraph-debug-button {
-  display: block;
-  margin-bottom: 0.5rem;
-  padding: 0.25rem 0.5rem;
-  font-size: 0.75rem;
-  background: #3b82f6;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.paragraph-debug-button:hover {
-  background: #2563eb;
-}
-
 .timestamp-marker {
   display: inline-block;
   font-family: 'Courier New', monospace;
@@ -138,4 +121,32 @@
   border-radius: 3px;
   margin-right: 0.25rem;
   font-weight: 600;
+}
+
+.timestamp-marker.active {
+  background: #fef08a;
+  color: #854d0e;
+  font-weight: 700;
+}
+
+.load-more-container {
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.load-more-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: 600;
+}
+
+.load-more-button:hover {
+  background: #2563eb;
 }
