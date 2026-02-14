@@ -7,6 +7,11 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   transition: border-color 0.2s ease;
+  outline: none; /* Remove default focus outline */
+}
+
+.exam-browser:focus {
+  outline: none; /* Ensure no outline on focus */
 }
 
 .exam-browser.active {
@@ -150,6 +155,23 @@
   width: 100%;
   height: 100%;
   display: block;
+  pointer-events: none; /* Prevent iframe from capturing any events */
+}
+
+.iframe-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  cursor: pointer;
+  background: transparent;
+  outline: none; /* Remove focus outline */
+}
+
+.iframe-overlay:focus {
+  outline: none; /* Ensure no outline when focused */
 }
 
 .exam-browser-controls {

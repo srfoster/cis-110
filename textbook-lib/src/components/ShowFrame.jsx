@@ -1,21 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './ShowFrame.css';
 
-function ShowFrame({ url, time }) {
+function ShowFrame({ url, time, onDelete }) {
   const [isVisible, setIsVisible] = useState(false);
-  const [storedTimestamp, setStoredTimestamp] = useState(null);
-  const [zoomState, setZoomState] = useState({ scale: 1, x: 0, y: 0 });
-  const [isDragging, setIsDragging] = useState(false);
-  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
-  const [dragEnd, setDragEnd] = useState({ x: 0, y: 0 });
-  const [timeOffset, setTimeOffset] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [isActive, setIsActive] = useState(false);
-  const iframeRef = useRef(null);
-  const containerRef = useRef(null);
-  const overlayRef = useRef(null);
-  const hasAutopaused = useRef(false);
-
+  
   // Extract video ID from various YouTube URL formats
   const extractVideoId = (url) => {
     const regex = /(?:youtube\.com\/(?:[^/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?/\s]{11})/;
@@ -23,12 +11,22 @@ function ShowFrame({ url, time }) {
     return match ? match[1] : null;
   };
 
-  // Convert timestamp string (e.g., "1:23" or "12:34" or "01:23") to seconds
+  // Convert timestamp string (e.g., "1:23" or "12:34" or "01:23") or number (e.g., 123.45) to seconds
   const parseTimestamp = (timestamp) => {
     if (!timestamp) return 0;
     
+    // If it's already a number, just return it
+    if (typeof timestamp === 'number') {
+      return timestamp;
+    }
+    
     // Remove any surrounding quotes or whitespace
     const cleanTime = timestamp.toString().replace(/["'\s]/g, '');
+    
+    // Check if it's a pure number string (no colons)
+    if (!cleanTime.includes(':')) {
+      return parseFloat(cleanTime) || 0;
+    }
     
     const parts = cleanTime.split(':').map(part => parseInt(part, 10));
     if (parts.length === 2) {
@@ -40,7 +38,41 @@ function ShowFrame({ url, time }) {
   };
 
   const videoId = extractVideoId(url);
+  const baseSec = parseTimestamp(time);
+  const frameId = `showframe-${videoId}-${baseSec}`;
+  const localStorageKey = `showframe-override-${frameId}`;
+  const zoomStorageKey = `showframe-zoom-${frameId}`;
   
+  // Initialize storedTimestamp from localStorage synchronously
+  const [storedTimestamp, setStoredTimestamp] = useState(() => {
+    console.log(`🔍 Initializing ${frameId}, localStorage key: ${localStorageKey}`);
+    try {
+      const stored = localStorage.getItem(localStorageKey);
+      console.log(`🔍 Retrieved from localStorage:`, stored);
+      if (stored !== null) {
+        const parsed = parseFloat(stored);
+        console.log(`📌 Initial load from localStorage for ${frameId}:`, parsed);
+        return parsed;
+      } else {
+        console.log(`🔍 No stored value found for ${frameId}`);
+      }
+    } catch (e) {
+      console.error('Error loading initial timestamp:', e);
+    }
+    return null;
+  });
+  
+  const [zoomState, setZoomState] = useState({ scale: 1, x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+  const [dragEnd, setDragEnd] = useState({ x: 0, y: 0 });
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+  const iframeRef = useRef(null);
+  const containerRef = useRef(null);
+  const overlayRef = useRef(null);
+  const hasAutopaused = useRef(false);
+
   if (!videoId) {
     return (
       <div className="show-frame-error">
@@ -49,14 +81,17 @@ function ShowFrame({ url, time }) {
     );
   }
 
-  const baseSec = parseTimestamp(time);
-  const frameId = `showframe-${videoId}-${baseSec}`;
-  const localStorageKey = `showframe-override-${frameId}`;
-  const zoomStorageKey = `showframe-zoom-${frameId}`;
-  
-  // Use stored timestamp if available, otherwise use prop
+  // Current timestamp - use stored if available, otherwise use prop
   const seconds = storedTimestamp !== null ? storedTimestamp : baseSec;
-  const embedUrl = `https://www.youtube.com/embed/${videoId}?start=${seconds + timeOffset}&autoplay=1&enablejsapi=1&origin=${window.location.origin}&rel=0&modestbranding=1`;
+  
+  // Use ref to ensure embedUrl never changes after first render
+  // Don't use autoplay - we'll control playback via API after iframe loads
+  const embedUrlRef = useRef(null);
+  if (embedUrlRef.current === null) {
+    embedUrlRef.current = `https://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=${window.location.origin}&rel=0&modestbranding=1`;
+    console.log('📺 Created stable embedUrl (no autoplay, will seek on load)');
+  }
+  const embedUrl = embedUrlRef.current;
   
   // Format timestamp for display
   const formatTime = (secs) => {
@@ -65,16 +100,14 @@ function ShowFrame({ url, time }) {
     return `${m}:${s.toString().padStart(2, '0')}`;
   };
 
-  // Check localStorage for stored timestamp override and zoom state on mount
+  // Debug: Log when storedTimestamp changes
+  useEffect(() => {
+    console.log(`🔄 ${frameId} storedTimestamp changed to:`, storedTimestamp);
+  }, [storedTimestamp, frameId]);
+
+  // Check localStorage for stored zoom state on mount
   useEffect(() => {
     try {
-      const stored = localStorage.getItem(localStorageKey);
-      if (stored !== null) {
-        const parsedTime = parseFloat(stored);
-        console.log(`📌 Loaded stored timestamp for ${frameId}:`, parsedTime);
-        setStoredTimestamp(parsedTime);
-      }
-      
       const storedZoom = localStorage.getItem(zoomStorageKey);
       if (storedZoom !== null) {
         const parsedZoom = JSON.parse(storedZoom);
@@ -82,9 +115,22 @@ function ShowFrame({ url, time }) {
         setZoomState(parsedZoom);
       }
     } catch (e) {
-      console.error('Error loading stored data:', e);
+      console.error('Error loading stored zoom:', e);
     }
-  }, [frameId, localStorageKey, zoomStorageKey]);
+  }, [frameId, zoomStorageKey]);
+
+  // Listen for localStorage changes from other ShowFrame instances with same frameId
+  useEffect(() => {
+    const handleTimestampUpdate = (e) => {
+      if (e.detail.localStorageKey === localStorageKey) {
+        console.log(`🔔 Received timestamp update event for ${frameId}, updating to:`, e.detail.timestamp);
+        setStoredTimestamp(e.detail.timestamp);
+      }
+    };
+    
+    window.addEventListener('showframe-timestamp-update', handleTimestampUpdate);
+    return () => window.removeEventListener('showframe-timestamp-update', handleTimestampUpdate);
+  }, [localStorageKey, frameId]);
 
   // Register this ShowFrame in global registry for external control
   useEffect(() => {
@@ -93,19 +139,29 @@ function ShowFrame({ url, time }) {
     }
 
     const seekTo = (timestamp) => {
-      console.log('ShowFrame seekTo called:', timestamp);
+      console.log('ShowFrame seekTo called:', timestamp, 'for frameId:', frameId);
+      console.log('Using localStorage key:', localStorageKey);
       
       // Store timestamp in localStorage
       try {
         localStorage.setItem(localStorageKey, timestamp.toString());
+        const verification = localStorage.getItem(localStorageKey);
+        console.log('💾 Saved timestamp to localStorage:', timestamp, '- Verified:', verification);
         setStoredTimestamp(timestamp);
-        console.log('💾 Saved timestamp to localStorage:', timestamp);
+        console.log('🔄 Called setStoredTimestamp with:', timestamp);
+        
+        // Dispatch custom event to notify other ShowFrame instances with same frameId
+        window.dispatchEvent(new CustomEvent('showframe-timestamp-update', {
+          detail: { frameId, localStorageKey, timestamp }
+        }));
+        console.log('📢 Dispatched custom event for other instances');
       } catch (e) {
         console.error('Error saving timestamp:', e);
       }
       
       // Show the frame if not visible (always try to show)
       setIsVisible(true);
+      console.log('👁️ Called setIsVisible(true)');
 
       // Seek to timestamp using YouTube API
       setTimeout(() => {
@@ -146,10 +202,9 @@ function ShowFrame({ url, time }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [frameId, videoId, localStorageKey]); // isVisible and storedTimestamp intentionally omitted - seekTo updates them dynamically
 
-  // Listen for video playing and pause it immediately (initially), then track state
+  // Listen for video playing state updates
   useEffect(() => {
     if (!isVisible) {
-      hasAutopaused.current = false;
       return;
     }
 
@@ -162,16 +217,6 @@ function ShowFrame({ url, time }) {
         // Player state: 1 = playing, 2 = paused
         if (data.event === 'infoDelivery' && data.info && data.info.playerState !== undefined) {
           setIsPlaying(data.info.playerState === 1);
-          
-          // Auto-pause on first load
-          if (data.info.playerState === 1 && !hasAutopaused.current && iframeRef.current) {
-            iframeRef.current.contentWindow.postMessage(
-              JSON.stringify({ event: 'command', func: 'pauseVideo', args: [] }),
-              'https://www.youtube.com'
-            );
-            hasAutopaused.current = true;
-            setIsPlaying(false);
-          }
         }
       } catch (e) {
         // Ignore parse errors
@@ -182,21 +227,46 @@ function ShowFrame({ url, time }) {
     return () => window.removeEventListener('message', handleMessage);
   }, [isVisible]);
 
-  // Enable YouTube API when iframe loads
+  // Enable YouTube API when iframe loads and seek to timestamp
   useEffect(() => {
     if (!isVisible || !iframeRef.current) return;
 
     const iframe = iframeRef.current;
+    const targetTime = seconds; // Capture current timestamp when iframe mounts
+    
     const handleLoad = () => {
+      // Enable YouTube API
       iframe.contentWindow.postMessage(
         '{"event":"listening","id":"ytplayer"}',
         'https://www.youtube.com'
       );
+      
+      // Seek to the correct timestamp and play
+      setTimeout(() => {
+        console.log('📺 Iframe loaded, seeking to:', targetTime);
+        iframe.contentWindow.postMessage(
+          JSON.stringify({ event: 'command', func: 'seekTo', args: [targetTime, true] }),
+          'https://www.youtube.com'
+        );
+        iframe.contentWindow.postMessage(
+          JSON.stringify({ event: 'command', func: 'playVideo', args: [] }),
+          'https://www.youtube.com'
+        );
+        // Pause after brief moment to ensure seek completes
+        setTimeout(() => {
+          iframe.contentWindow.postMessage(
+            JSON.stringify({ event: 'command', func: 'pauseVideo', args: [] }),
+            'https://www.youtube.com'
+          );
+          setIsPlaying(false);
+        }, 200);
+      }, 500); // Small delay to ensure API is ready
     };
 
     iframe.addEventListener('load', handleLoad);
     return () => iframe.removeEventListener('load', handleLoad);
-  }, [isVisible]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isVisible]); // Only re-run when visibility changes
 
   // Track when this ShowFrame is interacted with
   const handleInteraction = () => {
@@ -226,21 +296,55 @@ function ShowFrame({ url, time }) {
     const handleKeyDown = (e) => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
       
+      console.log('ShowFrame keydown:', e.key, 'isActive:', isActive, 'currentTime:', seconds);
+      
       if (e.key === 'ArrowLeft') {
         e.preventDefault();
-        setTimeOffset(prev => prev - 5);
+        const newTime = Math.max(0, seconds - 5);
+        console.log('Arrow left - seeking to:', newTime);
+        
+        // Store absolute timestamp in localStorage
+        try {
+          localStorage.setItem(localStorageKey, newTime.toString());
+          setStoredTimestamp(newTime);
+          console.log('💾 Saved timestamp to localStorage:', newTime);
+          
+          // Notify other instances
+          window.dispatchEvent(new CustomEvent('showframe-timestamp-update', {
+            detail: { frameId, localStorageKey, timestamp: newTime }
+          }));
+        } catch (err) {
+          console.error('Error saving timestamp:', err);
+        }
+        
         if (iframeRef.current) {
           iframeRef.current.contentWindow?.postMessage(
-            JSON.stringify({ event: 'command', func: 'seekTo', args: [seconds + timeOffset - 5, true] }),
+            JSON.stringify({ event: 'command', func: 'seekTo', args: [newTime, true] }),
             'https://www.youtube.com'
           );
         }
       } else if (e.key === 'ArrowRight') {
         e.preventDefault();
-        setTimeOffset(prev => prev + 5);
+        const newTime = seconds + 5;
+        console.log('Arrow right - seeking to:', newTime);
+        
+        // Store absolute timestamp in localStorage
+        try {
+          localStorage.setItem(localStorageKey, newTime.toString());
+          setStoredTimestamp(newTime);
+          console.log('💾 Saved timestamp to localStorage:', newTime);
+          
+          // Notify other instances
+          window.dispatchEvent(new CustomEvent('showframe-timestamp-update', {
+            detail: { frameId, localStorageKey, timestamp: newTime }
+          }));
+        } catch (err) {
+          console.error('Error saving timestamp:', err);
+        }
+        
         if (iframeRef.current) {
           iframeRef.current.contentWindow?.postMessage(
-            JSON.stringify({ event: 'command', func: 'seekTo', args: [seconds + timeOffset + 5, true] }),
+            JSON.stringify({ event: 'command', func: 'seekTo', args: [newTime, true] }),
             'https://www.youtube.com'
           );
         }
@@ -249,7 +353,7 @@ function ShowFrame({ url, time }) {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isVisible, isActive, seconds, timeOffset, frameId]);
+  }, [isVisible, isActive, seconds, frameId, localStorageKey]);
 
   // Box selection for zoom
   const handleMouseDown = (e) => {
@@ -335,12 +439,23 @@ function ShowFrame({ url, time }) {
     handleInteraction(); // Make this the active ShowFrame
     const resetState = { scale: 1, x: 0, y: 0 };
     setZoomState(resetState);
-    setTimeOffset(0);
+    
+    // Reset timestamp to original
     try {
+      localStorage.removeItem(localStorageKey);
       localStorage.removeItem(zoomStorageKey);
-      console.log('🔄 Reset zoom state');
+      setStoredTimestamp(null);
+      console.log('🔄 Reset zoom and timestamp');
+      
+      // Reload iframe with original timestamp
+      if (iframeRef.current) {
+        iframeRef.current.contentWindow?.postMessage(
+          JSON.stringify({ event: 'command', func: 'seekTo', args: [baseSec, true] }),
+          'https://www.youtube.com'
+        );
+      }
     } catch (e) {
-      console.error('Error resetting zoom state:', e);
+      console.error('Error resetting:', e);
     }
   };
 
@@ -366,22 +481,48 @@ function ShowFrame({ url, time }) {
 
   return (
     <div className="show-frame" ref={containerRef} data-frame-id={frameId}>
-      <button 
-        className="show-frame-toggle"
-        onClick={() => {
-          setIsVisible(!isVisible);
-          if (!isVisible) handleInteraction(); // Make active when opening
-        }}
-      >
-        {isVisible ? '✕ Hide Diagram' : (
-          storedTimestamp !== null 
-            ? `🎬 Show Diagram at ${formatTime(storedTimestamp)} 📌` 
-            : `🎬 Show Diagram at ${time}`
+      <div className="show-frame-controls">
+        <button 
+          className="show-frame-toggle"
+          onClick={() => {
+            console.log(`🔘 Button clicked for ${frameId}, isVisible: ${isVisible}, storedTimestamp:`, storedTimestamp);
+            setIsVisible(!isVisible);
+            if (!isVisible) handleInteraction(); // Make active when opening
+          }}
+        >
+          {isVisible ? (
+            storedTimestamp !== null 
+              ? `✕ Hide Diagram (${formatTime(storedTimestamp)} 📌)` 
+              : `✕ Hide Diagram (${formatTime(baseSec)})`
+          ) : (
+            storedTimestamp !== null 
+              ? `🎬 Show Diagram at ${formatTime(storedTimestamp)} 📌` 
+              : `🎬 Show Diagram at ${formatTime(baseSec)}`
+          )}
+        </button>
+        
+        {onDelete && (
+          <button 
+            className="show-frame-delete"
+            onClick={(e) => {
+              e.stopPropagation();
+              if (window.confirm('Delete this video moment?')) {
+                onDelete();
+              }
+            }}
+            title="Delete this video moment"
+          >
+            🗑️ Delete
+          </button>
         )}
-      </button>
+      </div>
       
       {isVisible && (
-        <div className="show-frame-container" onMouseEnter={handleInteraction} onClick={handleInteraction}>
+        <div 
+          className="show-frame-container"
+          onMouseEnter={handleInteraction} 
+          onClick={handleInteraction}
+        >
           <div 
             className={`show-frame-wrapper ${isActive ? 'active' : ''}`}
             style={{
@@ -419,7 +560,7 @@ function ShowFrame({ url, time }) {
               />
             )}
           </div>
-          {(zoomState.scale !== 1 || timeOffset !== 0) && (
+          {(zoomState.scale !== 1 || storedTimestamp !== null) && (
             <button className="reset-button" onClick={handleReset}>
               🔄 Reset
             </button>

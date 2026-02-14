@@ -1,9 +1,11 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { getAssetUrl } from '../utils/paths';
+import resourceCache from '../services/resourceCache';
 import './ExamBrowser.css';
 
 function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   const iframeRef = useRef(null);
+  const containerRef = useRef(null);
   const transcriptItemsRef = useRef([]);
   const transcriptContentRef = useRef(null);
   const [isPlayerReady, setIsPlayerReady] = useState(false);
@@ -22,12 +24,20 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   const componentId = 'exam-browser';
 
   // Track when this ExamBrowser is interacted with
+  const overlayRef = useRef(null);
+
   const handleInteraction = () => {
     if (window.activeVideoComponent !== componentId) {
       window.activeVideoComponent = componentId;
       console.log('Active video component changed to: ExamBrowser');
     }
     setIsActive(true);
+    
+    // Focus the overlay so it can receive keyboard events
+    if (overlayRef.current) {
+      overlayRef.current.focus();
+      console.log('ExamBrowser overlay focused');
+    }
   };
 
   // Check if this is the active component
@@ -86,14 +96,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
           }
 
           console.log('ExamBrowser: Fetching transcript from:', fetchUrl);
-          const response = await fetch(fetchUrl);
-          
-          if (!response.ok) {
-            throw new Error(`Failed to load transcript: ${response.statusText}`);
-          }
-          
-          const text = await response.text();
-          const data = JSON.parse(text);
+          const data = await resourceCache.getJSON(fetchUrl);
           setTranscriptData(data);
           setLoading(false);
         } else {
@@ -137,24 +140,41 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
     }
   }, [selectedGroupIndex]);
 
-  // Keyboard navigation for group slider
+  // Keyboard navigation for seeking - use window listener but check isActive
   useEffect(() => {
+    const overlay = overlayRef.current;
+    if (!overlay) return;
+    
     const handleKeyDown = (event) => {
-      if (!transcriptData || !isActive) return;
+      // Skip if not this component or if typing in input field
+      if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') return;
+      if (!transcriptData || !isActive) {
+        console.log('ExamBrowser keydown ignored - isActive:', isActive);
+        return;
+      }
+      
+      console.log('ExamBrowser keydown:', event.key, 'isActive:', isActive, 'currentTime:', currentTime);
       
       if (event.key === 'ArrowLeft') {
         event.preventDefault();
-        handleSeek(-5); // Seek backward 5 seconds
+        event.stopPropagation();
+        const newTime = Math.max(0, currentTime - 5);
+        console.log('Arrow left - seeking to:', newTime, 'from', currentTime);
+        sendPlayerCommand('seekTo', [newTime, true]);
       } else if (event.key === 'ArrowRight') {
         event.preventDefault();
-        handleSeek(5); // Seek forward 5 seconds
+        event.stopPropagation();
+        const newTime = Math.min(duration, currentTime + 5);
+        console.log('Arrow right - seeking to:', newTime, 'from', currentTime);
+        sendPlayerCommand('seekTo', [newTime, true]);
       } else if (event.key === 'Escape' && isFullscreen) {
+        event.preventDefault();
         setIsFullscreen(false);
       }
     };
 
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    overlay.addEventListener('keydown', handleKeyDown);
+    return () => overlay.removeEventListener('keydown', handleKeyDown);
   }, [transcriptData, isFullscreen, isActive, currentTime, duration]);
 
   // Extract video ID from various YouTube URL formats
@@ -213,6 +233,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
 
   const handleSeek = (seconds) => {
     const newTime = Math.max(0, Math.min(currentTime + seconds, duration));
+    console.log('ExamBrowser handleSeek:', { seconds, currentTime, duration, newTime });
     sendPlayerCommand('seekTo', [newTime, true]);
   };
 
@@ -224,7 +245,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
     sendPlayerCommand('seekTo', [seconds, true]);
   };
 
-  // Group transcript items based on duration threshold
+  // Extract video ID from URL
   const groupTranscript = (transcript, maxGroupDuration) => {
     if (!transcript || transcript.length === 0) return [];
     
@@ -322,7 +343,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
     return () => window.removeEventListener('message', handleMessage);
   }, []);
 
-  // Enable YouTube API when iframe loads
+  // Enable YouTube API when iframe loads and start polling for player state
   useEffect(() => {
     const iframe = iframeRef.current;
     if (iframe) {
@@ -336,7 +357,29 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
       };
 
       iframe.addEventListener('load', handleLoad);
-      return () => iframe.removeEventListener('load', handleLoad);
+      
+      // Poll for player state updates every 500ms
+      const pollInterval = setInterval(() => {
+        if (iframe.contentWindow) {
+          iframe.contentWindow.postMessage(
+            '{"event":"command","func":"getCurrentTime","args":[]}',
+            'https://www.youtube.com'
+          );
+          iframe.contentWindow.postMessage(
+            '{"event":"command","func":"getDuration","args":[]}',
+            'https://www.youtube.com'
+          );
+          iframe.contentWindow.postMessage(
+            '{"event":"command","func":"getPlayerState","args":[]}',
+            'https://www.youtube.com'
+          );
+        }
+      }, 500);
+      
+      return () => {
+        iframe.removeEventListener('load', handleLoad);
+        clearInterval(pollInterval);
+      };
     }
   }, []);
 
@@ -344,7 +387,13 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
   const embedUrl = `https://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=${window.location.origin}`;
 
   return (
-    <div className={`exam-browser ${isFullscreen ? 'exam-browser-fullscreen' : ''} ${isActive ? 'active' : ''}`}>
+    <div 
+      ref={containerRef}
+      className={`exam-browser ${isFullscreen ? 'exam-browser-fullscreen' : ''} ${isActive ? 'active' : ''}`}
+      tabIndex={0}
+      onFocus={handleInteraction}
+      onClick={handleInteraction}
+    >
       <button 
         className="fullscreen-toggle-button"
         onClick={() => {
@@ -371,6 +420,13 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
 
       <div className={`exam-browser-content ${isFullscreen ? 'split-view' : ''} ${isFullscreen && videoFullscreen ? 'video-fullscreen' : ''}`}>
         <div className="exam-browser-player" onMouseEnter={handleInteraction} onClick={handleInteraction}>
+          <div 
+            ref={overlayRef}
+            className="iframe-overlay" 
+            onClick={handleInteraction}
+            onMouseEnter={handleInteraction}
+            tabIndex={0}
+          />
           <iframe
             ref={iframeRef}
             width="100%"
@@ -381,6 +437,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
+            tabIndex="-1"
           />
         </div>
 

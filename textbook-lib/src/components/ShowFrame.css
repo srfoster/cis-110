@@ -2,6 +2,12 @@
   margin: 20px 0;
 }
 
+.show-frame-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 .show-frame-toggle {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -13,6 +19,26 @@
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
   transition: all 0.2s ease;
+  flex: 1;
+}
+
+.show-frame-delete {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.9em;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.show-frame-delete:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
 }
 
 .show-frame-toggle:hover {

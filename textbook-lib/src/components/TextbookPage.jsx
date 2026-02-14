@@ -10,6 +10,7 @@ import VocabList from './VocabList';
 import ConceptMap from './ConceptMap';
 import YouTube from './YouTube';
 import ExamBrowser from './ExamBrowser';
+import TranscriptBrowser from './TranscriptBrowser';
 import ProTip from './ProTip';
 import AsAProfessor from './AsAProfessor';
 import ShowFrame from './ShowFrame';
@@ -83,7 +84,7 @@ function renderContentWithComponents(content, textbookPath) {
   console.log('textbookPath:', textbookPath);
   
   // Look for component markers with optional props
-  const combinedRegex = /\{\{(ExamQuestions|VocabList|ConceptMap|YouTube|ExamBrowser|ProTip|AsAProfessor|ShowFrame):([^}\s]+)([^}]*)\}\}/g;
+  const combinedRegex = /\{\{(ExamQuestions|VocabList|ConceptMap|YouTube|ExamBrowser|TranscriptBrowser|ProTip|AsAProfessor|ShowFrame):([^}\s]+)([^}]*)\}\}/g;
   
   const parts = [];
   let lastIndex = 0;
@@ -202,6 +203,14 @@ function renderContentWithComponents(content, textbookPath) {
           {...additionalProps}
         />
       );
+    } else if (componentType === 'TranscriptBrowser') {
+      parts.push(
+        <TranscriptBrowser 
+          key={`tb-${parts.length}`}
+          url={fileName}
+          {...additionalProps}
+        />
+      );
     } else if (componentType === 'ProTip') {
       parts.push(
         <ProTip 
@@ -275,7 +284,7 @@ function TextbookPage() {
 
   // Default to index if no path provided
   const textbookPath = path || 'index';
-  
+
   // Check if this is a static file (like .json, .txt, etc.)
   const isStaticFile = /\.(json|txt|csv|xml)$/i.test(textbookPath);
 
@@ -370,196 +379,6 @@ function TextbookPage() {
     fetchContent();
   }, [textbookPath, isStaticFile]);
 
-  // Group transcript entries by time duration (same logic as ExamBrowser)
-  const groupTranscript = (transcript, maxGroupDuration) => {
-    if (!transcript || transcript.length === 0) return [];
-    
-    if (maxGroupDuration === 0) {
-      // Each item gets its own group
-      return transcript.map((item, index) => ({
-        ...item,
-        group_number: index
-      }));
-    }
-
-    const grouped = [];
-    let currentGroupNumber = 0;
-    let currentGroupDuration = 0;
-
-    for (let i = 0; i < transcript.length; i++) {
-      const item = transcript[i];
-      const itemDuration = item.duration || 0;
-
-      // Check if adding this item would exceed the max duration
-      if (currentGroupDuration > 0 && currentGroupDuration + itemDuration > maxGroupDuration) {
-        // Start a new group
-        currentGroupNumber++;
-        currentGroupDuration = 0;
-      }
-
-      grouped.push({
-        ...item,
-        group_number: currentGroupNumber
-      });
-
-      currentGroupDuration += itemDuration;
-    }
-
-    return grouped;
-  };
-
-  // Handle text selection and seek to timestamp in ShowFrame
-  const handleContentClick = (e) => {
-    console.log('Content clicked!', e.target);
-    
-    // Check if click is within a blockquote
-    const isInBlockquote = e.target.closest('blockquote');
-    if (!isInBlockquote) {
-      console.log('Not in blockquote, ignoring click');
-      return;
-    }
-
-    console.log('✅ Click is in blockquote');
-    console.log('Transcript available:', !!transcript);
-    console.log('ShowFrame registry:', window.showFrameRegistry);
-
-    if (!transcript) {
-      console.log('No transcript loaded');
-      return;
-    }
-
-    if (!window.showFrameRegistry || window.showFrameRegistry.length === 0) {
-      console.log('No ShowFrames registered');
-      return;
-    }
-
-    // Get selected text or word under cursor
-    let selectedText = window.getSelection().toString().trim();
-    
-    // If no selection, try to get the word that was clicked
-    if (!selectedText && e.target.textContent) {
-      const clickedNode = e.target;
-      const text = clickedNode.textContent;
-      selectedText = text.trim();
-    }
-
-    console.log('Selected text:', selectedText);
-
-    if (!selectedText) {
-      console.log('No text selected');
-      return;
-    }
-
-    // MULTI-PASS PROGRESSIVE REFINEMENT:
-    // Start with coarse grouping and progressively tighten until we find the most precise match
-    const normalizedSearch = selectedText.toLowerCase();
-    console.log('Searching for:', normalizedSearch.substring(0, 100) + '...');
-
-    // Progressive group durations: 60s -> 30s -> 15s -> 5s -> 0s (individual entries)
-    const groupDurations = [60, 30, 15, 5, 0];
-    let currentEntries = transcript; // Start with full transcript
-    let lastTimestamp = null;
-    let bestTimestamp = null;
-
-    for (let i = 0; i < groupDurations.length; i++) {
-      const duration = groupDurations[i];
-      console.log(`\nPass ${i + 1}: Grouping with ${duration}s duration`);
-
-      // Group the current set of entries
-      const grouped = groupTranscript(currentEntries, duration);
-      
-      // Build group view with concatenated text
-      const groupViews = {};
-      grouped.forEach(item => {
-        if (!groupViews[item.group_number]) {
-          groupViews[item.group_number] = {
-            start: item.start,
-            text: [],
-            entries: []
-          };
-        }
-        groupViews[item.group_number].text.push(item.text);
-        groupViews[item.group_number].entries.push(item);
-      });
-
-      const groups = Object.values(groupViews).map(group => ({
-        ...group,
-        text: group.text.join(' ')
-      }));
-
-      console.log(`  Searching in ${groups.length} groups`);
-
-      // Find matching group
-      const matchingGroup = groups.find(group => 
-        group.text && group.text.toLowerCase().includes(normalizedSearch)
-      );
-
-      if (!matchingGroup) {
-        console.log(`  ❌ No match found at ${duration}s grouping`);
-        // No match at this refinement level - use best timestamp from previous pass
-        break;
-      }
-
-      const matchTimestamp = matchingGroup.entries[0].start;
-      console.log(`  ✅ Found match at timestamp ${matchTimestamp} (group has ${matchingGroup.entries.length} entries)`);
-
-      // Check if timestamp changed from last pass
-      if (lastTimestamp !== null && matchTimestamp === lastTimestamp) {
-        console.log(`  🎯 Delta is zero (${matchTimestamp} === ${lastTimestamp}), stopping refinement`);
-        bestTimestamp = matchTimestamp;
-        break;
-      }
-
-      // Update for next iteration
-      lastTimestamp = matchTimestamp;
-      bestTimestamp = matchTimestamp;
-      currentEntries = matchingGroup.entries; // Narrow down to this group's entries
-    }
-
-    if (bestTimestamp === null) {
-      console.log('❌ No match found in transcript');
-      return;
-    }
-
-    console.log(`\n🎯 Final timestamp: ${bestTimestamp}`);
-
-    // Find nearest ShowFrame below the click position
-    const clickY = e.clientY;
-    console.log('Click Y position:', clickY);
-    
-    const showFrames = Array.from(document.querySelectorAll('.show-frame'))
-      .map(el => ({
-        element: el,
-        y: el.getBoundingClientRect().top,
-        frameId: el.dataset.frameId
-      }))
-      .filter(frame => frame.y > clickY) // Only frames below click
-      .sort((a, b) => a.y - b.y); // Closest first
-
-    console.log('ShowFrames below click:', showFrames);
-
-    if (showFrames.length === 0) {
-      console.log('No ShowFrame found below click position');
-      return;
-    }
-
-    const nearestFrame = showFrames[0];
-    console.log('Nearest frame:', nearestFrame);
-    
-    const frameInstance = window.showFrameRegistry.find(
-      s => s.id === nearestFrame.frameId
-    );
-
-    console.log('Frame instance:', frameInstance);
-
-    if (frameInstance) {
-      console.log('✅ Seeking to', bestTimestamp, 'in ShowFrame', frameInstance.id);
-      frameInstance.seekTo(bestTimestamp);
-    } else {
-      console.log('❌ Frame instance not found in registry');
-    }
-  };
-
   if (loading) {
     return (
       <div className="textbook-page loading">
@@ -608,7 +427,7 @@ function TextbookPage() {
         )}
       </div>
       
-      <div className="textbook-content" onClick={handleContentClick}>
+      <div className="textbook-content">
         {rawContent ? (
           rawContent.type === 'json' ? (
             <pre style={{ 
