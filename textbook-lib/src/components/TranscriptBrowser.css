@@ -67,3 +67,75 @@
 .transcript-highlight:hover {
   background-color: #fde047;
 }
+
+.diagram-highlight {
+  background-color: #fed7aa;
+  cursor: default;
+}
+
+.diagram-highlight:hover {
+  background-color: #fdba74;
+}
+
+.transcript-diagram {
+  margin: 1.5rem 0;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #f9fafb;
+}
+
+.transcript-diagram img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.diagram-caption {
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  background: #fef3c7;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #78350f;
+  text-align: left;
+}
+
+.diagram-caption strong {
+  color: #92400e;
+}
+
+.transcript-paragraph-container {
+  position: relative;
+}
+
+.paragraph-debug-button {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.paragraph-debug-button:hover {
+  background: #2563eb;
+}
+
+.timestamp-marker {
+  display: inline-block;
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  color: #3b82f6;
+  background: #eff6ff;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  margin-right: 0.25rem;
+  font-weight: 600;
+}
