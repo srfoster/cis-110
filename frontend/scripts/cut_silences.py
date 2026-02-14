@@ -150,10 +150,10 @@ def build_filtergraph(keeps: List[Tuple[float, float]]) -> str:
             f"[0:a]atrim=start={a}:end={b},asetpts=PTS-STARTPTS[a{i}]"
         )
 
-    v_inputs = "".join([f"[v{i}]" for i in range(len(keeps))])
-    a_inputs = "".join([f"[a{i}]" for i in range(len(keeps))])
+    # Interleave video and audio inputs for concat filter
+    interleaved_inputs = "".join([f"[v{i}][a{i}]" for i in range(len(keeps))])
 
-    parts.append(f"{v_inputs}{a_inputs}concat=n={len(keeps)}:v=1:a=1[vout][aout]")
+    parts.append(f"{interleaved_inputs}concat=n={len(keeps)}:v=1:a=1[vout][aout]")
     return ";".join(parts)
 
 
@@ -189,8 +189,13 @@ def main():
     ap.add_argument("output", help="Output file")
     ap.add_argument("--min_silence", type=float, default=1.0,
                     help="Minimum silence duration (seconds) to remove (default: 1.0)")
-    ap.add_argument("--silence_db", type=float, default=-35.0,
-                    help="Silence threshold in dB (default: -35)")
+    ap.add_argument("--silence_db", type=float, default=None,
+                    help="Silence threshold in dB (default: -35). HIGHER values = more aggressive. "
+                         "Use -30 or -25 for noisy backgrounds like washing machines. "
+                         "Use -40 for quiet recordings.")
+    ap.add_argument("--aggressive", action="store_true",
+                    help="Use aggressive silence detection (-25 dB) for noisy environments. "
+                         "Overrides --silence_db if both are specified.")
     ap.add_argument("--pad", type=float, default=0.05,
                     help="Padding kept around each removed silence (seconds) (default: 0.05)")
     ap.add_argument("--crf", type=int, default=20, help="x264 CRF quality (lower=better, default: 20)")
@@ -199,7 +204,15 @@ def main():
     ap.add_argument("--acodec", default="aac", help="Audio codec (default: aac)")
     args = ap.parse_args()
 
-    stderr = run_ffmpeg_silencedetect(args.input, args.silence_db, args.min_silence)
+    # Determine silence threshold
+    if args.aggressive:
+        silence_threshold = -25.0
+    elif args.silence_db is not None:
+        silence_threshold = args.silence_db
+    else:
+        silence_threshold = -35.0
+
+    stderr = run_ffmpeg_silencedetect(args.input, silence_threshold, args.min_silence)
     silences = parse_silences(stderr)
 
     duration = get_duration_seconds(args.input)
