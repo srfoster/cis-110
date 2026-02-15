@@ -2,6 +2,8 @@
 
 {{ExamBrowser:https://youtu.be/805K5k1KLiY transcript_json:"/transcripts/w26/ethan-p.json" }}
 
+{{TranscriptBrowser:https://youtu.be/805K5k1KLiY transcript_json:"/transcripts/w26/ethan-p.json" diagrams_json:"/textbook/students/w26/ethan-p/diagrams.json" }}
+
 ## Questions Answered
 
 1. [3:37] Explain what device drivers are and why they're necessary.

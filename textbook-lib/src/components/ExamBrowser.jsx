@@ -23,21 +23,12 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
 
   const componentId = 'exam-browser';
 
-  // Track when this ExamBrowser is interacted with
-  const overlayRef = useRef(null);
-
   const handleInteraction = () => {
     if (window.activeVideoComponent !== componentId) {
       window.activeVideoComponent = componentId;
       console.log('Active video component changed to: ExamBrowser');
     }
     setIsActive(true);
-    
-    // Focus the overlay so it can receive keyboard events
-    if (overlayRef.current) {
-      overlayRef.current.focus();
-      console.log('ExamBrowser overlay focused');
-    }
   };
 
   // Check if this is the active component
@@ -140,10 +131,10 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
     }
   }, [selectedGroupIndex]);
 
-  // Keyboard navigation for seeking - use window listener but check isActive
+  // Keyboard navigation for seeking - use container listener but check isActive
   useEffect(() => {
-    const overlay = overlayRef.current;
-    if (!overlay) return;
+    const container = containerRef.current;
+    if (!container) return;
     
     const handleKeyDown = (event) => {
       // Skip if not this component or if typing in input field
@@ -173,8 +164,8 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
       }
     };
 
-    overlay.addEventListener('keydown', handleKeyDown);
-    return () => overlay.removeEventListener('keydown', handleKeyDown);
+    container.addEventListener('keydown', handleKeyDown);
+    return () => container.removeEventListener('keydown', handleKeyDown);
   }, [transcriptData, isFullscreen, isActive, currentTime, duration]);
 
   // Extract video ID from various YouTube URL formats
@@ -419,14 +410,7 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
       )}
 
       <div className={`exam-browser-content ${isFullscreen ? 'split-view' : ''} ${isFullscreen && videoFullscreen ? 'video-fullscreen' : ''}`}>
-        <div className="exam-browser-player" onMouseEnter={handleInteraction} onClick={handleInteraction}>
-          <div 
-            ref={overlayRef}
-            className="iframe-overlay" 
-            onClick={handleInteraction}
-            onMouseEnter={handleInteraction}
-            tabIndex={0}
-          />
+        <div className="exam-browser-player" onClick={handleInteraction}>
           <iframe
             ref={iframeRef}
             width="100%"
@@ -437,7 +421,6 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
-            tabIndex="-1"
           />
         </div>
 
@@ -496,7 +479,9 @@ function ExamBrowser({ url, title, transcript, transcript_json, currentPath }) {
               max={Math.max(0, groupedView.length - 1)}
               step="1"
               value={selectedGroupIndex}
-              onChange={(e) => {                handleInteraction();                const index = Number(e.target.value);
+              onChange={(e) => {
+                handleInteraction();
+                const index = Number(e.target.value);
                 setSelectedGroupIndex(index);
                 if (groupedView[index]) {
                   handleSeekToTime(groupedView[index].start);
