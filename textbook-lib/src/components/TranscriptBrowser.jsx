@@ -14,7 +14,8 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
   const [vocabulary, setVocabulary] = useState([]);
   const [diagramsData, setDiagramsData] = useState(diagrams);
   const [activeFragments, setActiveFragments] = useState(new Set());
-  const [visibleParagraphs, setVisibleParagraphs] = useState(50);
+  const [currentPage, setCurrentPage] = useState(0);
+  const paragraphsPerPage = 50;
 
   // Load transcript JSON
   useEffect(() => {
@@ -255,35 +256,37 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
       // Check if this paragraph has any active fragments
       const activeInPara = para.entries.filter(entry => activeFragments.has(entry.start));
       
-      if (activeInPara.length > 0) {
-        // Use the first active fragment's timestamp
+      // Create one ShowFrame for each active fragment
+      activeInPara.forEach(entry => {
         frames.push({
-          id: `frame-${index}`,
+          id: `frame-${index}-${entry.start}`,
           afterParagraphIndex: index,
-          timestamp: activeInPara[0].start
+          timestamp: entry.start
         });
-      }
+      });
     });
     
     setShowFrames(frames);
   }, [activeFragments, paragraphs]);
 
+  // Scroll to top when page changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [currentPage]);
+
   // Handler to remove a ShowFrame
   const handleRemoveShowFrame = (frameId) => {
-    // Extract paragraph index from frame ID
-    const match = frameId.match(/frame-(\d+)/);
+    // Extract paragraph index and timestamp from frame ID (format: frame-{paraIndex}-{timestamp})
+    const match = frameId.match(/frame-(\d+)-(\d+\.?\d*)/);
     if (match) {
-      const paraIndex = parseInt(match[1]);
-      const para = paragraphs[paraIndex];
+      const timestamp = parseFloat(match[2]);
       
-      if (para && para.entries) {
-        // Deactivate all fragments in this paragraph
-        setActiveFragments(prev => {
-          const newSet = new Set(prev);
-          para.entries.forEach(entry => newSet.delete(entry.start));
-          return newSet;
-        });
-      }
+      // Deactivate only this specific fragment
+      setActiveFragments(prev => {
+        const newSet = new Set(prev);
+        newSet.delete(timestamp);
+        return newSet;
+      });
     }
     console.log('Deleted ShowFrame:', frameId);
   };
@@ -594,6 +597,11 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
     return null;
   }
 
+  const startIndex = currentPage * paragraphsPerPage;
+  const endIndex = Math.min(startIndex + paragraphsPerPage, paragraphs.length);
+  const totalPages = Math.ceil(paragraphs.length / paragraphsPerPage);
+  const visibleParagraphs = paragraphs.slice(startIndex, endIndex);
+
   return (
     <div className="transcript-browser">
       <div className="transcript-header">
@@ -603,8 +611,34 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
         </span>
       </div>
       
+      {totalPages > 1 && (
+        <div className="pagination-controls" style={{ marginBottom: '1rem', display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+          <button 
+            className="pagination-button"
+            onClick={() => setCurrentPage(prev => prev - 1)}
+            disabled={currentPage === 0}
+            style={{ padding: '0.5rem 1rem', cursor: currentPage === 0 ? 'not-allowed' : 'pointer', opacity: currentPage === 0 ? 0.5 : 1 }}
+          >
+            ← Previous
+          </button>
+          <span style={{ fontSize: '0.9rem', color: '#666' }}>
+            Page {currentPage + 1} of {totalPages}
+          </span>
+          <button 
+            className="pagination-button"
+            onClick={() => setCurrentPage(prev => prev + 1)}
+            disabled={currentPage === totalPages - 1}
+            style={{ padding: '0.5rem 1rem', cursor: currentPage === totalPages - 1 ? 'not-allowed' : 'pointer', opacity: currentPage === totalPages - 1 ? 0.5 : 1 }}
+          >
+            Next →
+          </button>
+        </div>
+      )}
+      
       <div className="transcript-paragraphs">
-        {paragraphs.slice(0, visibleParagraphs).map((para, index) => (
+        {visibleParagraphs.map((para, relativeIndex) => {
+          const index = startIndex + relativeIndex;
+          return (
           <React.Fragment key={index}>
             <div className="transcript-paragraph-container">
               <p 
@@ -693,19 +727,32 @@ function TranscriptBrowser({ url, transcript_json, diagrams = [], diagrams_json 
               })
             }
           </React.Fragment>
-        ))}
-        
-        {visibleParagraphs < paragraphs.length && (
-          <div className="load-more-container">
-            <button 
-              className="load-more-button"
-              onClick={() => setVisibleParagraphs(prev => Math.min(prev + 50, paragraphs.length))}
-            >
-              Load More ({paragraphs.length - visibleParagraphs} paragraphs remaining)
-            </button>
-          </div>
-        )}
+        );})}
       </div>
+      
+      {totalPages > 1 && (
+        <div className="pagination-controls" style={{ marginTop: '1rem', display: 'flex', gap: '0.5rem', alignItems: 'center', justifyContent: 'center' }}>
+          <button 
+            className="pagination-button"
+            onClick={() => setCurrentPage(prev => prev - 1)}
+            disabled={currentPage === 0}
+            style={{ padding: '0.5rem 1rem', cursor: currentPage === 0 ? 'not-allowed' : 'pointer', opacity: currentPage === 0 ? 0.5 : 1 }}
+          >
+            ← Previous
+          </button>
+          <span style={{ fontSize: '0.9rem', color: '#666' }}>
+            Page {currentPage + 1} of {totalPages}
+          </span>
+          <button 
+            className="pagination-button"
+            onClick={() => setCurrentPage(prev => prev + 1)}
+            disabled={currentPage === totalPages - 1}
+            style={{ padding: '0.5rem 1rem', cursor: currentPage === totalPages - 1 ? 'not-allowed' : 'pointer', opacity: currentPage === totalPages - 1 ? 0.5 : 1 }}
+          >
+            Next →
+          </button>
+        </div>
+      )}
     </div>
   );
 }
