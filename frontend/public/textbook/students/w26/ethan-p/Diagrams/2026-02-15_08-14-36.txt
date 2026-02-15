@@ -1,0 +1,1 @@
+[36:10] Trace the execution of assembly code and explain what happens.

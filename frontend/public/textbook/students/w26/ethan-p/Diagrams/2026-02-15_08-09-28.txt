@@ -1,0 +1,1 @@
+[13:46] Explain how a web browser interacts with a web server and database.

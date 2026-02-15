@@ -1,0 +1,1 @@
+[11:02] Explain the difference between the logical and the physical storage models for a file.

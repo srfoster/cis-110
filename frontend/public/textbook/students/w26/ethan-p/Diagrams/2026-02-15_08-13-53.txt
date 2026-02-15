@@ -1,0 +1,1 @@
+[32:19] How might letters and words be encoded numerically?

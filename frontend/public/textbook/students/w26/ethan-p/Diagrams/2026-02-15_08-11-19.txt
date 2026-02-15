@@ -1,0 +1,1 @@
+[28:24] Explain the difference between RAM and ROM and why most computers have both

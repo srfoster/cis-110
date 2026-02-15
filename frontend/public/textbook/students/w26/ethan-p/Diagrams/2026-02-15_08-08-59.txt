@@ -1,0 +1,1 @@
+[8:18] Randomly generate a four-bit binary number and convert it to decimal.

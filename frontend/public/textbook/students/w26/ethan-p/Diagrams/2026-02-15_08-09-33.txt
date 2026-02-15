@@ -1,0 +1,1 @@
+[14:29] How might a pair of 2D coordinates be encoded as a single number?
