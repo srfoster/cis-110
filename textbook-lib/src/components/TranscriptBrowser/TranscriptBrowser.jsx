@@ -18,32 +18,23 @@ function TranscriptContent({ content, storageKey, questions }) {
         const parsed = JSON.parse(savedState);
         console.log('Loaded saved state:', parsed);
         
-        // Merge saved highlights/metas with fresh fragments
-        const mergedFragments = [];
-        
-        for (let i = 0; i < parsed.length; i++) {
-          const saved = parsed[i];
+        // Merge saved highlights with fresh fragments (including YAML-parsed metas)
+        const mergedFragments = fragments.map(fragment => {
+          if (fragment.type === 'meta') {
+            // Keep meta fragments from YAML
+            return fragment;
+          }
           
-          if (saved.type === 'meta') {
-            // Restore meta fragments (no header needed in state)
-            mergedFragments.push({ type: 'meta' });
-          } else if (saved.timestamp) {
-            // Find matching fragment by timestamp
-            const matchingFragment = fragments.find(f => f.timestamp === saved.timestamp);
-            if (matchingFragment) {
-              mergedFragments.push({
-                ...matchingFragment,
-                highlights: saved.highlights || []
-              });
-            }
+          // Find matching saved fragment to restore highlights
+          const savedFragment = parsed.find(s => s.timestamp === fragment.timestamp);
+          if (savedFragment && savedFragment.highlights) {
+            return {
+              ...fragment,
+              highlights: savedFragment.highlights
+            };
           }
-        }
-        
-        // Add any new fragments that weren't in saved state
-        fragments.forEach(fragment => {
-          if (!mergedFragments.find(f => f.timestamp === fragment.timestamp)) {
-            mergedFragments.push(fragment);
-          }
+          
+          return fragment;
         });
         
         console.log('Merged fragments:', mergedFragments);
@@ -53,7 +44,7 @@ function TranscriptContent({ content, storageKey, questions }) {
         setDisplayFragments(fragments);
       }
     } else {
-      console.log('No saved state found');
+      console.log('No saved state found, using fragments from YAML');
       setDisplayFragments(fragments);
     }
   }, [fragments, storageKey]);
@@ -107,6 +98,32 @@ function TranscriptContent({ content, storageKey, questions }) {
     setDisplayFragments(newFragments);
   };
 
+  const handleCopyMetaTimestamps = () => {
+    // Collect all meta fragment timestamps
+    const metaTimestamps = [];
+    
+    displayFragments.forEach((fragment, index) => {
+      if (fragment.type === 'meta') {
+        // Get the timestamp of the fragment before this meta (if exists)
+        const previousFragment = index > 0 ? displayFragments[index - 1] : null;
+        if (previousFragment?.timestamp) {
+          metaTimestamps.push(previousFragment.timestamp);
+        }
+      }
+    });
+    
+    // Format as YAML
+    const yamlString = 'QuestionBeginnings:\n' + 
+      metaTimestamps.map(ts => `  - ${ts}`).join('\n');
+    
+    navigator.clipboard.writeText(yamlString);
+  };
+
+  const handleClearStorage = () => {
+    localStorage.removeItem(storageKey);
+    window.location.reload();
+  };
+
   return (
     <div className="transcript-browser">
       {displayFragments.map((fragment, index) => {
@@ -129,6 +146,44 @@ function TranscriptContent({ content, storageKey, questions }) {
           />
         );
       })}
+      
+      <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem' }}>
+        <button 
+          onClick={handleCopyMetaTimestamps}
+          style={{
+            padding: '0.75rem 1.5rem',
+            backgroundColor: '#4a90e2',
+            color: 'white',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: 'pointer',
+            fontSize: '1rem',
+            fontWeight: 'bold'
+          }}
+          onMouseEnter={(e) => e.target.style.backgroundColor = '#357abd'}
+          onMouseLeave={(e) => e.target.style.backgroundColor = '#4a90e2'}
+        >
+          Copy Meta Timestamps to Clipboard
+        </button>
+        
+        <button 
+          onClick={handleClearStorage}
+          style={{
+            padding: '0.75rem 1.5rem',
+            backgroundColor: '#e74c3c',
+            color: 'white',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: 'pointer',
+            fontSize: '1rem',
+            fontWeight: 'bold'
+          }}
+          onMouseEnter={(e) => e.target.style.backgroundColor = '#c0392b'}
+          onMouseLeave={(e) => e.target.style.backgroundColor = '#e74c3c'}
+        >
+          Reload from File (Clear Cache)
+        </button>
+      </div>
     </div>
   );
 }

@@ -8,26 +8,49 @@ function TranscriptFragment({ fragment, index, questionIndex, questions, onTimes
     const question = questions && questions[questionIndex];
     
     let header = `Section ${questionIndex + 1}`;
+    let questionBody = '';
     
     if (question) {
       // Extract just the first line of the question if it's multiline
       const questionText = question.question || question.name || '';
-      const firstLine = questionText.split('\n')[0].replace(/^\*\*|\*\*$/g, '').trim();
+      const lines = questionText.split('\n');
+      const firstLine = lines[0].replace(/^\*\*|\*\*$/g, '').trim();
       header = `Question ${questionIndex + 1}: ${firstLine}`;
+      
+      // Get the rest of the question (everything after the first line)
+      if (lines.length > 1) {
+        questionBody = lines.slice(1).join('\n').trim();
+      }
     }
     
     return (
-      <h3 
-        key={index} 
-        style={{ 
-          margin: '1.5rem 0 1rem 0',
-          color: '#333',
-          borderBottom: '2px solid #4a90e2',
-          paddingBottom: '0.5rem'
-        }}
-      >
-        {header}
-      </h3>
+      <div key={index} style={{ margin: '1.5rem 0 1rem 0' }}>
+        <h3 
+          style={{ 
+            color: '#333',
+            borderBottom: '2px solid #4a90e2',
+            paddingBottom: '0.5rem',
+            marginBottom: questionBody ? '0.5rem' : '0'
+          }}
+        >
+          {header}
+        </h3>
+        {questionBody && (
+          <div 
+            style={{ 
+              padding: '0.75rem',
+              backgroundColor: '#f8f9fa',
+              borderLeft: '3px solid #4a90e2',
+              whiteSpace: 'pre-wrap',
+              fontFamily: 'inherit',
+              fontSize: '0.95em',
+              color: '#555'
+            }}
+          >
+            {questionBody}
+          </div>
+        )}
+      </div>
     );
   }
 
