@@ -14,15 +14,32 @@ export function useTranscriptFragments(content) {
       const yamlSection = content.slice(0, separatorIndex);
       transcriptContent = content.slice(separatorIndex + 5).trim(); // Skip past -----
       
-      // Extract timestamps from YAML section
-      const timestampMatches = yamlSection.matchAll(/\s+-\s+(\d+:\d+)/g);
-      questionBeginnings = Array.from(timestampMatches, m => m[1]);
+      // Parse YAML to extract timestamps and their feedback
+      const lines = yamlSection.split('\n');
+      let currentTimestamp = null;
+      
+      for (const line of lines) {
+        // Match main timestamp entry: "  - 0:09"
+        const timestampMatch = line.match(/^\s+-\s+(\d+:\d+(?::\d+)?)\s*$/);
+        if (timestampMatch) {
+          currentTimestamp = timestampMatch[1];
+          questionBeginnings.push({ timestamp: currentTimestamp, feedback: [] });
+        }
+        // Match feedback sub-bullet: "    - Test"
+        else if (currentTimestamp && line.match(/^\s{4,}-\s+(.+)$/)) {
+          const feedbackMatch = line.match(/^\s{4,}-\s+(.+)$/);
+          if (feedbackMatch) {
+            const lastEntry = questionBeginnings[questionBeginnings.length - 1];
+            lastEntry.feedback.push(feedbackMatch[1].trim());
+          }
+        }
+      }
       
       console.log('Found question beginnings:', questionBeginnings);
     }
     
-    // Parse transcript by timestamp pattern (e.g., "0:03", "12:45")
-    const timestampRegex = /(\d+:\d+)\s+/g;
+    // Parse transcript by timestamp pattern - support both M:SS and H:MM:SS formats
+    const timestampRegex = /(\d+:\d+(?::\d+)?)\s+/g;
     const parsed = [];
     let lastIndex = 0;
     let match;
@@ -35,8 +52,12 @@ export function useTranscriptFragments(content) {
       }
       
       // Check if this timestamp should have a meta fragment before it
-      if (questionBeginnings.includes(match[1])) {
-        parsed.push({ type: 'meta' });
+      const questionEntry = questionBeginnings.find(q => q.timestamp === match[1]);
+      if (questionEntry) {
+        parsed.push({ 
+          type: 'meta',
+          feedback: questionEntry.feedback 
+        });
       }
       
       // Start a new fragment with this timestamp

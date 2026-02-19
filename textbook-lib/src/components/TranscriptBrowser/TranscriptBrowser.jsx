@@ -10,18 +10,18 @@ function TranscriptContent({ content, storageKey, questions }) {
   const [displayFragments, setDisplayFragments] = React.useState([]);
 
   React.useEffect(() => {
-    // Try to load saved state from localStorage using unique key
+    // Try to load saved highlights from localStorage
     const savedState = localStorage.getItem(storageKey);
     
     if (savedState) {
       try {
         const parsed = JSON.parse(savedState);
-        console.log('Loaded saved state:', parsed);
+        console.log('Loaded saved highlights:', parsed);
         
-        // Merge saved highlights with fresh fragments (including YAML-parsed metas)
+        // Merge saved highlights with fragments (meta sections come from YAML only)
         const mergedFragments = fragments.map(fragment => {
           if (fragment.type === 'meta') {
-            // Keep meta fragments from YAML
+            // Keep meta fragments from YAML only
             return fragment;
           }
           
@@ -50,31 +50,17 @@ function TranscriptContent({ content, storageKey, questions }) {
   }, [fragments, storageKey]);
 
   React.useEffect(() => {
-    // Save state to localStorage whenever displayFragments changes
+    // Save only highlights to localStorage (not meta sections)
     if (displayFragments.length > 0) {
-      const stateToSave = displayFragments.map(fragment => ({
-        timestamp: fragment.timestamp,
-        highlights: fragment.highlights || [],
-        type: fragment.type
-      }));
+      const stateToSave = displayFragments
+        .filter(f => f.timestamp) // Only save text fragments, not meta
+        .map(fragment => ({
+          timestamp: fragment.timestamp,
+          highlights: fragment.highlights || []
+        }));
       localStorage.setItem(storageKey, JSON.stringify(stateToSave));
     }
   }, [displayFragments, storageKey]);
-
-  const handleTimestampClick = (index) => {
-    const newFragments = [...displayFragments];
-    
-    // Check if the next fragment is already a meta fragment
-    if (index + 1 < newFragments.length && newFragments[index + 1].type === 'meta') {
-      // Remove it
-      newFragments.splice(index + 1, 1);
-    } else {
-      // Add a new meta fragment (no header in state)
-      newFragments.splice(index + 1, 0, { type: 'meta' });
-    }
-    
-    setDisplayFragments(newFragments);
-  };
 
   const handleTextSelect = (index, startIndex, endIndex) => {
     const newFragments = [...displayFragments];
@@ -98,34 +84,122 @@ function TranscriptContent({ content, storageKey, questions }) {
     setDisplayFragments(newFragments);
   };
 
-  const handleCopyMetaTimestamps = () => {
-    // Collect all meta fragment timestamps
-    const metaTimestamps = [];
+  const generateFeedbackSummary = () => {
+    const feedbackItems = [];
+    let currentQuestionIndex = 0;
     
-    displayFragments.forEach((fragment, index) => {
-      if (fragment.type === 'meta') {
-        // Get the timestamp of the fragment before this meta (if exists)
-        const previousFragment = index > 0 ? displayFragments[index - 1] : null;
-        if (previousFragment?.timestamp) {
-          metaTimestamps.push(previousFragment.timestamp);
-        }
+    displayFragments.forEach((fragment) => {
+      if (fragment.type === 'meta' && fragment.feedback && fragment.feedback.length > 0) {
+        const question = questions && questions[currentQuestionIndex];
+        const questionText = question ? (question.question || question.name || '') : '';
+        const firstLine = questionText.split('\n')[0].replace(/^\*\*|\*\*$/g, '').trim();
+        
+        feedbackItems.push({
+          questionNumber: currentQuestionIndex + 1,
+          questionText: firstLine || `Question ${currentQuestionIndex + 1}`,
+          feedback: fragment.feedback
+        });
+        currentQuestionIndex++;
+      } else if (fragment.type === 'meta') {
+        currentQuestionIndex++;
       }
     });
     
-    // Format as YAML
-    const yamlString = 'QuestionBeginnings:\n' + 
-      metaTimestamps.map(ts => `  - ${ts}`).join('\n');
-    
-    navigator.clipboard.writeText(yamlString);
+    return feedbackItems;
   };
 
-  const handleClearStorage = () => {
-    localStorage.removeItem(storageKey);
-    window.location.reload();
+  const handleCopyFeedback = () => {
+    const feedbackItems = generateFeedbackSummary();
+    
+    if (feedbackItems.length === 0) {
+      return;
+    }
+    
+    let feedbackText = 'Exam Feedback:\n\n';
+    
+    feedbackItems.forEach((item, index) => {
+      feedbackText += `Question ${item.questionNumber}: ${item.questionText}\n`;
+      item.feedback.forEach(fb => {
+        feedbackText += `  - ${fb}\n`;
+      });
+      // Add blank line between questions
+      if (index < feedbackItems.length - 1) {
+        feedbackText += '\n';
+      }
+    });
+    
+    navigator.clipboard.writeText(feedbackText);
   };
+
+  const generateFeedbackText = () => {
+    const feedbackItems = generateFeedbackSummary();
+    
+    if (feedbackItems.length === 0) {
+      return '';
+    }
+    
+    let feedbackText = 'Exam Feedback:\n\n';
+    
+    feedbackItems.forEach((item, index) => {
+      feedbackText += `Question ${item.questionNumber}: ${item.questionText}\n`;
+      item.feedback.forEach(fb => {
+        feedbackText += `  - ${fb}\n`;
+      });
+      if (index < feedbackItems.length - 1) {
+        feedbackText += '\n';
+      }
+    });
+    
+    return feedbackText;
+  };
+
+  const feedbackSummary = generateFeedbackSummary();
 
   return (
     <div className="transcript-browser">
+      {feedbackSummary.length > 0 && (
+        <div style={{ 
+          marginBottom: '2rem',
+          padding: '1rem',
+          backgroundColor: '#f8f9fa',
+          border: '2px solid #4a90e2',
+          borderRadius: '4px'
+        }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+            <h3 style={{ margin: 0, color: '#333' }}>Feedback Summary</h3>
+            <button 
+              onClick={handleCopyFeedback}
+              style={{
+                padding: '0.5rem 1rem',
+                backgroundColor: '#4a90e2',
+                color: 'white',
+                border: 'none',
+                borderRadius: '4px',
+                cursor: 'pointer',
+                fontSize: '0.9rem',
+                fontWeight: 'bold'
+              }}
+              onMouseEnter={(e) => e.target.style.backgroundColor = '#357abd'}
+              onMouseLeave={(e) => e.target.style.backgroundColor = '#4a90e2'}
+            >
+              Copy Feedback
+            </button>
+          </div>
+          <pre style={{ 
+            padding: '1rem',
+            backgroundColor: '#f5f5f5',
+            border: '1px solid #ddd',
+            borderRadius: '4px',
+            fontFamily: 'monospace',
+            fontSize: '0.9em',
+            overflow: 'auto',
+            margin: 0
+          }}>
+            {generateFeedbackText()}
+          </pre>
+        </div>
+      )}
+      
       {displayFragments.map((fragment, index) => {
         // Count meta fragments before this one to get question index
         let questionIndex = 0;
@@ -140,50 +214,11 @@ function TranscriptContent({ content, storageKey, questions }) {
             index={index}
             questionIndex={questionIndex}
             questions={questions}
-            onTimestampClick={handleTimestampClick}
             onTextSelect={handleTextSelect}
             onDeleteHighlight={handleDeleteHighlight}
           />
         );
       })}
-      
-      <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem' }}>
-        <button 
-          onClick={handleCopyMetaTimestamps}
-          style={{
-            padding: '0.75rem 1.5rem',
-            backgroundColor: '#4a90e2',
-            color: 'white',
-            border: 'none',
-            borderRadius: '4px',
-            cursor: 'pointer',
-            fontSize: '1rem',
-            fontWeight: 'bold'
-          }}
-          onMouseEnter={(e) => e.target.style.backgroundColor = '#357abd'}
-          onMouseLeave={(e) => e.target.style.backgroundColor = '#4a90e2'}
-        >
-          Copy Meta Timestamps to Clipboard
-        </button>
-        
-        <button 
-          onClick={handleClearStorage}
-          style={{
-            padding: '0.75rem 1.5rem',
-            backgroundColor: '#e74c3c',
-            color: 'white',
-            border: 'none',
-            borderRadius: '4px',
-            cursor: 'pointer',
-            fontSize: '1rem',
-            fontWeight: 'bold'
-          }}
-          onMouseEnter={(e) => e.target.style.backgroundColor = '#c0392b'}
-          onMouseLeave={(e) => e.target.style.backgroundColor = '#e74c3c'}
-        >
-          Reload from File (Clear Cache)
-        </button>
-      </div>
     </div>
   );
 }

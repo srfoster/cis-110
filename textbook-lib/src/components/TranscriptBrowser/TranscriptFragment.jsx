@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TranscriptFragment({ fragment, index, questionIndex, questions, onTimestampClick, onTextSelect, onDeleteHighlight }) {
+function TranscriptFragment({ fragment, index, questionIndex, questions, onTextSelect, onDeleteHighlight }) {
   const textRef = React.useRef(null);
   
   if (fragment.type === 'meta') {
@@ -9,6 +9,7 @@ function TranscriptFragment({ fragment, index, questionIndex, questions, onTimes
     
     let header = `Section ${questionIndex + 1}`;
     let questionBody = '';
+    const feedback = fragment.feedback || [];
     
     if (question) {
       // Extract just the first line of the question if it's multiline
@@ -30,7 +31,7 @@ function TranscriptFragment({ fragment, index, questionIndex, questions, onTimes
             color: '#333',
             borderBottom: '2px solid #4a90e2',
             paddingBottom: '0.5rem',
-            marginBottom: questionBody ? '0.5rem' : '0'
+            marginBottom: (questionBody || feedback.length > 0) ? '0.5rem' : '0'
           }}
         >
           {header}
@@ -44,10 +45,30 @@ function TranscriptFragment({ fragment, index, questionIndex, questions, onTimes
               whiteSpace: 'pre-wrap',
               fontFamily: 'inherit',
               fontSize: '0.95em',
-              color: '#555'
+              color: '#555',
+              marginBottom: feedback.length > 0 ? '0.5rem' : '0'
             }}
           >
             {questionBody}
+          </div>
+        )}
+        {feedback.length > 0 && (
+          <div 
+            style={{ 
+              padding: '0.75rem',
+              backgroundColor: '#fff3cd',
+              borderLeft: '3px solid #ffc107',
+              fontFamily: 'inherit',
+              fontSize: '0.95em',
+              color: '#856404'
+            }}
+          >
+            <strong>Feedback:</strong>
+            <ul style={{ margin: '0.5rem 0 0 0', paddingLeft: '1.5rem' }}>
+              {feedback.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
           </div>
         )}
       </div>
@@ -146,12 +167,7 @@ function TranscriptFragment({ fragment, index, questionIndex, questions, onTimes
   
   return (
     <p key={index} onMouseUp={handleMouseUp} onContextMenu={handleContextMenu}>
-      <strong 
-        onClick={() => onTimestampClick(index)}
-        style={{ cursor: 'pointer' }}
-      >
-        {fragment.timestamp}
-      </strong> <span ref={textRef}>{renderText()}</span>
+      <strong>{fragment.timestamp}</strong> <span ref={textRef}>{renderText()}</span>
     </p>
   );
 }
