@@ -12,12 +12,20 @@ export const useQuestions = () => {
   return context;
 };
 
-export const QuestionsProvider = ({ children }) => {
-  const [questions, setQuestions] = useState([]);
-  const [loading, setLoading] = useState(true);
+export const QuestionsProvider = ({ children, initialQuestions = null }) => {
+  const [questions, setQuestions] = useState(initialQuestions || []);
+  const [loading, setLoading] = useState(!initialQuestions);
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    // If initialQuestions provided, use those instead of loading from JSON
+    if (initialQuestions) {
+      setQuestions(initialQuestions);
+      setLoading(false);
+      console.log('QuestionsContext: Using provided', initialQuestions.length, 'questions');
+      return;
+    }
+
     const loadQuestions = async () => {
       try {
         setLoading(true);
@@ -36,7 +44,7 @@ export const QuestionsProvider = ({ children }) => {
     };
 
     loadQuestions();
-  }, []);
+  }, [initialQuestions]);
 
   const value = {
     questions,

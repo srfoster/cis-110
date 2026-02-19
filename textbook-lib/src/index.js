@@ -4,7 +4,7 @@ export { default as ExamDashboard } from './components/ExamDashboard.jsx';
 export { default as ExamInterface } from './components/ExamInterface.jsx';
 export { default as ExamQuestions } from './components/ExamQuestions.jsx';
 export { default as ExamBrowser } from './components/ExamBrowser.jsx';
-export { default as TranscriptBrowser } from './components/TranscriptBrowser.jsx';
+export { default as TranscriptBrowser } from './components/TranscriptBrowser';
 export { default as VocabList } from './components/VocabList.jsx';
 export { default as ConceptMap } from './components/ConceptMap.jsx';
 export { default as WikiPage } from './components/WikiPage.jsx';
@@ -17,6 +17,9 @@ export { default as ShowFrame } from './components/ShowFrame.jsx';
 export { loadAllQuestions } from './services/questionLoader.js';
 export { default as compiledContentService } from './services/compiledContentService.js';
 export { default as resourceCache } from './services/resourceCache.js';
+
+// Contexts
+export { useQuestions, QuestionsProvider } from './contexts/QuestionsContext.jsx';
 
 // Utils
 export { getAssetUrl, getBasePath } from './utils/paths.js';
