@@ -15,3 +15,4 @@
 - [Ethan Strenge](/cis-110/#/textbook/students/f25/ethan-strenge)
 - [Seth Stiles](/cis-110/#/textbook/students/f25/Seth-Stiles)
 - [Scott Allen](/cis-110/#/textbook/students/f25/Scott-Allen)
+- [Bobby Marrs](/cis-110/#/textbook/students/f25/Bobby-Marrs)
