@@ -82,14 +82,14 @@ function renderContentWithComponents(content, textbookPath) {
   console.log('textbookPath:', textbookPath);
   
   // Look for component markers with optional props
-  const combinedRegex = /\{\{(ExamQuestions|VocabList|ConceptMap|YouTube|ExamBrowser|ProTip|AsAProfessor):([^}\s]+)([^}]*)\}\}/g;
+  const combinedRegex = /\{\{(ExamQuestions|VocabList|ConceptMap|YouTube|ExamBrowser|ProTip|AsAProfessor):([^}\s]+)([^}]*)\}\}/gi;
   
   const parts = [];
   let lastIndex = 0;
   let match;
   
   while ((match = combinedRegex.exec(content)) !== null) {
-    const componentType = match[1];
+    const componentType = match[1].toLowerCase();
     const fileName = match[2];
     const propsString = match[3] ? match[3].trim() : '';
     console.log(`Found ${componentType} marker:`, match[0], 'File:', fileName, 'Props:', propsString);
@@ -156,7 +156,7 @@ function renderContentWithComponents(content, textbookPath) {
     }
     
     // Add the appropriate component
-    if (componentType === 'ExamQuestions') {
+    if (componentType === 'examquestions') {
       parts.push(
         <ExamQuestions 
           key={`eq-${parts.length}`}
@@ -165,7 +165,7 @@ function renderContentWithComponents(content, textbookPath) {
           {...additionalProps}
         />
       );
-    } else if (componentType === 'VocabList') {
+    } else if (componentType === 'vocablist') {
       parts.push(
         <VocabList 
           key={`vl-${parts.length}`}
@@ -174,7 +174,7 @@ function renderContentWithComponents(content, textbookPath) {
           {...additionalProps}
         />
       );
-    } else if (componentType === 'ConceptMap') {
+    } else if (componentType === 'conceptmap') {
       console.log('Creating ConceptMap component with props:', { yamlPath: fileName, currentPath: textbookPath, ...additionalProps });
       parts.push(
         <ConceptMap 
@@ -184,7 +184,7 @@ function renderContentWithComponents(content, textbookPath) {
           {...additionalProps}
         />
       );
-    } else if (componentType === 'YouTube') {
+    } else if (componentType === 'youtube') {
       parts.push(
         <YouTube 
           key={`yt-${parts.length}`}
@@ -192,7 +192,7 @@ function renderContentWithComponents(content, textbookPath) {
           {...additionalProps}
         />
       );
-    } else if (componentType === 'ExamBrowser') {
+    } else if (componentType === 'exambrowser') {
       parts.push(
         <ExamBrowser 
           key={`eb-${parts.length}`}
@@ -201,7 +201,7 @@ function renderContentWithComponents(content, textbookPath) {
           {...additionalProps}
         />
       );
-    } else if (componentType === 'ProTip') {
+    } else if (componentType === 'protip') {
       parts.push(
         <ProTip 
           key={`pt-${parts.length}`}
@@ -209,7 +209,7 @@ function renderContentWithComponents(content, textbookPath) {
           {...additionalProps}
         />
       );
-    } else if (componentType === 'AsAProfessor') {
+    } else if (componentType === 'asaprofessor') {
       parts.push(
         <AsAProfessor 
           key={`prof-${parts.length}`}
