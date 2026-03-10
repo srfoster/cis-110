@@ -40,8 +40,9 @@ function AppContent() {
   };
 
   const isExamPage = location.pathname.startsWith('/exams');
-  const isTextbookPage = !isExamPage;
-  const isHomeworkPage = !isHomeworkPage;
+  const isHomeworkPage = location.pathname.startsWith('/homework');
+  const isTextbookPage = !isExamPage && !isHomeworkPage;
+  
 
   if (loading) {
     return (
@@ -83,6 +84,7 @@ function AppContent() {
       <main>
         <Routes>
           <Route path="/" element={<TextbookPage />} />
+          <Route path="/homework" element={<HomeworkPage />} />
           <Route path="/exams" element={
             currentExam ? (
               <ExamInterface 
