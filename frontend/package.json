@@ -17,7 +17,7 @@
   "dependencies": {
     "@srfoster/textbook-lib": "file:../textbook-lib",
     "js-yaml": "^4.1.1",
-    "katex": "^0.16.33",
+    "katex": "^0.16.38",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-markdown": "^10.1.0",
