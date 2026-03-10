@@ -5,4 +5,4 @@ Hi! My name is Wes, and I'm a student in CIS-110. I have very little idea about 
 
 ## My Midterm Video
 
-<iframe width="560" height="315" src="https://youtu.be/EHu7kPATubU" frameborder="0" allowfullscreen></iframe>
+{{YouTube:https://youtu.be/EHu7kPATubU timestamps:[]}}
