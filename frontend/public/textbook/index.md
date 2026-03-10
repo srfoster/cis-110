@@ -8,28 +8,6 @@ Welcome!  This is a short textbook that I wrote and compiled to help introduce s
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8qBpefbseNM?si=2flev3MyApkn4Vte" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<!--
-
-* Memory: https://freedium.cfd/https:/evakeiffenheim.medium.com/the-smartest-people-i-know-are-obsessed-with-a-skill-many-were-told-is-useless-b9416c6fb856
-* course overview
-* final exam
-* testing, making it stick, forgetting, testing to failure, etc.
-
-
-Meta:
-* Students create videos that go into the app?
-* Feed in OC course information
-* Homework
-  - Diagrams from memory
-  - Diagrams + very short practice exam 
-  - Mid term 
-  - Videos, commit to github
-  - Vibe coding, content creation, etc...
-  - Diagrams + very short practice exam 
-  - Final 
-
--->
-
 ## Chapters
 
 - [**Zero Computers**](/cis-110/#/textbook/content/overviews/00-zero-computers)
