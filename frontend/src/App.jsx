@@ -4,6 +4,7 @@ import {
   ExamDashboard,
   ExamInterface,
   TextbookPage,
+  ThemeToggle,
   loadAllQuestions,
   compiledContentService
 } from '@srfoster/textbook-lib';
@@ -58,18 +59,19 @@ function AppContent() {
             <p>Computer Information Systems Concepts</p>
           </div>
           <nav className="main-nav">
-            <Link 
-              to="/" 
+            <Link
+              to="/"
               className={`nav-link ${isTextbookPage ? 'active' : ''}`}
             >
               Textbook
             </Link>
-            <Link 
-              to="/exams" 
+            <Link
+              to="/exams"
               className={`nav-link ${isExamPage ? 'active' : ''}`}
             >
               Exams
             </Link>
+            <ThemeToggle />
           </nav>
         </div>
       </header>

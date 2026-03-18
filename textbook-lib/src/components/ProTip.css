@@ -70,3 +70,34 @@
 .protip-professor .protip-icon {
   font-size: 28px;
 }
+
+/* Dark mode overrides for ProTip semantic colors */
+[data-theme="dark"] .protip-tip {
+  border-left-color: #22d3ee;
+  background-color: #164e63;
+  color: #a5f3fc;
+}
+
+[data-theme="dark"] .protip-warning {
+  border-left-color: #fbbf24;
+  background-color: #451a03;
+  color: #fde68a;
+}
+
+[data-theme="dark"] .protip-info {
+  border-left-color: #60a5fa;
+  background-color: #1e3a5f;
+  color: #bfdbfe;
+}
+
+[data-theme="dark"] .protip-success {
+  border-left-color: #34d399;
+  background-color: #064e3b;
+  color: #a7f3d0;
+}
+
+[data-theme="dark"] .protip-note {
+  border-left-color: #94a3b8;
+  background-color: #1e293b;
+  color: #cbd5e1;
+}

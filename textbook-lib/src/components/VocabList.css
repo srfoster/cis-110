@@ -6,14 +6,14 @@
 }
 
 .vocab-list h2 {
-  color: #2c3e50;
+  color: var(--text-primary);
   margin-bottom: 10px;
   border-bottom: 3px solid #3498db;
   padding-bottom: 10px;
 }
 
 .vocab-count {
-  color: #7f8c8d;
+  color: var(--text-secondary);
   font-size: 0.9em;
   margin-bottom: 20px;
   font-style: italic;
@@ -22,16 +22,16 @@
 .vocab-list.loading {
   text-align: center;
   padding: 40px;
-  color: #7f8c8d;
+  color: var(--text-secondary);
   font-style: italic;
 }
 
 .vocab-list.error {
   text-align: center;
   padding: 40px;
-  color: #e74c3c;
-  background-color: #fdf2f2;
-  border: 1px solid #f5b7b1;
+  color: var(--error-color);
+  background-color: var(--surface-color);
+  border: 1px solid var(--error-color);
   border-radius: 5px;
 }
 
@@ -42,9 +42,9 @@
 }
 
 .vocab-item {
-  border: 1px solid #e1e8ed;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
-  background: white;
+  background: var(--surface-color);
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   transition: box-shadow 0.2s ease;
 }
@@ -67,27 +67,27 @@
 }
 
 .vocab-header:hover {
-  background-color: #f8f9fa;
+  background-color: var(--background-color);
 }
 
 .vocab-header[aria-expanded="true"] {
-  background-color: #e3f2fd;
+  background-color: var(--background-color);
 }
 
 .vocab-word {
   font-weight: 600;
-  color: #2c3e50;
+  color: var(--text-primary);
   text-align: left;
 }
 
 .definition-count {
   font-size: 0.85em;
-  color: #7f8c8d;
+  color: var(--text-secondary);
   margin-left: 10px;
 }
 
 .vocab-icon {
-  color: #7f8c8d;
+  color: var(--text-secondary);
   font-size: 12px;
   transition: transform 0.2s ease;
   margin-left: auto;
@@ -98,13 +98,13 @@
 }
 
 .vocab-content {
-  border-top: 1px solid #e1e8ed;
+  border-top: 1px solid var(--border-color);
   padding: 0;
 }
 
 .vocab-definition {
   padding: 15px 20px;
-  border-bottom: 1px solid #f1f3f4;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .vocab-definition:last-child {
@@ -112,7 +112,7 @@
 }
 
 .definition-text {
-  color: #34495e;
+  color: var(--text-primary);
   line-height: 1.6;
   margin-bottom: 10px;
 }
@@ -121,11 +121,11 @@
   display: flex;
   gap: 15px;
   font-size: 0.85em;
-  color: #7f8c8d;
+  color: var(--text-secondary);
 }
 
 .definition-level {
-  background-color: #ecf0f1;
+  background-color: var(--background-color);
   padding: 2px 8px;
   border-radius: 12px;
   font-weight: 500;

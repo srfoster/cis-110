@@ -123,7 +123,7 @@
   position: relative;
   width: 50px;
   height: 24px;
-  background: #ccc;
+  background: var(--border-color);
   border-radius: 12px;
   transition: background 0.3s ease;
   cursor: pointer;
@@ -217,8 +217,17 @@
   transition: all 0.2s ease;
 }
 
+[data-theme="dark"] .chapter-preview-item {
+  background: #064e3b;
+  border-color: #065f46;
+}
+
 .chapter-preview-item:hover {
   background: #dcfce7;
+}
+
+[data-theme="dark"] .chapter-preview-item:hover {
+  background: #065f46;
   transform: translateY(-1px);
 }
 

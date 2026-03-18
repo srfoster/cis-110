@@ -206,7 +206,7 @@
   accent-color: #28a745;   /* bright green check */
   border: 2px solid #28a745; /* green border */
   border-radius: 4px;
-  background-color: #fff;
+  background-color: var(--surface-color);
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
   cursor: default;
   pointer-events: none;
@@ -215,12 +215,12 @@
 /* Strike-through completed tasks */
 .textbook-content li.task-list-item input[type="checkbox"]:checked + span {
   text-decoration: line-through;
-  color: #555;
+  color: var(--text-secondary);
 }
 
 /* Hover effect for list items */
 .textbook-content li.task-list-item:hover {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(128, 128, 128, 0.05);
   border-radius: 4px;
   padding: 2px 4px;
 }

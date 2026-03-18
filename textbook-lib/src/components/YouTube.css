@@ -12,18 +12,18 @@
 .youtube-caption {
   margin-top: 10px;
   font-style: italic;
-  color: #666;
+  color: var(--text-secondary);
   font-size: 0.9em;
   line-height: 1.4;
 }
 
 .youtube-error {
-  background-color: #fee;
-  border: 1px solid #fcc;
+  background-color: var(--surface-color);
+  border: 1px solid var(--error-color);
   border-radius: 4px;
   padding: 10px;
   margin: 20px 0;
-  color: #c33;
+  color: var(--error-color);
   text-align: center;
 }
 
@@ -31,16 +31,16 @@
 .youtube-timestamps {
   margin-top: 15px;
   text-align: left;
-  background-color: #f8f9fa;
+  background-color: var(--background-color);
   border-radius: 8px;
   padding: 15px;
-  border: 1px solid #e9ecef;
+  border: 1px solid var(--border-color);
 }
 
 .youtube-timestamps h4 {
   margin: 0 0 10px 0;
   font-size: 1em;
-  color: #495057;
+  color: var(--text-primary);
   font-weight: 600;
 }
 
@@ -55,8 +55,8 @@
   align-items: center;
   justify-content: center;
   padding: 8px 16px;
-  background-color: white;
-  border: 1px solid #dee2e6;
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -66,8 +66,8 @@
 }
 
 .timestamp-button:hover {
-  background-color: #e3f2fd;
-  border-color: #2196f3;
+  background-color: var(--background-color);
+  border-color: var(--primary-color);
   transform: translateY(-1px);
 }
 
@@ -78,7 +78,7 @@
 .timestamp-time {
   font-family: 'Courier New', monospace;
   font-weight: bold;
-  color: #1976d2;
+  color: var(--primary-color);
   font-size: 0.9em;
 }
 

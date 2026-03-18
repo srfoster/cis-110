@@ -16,6 +16,22 @@
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
+[data-theme="dark"] {
+  --primary-color: #60a5fa;
+  --secondary-color: #94a3b8;
+  --success-color: #34d399;
+  --warning-color: #fbbf24;
+  --error-color: #f87171;
+  --background-color: #0f172a;
+  --surface-color: #1e293b;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --border-color: #334155;
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  --answer-reveal-bg: #064e3b;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -191,3 +207,42 @@ input:focus, textarea:focus, select:focus {
 .p-4 { padding: 1rem; }
 .rounded { border-radius: var(--border-radius); }
 .shadow { box-shadow: var(--shadow); }
+
+/* Theme Toggle */
+.theme-toggle {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: white;
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  transition: background 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: none;
+}
+
+/* Dark mode overrides for hardcoded colors */
+[data-theme="dark"] button:hover:not(:disabled) {
+  background: #3b82f6;
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+  background-color: var(--surface-color);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] input:focus,
+[data-theme="dark"] textarea:focus,
+[data-theme="dark"] select:focus {
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.2);
+}
